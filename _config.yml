@@ -1,0 +1,39 @@
+# Theme settings
+doks:
+    baseurl:
+    color_theme: blue # Available themes: blue (default), green, purple, red and yellow
+    header:
+        logo:
+            text:
+            image: true
+        nav:
+            - item_name: Twitter
+              item_url: 'https://twitter.com/CycloneDX_Spec'
+            - item_name: GitHub
+              item_url: 'https://github.com/CycloneDX'
+    footer:
+        content:
+            logo:
+                text:
+                image: true
+            copyright:
+        social_list:
+            - network_name: twitter
+              profile_url: 'https://twitter.com/CycloneDX_Spec'
+            - network_name: github
+              profile_url: 'https://github.com/CycloneDX'
+    google_analytics:
+        tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
+    comments:
+        disqus_forum_shortname: # Add your disqus forum shortname to activate comments
+
+# SASS settings
+sass:
+    sass_dir: ./doks-theme/_sass
+    style: :compressed
+
+# Jekyll settings
+layouts_dir: ./doks-theme/_layouts
+includes_dir: ./doks-theme/_includes
+exclude: [ 'README.md', 'CHANGELOG.md' ]
+permalink: /:title/
