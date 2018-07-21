@@ -56,7 +56,7 @@ CycloneDX is a versioned namespace and operates as follows:
 |license| Zero or more license names or SPDX license IDs | |
 |copyright| An optional copyright notice informing users of the underlying claims to copyright ownership in a published work| |
 |purl| The Package URL of the component | |
-|cpe| A optional mapping to an existing CPE identifier | |
+|cpe| An optional mapping to an existing CPE identifier | |
 |modified| Indicates if the component has been modified from the official distribution | &#x2714; |
 |components| Specifies optional sub-components. This is not a dependency tree. It simply provides an optional way to group large sets of components together. | |
 
