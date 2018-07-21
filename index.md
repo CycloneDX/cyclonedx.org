@@ -1,11 +1,12 @@
 ---
 # Page settings
 layout: default
-keywords:
+keywords: application security, software security, software bill of material, s-bom, bom, open source, supply chain, specification, spdx, license, package url, purl, cpe
 comments: false
 
 # Hero section
 title: CycloneDX
+window_title: CycloneDX Software Bill of Material Specification
 description: CycloneDX is a lightweight software bill-of-material (S-BoM) specification designed for use in application security contexts and software composition analysis (SCA).
 
 # Micro navigation
