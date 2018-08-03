@@ -96,6 +96,7 @@ elements above including group, name, version, description, file hashes, license
 standalone Java API was created for the programmatic creation and validation of CycloneDX BoMs.
 
 - [CycloneDX Node Module](https://github.com/CycloneDX/cyclonedx-node-module)
+- [CycloneDX NuGet](https://github.com/CycloneDX/cyclonedx-nuget)
 - [CycloneDX Maven Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin)
 - [CycloneDX Java API](https://github.com/CycloneDX/cyclonedx-core-java)
 
