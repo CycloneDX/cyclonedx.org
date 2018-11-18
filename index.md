@@ -61,7 +61,7 @@ CycloneDX is a versioned namespace and operates as follows:
 |modified| Indicates if the component has been modified from the official distribution | &#x2714; |
 |components| Specifies optional sub-components. This is not a dependency tree. It simply provides an optional way to group large sets of components together. | |
 
-## Example BoM
+## Example BOM
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <bom xmlns="http://cyclonedx.org/schema/bom/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1" xsi:schemaLocation="http://cyclonedx.org/schema/bom/1.0 http://cyclonedx.org/schema/bom/1.0">
