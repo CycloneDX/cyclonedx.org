@@ -1,13 +1,13 @@
 ---
 # Page settings
 layout: default
-keywords: application security, software security, software bill of material, s-bom, bom, open source, supply chain, specification, spdx, license, package url, purl, cpe
+keywords: application security, software security, software bill of material, SBOM, BOM, open source, supply chain, specification, spdx, license, package url, purl, cpe
 comments: false
 
 # Hero section
 title: CycloneDX
 window_title: CycloneDX Software Bill of Material Specification
-description: CycloneDX is a lightweight software bill-of-material (S-BoM) specification designed for use in application security contexts and software composition analysis (SCA).
+description: CycloneDX is a lightweight software bill-of-material (BOM) specification designed for use in application security contexts and software composition analysis (SCA).
 
 # Micro navigation
 micro_nav: false
@@ -91,14 +91,15 @@ CycloneDX is a versioned namespace and operates as follows:
 
 ## Implementations
 Build plugins for Maven and NPM have been created which support the automatic identification of all project
-dependencies (including transitive) and generation of CycloneDX BoMs. The resulting BoMs may contain many of the 
+dependencies (including transitive) and generation of CycloneDX BOMs. The resulting BOMs may contain many of the 
 elements above including group, name, version, description, file hashes, license, and PackageURL. Additionally, a 
-standalone Java API was created for the programmatic creation and validation of CycloneDX BoMs.
+standalone Java API was created for the programmatic creation and validation of CycloneDX BOMs.
 
-- [CycloneDX Node Module](https://github.com/CycloneDX/cyclonedx-node-module)
-- [CycloneDX NuGet](https://github.com/CycloneDX/cyclonedx-nuget)
-- [CycloneDX Maven Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin)
-- [CycloneDX Java API](https://github.com/CycloneDX/cyclonedx-core-java)
+- [CycloneDX .NET Core](https://www.nuget.org/packages/CycloneDX/)
+- [CycloneDX Node.js Module](https://www.npmjs.com/package/@cyclonedx/bom)
+- [CycloneDX Maven Plugin](https://search.maven.org/search?q=g:org.cyclonedx%20AND%20a:cyclonedx-maven-plugin)
+- [CycloneDX Python Module](https://pypi.org/project/cyclonedx-bom/)
+- [CycloneDX Java API](https://search.maven.org/search?q=g:org.cyclonedx%20AND%20a:cyclonedx-core-java)
 
 Additional build plugins are planned and we're actively looking for volunteers to assist.
 
@@ -140,6 +141,6 @@ as they were widely adopted and recognized within the community. Adoption for th
 [Package URL](https://github.com/package-url/purl-spec) (purl) specification was also included to provide CycloneDX a 
 reference to the native ecosystem metadata about the component.
 
-Today, many organizations using Dependency-Track do so using CycloneDX as their preferred BoM format. Publishing
-CycloneDX BoMs can be handled through an API or via the [Dependency-Check Jenkins plugin](https://plugins.jenkins.io/dependency-check-jenkins-plugin), 
+Today, many organizations using Dependency-Track do so using CycloneDX as their preferred BOM format. Publishing
+CycloneDX BOMs can be handled through an API or via the [Dependency-Track Jenkins plugin](https://plugins.jenkins.io/dependency-track), 
 currently in use by thousands of organizations. 
