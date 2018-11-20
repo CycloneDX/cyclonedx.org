@@ -95,13 +95,18 @@ dependencies (including transitive) and generation of CycloneDX BOMs. The result
 elements above including group, name, version, description, file hashes, license, and PackageURL. Additionally, a 
 standalone Java API was created for the programmatic creation and validation of CycloneDX BOMs.
 
-- [CycloneDX .NET Core](https://www.nuget.org/packages/CycloneDX/)
-- [CycloneDX Node.js Module](https://www.npmjs.com/package/@cyclonedx/bom)
-- [CycloneDX Maven Plugin](https://search.maven.org/search?q=g:org.cyclonedx%20AND%20a:cyclonedx-maven-plugin)
-- [CycloneDX Python Module](https://pypi.org/project/cyclonedx-bom/)
-- [CycloneDX Java API](https://search.maven.org/search?q=g:org.cyclonedx%20AND%20a:cyclonedx-core-java)
+- [CycloneDX .NET Core](https://github.com/CycloneDX/cyclonedx-dotnet)
+- [CycloneDX Node.js Module](https://github.com/CycloneDX/cyclonedx-node-module)
+- [CycloneDX Maven Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin)
+- [CycloneDX Python Module](https://github.com/CycloneDX/cyclonedx-python)
+- [CycloneDX Java API](https://github.com/CycloneDX/cyclonedx-core-java)
+
 
 Additional build plugins are planned and we're actively looking for volunteers to assist.
+
+
+{% include implementations.html %}
+
 
 ## Component Ecosystems
 Components often belong to one or more ecosystems. These ecosystems typically have one or more sources of 

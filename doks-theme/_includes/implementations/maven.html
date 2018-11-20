@@ -1,0 +1,43 @@
+<h2>Java (Maven)</h2>
+<p>
+    The Maven plugin provides the ability to create CycloneDX BOMs from existing Java projects. The module will
+    automatically resolve all metadata for all direct and transitive dependencies.
+</p>
+
+<h5>Creating a BOM</h5>
+<pre class="highlight">
+<code>mvn org.cyclonedx:cyclonedx-maven-plugin:makeBom</code>
+</pre>
+
+<h5>Creating an Aggregate BOM</h5>
+<pre class="highlight">
+<code>mvn org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom</code>
+</pre>
+
+<h5>Maven Defaults</h5>
+<span class="language-xml highlighter-rouge">
+<pre class="highlight">
+<code><span class="nt">&lt;plugin&gt;</span>
+    <span class="nt">&lt;groupId&gt;</span>org.cyclonedx<span class="nt">&lt;/groupId&gt;</span>
+    <span class="nt">&lt;artifactId&gt;</span>cyclonedx-maven-plugin<span class="nt">&lt;/artifactId&gt;</span>
+    <span class="nt">&lt;version&gt;</span>LATEST<span class="nt">&lt;/version&gt;</span>
+    <span class="nt">&lt;executions&gt;</span>
+        <span class="nt">&lt;execution&gt;</span>
+            <span class="nt">&lt;phase&gt;</span>verify<span class="nt">&lt;/phase&gt;</span>
+            <span class="nt">&lt;goals&gt;</span>
+                <span class="nt">&lt;goal&gt;</span>makeAggregateBom<span class="nt">&lt;/goal&gt;</span>
+            <span class="nt">&lt;/goals&gt;</span>
+        <span class="nt">&lt;/execution&gt;</span>
+    <span class="nt">&lt;/executions&gt;</span>
+    <span class="nt">&lt;configuration&gt;</span>
+        <span class="nt">&lt;includeCompileScope&gt;</span>true<span class="nt">&lt;/includeCompileScope&gt;</span>
+        <span class="nt">&lt;includeProvidedScope&gt;</span>true<span class="nt">&lt;/includeProvidedScope&gt;</span>
+        <span class="nt">&lt;includeRuntimeScope&gt;</span>true<span class="nt">&lt;/includeRuntimeScope&gt;</span>
+        <span class="nt">&lt;includeSystemScope&gt;</span>true<span class="nt">&lt;/includeSystemScope&gt;</span>
+        <span class="nt">&lt;includeTestScope&gt;</span>false<span class="nt">&lt;/includeTestScope&gt;</span>
+    <span class="nt">&lt;/configuration&gt;</span>
+<span class="nt">&lt;/plugin&gt;</span></code>
+</pre>
+</span>
+
+NOTE: makeBom and makeAggregateBom can optionally be skipped by setting <code>cyclonedx.skip</code> to true.

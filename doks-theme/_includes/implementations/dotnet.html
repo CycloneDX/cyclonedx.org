@@ -1,0 +1,15 @@
+<h2>.NET</h2>
+<p>
+    The .NET Core module provides the ability to create CycloneDX BOMs from existing Visual Studio solutions and projects.
+    The module will automatically resolve all metadata (via NuGet) for all direct and transitive dependencies.
+</p>
+
+<h5>Installing</h5>
+<pre class="highlight">
+<code>dotnet tool install --global CycloneDX</code>
+</pre>
+
+<h5>Creating a BOM</h5>
+<pre class="highlight">
+<code>cyclonedx YourSolution.sln -o /output/path</code>
+</pre>

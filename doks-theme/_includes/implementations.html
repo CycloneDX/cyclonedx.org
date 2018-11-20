@@ -1,0 +1,36 @@
+<div class="pc-tab">
+    <input id="tab1" type="radio" name="pct" checked="checked"/>
+    <input id="tab2" type="radio" name="pct" />
+    <input id="tab3" type="radio" name="pct" />
+    <input id="tab4" type="radio" name="pct" />
+    <nav>
+        <ul class="navtab">
+            <li class="tab1">
+                <label for="tab1">.NET</label>
+            </li>
+            <li class="tab2">
+                <label for="tab2">NPM</label>
+            </li>
+            <li class="tab3">
+                <label for="tab3">Maven</label>
+            </li>
+            <li class="tab4">
+                <label for="tab4">Python</label>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="tab1">
+            {% include implementations/dotnet.html %}
+        </div>
+        <div class="tab2">
+            {% include implementations/npm.html %}
+        </div>
+        <div class="tab3">
+            {% include implementations/maven.html %}
+        </div>
+        <div class="tab4">
+            {% include implementations/python.html %}
+        </div>
+    </section>
+</div>
