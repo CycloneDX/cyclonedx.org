@@ -90,10 +90,10 @@ CycloneDX is a versioned namespace and operates as follows:
 ```
 
 ## Implementations
-Build plugins for Maven and NPM have been created which support the automatic identification of all project
-dependencies (including transitive) and generation of CycloneDX BOMs. The resulting BOMs may contain many of the 
-elements above including group, name, version, description, file hashes, license, and PackageURL. Additionally, a 
-standalone Java API was created for the programmatic creation and validation of CycloneDX BOMs.
+Build plugins for a number of ecosystems have been created which support the automatic identification of all project 
+dependencies and automatically generate CycloneDX BOMs. The resulting BOMs may contain many of the elements above 
+including group, name, version, description, file hashes, license, and PackageURL. Additionally, a standalone Java API 
+was created for the programmatic creation and validation of CycloneDX BOMs.
 
 - [CycloneDX .NET Core](https://github.com/CycloneDX/cyclonedx-dotnet)
 - [CycloneDX Node.js Module](https://github.com/CycloneDX/cyclonedx-node-module)
