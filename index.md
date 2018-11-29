@@ -72,7 +72,7 @@ CycloneDX is a versioned namespace and operates as follows:
       <version>3.1.0.Final</version>
       <description>JAX-RS bindings for RestEasy</description>
       <hashes>
-        <hash alg=”SHA-1">03a…</hash>
+        <hash alg="SHA-1">03a…</hash>
         <hash alg="SHA-256">22d…</hash>
       </hashes>
       <licenses>
