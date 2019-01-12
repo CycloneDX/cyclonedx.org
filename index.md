@@ -31,6 +31,20 @@ often necessary to provide a bill of material that describes the components that
 - Specification should promote continuous component analysis
 - Specification should support hardware, libraries, frameworks, applications, and operating systems
 
+
+## Achievable Use Cases
+- Vulnerability analysis (software and hardware)
+- Outdated component analysis
+- License identification and compliance
+- File verification
+- Track component usage and risk with optional hierarchical representation
+- Generate automatically from multiple development ecosystems
+- Portable, single file which can be supplied by development teams, business partners, and vendors
+#### Coming Soon:
+- Document a components pedigree including ancestors, descendants, and variants, representing a components lineage from any viewpoint
+- Analyze modified open source libraries without any loss of fidelity 
+
+
 ## Namespaces
 CycloneDX defines two unique namespaces, a bill-of-material (bom) namespace and a SPDX namespace. The SPDX namespace
 evolves independently from the bom namespace. As new SPDX licenses are added to the SPDX specification, those changes 
@@ -72,8 +86,8 @@ CycloneDX is a versioned namespace and operates as follows:
       <version>3.1.0.Final</version>
       <description>JAX-RS bindings for RestEasy</description>
       <hashes>
-        <hash alg="SHA-1">03a…</hash>
-        <hash alg="SHA-256">22d…</hash>
+        <hash alg="SHA-1">6427a9a622bff4dbe99d6f08dabd0dd89af85235</hash>
+        <hash alg="SHA-256">97bb6890cea26ed6f107603426fdb19f1444932c310705895ecf9cc24992da0d</hash>
       </hashes>
       <licenses>
         <license>
