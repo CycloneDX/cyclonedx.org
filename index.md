@@ -7,7 +7,7 @@ comments: false
 # Hero section
 title: CycloneDX
 window_title: CycloneDX Software Bill of Material Specification
-description: CycloneDX is a lightweight software bill-of-material (BOM) specification designed for use in application security contexts and software composition analysis (SCA).
+description: CycloneDX is a lightweight software bill-of-material (BOM) specification designed for use in application security contexts and supply chain component analysis.
 
 # Micro navigation
 micro_nav: false
@@ -15,6 +15,10 @@ micro_nav: false
 # Page navigation
 
 ---
+
+## News
+* **1 February, 2019**: Work is underway to define v1.1 of the CycloneDX specification. Expected additions to this 
+release include support for component pedigree, external references, and file-type components.
 
 ## Introduction
 
