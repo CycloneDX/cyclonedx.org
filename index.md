@@ -19,7 +19,7 @@ micro_nav: false
 ## News
 * **1 February, 2019**: Work is underway to define v1.1 of the CycloneDX specification. Expected additions to this 
 release include support for [component pedigree](https://github.com/CycloneDX/specification/issues/6), 
-[external references](https://github.com/CycloneDX/specification/issues/7),
+[external references](https://github.com/CycloneDX/specification/issues/7), 
 [file-type components](https://github.com/CycloneDX/specification/issues/8), and
 [SPDX license expressions](https://github.com/CycloneDX/specification/issues/1).
 
