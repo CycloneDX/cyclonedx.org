@@ -17,6 +17,7 @@ micro_nav: false
 ---
 
 ## News
+* **6 February, 2019**: Schema verion [1.1-DRAFT-1](https://cyclonedx.org/schema/bom-1.1-DRAFT-1.xsd) is available for preview along with a [sample BOM](https://github.com/CycloneDX/specification/blob/master/examples/1.1-draft/bom.xml) that conforms to it.
 * **1 February, 2019**: Work is underway to define v1.1 of the CycloneDX specification. Expected additions to this 
 release include support for [component pedigree](https://github.com/CycloneDX/specification/issues/6), 
 [external references](https://github.com/CycloneDX/specification/issues/7), 
