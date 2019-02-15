@@ -6,8 +6,8 @@ comments: false
 
 # Hero section
 title: CycloneDX
-window_title: CycloneDX Software Bill of Material Specification
-description: CycloneDX is a lightweight software bill-of-material (BOM) specification designed for use in application security contexts and supply chain component analysis.
+window_title: CycloneDX Software Bill of Material Specification (SBOM)
+description: CycloneDX is a lightweight software bill-of-material (SBOM) specification designed for use in application security contexts and supply chain component analysis.
 
 # Micro navigation
 micro_nav: false
