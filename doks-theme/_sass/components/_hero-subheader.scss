@@ -4,7 +4,7 @@
 
 /* ----- General ----- */
 .hero-subheader {
-	color: $color-dark-blue;
+	color: $color-white;
 	background-color: $color-theme-blue;
 	padding: 3.75rem 0 (4.6875rem - 1.25rem) 0;
 
@@ -44,6 +44,7 @@
 /* ----- Title ----- */
 .hero-subheader__desc {
 	margin-bottom: 1.875rem;
+	font-size: 1.3rem;
 }
 
 /* ----- Author ----- */

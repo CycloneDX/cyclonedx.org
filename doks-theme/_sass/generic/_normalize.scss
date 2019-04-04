@@ -39,6 +39,19 @@ section {
   display: block;
 }
 
+header {
+  color: $color-white;
+}
+
+#particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  //z-index: -1;
+  width: 100%;
+  opacity: 0.3;
+}
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
