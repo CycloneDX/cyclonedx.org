@@ -11,6 +11,8 @@ doks:
               item_url: 'https://twitter.com/CycloneDX_Spec'
             - item_name: GitHub
               item_url: 'https://github.com/CycloneDX'
+            - item_name: Groups.io
+              item_url: 'https://groups.io/g/CycloneDX'
     footer:
         content:
             logo:
