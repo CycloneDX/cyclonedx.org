@@ -24,6 +24,8 @@ doks:
               profile_url: 'https://twitter.com/CycloneDX_Spec'
             - network_name: github
               profile_url: 'https://github.com/CycloneDX'
+            - network_name: groupsio
+              profile_url: 'https://groups.io/g/CycloneDX'
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
     comments:
