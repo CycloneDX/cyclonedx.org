@@ -2,7 +2,11 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0">
 <title>{{ page.window_title }}</title>
+    <meta name=”twitter:title” content=”{{ page.window_title }}”>
+    <meta name=”twitter:site” content=”@CycloneDX_Spec”>
+    <meta name=”twitter:image” content=”https://cyclonedx.org/doks-theme/assets/images/CycloneDX-Twitter-Card.png”>
 {% if page.description %}
+    <meta name=”twitter:description” content=”{{ page.description }}”>
 	<meta name="description" content="{{ page.description }}">
 {% endif %}
 {% if page.keywords %}
