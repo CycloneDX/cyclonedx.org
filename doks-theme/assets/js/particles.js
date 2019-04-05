@@ -7,10 +7,18 @@ let resizeReset = function() {
     h = canvasBody.height = window.innerHeight;
 }
 
+function dynamicParticleAmount() {
+    let w = window.innerWidth;
+    if (w >= 760) {
+        return w * 0.065;
+    }
+    return 0;
+}
+
 const opts = {
     particleColor: "rgb(191,242,252)",
     lineColor: "rgb(79,136,166)",
-    particleAmount: 150,
+    particleAmount: dynamicParticleAmount(),
     defaultSpeed: .1,
     variantSpeed: 1,
     defaultRadius: 2,
