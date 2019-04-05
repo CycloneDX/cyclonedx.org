@@ -8,14 +8,12 @@ let resizeReset = function() {
 }
 
 function dynamicParticleAmount() {
-    /*
     let w = window.innerWidth;
     if (w >= 760) {
-        return w * 0.065;
+        //return w * 0.065;
+        return 40;
     }
     return 0;
-    */
-    return 40;
 }
 
 const opts = {
