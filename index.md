@@ -152,18 +152,9 @@ scheme:type/namespace/name@version?qualifiers#subpath
 
 ## History
 CycloneDX was originally designed for use with [OWASP Dependency-Track](https://dependencytrack.org), an open-source 
-software composition analysis platform with a focus on continuous component analysis. Research into existing specifications 
-such as [SWID](https://tagvault.org/standards/swid_tagstandard/) and [SPDX](https://spdx.org/) revealed that neither 
-specification was robust enough for application security contexts nor did these projects meet the basic requirements 
-for wide-spread adoption within both enterprise build systems and the open source community.
+software composition analysis (SCA) platform with a focus on continuous component analysis. A dedicated project, 
+separate from OWASP, was setup to develop the specification and the implementations. Research into existing formats at 
+the time revealed that they either lacked supply chain or security focus, or were governed by slow-moving projects or 
+standards bodies.
 
-After many discussions with Dependency-Track users and volunteers, a decision was made to create a new specification with
-the sole purpose of being lightweight, easily adoptable, and with a security-first approach. The new specification would
-build upon existing specifications where possible. CycloneDX incorporated [SPDX license IDs](https://spdx.org/licenses/) 
-as they were widely adopted and recognized within the community. Adoption for the emerging 
-[Package URL](https://github.com/package-url/purl-spec) (purl) specification was also included to provide CycloneDX a 
-reference to the native ecosystem metadata about the component.
-
-Today, many organizations using Dependency-Track do so using CycloneDX as their preferred BOM format. Publishing
-CycloneDX BOMs can be handled through an API or via the [Dependency-Track Jenkins plugin](https://plugins.jenkins.io/dependency-track), 
-currently in use by thousands of organizations. 
+The CycloneDX project removes these blocking activities and strives to innovate whenever possible. 

@@ -7,6 +7,8 @@ doks:
             text:
             image: true
         nav:
+            - item_name: Docs
+              item_url: 'https://cyclonedx.org/docs/1.1'
             - item_name: Twitter
               item_url: 'https://twitter.com/CycloneDX_Spec'
             - item_name: GitHub
@@ -20,6 +22,8 @@ doks:
                 image: true
             copyright:
         social_list:
+            - network_name: books
+              profile_url: 'https://cyclonedx.org/docs/1.1'
             - network_name: twitter
               profile_url: 'https://twitter.com/CycloneDX_Spec'
             - network_name: github

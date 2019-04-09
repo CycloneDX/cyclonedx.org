@@ -1,5 +1,5 @@
 {% if site.doks.header.nav %}
-	<div class="offcanvas visible-xs">
+	<div class="offcanvas visible-xs visible-sm">
 		<ul class="offcanvas__nav">
 			{% for item in site.doks.header.nav %}
 				<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.item_url }}">{{ item.item_name }}</a></li>
@@ -29,12 +29,12 @@
 					</div>
 					{% endif %}
 					{% if site.doks.header.nav %}
-						<ul class="site-header__nav hidden-xs">
+						<ul class="site-header__nav hidden-xs hidden-sm">
 							{% for item in site.doks.header.nav %}
 								<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.item_url }}">{{ item.item_name }}</a></li>
 							{% endfor %}
 						</ul><!-- /.site-header__nav -->
-						<button class="offcanvas-toggle visible-xs">
+						<button class="offcanvas-toggle visible-xs visible-sm">
 							<span></span>
 							<span></span>
 							<span></span>
