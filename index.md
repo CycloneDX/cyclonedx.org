@@ -17,7 +17,7 @@ micro_nav: false
 ---
 
 ## News
-* **3 March, 2019**: [CycloneDX BOM specification v1.1](https://cyclonedx.org/schema/bom-1.1.xsd) has been released and includes numerous improvements including external references, component pedigree, license enhancements, and is more extensible.
+* **3 March, 2019**: [CycloneDX SBOM specification v1.1](https://cyclonedx.org/schema/bom-1.1.xsd) has been released and includes numerous improvements including external references, component pedigree, license enhancements, and is more extensible.
 
 ## Introduction
 
@@ -79,7 +79,7 @@ CycloneDX is a versioned namespace and operates as follows:
 |components| Specifies optional sub-components. This is not a dependency tree. It provides a hierarchical representation of component assemblies | |
 
 
-## Example BOM
+## Example SBOM
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <bom xmlns="http://cyclonedx.org/schema/bom/1.1" serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1">
@@ -109,9 +109,9 @@ CycloneDX is a versioned namespace and operates as follows:
 
 ## Implementations
 Build plugins for a number of ecosystems have been created which support the automatic identification of all project 
-dependencies and automatically generate CycloneDX BOMs. The resulting BOMs may contain many of the elements above 
+dependencies and automatically generate CycloneDX SBOMs. The resulting SBOMs may contain many of the elements above 
 including group, name, version, description, file hashes, license, and PackageURL. Additionally, a standalone Java API 
-was created for the programmatic creation and validation of CycloneDX BOMs.
+was created for the programmatic creation and validation of CycloneDX SBOMs.
 
 - [CycloneDX .NET Core](https://github.com/CycloneDX/cyclonedx-dotnet)
 - [CycloneDX Node.js Module](https://github.com/CycloneDX/cyclonedx-node-module)
@@ -151,10 +151,13 @@ scheme:type/namespace/name@version?qualifiers#subpath
 * **Subpath**: Extra subpath within a package, relative to the package root. Optional.
 
 ## History
-CycloneDX was originally designed for use with [OWASP Dependency-Track](https://dependencytrack.org), an open-source 
-software composition analysis (SCA) platform with a focus on continuous component analysis. A dedicated project, 
-separate from OWASP, was setup to develop the specification and the implementations. Research into existing formats at 
-the time revealed that they either lacked supply chain or security focus, or were governed by slow-moving projects or 
-standards bodies.
+CycloneDX was designed in 2017 for use with [OWASP Dependency-Track](https://dependencytrack.org), an open-source 
+Software Composition Analysis (SCA) platform with a focus on continuous component analysis. The primary use-cases 
+it was designed to solve were vulnerability identification, license compliance, and outdated component analysis. 
+Additional capabilities were added in subsequent releases of the specification. 
 
-The CycloneDX project removes these blocking activities and strives to innovate whenever possible. 
+The value of a lightweight SBOM specification, capable of achieving real-world usecases, transcends the boundaries
+of a single vendor or supplier. Therefore, a dedicated project, independent of OWASP, was setup to develop the 
+specification, the implementations, and move the format into widespread adoption. Today, thousands of organizations
+ranging from financial services, manufacturing, software, and security firms are producing and consuming CycloneDX 
+SBOMs.
