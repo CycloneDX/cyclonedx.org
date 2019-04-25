@@ -152,9 +152,9 @@ scheme:type/namespace/name@version?qualifiers#subpath
 
 ## History
 CycloneDX was designed in 2017 for use with [OWASP Dependency-Track](https://dependencytrack.org), an open-source 
-Software Composition Analysis (SCA) platform with a focus on continuous component analysis. The primary use-cases 
-CycloneDX was designed to solve were vulnerability identification, license compliance, and outdated component analysis. 
-Additional capabilities were added in subsequent releases of the specification. 
+Software Composition Analysis (SCA) platform. The primary use-cases CycloneDX was designed to solve were vulnerability 
+identification, license compliance, and outdated component analysis. Additional capabilities were added in subsequent 
+releases of the specification. 
 
 The value of a lightweight SBOM specification, capable of achieving real-world usecases, transcends the boundaries
 of a single vendor or supplier. Therefore, a dedicated project, independent of OWASP, was setup to develop the 
