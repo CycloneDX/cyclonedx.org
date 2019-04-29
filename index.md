@@ -21,8 +21,11 @@ micro_nav: false
 
 ## Introduction
 
-In software engineering, it is common to build new software by leveraging existing components. In doing so, it is 
-often necessary to provide a bill of material that describes the components that are packaged with an application. 
+Modern software is assembled using third-party and open source components, glued together in complex and unique ways, 
+and integrated with original code to provide the desired functionality. Reusing components has many economic and
+technical advantages. However, documenting the use of third-party and open source components is often desirable in 
+order to perform [supply chain component analysis](https://www.owasp.org/index.php/Component_Analysis). CycloneDX 
+was created for this purpose.
 
 ## Project Goals
 - Define a vendor agnostic specification independent of language or ecosystem
@@ -41,15 +44,15 @@ often necessary to provide a bill of material that describes the components that
 - License identification and compliance
 - File verification
 - Hierarchical representation of component assemblies
-- Document a components pedigree including ancestors, descendants, variants, and commits, representing a components lineage from any viewpoint and what attributes make it unique
+- Document a components pedigree including ancestors, descendants, variants, and commits, representing a components lineage from any viewpoint and the attributes make it unique
 - Analyze modified open source libraries without any loss of fidelity
 - Human and machine readable format designed to be simple to use, extensible, and easily adoptable
 
 
 ## Namespaces
 CycloneDX defines two unique namespaces, a bill-of-material (bom) namespace and a SPDX namespace. The SPDX namespace
-evolves independently from the bom namespace. As new SPDX licenses are added to the SPDX specification, those changes 
-will be reflected in the bom namespace automatically, without having to change namespaces.
+evolves independently from the bom namespace and consists of license identifiers. As new SPDX licenses are added to 
+the SPDX specification over time, those changes will be reflected in the bom schema automatically.
 
 CycloneDX is a versioned namespace and operates as follows:
 
@@ -61,7 +64,7 @@ CycloneDX is a versioned namespace and operates as follows:
 
 | Field | Description | Required |
 | ------|-------------| :------: |
-|type| Describes if the component is a library, framework, application, operating system, or hardware device | 	&#x2714; |
+|type| Describes if the component is a library, framework, application, operating system, hardware device, or file | &#x2714; |
 |publisher| The person(s) or organization(s) that published the component | |
 |group| The high-level classification that a project self-describes as. This will often be a shortened, single name of the company or project that produced the component, or the source package or domain name. | |
 |name| The name of the component as defined by the project | &#x2714; |
@@ -69,12 +72,12 @@ CycloneDX is a versioned namespace and operates as follows:
 |description| A description of the component | |
 |scope| Specifies the scope of the component. If scope is not specified, 'runtime' scope will be assumed. | |
 |hashes| File hashes supporting MD5, SHA1, SHA2, and SHA3 | |
-|license| A node describing zero or more license names, SPDX license IDs or expressions | |
+|license| Describes zero or more license names, SPDX license IDs or expressions | |
 |copyright| An optional copyright notice informing users of the underlying claims to copyright ownership in a published work| |
 |purl| The Package URL of the component | |
 |cpe| An optional mapping to an existing CPE identifier | |
 |modified| Indicates if the component has been modified from the official distribution | |
-|pedigree| A node which contains component ancestors, descendants, variants, and the commit which make it unique | |
+|pedigree| A node which contains component ancestors, descendants, variants, and the commits which make it unique | |
 |externalReferences| A node which contains various types of references to external resources | |
 |components| Specifies optional sub-components. This is not a dependency tree. It provides a hierarchical representation of component assemblies | |
 
