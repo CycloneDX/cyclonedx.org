@@ -1,0 +1,26 @@
+<h2>Java (Gradle)</h2>
+<p>
+    The Gradle plugin creates CycloneDX BOMs from existing Java projects. The plugin will
+    automatically resolve all metadata for all direct and transitive dependencies.
+</p>
+
+<h5>Creating a BOM</h5>
+<pre class="highlight">
+<code>gradle cyclonedxBom</code>
+</pre>
+
+<h5>build.gradle (excerpt)</h5>
+<pre class="highlight">
+<code>plugins {
+    id 'org.cyclonedx.bom' version '1.0.0' apply true
+}
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+repositories {
+    mavenCentral()
+}</code>
+</pre>
+
+NOTE: BOM generation can optionally be skipped by setting <code>cyclonedx.skip</code> to true.

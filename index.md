@@ -44,7 +44,7 @@ was created for this purpose.
 - License identification and compliance
 - File verification
 - Hierarchical representation of component assemblies
-- Document a components pedigree including ancestors, descendants, variants, and commits, representing a components lineage from any viewpoint and the attributes make it unique
+- Document a components pedigree including ancestors, descendants, variants, and commits, representing a components lineage from any viewpoint and the attributes which make it unique
 - Analyze modified open source libraries without any loss of fidelity
 - Human and machine readable format designed to be simple to use, extensible, and easily adoptable
 
@@ -118,9 +118,10 @@ was created for the programmatic creation and validation of CycloneDX SBOMs.
 
 - [CycloneDX .NET Core](https://github.com/CycloneDX/cyclonedx-dotnet)
 - [CycloneDX Node.js Module](https://github.com/CycloneDX/cyclonedx-node-module)
-- [CycloneDX Maven Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin)
-- [CycloneDX Python Module](https://github.com/CycloneDX/cyclonedx-python)
+- [CycloneDX Java (Maven) Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin)
+- [CycloneDX Java (Gradle) Plugin](https://github.com/CycloneDX/cyclonedx-gradle-plugin)
 - [CycloneDX Java API](https://github.com/CycloneDX/cyclonedx-core-java)
+- [CycloneDX Python Module](https://github.com/CycloneDX/cyclonedx-python)
 
 
 Additional build plugins are planned and we're actively looking for volunteers to assist.
@@ -159,8 +160,7 @@ Software Composition Analysis (SCA) platform. The primary use-cases CycloneDX wa
 identification, license compliance, and outdated component analysis. Additional capabilities were added in subsequent 
 releases of the specification. 
 
-The value of a lightweight SBOM specification, capable of achieving real-world usecases, transcends the boundaries
-of a single vendor or supplier. Therefore, a dedicated project, independent of OWASP, was setup to develop the 
-specification, the implementations, and move the format into widespread adoption. Today, thousands of organizations
-ranging from financial services, manufacturing, software, and security firms are producing and consuming CycloneDX 
-SBOMs.
+The value of a lightweight software bill-of-material specification, capable of achieving real-world usecases, transcends 
+the boundaries of a single vendor or supplier. Therefore, a dedicated project, independent of OWASP, was setup to develop 
+the specification, the implementations, and move the format into widespread adoption. Today, thousands of organizations 
+ranging from financial services, manufacturing, software, and security firms are producing and consuming CycloneDX SBOMs.
