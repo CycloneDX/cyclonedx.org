@@ -23,4 +23,20 @@ repositories {
 }</code>
 </pre>
 
+<h5>settings.gradle (excerpt)</h5>
+<pre class="highlight">
+<code>pluginManagement {
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.toString() == 'org.cyclonedx.bom') {
+                useModule('org.cyclonedx:cyclonedx-gradle-plugin:1.0.0')
+            }
+        }
+    }
+    repositories {
+        mavenCentral()
+    }
+}</code>
+</pre>
+
 NOTE: BOM generation can optionally be skipped by setting <code>cyclonedx.skip</code> to true.
