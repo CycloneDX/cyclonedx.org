@@ -12,7 +12,7 @@
 <h5>build.gradle (excerpt)</h5>
 <pre class="highlight">
 <code>plugins {
-    id 'org.cyclonedx.bom' version '1.0.0' apply true
+    id 'org.cyclonedx.bom'
 }
 
 apply plugin: 'java'
@@ -29,7 +29,7 @@ repositories {
     resolutionStrategy {
         eachPlugin {
             if (requested.id.toString() == 'org.cyclonedx.bom') {
-                useModule('org.cyclonedx:cyclonedx-gradle-plugin:1.0.0')
+                useModule('org.cyclonedx:cyclonedx-gradle-plugin:1.1.1')
             }
         }
     }
