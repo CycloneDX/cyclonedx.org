@@ -18,6 +18,7 @@ micro_nav: false
 ---
 
 ## News
+* **14 Sept, 2019** [Dependency Graph 1.0 extension](/ext/dependency-graph) released
 * **3 March, 2019**: [CycloneDX SBOM specification v1.1](https://cyclonedx.org/schema/bom-1.1.xsd) has been released and includes numerous improvements including external references, component pedigree, license enhancements, and is more extensible.
 
 ## Introduction
