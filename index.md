@@ -137,9 +137,8 @@ Support for additional use-cases or metadata is enabled through the use of schem
 extensions from the CycloneDX community have been created which build upon a SBOMs base capabilities. 
 
 #### BOM Descriptor
-The BOM Descriptor extension provides the ability to describe the system, asset, or application the BOM
-describes. When communicating SBOM contents to outside parties, it is important to be specific about what
-the BOM describes.
+The BOM Descriptor extension provides the ability to add additional metadata about the system, asset, or application 
+the BOM describes. 
 
 <i class="icon icon--book"></i> [Documentation and examples](/ext/bom-descriptor)
 
