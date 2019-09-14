@@ -8,7 +8,7 @@ banner: false
 # Hero section
 title: CycloneDX Extensions
 window_title: CycloneDX Extension - Dependency Graph (Tree)
-description: CycloneDX extensions
+description: CycloneDX Extension - Dependency Graph (Tree)
 
 # Micro navigation
 micro_nav: true

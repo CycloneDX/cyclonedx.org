@@ -8,7 +8,7 @@ banner: false
 # Hero section
 title: CycloneDX Extensions
 window_title: CycloneDX Extension - BOM Descriptor
-description: CycloneDX extensions
+description: CycloneDX Extension - BOM Descriptor
 
 # Micro navigation
 micro_nav: true
