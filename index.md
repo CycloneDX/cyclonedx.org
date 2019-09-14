@@ -3,6 +3,7 @@
 layout: default
 keywords: application security, software security, software bill of material, SBOM, BOM, open source, supply chain, specification, spdx, license, package url, purl, cpe
 comments: false
+banner: true
 
 # Hero section
 title: CycloneDX
@@ -130,6 +131,22 @@ Additional build plugins are planned and we're actively looking for volunteers t
 
 {% include implementations.html %}
 
+## Extensions
+Support for additional use-cases or metadata is enabled through the use of schema extensions. Several
+extensions from the CycloneDX community have been created which build upon a SBOMs base capabilities. 
+
+#### BOM Descriptor
+The BOM Descriptor extension provides the ability to describe the system, asset, or application the BOM
+describes. When communicating SBOM contents to outside parties, it is important to be specific about what
+the BOM describes.
+
+<i class="icon icon--book"></i> [Documentation and examples](/ext/bom-descriptor)
+
+#### Dependency Graph
+The Dependency Graph extension provides the ability to represent components in a hierarchical, tree-like 
+structure which describes the components and their optional dependency on other components.
+
+<i class="icon icon--book"></i> [Documentation and examples](/ext/dependency-graph)
 
 ## Component Ecosystems
 Components often belong to one or more ecosystems. These ecosystems typically have one or more sources of 
