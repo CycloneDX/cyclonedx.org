@@ -8,7 +8,7 @@ banner: false
 # Hero section
 title: CycloneDX Extensions
 window_title: CycloneDX Extension - BOM Descriptor
-description: CycloneDX Extension - BOM Descriptor
+description: The CycloneDX BOM Descriptor extension provides the ability to add additional metadata about the system, asset, or application the BOM describes.
 
 # Micro navigation
 micro_nav: true
@@ -19,9 +19,9 @@ micro_nav: true
 
 ## Extension: BOM Descriptor
 
-The BOM Descriptor extension provides the ability to describe the system, asset, or application the BOM
-describes. When communicating SBOM contents to outside parties, it is important to be specific about what
-the BOM describes. The BOM Descriptor extension provides this capability.
+The CycloneDX BOM Descriptor extension provides the ability to add additional metadata about the system, asset, or 
+application the BOM describes. When communicating SBOM contents to outside parties, it is important to be specific 
+about what the BOM describes. The BOM Descriptor extension provides this capability.
 
 | Version | Namespace |
 | ------- | --------- |

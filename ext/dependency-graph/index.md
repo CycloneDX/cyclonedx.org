@@ -8,7 +8,7 @@ banner: false
 # Hero section
 title: CycloneDX Extensions
 window_title: CycloneDX Extension - Dependency Graph (Tree)
-description: CycloneDX Extension - Dependency Graph (Tree)
+description: The CycloneDX Dependency Graph extension provides the ability to optionally describe component dependencies 
 
 # Micro navigation
 micro_nav: true
