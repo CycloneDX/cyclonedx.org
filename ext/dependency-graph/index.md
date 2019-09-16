@@ -62,7 +62,7 @@ the BOM contain a PURL, then UUID is recommended.
         <dg:dependency ref="pkg:maven/org.example.acme/web-framework@1.0.0">
             <dg:dependency ref="pkg:maven/org.example.acme/common-util@3.0.0"/>
         </dg:dependency>
-        <dg:dependency ref="pkg:maven/org.example.bingo/buffer@2.2">
+        <dg:dependency ref="pkg:maven/org.example.acme/persistence@3.1.0">
             <dg:dependency ref="pkg:maven/org.example.acme/common-util@3.0.0"/>
         </dg:dependency>
         <dg:dependency ref="pkg:maven/org.example.acme/common-util@3.0.0"/>
