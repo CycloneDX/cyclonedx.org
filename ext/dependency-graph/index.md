@@ -18,11 +18,9 @@ micro_nav: true
 ---
 
 ## Extension: Dependency Graph
-
-The Dependency Graph extension provides the ability to represent components in a hierarchical, tree-like 
-structure which describes the components and their optional dependency on other components. This extension 
-relies on a components `bom-ref` to associate the component to the dependency element in the graph. The only 
-requirement for bom-ref is that it is unique within the BOM. The Package URL (PURL) is an ideal choice for 
+The Dependency Graph extension provides the ability to describe components and their dependency on other components. 
+This extension relies on a components `bom-ref` to associate the component to the dependency element in the graph. 
+The only requirement for bom-ref is that it is unique within the BOM. The Package URL (PURL) is an ideal choice for 
 bom-ref as it will be both unique and readable. If PURL is not an option or not all components represented in 
 the BOM contain a PURL, then UUID is recommended.
 
