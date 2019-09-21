@@ -18,6 +18,7 @@ micro_nav: false
 ---
 
 ## News
+* **21 Sept, 2019** [Vulnerability 1.0 extension](/ext/vulnerability) released
 * **14 Sept, 2019** [Dependency Graph 1.0 extension](/ext/dependency-graph) released
 * **3 March, 2019**: [CycloneDX SBOM specification v1.1](https://cyclonedx.org/schema/bom-1.1.xsd) has been released and includes numerous improvements including external references, component pedigree, license enhancements, and is more extensible.
 
@@ -143,10 +144,14 @@ the BOM describes.
 <i class="icon icon--book"></i> [Documentation and examples](/ext/bom-descriptor)
 
 #### Dependency Graph
-The Dependency Graph extension provides the ability to represent components in a hierarchical, tree-like 
-structure which describes the components and their optional dependency on other components.
+The Dependency Graph extension provides the ability to describe components and their dependency on other components.
 
 <i class="icon icon--book"></i> [Documentation and examples](/ext/dependency-graph)
+
+#### Vulnerability
+The Vulnerability extension provides the ability to represent component vulnerabilities in a BOM.
+
+<i class="icon icon--book"></i> [Documentation and examples](/ext/vulnerability)
 
 ## Component Ecosystems
 Components often belong to one or more ecosystems. These ecosystems typically have one or more sources of 
