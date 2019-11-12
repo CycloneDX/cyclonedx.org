@@ -133,6 +133,16 @@ Additional build plugins are planned and we're actively looking for volunteers t
 
 {% include implementations.html %}
 
+## Community Implementations
+A growing community of CycloneDX adopters are producing various tools for the generation, analysis, and 
+reporting of CycloneDX SBOMs. 
+
+- [CycloneDX SBT Plugin for Scala](https://github.com/siculo/sbt-bom)
+- [CycloneDX Mix Task for Erlang/Elixir](https://github.com/voltone/sbom)
+- [OSS Review Toolkit](https://github.com/heremaps/oss-review-toolkit)
+- [Sonatype Nexus IQ Server](https://www.sonatype.com/nexus-iq-server)
+
+
 ## Extensions
 Support for additional use-cases or metadata is enabled through the use of schema extensions. Several
 extensions from the CycloneDX community have been created which build upon a SBOMs base capabilities. 
