@@ -124,6 +124,7 @@ was created for the programmatic creation and validation of CycloneDX SBOMs.
 - [CycloneDX Java (Maven) Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin)
 - [CycloneDX Java (Gradle) Plugin](https://github.com/CycloneDX/cyclonedx-gradle-plugin)
 - [CycloneDX Java API](https://github.com/CycloneDX/cyclonedx-core-java)
+- [CycloneDX PHP Composer](https://github.com/CycloneDX/cyclonedx-php-composer)
 - [CycloneDX Python Module](https://github.com/CycloneDX/cyclonedx-python)
 - [CycloneDX Ruby Gem](https://github.com/CycloneDX/cyclonedx-ruby-gem)
 

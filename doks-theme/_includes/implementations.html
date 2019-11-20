@@ -5,6 +5,7 @@
     <input id="tab4" type="radio" name="pct" />
     <input id="tab5" type="radio" name="pct" />
     <input id="tab6" type="radio" name="pct" />
+    <input id="tab7" type="radio" name="pct" />
     <nav>
         <ul class="navtab">
             <li class="tab1">
@@ -20,10 +21,13 @@
                 <label for="tab4">Gradle</label>
             </li>
             <li class="tab5">
-                <label for="tab5">Python</label>
+                <label for="tab5">PHP</label>
             </li>
             <li class="tab6">
-                <label for="tab6">Ruby</label>
+                <label for="tab6">Python</label>
+            </li>
+            <li class="tab7">
+                <label for="tab7">Ruby</label>
             </li>
         </ul>
     </nav>
@@ -41,9 +45,12 @@
             {% include implementations/gradle.html %}
         </div>
         <div class="tab5">
-            {% include implementations/python.html %}
+            {% include implementations/php.html %}
         </div>
         <div class="tab6">
+            {% include implementations/python.html %}
+        </div>
+        <div class="tab7">
             {% include implementations/ruby.html %}
         </div>
     </section>
