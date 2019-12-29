@@ -142,6 +142,7 @@ reporting of CycloneDX SBOMs.
 - [CycloneDX Mix Task for Erlang/Elixir](https://hex.pm/packages/sbom)
 - [CycloneDX Rebar3 Plugin for Erlang/Elixir](https://hex.pm/packages/rebar3_sbom)
 - [OSS Review Toolkit](https://github.com/heremaps/oss-review-toolkit)
+- [OWASP Dependency-Track](https://dependencytrack.org/)
 - [Sonatype Nexus IQ Server](https://www.sonatype.com/nexus-iq-server)
 
 
