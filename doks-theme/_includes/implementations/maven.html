@@ -41,4 +41,8 @@
 </pre>
 </span>
 
-NOTE: makeBom and makeAggregateBom can optionally be skipped by setting <code>cyclonedx.skip</code> to true.
+NOTES:
+<ul>
+    <li>The <code>makeBom</code> and <code>makeAggregateBom</code> goals can optionally be skipped by setting <code>cyclonedx.skip</code> to true.</li>
+    <li>By default the BOM will be attached as an additional artifact which will be installed, uploaded, or deployed as <code>${project.artifactId}-${project.version}-cyclonedx.xml</code>. This may be switched off by setting <code>cyclonedx.skipAttach</code> to true.</li>
+</ul>
