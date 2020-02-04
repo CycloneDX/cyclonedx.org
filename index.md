@@ -138,6 +138,7 @@ Additional build plugins are planned and we're actively looking for volunteers t
 A growing community of CycloneDX adopters are producing various tools for the generation, analysis, and 
 reporting of CycloneDX SBOMs. 
 
+- [CycloneDX for Go Modules](https://github.com/ozonru/cyclonedx-go)
 - [CycloneDX SBT Plugin for Scala](https://github.com/siculo/sbt-bom)
 - [CycloneDX Mix Task for Erlang/Elixir](https://hex.pm/packages/sbom)
 - [CycloneDX Rebar3 Plugin for Erlang/Elixir](https://hex.pm/packages/rebar3_sbom)
