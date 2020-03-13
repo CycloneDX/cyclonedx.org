@@ -1,0 +1,6 @@
+Redirect 302 /slack/invite https://join.slack.com/t/cyclonedx/shared_invite/zt-cr5qsdhj-79iCCzgqgIKZXlKrqXVQrg
+Redirect 302 /slack https://cyclonedx.slack.com/messages/general
+Redirect 302 /discussion https://groups.io/g/CycloneDX
+Redirect 302 /mailing-list https://groups.io/g/CycloneDX
+Redirect 302 /github https://github.com/CycloneDX
+Redirect 302 /twitter https://twitter.com/CycloneDX_Spec
