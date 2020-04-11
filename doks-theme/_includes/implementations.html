@@ -6,6 +6,7 @@
     <input id="tab5" type="radio" name="pct" />
     <input id="tab6" type="radio" name="pct" />
     <input id="tab7" type="radio" name="pct" />
+    <input id="tab8" type="radio" name="pct" />
     <nav>
         <ul class="navtab">
             <li class="tab1">
@@ -28,6 +29,9 @@
             </li>
             <li class="tab7">
                 <label for="tab7">Ruby</label>
+            </li>
+            <li class="tab8">
+                <label for="tab8">Rust</label>
             </li>
         </ul>
     </nav>
@@ -52,6 +56,9 @@
         </div>
         <div class="tab7">
             {% include implementations/ruby.html %}
+        </div>
+        <div class="tab8">
+            {% include implementations/rust.html %}
         </div>
     </section>
 </div>

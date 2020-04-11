@@ -127,6 +127,7 @@ was created for the programmatic creation and validation of CycloneDX SBOMs.
 - [CycloneDX PHP Composer](https://github.com/CycloneDX/cyclonedx-php-composer)
 - [CycloneDX Python Module](https://github.com/CycloneDX/cyclonedx-python)
 - [CycloneDX Ruby Gem](https://github.com/CycloneDX/cyclonedx-ruby-gem)
+- [CycloneDX Rust Cargo](https://github.com/CycloneDX/cyclonedx-rust-cargo)
 
 
 Additional build plugins are planned and we're actively looking for volunteers to assist.
