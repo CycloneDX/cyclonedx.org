@@ -25,7 +25,7 @@ about what the BOM describes. The BOM Descriptor extension provides this capabil
 
 | Version | Namespace |
 | ------- | --------- |
-| 0.9 | http://cyclonedx.org/schema/ext/bom-descriptor/0.9 |
+| 1.0 | http://cyclonedx.org/schema/ext/bom-descriptor/1.0 |
 
 ### Example Usage
 
@@ -33,25 +33,40 @@ about what the BOM describes. The BOM Descriptor extension provides this capabil
 <?xml version="1.0"?>
 <bom serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1"
      xmlns="http://cyclonedx.org/schema/bom/1.1"
-     xmlns:bd="http://cyclonedx.org/schema/ext/bom-descriptor/0.9">
+     xmlns:bd="http://cyclonedx.org/schema/ext/bom-descriptor/1.0">
   
     <components>
         <!-- Components here -->
     </components>
     <bd:metadata>
-        <bd:softwareName>Sample Application</bd:softwareName>
-        <bd:softwareVersion>1.0</bd:softwareVersion>
-        <bd:softwareEdition>Professional</bd:softwareEdition>
-        <bd:hashes>
-            <hash alg="SHA-1">75068c26abbed3ad3980685bae21d7202d288317</hash>
-        </bd:hashes>
-        <bd:licenses>
-            <license>
-                <name>Acme Consumer License</name>
-            </license>
-        </bd:licenses>
-        <bd:copyright>Copyright Acme Incorporated</bd:copyright>
-        <bd:cpe>cpe:2.3:a:acme:sample_application:1.0:*:*:*:*:*:*:*</bd:cpe>
+        <bd:timestamp>2020-05-30T09:00:00Z</bd:timestamp>
+        <bd:tool>
+            <bd:vendor>Some Tool Vendor</bd:vendor>
+            <bd:name>Some BOM Creation Tool</bd:name>
+            <bd:version>1.0</bd:version>
+            <bd:hashes>
+                <bd:hash alg="SHA-256">8B7DF143D91C716ECFA5FC1730022F6B421B05CEDEE8FD52B1FC65A96030AD52</bd:hash>
+            </bd:hashes>
+        </bd:tool>
+        <bd:authors>
+            <bd:author>
+                <bd:name>Mike Peters</bd:name>
+                <bd:email>mike.peters@example.com</bd:email>
+            </bd:author>
+        </bd:authors>
+        <bd:component type="application">
+            <publisher>Acme Inc</publisher>
+            <group>com.example</group>
+            <name>sample-application</name>
+            <version>1.0.0</version>
+            <bd:licenses>
+                <license>
+                    <name>Acme Consumer License</name>
+                </license>
+            </bd:licenses>
+            <bd:copyright>Copyright Acme Incorporated</bd:copyright>
+            <bd:cpe>cpe:2.3:a:acme:sample_application:1.0:*:*:*:*:*:*:*</bd:cpe>
+        </bd:component>
         <bd:manufacture>
             <bd:name>Acme</bd:name>
             <bd:url>https://www.example.com/</bd:url>
