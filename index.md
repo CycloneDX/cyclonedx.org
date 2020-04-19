@@ -18,6 +18,7 @@ micro_nav: false
 ---
 
 ## News
+* **18 April, 2020** [BOM Descriptor 1.0 extension](/ext/bom-descriptor) released
 * **21 Sept, 2019** [Vulnerability 1.0 extension](/ext/vulnerability) released
 * **14 Sept, 2019** [Dependency Graph 1.0 extension](/ext/dependency-graph) released
 * **3 March, 2019**: [CycloneDX SBOM specification v1.1](https://cyclonedx.org/schema/bom-1.1.xsd) has been released and includes numerous improvements including external references, component pedigree, license enhancements, and is more extensible.
@@ -26,9 +27,9 @@ micro_nav: false
 
 Modern software is assembled using third-party and open source components, glued together in complex and unique ways, 
 and integrated with original code to provide the desired functionality. Reusing components has many economic and
-technical advantages. However, documenting the use of third-party and open source components is often desirable in 
-order to perform [supply chain component analysis](https://www.owasp.org/index.php/Component_Analysis). CycloneDX 
-was created for this purpose.
+technical advantages. Documenting the use of third-party and open source components is often desirable in 
+order to perform [supply chain component analysis](https://owasp.org/www-community/Component_Analysis). 
+CycloneDX was created for this purpose.
 
 ## Project Goals
 - Define a vendor agnostic specification independent of language or ecosystem
