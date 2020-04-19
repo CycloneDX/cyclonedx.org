@@ -59,13 +59,13 @@ about what the BOM describes. The BOM Descriptor extension provides this capabil
             <group>com.example</group>
             <name>sample-application</name>
             <version>1.0.0</version>
-            <bd:licenses>
+            <licenses>
                 <license>
                     <name>Acme Consumer License</name>
                 </license>
-            </bd:licenses>
-            <bd:copyright>Copyright Acme Incorporated</bd:copyright>
-            <bd:cpe>cpe:2.3:a:acme:sample_application:1.0:*:*:*:*:*:*:*</bd:cpe>
+            </licenses>
+            <copyright>Copyright Acme Incorporated</copyright>
+            <cpe>cpe:2.3:a:acme:sample_application:1.0:*:*:*:*:*:*:*</cpe>
         </bd:component>
         <bd:manufacture>
             <bd:name>Acme</bd:name>
