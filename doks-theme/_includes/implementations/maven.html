@@ -5,41 +5,41 @@
 </p>
 
 <h5>Creating a BOM</h5>
-<pre class="highlight">
-<code>mvn org.cyclonedx:cyclonedx-maven-plugin:makeBom</code>
-</pre>
+{% highlight plaintext %}
+mvn org.cyclonedx:cyclonedx-maven-plugin:makeBom
+{% endhighlight %}
 
 <h5>Creating an Aggregate BOM</h5>
-<pre class="highlight">
-<code>mvn org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom</code>
-</pre>
+{% highlight plaintext %}
+mvn org.cyclonedx:cyclonedx-maven-plugin:makeAggregateBom
+{% endhighlight %}
 
 <h5>Maven Defaults</h5>
-<span class="language-xml highlighter-rouge">
-<pre class="highlight">
-<code><span class="nt">&lt;plugin&gt;</span>
-    <span class="nt">&lt;groupId&gt;</span>org.cyclonedx<span class="nt">&lt;/groupId&gt;</span>
-    <span class="nt">&lt;artifactId&gt;</span>cyclonedx-maven-plugin<span class="nt">&lt;/artifactId&gt;</span>
-    <span class="nt">&lt;version&gt;</span>LATEST<span class="nt">&lt;/version&gt;</span>
-    <span class="nt">&lt;executions&gt;</span>
-        <span class="nt">&lt;execution&gt;</span>
-            <span class="nt">&lt;phase&gt;</span>verify<span class="nt">&lt;/phase&gt;</span>
-            <span class="nt">&lt;goals&gt;</span>
-                <span class="nt">&lt;goal&gt;</span>makeAggregateBom<span class="nt">&lt;/goal&gt;</span>
-            <span class="nt">&lt;/goals&gt;</span>
-        <span class="nt">&lt;/execution&gt;</span>
-    <span class="nt">&lt;/executions&gt;</span>
-    <span class="nt">&lt;configuration&gt;</span>
-        <span class="nt">&lt;includeCompileScope&gt;</span>true<span class="nt">&lt;/includeCompileScope&gt;</span>
-        <span class="nt">&lt;includeProvidedScope&gt;</span>true<span class="nt">&lt;/includeProvidedScope&gt;</span>
-        <span class="nt">&lt;includeRuntimeScope&gt;</span>true<span class="nt">&lt;/includeRuntimeScope&gt;</span>
-        <span class="nt">&lt;includeSystemScope&gt;</span>true<span class="nt">&lt;/includeSystemScope&gt;</span>
-        <span class="nt">&lt;includeTestScope&gt;</span>false<span class="nt">&lt;/includeTestScope&gt;</span>
-        <span class="nt">&lt;includeDependencyGraph&gt;</span>true<span class="nt">&lt;/includeDependencyGraph&gt;</span>
-    <span class="nt">&lt;/configuration&gt;</span>
-<span class="nt">&lt;/plugin&gt;</span></code>
-</pre>
-</span>
+{% highlight xml %}
+{% raw %}
+<plugin>
+  <groupId>org.cyclonedx</groupId>
+  <artifactId>cyclonedx-maven-plugin</artifactId>
+  <version>LATEST</version>
+  <executions>
+    <execution>
+      <phase>verify</phase>
+      <goals>
+        <goal>makeAggregateBom<goals>
+      </goals>
+    </execution>
+  </executions>
+  <configuration>
+    <includeCompileScope>true</includeCompileScope>
+    <includeProvidedScope>true</includeProvidedScope>
+    <includeRuntimeScope>true</includeRuntimeScope>
+    <includeSystemScope>true</includeSystemScope>
+    <includeTestScope>false</includeTestScope>
+    <includeDependencyGraph>true</includeDependencyGraph>
+  </configuration>
+</plugin>
+{% endraw %}
+{% endhighlight %}
 
 NOTES:
 <ul>

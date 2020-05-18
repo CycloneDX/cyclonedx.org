@@ -28,6 +28,11 @@ the BOM contain a PURL, then UUID is recommended.
 | ------- | --------- |
 | 1.0 | http://cyclonedx.org/schema/ext/dependency-graph/1.0 |
 
+<div class="callout callout--warning">
+This schema extension is applicable to CycloneDX v1.1 only. It has been incorporated (with minor changes) into
+CycloneDX v1.2 and higher.
+</div>
+
 ### Example Usage
 
 ```xml

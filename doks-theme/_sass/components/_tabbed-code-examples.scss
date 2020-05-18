@@ -1,33 +1,17 @@
 /* Component Needs */
 
-.pc-tab > input,
-.pc-tab section > div {
+.code-example-tab > input,
+.code-example-tab > section > div {
   display: none;
 }
 
-#tab1:checked ~ section .tab1,
-#tab2:checked ~ section .tab2,
-#tab3:checked ~ section .tab3,
-#tab4:checked ~ section .tab4,
-#tab5:checked ~ section .tab5,
-#tab6:checked ~ section .tab6,
-#tab7:checked ~ section .tab7,
-#tab8:checked ~ section .tab8,
-#tab9:checked ~ section .tab9,
-#tab10:checked ~ section .tab10 {
+.inputtab1:checked ~ section .tab1,
+.inputtab2:checked ~ section .tab2 {
   display: block;
 }
 
-#tab1:checked ~ nav .tab1,
-#tab2:checked ~ nav .tab2,
-#tab3:checked ~ nav .tab3,
-#tab4:checked ~ nav .tab4,
-#tab5:checked ~ nav .tab5,
-#tab6:checked ~ nav .tab6,
-#tab7:checked ~ nav .tab7,
-#tab8:checked ~ nav .tab8,
-#tab9:checked ~ nav .tab9,
-#tab10:checked ~ nav .tab10 {
+.inputtab1:checked ~ nav .tab1,
+.inputtab2:checked ~ nav .tab2 {
   color: red;
 }
 
@@ -37,10 +21,9 @@ $activeColor: $color-dark-blue;
 $unactiveColor: #eeeeee;
 $unactiveHoverColor: #dddddd;
 
-.pc-tab {
+.code-example-tab {
   width: 100%;
-  /* max-width: 700px; */
-  margin: 0 auto;
+  /*max-width: 700px; */
   ul {
     list-style: none;
     margin: 0;
@@ -68,9 +51,11 @@ $unactiveHoverColor: #dddddd;
   section {
     clear: both;
     div {
-      padding: 20px;
+      /* padding: 20px; */
+      padding: 0;
       width: 100%;
-      border: 1px solid #ddd;
+      /* border: 1px solid #ddd; */
+      border: 0;
       background: #fff;
       line-height: 1.5em;
       letter-spacing: 0.3px;
@@ -84,20 +69,13 @@ $unactiveHoverColor: #dddddd;
   }
 }
 
-#tab1:checked ~ nav .tab1,
-#tab2:checked ~ nav .tab2,
-#tab3:checked ~ nav .tab3,
-#tab4:checked ~ nav .tab4,
-#tab5:checked ~ nav .tab5,
-#tab6:checked ~ nav .tab6,
-#tab7:checked ~ nav .tab7,
-#tab8:checked ~ nav .tab8,
-#tab9:checked ~ nav .tab9,
-#tab10:checked ~ nav .tab10 {
+.inputtab1:checked ~ nav .tab1,
+.inputtab2:checked ~ nav .tab2 {
   label {
     background: white;
     color: #111;
     position: relative;
+    /*
     &:after {
       content: '';
       display: block;
@@ -108,5 +86,6 @@ $unactiveHoverColor: #dddddd;
       left: 0;
       bottom: -1px;
     }
+     */
   }
 }

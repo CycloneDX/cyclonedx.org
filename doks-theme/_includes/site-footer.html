@@ -20,7 +20,7 @@
 						<ul class="social-list">
 							{% for item in site.doks.footer.social_list %}
 								<li>
-									<a href="{{ item.profile_url }}" target="_blank" class="social-list__item social-list__item--{{ item.network_name }}">
+									<a href="{{ item.profile_url }}" title="{{ item.network_title }}" target="_blank" class="social-list__item social-list__item--{{ item.network_name }}">
 										<i class="icon icon--{{ item.network_name }}"></i>
 									</a>
 								</li>

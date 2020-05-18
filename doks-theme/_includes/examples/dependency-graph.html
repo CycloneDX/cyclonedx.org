@@ -1,0 +1,102 @@
+{% include code-example-tabs-head.html id="dependency-graph-example" %}
+{% include code-example-tabs-tab1.html id="dependency-graph-example" %}
+
+<div class="example example-xml"></div>
+{% highlight xml %}
+{% raw %}
+<?xml version="1.0"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2"
+     serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79"
+     version="1">
+    <components>
+        <component type="framework" bom-ref="pkg:maven/org.acme/web-framework@1.0.0">
+            <group>org.acme</group>
+            <name>web-framework</name>
+            <version>1.0.0</version>
+            <purl>pkg:maven/org.acme/web-framework@1.0.0</purl>
+        </component>
+        <component type="library" bom-ref="pkg:maven/org.acme/persistence@3.1.0">
+            <group>org.acme</group>
+            <name>persistence</name>
+            <version>3.1.0</version>
+            <purl>pkg:maven/org.acme/persistence@3.1.0</purl>
+        </component>
+        <component type="library" bom-ref="pkg:maven/org.acme/common-util@3.0.0">
+            <group>org.acme</group>
+            <name>common-util</name>
+            <version>3.0.0</version>
+            <purl>pkg:maven/org.acme/common-util@3.0.0</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.acme/web-framework@1.0.0">
+            <dependency ref="pkg:maven/org.acme/common-util@3.0.0"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.acme/persistence@3.1.0">
+            <dependency ref="pkg:maven/org.acme/common-util@3.0.0"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.acme/common-util@3.0.0"/>
+    </dependencies>
+</bom>
+{% endraw %}
+{% endhighlight %}
+
+{% include code-example-tabs-tab2.html id="dependency-graph-example" %}
+
+<div class="example example-json"></div>
+{% highlight json %}
+{% raw %}
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "version": 1,
+  "components": [
+    {
+      "bom-ref": "pkg:maven/org.acme/web-framework@1.0.0",
+      "type": "library",
+      "group": "org.acme",
+      "name": "web-framework",
+      "version": "1.0.0",
+      "purl": "pkg:maven/org.acme/web-framework@1.0.0"
+    },
+    {
+      "bom-ref": "pkg:maven/org.acme/persistence@3.1.0",
+      "type": "library",
+      "group": "org.acme",
+      "name": "persistence",
+      "version": "3.1.0",
+      "purl": "pkg:maven/org.acme/persistence@3.1.0"
+    },
+    {
+      "bom-ref": "pkg:maven/org.acme/common-util@3.0.0",
+      "type": "library",
+      "group": "org.acme",
+      "name": "common-util",
+      "version": "3.0.0",
+      "purl": "pkg:maven/org.acme/common-util@3.0.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.acme/web-framework@1.0.0",
+      "dependsOn": [
+        "pkg:maven/org.acme/common-util@3.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.acme/persistence@3.1.0",
+      "dependsOn": [
+        "pkg:maven/org.acme/common-util@3.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.acme/common-util@3.0.0",
+      "dependsOn": []
+    }
+  ]
+}
+{% endraw %}
+{% endhighlight %}
+
+{% include code-example-tabs-tail.html %}

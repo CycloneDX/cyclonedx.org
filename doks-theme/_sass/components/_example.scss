@@ -5,16 +5,16 @@
 /* ----- General ----- */
 .example {
 	overflow: hidden;
-	color: $color-white;
-	background-color: $color-pre-border;
-	padding: .625rem .625rem .625rem 1.4375rem;
+	color: $color-white !important;
+	background-color: $color-pre-border !important;
+	padding: .625rem .625rem .625rem 1.4375rem !important;
 
 	&::before {
 		content: 'Example';
 		display: inline-block;
 		margin-top: .25rem;
 		margin-bottom: .25rem;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 	}
 
 	a {
@@ -42,5 +42,17 @@
 			top: .125rem;
 			margin-left: .5rem;
 		}
+	}
+}
+
+.example-xml {
+	&::before {
+		content: 'XML Example';
+	}
+}
+
+.example-json {
+	&::before {
+		content: 'JSON Example';
 	}
 }

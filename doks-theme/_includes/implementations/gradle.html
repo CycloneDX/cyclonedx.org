@@ -5,38 +5,44 @@
 </p>
 
 <h5>Creating a BOM</h5>
-<pre class="highlight">
-<code>gradle cyclonedxBom</code>
-</pre>
+{% highlight plaintext %}
+{% raw %}
+gradle cyclonedxBom
+{% endraw %}
+{% endhighlight %}
 
 <h5>build.gradle (excerpt)</h5>
-<pre class="highlight">
-<code>plugins {
-    id 'org.cyclonedx.bom'
+{% highlight groovy %}
+{% raw %}
+plugins {
+  id 'org.cyclonedx.bom'
 }
 
 apply plugin: 'java'
 apply plugin: 'maven'
 
 repositories {
-    mavenCentral()
-}</code>
-</pre>
+  mavenCentral()
+}
+{% endraw %}
+{% endhighlight %}
 
 <h5>settings.gradle (excerpt)</h5>
-<pre class="highlight">
-<code>pluginManagement {
-    resolutionStrategy {
-        eachPlugin {
-            if (requested.id.toString() == 'org.cyclonedx.bom') {
-                useModule('org.cyclonedx:cyclonedx-gradle-plugin:1.1.1')
-            }
-        }
+{% highlight groovy %}
+{% raw %}
+pluginManagement {
+  resolutionStrategy {
+    eachPlugin {
+      if (requested.id.toString() == 'org.cyclonedx.bom') {
+        useModule('org.cyclonedx:cyclonedx-gradle-plugin:1.1.1')
+      }
     }
-    repositories {
-        mavenCentral()
-    }
-}</code>
-</pre>
+  }
+  repositories {
+    mavenCentral()
+  }
+}
+{% endraw %}
+{% endhighlight %}
 
 NOTE: BOM generation can optionally be skipped by setting <code>cyclonedx.skip</code> to true.

@@ -1,0 +1,37 @@
+{% include code-example-tabs-head.html id="authenticity-example" %}
+{% include code-example-tabs-tab1.html id="authenticity-example" %}
+
+<div class="example example-xml"></div>
+{% highlight xml %}
+{% raw %}
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2"
+     serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79"
+     version="1">
+    <!-- TODO -->
+</bom>
+{% endraw %}
+{% endhighlight %}
+
+{% include code-example-tabs-tab2.html id="authenticity-example" %}
+
+<div class="example example-json"></div>
+{% highlight json %}
+{% raw %}
+{
+"bomFormat": "CycloneDX",
+"specVersion": "1.2",
+"serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+"version": 1,
+"components": [
+{
+"type": "library",
+"name": "acme-library",
+"version": "1.0.0"
+}
+]
+}
+{% endraw %}
+{% endhighlight %}
+
+{% include code-example-tabs-tail.html %}

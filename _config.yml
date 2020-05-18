@@ -7,14 +7,10 @@ doks:
             text:
             image: true
         nav:
-            - item_name: Docs
+            - item_name: Use Cases
+              item_url: '/use-cases'
+            - item_name: Specification
               item_url: 'https://cyclonedx.org/docs/1.1'
-            - item_name: Twitter
-              item_url: 'https://twitter.com/CycloneDX_Spec'
-            - item_name: GitHub
-              item_url: 'https://github.com/CycloneDX'
-            - item_name: Groups.io
-              item_url: 'https://groups.io/g/CycloneDX'
     footer:
         content:
             logo:
@@ -23,12 +19,16 @@ doks:
             copyright:
         social_list:
             - network_name: books
+              network_title: Specification
               profile_url: 'https://cyclonedx.org/docs/1.1'
             - network_name: twitter
+              network_title: Twitter
               profile_url: 'https://twitter.com/CycloneDX_Spec'
             - network_name: github
+              network_title: GitHub
               profile_url: 'https://github.com/CycloneDX'
             - network_name: groupsio
+              network_title: Groups.io
               profile_url: 'https://groups.io/g/CycloneDX'
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics

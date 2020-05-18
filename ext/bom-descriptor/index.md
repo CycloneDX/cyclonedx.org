@@ -27,6 +27,11 @@ about what the BOM describes. The BOM Descriptor extension provides this capabil
 | ------- | --------- |
 | 1.0 | http://cyclonedx.org/schema/ext/bom-descriptor/1.0 |
 
+<div class="callout callout--warning">
+This schema extension is applicable to CycloneDX v1.1 only. It has been incorporated (with minor changes) into
+CycloneDX v1.2 and higher.
+</div>
+
 ### Example Usage
 
 ```xml
