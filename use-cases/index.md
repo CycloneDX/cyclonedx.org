@@ -152,7 +152,8 @@ Components in a BOM can be nested to form an assembly. An assembly is a collecti
 a parent component. As an analogy, an automotive dashboard contains an instrument panel component. And the instrument 
 panel component contains a speedometer component. This nested relationship is called an assembly in CycloneDX. 
 Software assemblies that can be represented in CycloneDX can range from large enterprise solutions comprising 
-multiple systems, to cloud-native deployments containing large collections of related micro-services.
+multiple systems, to cloud-native deployments containing large collections of related micro-services. Assemblies can
+also describe simpler inclusions such as software packages which contain supporting files.
 
 <div class="callout callout--success" markdown="1">
 Assemblies, or leafs within an assembly, can independently be signed. BOMs comprising component assemblies from 
@@ -187,8 +188,9 @@ and not an indicator of a component being dependency-free.
 ## Provenance
 CycloneDX is capable of representing component authorship and the suppliers from which components were obtained.
 Textual fields representing the author(s) and publisher(s) can be used, as well as SWID metadata or complete inline 
-SWID documents. Provenance capabilities can be used together with [assemblies](#assembly) to represent complex 
-packaging, repackaging, and redistribution use cases.
+SWID documents. Package URL can describe the origin repository in which a library was retrieved from. Provenance 
+capabilities can be used together with [assemblies](#assembly) to represent complex packaging, repackaging, and 
+redistribution use cases.
 
 {% include examples/provenance.html %}
 
