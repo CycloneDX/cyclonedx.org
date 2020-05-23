@@ -196,8 +196,8 @@ redistribution use cases.
 {% include examples/provenance.html %}
 
 ## Pedigree
-CycloneDX can represent component pedigree including ancestors, descendants, and variants which describe a 
-components lineage from any viewpoint and the commits, patches, and diffs which make it unique. The addition of a 
+CycloneDX can represent component pedigree including ancestors, descendants, and variants which describe 
+component lineage from any viewpoint and the commits, patches, and diffs which make it unique. The addition of a 
 [digital signature](#authenticity) applied to a component with detailed pedigree information serves as affirmation to
 the accuracy of the pedigree.
 
