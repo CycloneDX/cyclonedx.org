@@ -19,7 +19,8 @@ micro_nav: true
 
 <h1>Use Cases</h1>
 The following examples provide guidance as to the minimal fields required to achieve specific use cases. Ideally, 
-all optional fields would be populated in order to achieve all use cases.
+all optional fields would be populated in order to achieve all use cases. Many of the cases highlighted are
+directly or closely related to security.
 
 ## Inventory
 
@@ -42,7 +43,7 @@ CycloneDX is capable of describing the following types of components:
 
 {% include examples/inventory.html %}
 
-## Security
+## Known vulnerabilities
 
 Identifying known vulnerabilities in components can be achieved through the use of three fields: `cpe`, `swid`, and 
 `purl`. Not all fields apply to all types of components. 
@@ -195,7 +196,7 @@ redistribution use cases.
 {% include examples/provenance.html %}
 
 ## Pedigree
-CycloneDX can represent a component pedigree including ancestors, descendants, and variants which describe a 
+CycloneDX can represent component pedigree including ancestors, descendants, and variants which describe a 
 components lineage from any viewpoint and the commits, patches, and diffs which make it unique. The addition of a 
 [digital signature](#authenticity) applied to a component with detailed pedigree information serves as affirmation to
 the accuracy of the pedigree.
