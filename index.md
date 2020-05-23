@@ -18,14 +18,14 @@ micro_nav: false
 ---
 
 ## News
-* **30 May, 2020**: [CycloneDX SBOM specification v1.2](https://cyclonedx.org/schema/bom-1.2.xsd) has been released and includes 'firmware' and 'container' component types, SWID tags, service components, applied patches, JSON support, and enhanced BOM metadata and dependency graphs previously only available through extensions.
+* **26 May 2020**: [CycloneDX SBOM specification v1.2](https://cyclonedx.org/schema/bom-1.2.xsd) has been released and includes 'firmware' and 'container' component types, SWID tags, service components, applied patches, JSON support, and enhanced BOM metadata and dependency graphs previously only available through extensions.
 
 ## Introduction
 
 Modern software is assembled using third-party and open source components, glued together in complex and unique ways, 
 and integrated with original code to provide the desired functionality. Reusing components has many economic and
-technical advantages. Documenting the use of third-party and open source components is often desirable in 
-order to perform [supply chain component analysis](https://owasp.org/www-community/Component_Analysis). 
+technical advantages. Documenting the use of all components is often desirable in order to perform 
+[supply chain component analysis](https://owasp.org/www-community/Component_Analysis). 
 CycloneDX was created for this purpose.
 
 ## Project Goals
@@ -35,22 +35,23 @@ CycloneDX was created for this purpose.
 - Specification should be simple and performant to parse
 - Specification should provide lightweight schema definitions for JSON and XML
 - Specification should reuse parts of existing specs where beneficial
+- Specification should be extensible to support specialized and future use cases
 - Specification should be decentralized, authoritative, and security focused
 - Specification should promote continuous component analysis
 - Specification should support hardware, libraries, frameworks, applications, containers, and operating systems
 
 
 ## Achievable Use Cases
-- [Document a complete and accurate inventory](/use-cases#inventory)
-- [Perform vulnerability analysis](/use-cases#security)
+- [Document complete and accurate inventory](/use-cases#inventory)
+- [Security vulnerability analysis](/use-cases#security)
 - [Integrity verification](/use-cases#integrity-verification)
 - [Analyze components for being out of date](/use-cases#outdated-component)
 - [License identification and compliance](/use-cases#license-compliance)
-- [Hierarchical representation of component assemblies](/use-cases#assembly)
+- [Describe complex component assemblies](/use-cases#assembly)
 - [Capture dependency relationships](/use-cases#dependency-graph)
-- [Document component provenance](/use-cases#provenance)
-- [Document component pedigree](/use-cases#pedigree)
-- [Document reliance on services](/use-cases#service-definition)
+- [Describe component provenance](/use-cases#provenance)
+- [Describe component pedigree](/use-cases#pedigree)
+- [Describe reliance on services](/use-cases#service-definition)
 
 
 ## Example SBOM
@@ -159,13 +160,23 @@ This extension is applicable to CycloneDX v1.1 and higher.
 
 <i class="icon icon--book"></i> [Documentation and examples](/ext/vulnerability)
 
-## History
+## Release History
+
+| Version | Release Date |
+| ------- | --------- |
+| CycloneDX 1.2 | 26 May 2020 |
+| CycloneDX 1.1 | 03 March 2019 |
+| CycloneDX 1.0 | 26 March 2018 |
+| Initial Prototype | 01 May 2017 |
+
+## Project History
 CycloneDX was designed in 2017 for use with [OWASP Dependency-Track](https://dependencytrack.org), an open-source 
-Software Composition Analysis (SCA) platform. The primary use-cases CycloneDX was designed to solve were vulnerability 
+Supply Chain Component Analysis platform. The primary use-cases CycloneDX was designed to solve were vulnerability 
 identification, license compliance, and outdated component analysis. Additional capabilities were added in subsequent 
 releases of the specification. 
 
 The value of a lightweight software bill-of-material specification, capable of achieving real-world usecases, transcends 
-the boundaries of a single vendor or supplier. Therefore, a dedicated project, independent of OWASP, was setup to develop 
-the specification, the implementations, and move the format into widespread adoption. Today, thousands of organizations 
-ranging from financial services, manufacturing, software, and security firms are producing and consuming CycloneDX SBOMs.
+the boundaries of a single vendor or supplier. Therefore, a dedicated open source project, independent of OWASP, was 
+setup to develop the specification, the implementations, and move the format into widespread adoption. Today, thousands 
+of organizations ranging from financial services, manufacturing, government, software, and security firms are producing 
+and consuming CycloneDX SBOMs.
