@@ -24,7 +24,7 @@ directly or closely related to security.
 
 ## Inventory
 
-An accurate and complete inventory of all first-party and third-party components is essential for risk identification.
+A complete and accurate inventory of all first-party and third-party components is essential for risk identification.
 BOMs should ideally contain all direct and transitive components and the dependency relationships between them.
 
 CycloneDX is capable of describing the following types of components:
