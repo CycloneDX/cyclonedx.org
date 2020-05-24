@@ -94,12 +94,12 @@ Signed BOMs benefit by providing advanced integrity and non-repudiation capabili
 
 {% include examples/authenticity.html %}
 
-## Outdated component
+## Package evaluation
 
 [Package URL](https://github.com/package-url/purl-spec) (PURL) standardizes how software 
 package metadata is represented so that packages can universally be located regardless of what vendor, project, or 
-ecosystem the packages belongs. Locating packages varies by ecosystem, but once components are located in their 
-respective repository, the repository may be queried to determine the latest version of a given component.
+ecosystem the packages belongs. Locating packages varies by ecosystem. Once located, the age of the component, whether
+it is out-of-date, published hashes, and overall project health are candidates for evaluation.
 
 Package URL conforms to [RFC-3986](https://tools.ietf.org/html/rfc3986).
 
@@ -228,10 +228,9 @@ between components. Additionally, services that depend on other services can als
 
 ## Packaging and distribution 
 
-// todo bom metadata
-
-<div class="callout callout--info" markdown="1">
-</div>
+For software that is produced for the consumption of others, it is important to apply additional metadata about the
+produced software including detailed component information, manufacturing and supplier information, and the tools
+used to create the BOM. 
 
 {% include examples/packaging-distribution.html %}
 
