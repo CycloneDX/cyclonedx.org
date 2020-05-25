@@ -45,7 +45,7 @@ CycloneDX was created for this purpose.
 - [Document complete and accurate inventory](/use-cases#inventory)
 - [Security vulnerability analysis](/use-cases#known-vulnerabilities)
 - [Integrity verification](/use-cases#integrity-verification)
-- [Analyze components for being out of date](/use-cases#package-evaluation)
+- [Software package evaluation](/use-cases#package-evaluation)
 - [License identification and compliance](/use-cases#license-compliance)
 - [Describe complex component assemblies](/use-cases#assembly)
 - [Capture dependency relationships](/use-cases#dependency-graph)
