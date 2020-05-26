@@ -10,7 +10,7 @@ doks:
             - item_name: Use Cases
               item_url: '/use-cases'
             - item_name: Specification
-              item_url: 'https://cyclonedx.org/docs/1.1'
+              item_url: 'https://cyclonedx.org/docs/1.2'
     footer:
         content:
             logo:
@@ -20,7 +20,7 @@ doks:
         social_list:
             - network_name: books
               network_title: Specification
-              profile_url: 'https://cyclonedx.org/docs/1.1'
+              profile_url: 'https://cyclonedx.org/docs/1.2'
             - network_name: twitter
               network_title: Twitter
               profile_url: 'https://twitter.com/CycloneDX_Spec'
