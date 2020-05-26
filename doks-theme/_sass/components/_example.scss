@@ -56,3 +56,15 @@
 		content: 'JSON Example';
 	}
 }
+
+.example-json-jws {
+	&::before {
+		content: 'JSON Web Signature Example';
+	}
+}
+
+.example-json-jsf {
+	&::before {
+		content: 'JSON Signature Format Example';
+	}
+}

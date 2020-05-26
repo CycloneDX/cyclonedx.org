@@ -6,12 +6,16 @@
 }
 
 .inputtab1:checked ~ section .tab1,
-.inputtab2:checked ~ section .tab2 {
+.inputtab2:checked ~ section .tab2,
+.inputtab3:checked ~ section .tab3,
+.inputtab4:checked ~ section .tab4 {
   display: block;
 }
 
 .inputtab1:checked ~ nav .tab1,
-.inputtab2:checked ~ nav .tab2 {
+.inputtab2:checked ~ nav .tab2,
+.inputtab3:checked ~ nav .tab3,
+.inputtab4:checked ~ nav .tab4 {
   color: red;
 }
 
@@ -70,7 +74,9 @@ $unactiveHoverColor: #dddddd;
 }
 
 .inputtab1:checked ~ nav .tab1,
-.inputtab2:checked ~ nav .tab2 {
+.inputtab2:checked ~ nav .tab2,
+.inputtab3:checked ~ nav .tab3,
+.inputtab4:checked ~ nav .tab4 {
   label {
     background: white;
     color: #111;
