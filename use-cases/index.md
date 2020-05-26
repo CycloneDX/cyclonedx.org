@@ -89,7 +89,8 @@ CycloneDX also supports integrity as a property of digital signing. Refer to [Au
 ## Authenticity
 
 Digital signatures may be applied to a BOM or to an [assembly](#assembly) within a BOM. CycloneDX supports 
-[XML Signature](https://www.w3.org/TR/xmldsig-core/) and [JSON Web Signature (JWS)](https://tools.ietf.org/html/rfc7515).
+[XML Signature](https://www.w3.org/TR/xmldsig-core/), [JSON Web Signature (JWS)](https://tools.ietf.org/html/rfc7515),
+and [JSON Signature Format (JSF)](https://cyberphone.github.io/doc/security/jsf.html).
 Signed BOMs benefit by providing advanced integrity and non-repudiation capabilities.
 
 {% include examples/authenticity.html %}
