@@ -54,6 +54,23 @@ CycloneDX was created for this purpose.
 - [Describe reliance on services](/use-cases#service-definition)
 
 
+## Namespaces
+CycloneDX defines two unique namespaces, a bill-of-material (bom) namespace and a SPDX namespace. The SPDX namespace
+evolves independently of the bom namespace and consists of license identifiers. As new SPDX licenses are added to 
+the SPDX specification over time, those changes will be reflected in the bom schema automatically.
+
+<h5>XML</h5>
+CycloneDX is a versioned schema and operates as follows:
+
+* `http://cyclonedx.org/schema/bom` will always reference the latest version of the spec.
+* Supplying a version after /bom such as `http://cyclonedx.org/schema/bom/1.2` will specify a specific version of the spec.
+
+<h5>JSON</h5>
+CycloneDX is a versioned schema and conforms to JSON Schema draft-07.
+
+* Supplying a version, such as `http://cyclonedx.org/schema/bom-1.2.schema.json` will specify a specific version of the spec (starting with 1.2).
+
+
 ## Example SBOM
 {% include code-example-tabs-head.html id="general-example" %}
 {% include code-example-tabs-tab1.html id="general-example" %}
