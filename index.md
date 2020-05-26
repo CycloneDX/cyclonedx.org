@@ -161,13 +161,21 @@ Additional build plugins are planned and we're actively looking for volunteers t
 A growing community of CycloneDX adopters are producing various tools for the generation, analysis, and 
 reporting of CycloneDX SBOMs. 
 
+<h5>Open Source</h5>
 - [CycloneDX for Go](https://github.com/ozonru/cyclonedx-go)
-- [CycloneDX SBT Plugin for Scala](https://github.com/siculo/sbt-bom)
+- [CycloneDX SBT plugin for Scala](https://github.com/siculo/sbt-bom)
 - [CycloneDX Mix Task for Erlang/Elixir](https://hex.pm/packages/sbom)
 - [CycloneDX Rebar3 Plugin for Erlang/Elixir](https://hex.pm/packages/rebar3_sbom)
 - [OSS Review Toolkit](https://github.com/heremaps/oss-review-toolkit)
 - [OWASP Dependency-Track](https://dependencytrack.org/)
+- [Eclipse SW360 Antenna](https://www.eclipse.org/antenna/)
+- [Retire.js](https://retirejs.github.io/retire.js/)
+
+<h5>Proprietary</h5>
 - [Sonatype Nexus IQ Server](https://www.sonatype.com/nexus-iq-server)
+- [CyberProtek](https://cyberprotek.com)
+- [MedScan](https://medsec.com/medscan.html)
+- [Reliza Hub](https://relizahub.com)
 
 
 ## Extensions
