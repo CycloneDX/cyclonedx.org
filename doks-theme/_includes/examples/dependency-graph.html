@@ -8,6 +8,13 @@
 <bom xmlns="http://cyclonedx.org/schema/bom/1.2"
      serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79"
      version="1">
+    <metadata>
+        <!-- The component for which this BOM describes -->
+        <component type="application" bom-ref="acme-app">
+            <name>Acme Application</name>
+            <version>9.1.1</version>
+        </component>
+    </metadata>
     <components>
         <component type="framework" bom-ref="pkg:maven/org.acme/web-framework@1.0.0">
             <group>org.acme</group>
@@ -29,6 +36,12 @@
         </component>
     </components>
     <dependencies>
+        <!-- Direct dependencies of the main application -->
+        <dependency ref="acme-app">
+            <dependency ref="pkg:maven/org.acme/web-framework@1.0.0"/>
+            <dependency ref="pkg:maven/org.acme/persistence@3.1.0"/>
+        </dependency>
+        <!-- All other dependency relationships -->
         <dependency ref="pkg:maven/org.acme/web-framework@1.0.0">
             <dependency ref="pkg:maven/org.acme/common-util@3.0.0"/>
         </dependency>
@@ -51,6 +64,14 @@
   "specVersion": "1.2",
   "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
   "version": 1,
+  "metadata": {
+    "component": {
+      "bom-ref": "acme-app",
+      "type": "application",
+      "name": "Acme Application",
+      "version": "9.1.1"
+    }
+  },
   "components": [
     {
       "bom-ref": "pkg:maven/org.acme/web-framework@1.0.0",
@@ -78,6 +99,13 @@
     }
   ],
   "dependencies": [
+    {
+      "ref": "acme-app",
+      "dependsOn": [
+        "pkg:maven/org.acme/web-framework@1.0.0",
+        "pkg:maven/org.acme/persistence@3.1.0"
+      ]
+    },
     {
       "ref": "pkg:maven/org.acme/web-framework@1.0.0",
       "dependsOn": [
