@@ -191,7 +191,7 @@ reporting of CycloneDX SBOMs.
 <h5>Proprietary</h5>
 - [Sonatype Nexus IQ Server](https://www.sonatype.com/nexus-iq-server)
 - [CyberProtek](https://cyberprotek.com)
-- [MedScan](https://medsec.com/medscan.html)
+- [MedScan](https://www.medsec.com/medscan/)
 - [Reliza Hub](https://relizahub.com)
 
 
