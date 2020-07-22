@@ -19,7 +19,7 @@
 
 					<div class="inline-block hidden-xs">
 						<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" class="site-header__logo">
-							<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/logo-aqua.svg" width="345" height="60">
+							<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/logo-aqua.svg" width="270" >
 						</a>
 					</div>
 					<div class="inline-block visible-xs">
@@ -35,7 +35,7 @@
 							{% endfor %}
 							<li></li>
 							{% for item in site.doks.footer.social_list %}
-							<li style="margin-left:0">
+							<li style="margin-left:0; font-size:1.2rem">
 								<a href="{{ item.profile_url }}" title="{{ item.network_title }}" target="_blank">
 									<i class="icon icon--{{ item.network_name }}"></i>
 								</a>

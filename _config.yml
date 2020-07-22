@@ -18,9 +18,6 @@ doks:
                 image: true
             copyright:
         social_list:
-            - network_name: books
-              network_title: Specification
-              profile_url: 'https://cyclonedx.org/docs/1.2'
             - network_name: twitter
               network_title: Twitter
               profile_url: 'https://twitter.com/CycloneDX_Spec'
