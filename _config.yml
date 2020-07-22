@@ -30,6 +30,9 @@ doks:
             - network_name: groupsio
               network_title: Groups.io
               profile_url: 'https://groups.io/g/CycloneDX'
+            - network_name: slack
+              network_title: Slack
+              profile_url: 'https://cyclonedx.org/slack/invite'
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
     comments:
