@@ -21,6 +21,7 @@ function populateCards() {
                 <div class="card-title">${tool.name}</div>
                 <div class="card-publisher">${tool.publisher}</div>
                 <div class="card-body">${truncate(tool.description, 250)}</div>
+                <div style="line-height: 3.0rem">&nbsp;</div>
                 <div class="card-footer">${repoBadges}</div>
               </div>
           </div> 
