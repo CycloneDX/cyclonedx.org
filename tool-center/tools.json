@@ -2,7 +2,7 @@
   {
     "name": "CycloneDX Core for Java",
     "publisher": "CycloneDX",
-    "description": "Library which allows developers to create BOMs from Java objects, performs validation, and supports common schema extensions",
+    "description": "Library which facilitates the creation of SBOMs from Java objects, parsing of existing SBOMs into an object model, and validation of SBOMs",
     "repoUrl": "https://github.com/CycloneDX/cyclonedx-core-java",
     "websiteUrl": "https://github.com/CycloneDX/cyclonedx-core-java",
     "categories": [
@@ -24,7 +24,7 @@
   {
     "name": "CycloneDX for NPM",
     "publisher": "CycloneDX",
-    "description": "Creates CycloneDX SBOMs for Node.js (NPM) projects",
+    "description": "Creates CycloneDX SBOMs for Node.js (NPM) projects. This package also doubles as a library which facilitates the creation of SBOMs from Javascript objects.",
     "repoUrl": "https://github.com/CycloneDX/cyclonedx-node-module",
     "websiteUrl": "https://www.npmjs.com/package/@cyclonedx/bom",
     "categories": [
@@ -146,7 +146,7 @@
   {
     "name": "CycloneDX for Bower",
     "publisher": "Hans Thorhauge Dam",
-    "description": "Creates CycloneDX SBOMs for Go projects",
+    "description": "Creates CycloneDX SBOMs for Javascript projects using Bower",
     "repoUrl": "https://github.com/hanstdam/cdx-bower-bom",
     "websiteUrl": "https://www.npmjs.com/package/cdx-bower-bom",
     "categories": [
@@ -456,6 +456,17 @@
     "websiteUrl": "https://www.medsec.com/medscan/",
     "categories": [
       "proprietary"
+    ]
+  },
+  {
+    "name": "SBOM Demo",
+    "publisher": "CERT Coordination Center (CERT/CC)",
+    "description": "Tool that manually creates SBOMs for the NTIA healthcare proof-of-concept.",
+    "repoUrl": "https://github.com/CERTCC/SBOM",
+    "websiteUrl": "https://sbom.democert.org/sbom/",
+    "categories": [
+      "opensource",
+      "author"
     ]
   }
 ]
