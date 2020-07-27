@@ -431,8 +431,7 @@
     "name": "CyberProtek",
     "publisher": "MediSAO",
     "description": "CyberProtek is an SBOM generation and translation tool for IoT that scans code metadata to create SBOMs, translates between SWID/SPDX/CycloneDx and manages vulnerabilities.",
-    "repoUrl": "https://github.com/jenkinsci/nexus-platform-plugin",
-    "websiteUrl": "https://plugins.jenkins.io/nexus-jenkins-plugin",
+    "websiteUrl": "https://www.cyberprotek.com/",
     "categories": [
       "proprietary",
       "analysis",
