@@ -6,8 +6,8 @@ comments: false
 banner: false
 
 # Hero section
-title: CycloneDX Tool Directory
-window_title: CycloneDX Tool Directory
+title: CycloneDX Tool Center
+window_title: CycloneDX Tool Center
 description: Known tools and implementations that support CycloneDX
 
 # Micro navigation
