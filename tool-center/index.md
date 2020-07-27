@@ -27,7 +27,7 @@ micro_nav: true
   <button class="btn" onclick="filterSelection('proprietary', 'Proprietary tools that support CycloneDX')"> Proprietary</button>
   <button class="btn" onclick="filterSelection('build-integration', 'Tools that integrate with build systems and package managers')"> Build integration</button>
   <button class="btn" onclick="filterSelection('analysis', 'Tools that can analyze CycloneDX SBOMs')"> Analysis</button>
-  <button class="btn" onclick="filterSelection('authoring', 'Tools that can author CycloneDX SBOMs')"> Authoring</button>
+  <button class="btn" onclick="filterSelection('authoring', 'Tools that human authors can use to create CycloneDX SBOMs')"> Authoring</button>
   <button class="btn" onclick="filterSelection('github-action', 'GitHub actions which produce CycloneDX SBOMS')"> GitHub action</button>
   <button class="btn" onclick="filterSelection('transform', 'Tools that transform CycloneDX into other formats or that transform other formats into CycloneDX')"> Transform</button>
   <button class="btn" onclick="filterSelection('library', 'Modular components that can programmatically create, parse, or validate CycloneDX SBOMs')"> Library</button>
