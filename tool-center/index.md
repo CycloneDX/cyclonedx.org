@@ -8,7 +8,7 @@ banner: false
 # Hero section
 title: CycloneDX Tool Center
 window_title: CycloneDX Tool Center
-description: Known tools and implementations that support CycloneDX
+description: A discovery marketplace containing free, open source, and proprietary tools and solutions that support the CycloneDX specification.
 
 # Micro navigation
 micro_nav: true
