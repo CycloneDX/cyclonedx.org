@@ -188,74 +188,68 @@
     ]
   },
   {
-    "name": "GitHub Action: CycloneDX for Node.js",
+    "name": "CycloneDX Node.js Generate SBOM",
     "publisher": "CycloneDX",
     "description": "Creates CycloneDX SBOMs from Node.js (NPM) projects via GitHub action.",
     "repoUrl": "https://github.com/CycloneDX/gh-node-module-generatebom",
     "websiteUrl": "https://github.com/marketplace/actions/cyclonedx-node-js-generate-sbom",
     "categories": [
       "opensource",
-      "build-integration",
       "github-action"
     ]
   },
   {
-    "name": "GitHub Action: CycloneDX for .NET",
+    "name": "CycloneDX .NET Generate SBOM",
     "publisher": "CycloneDX",
     "description": "Creates CycloneDX SBOMs from .NET projects via GitHub action.",
     "repoUrl": "https://github.com/CycloneDX/gh-dotnet-generate-sbom",
     "websiteUrl": "https://github.com/marketplace/actions/cyclonedx-net-generate-sbom",
     "categories": [
       "opensource",
-      "build-integration",
       "github-action"
     ]
   },
   {
-    "name": "GitHub Action: CycloneDX for PHP Composer",
+    "name": "CycloneDX PHP Composer Generate SBOM",
     "publisher": "CycloneDX",
     "description": "Creates CycloneDX SBOMs from PHP Composer projects via GitHub action.",
     "repoUrl": "https://github.com/CycloneDX/gh-php-composer-generate-sbom",
     "websiteUrl": "https://github.com/marketplace/actions/cyclonedx-php-composer-generate-sbom",
     "categories": [
       "opensource",
-      "build-integration",
       "github-action"
     ]
   },
   {
-    "name": "GitHub Action: CycloneDX for Python",
+    "name": "CycloneDX Python Generate SBOM",
     "publisher": "CycloneDX",
     "description": "Creates CycloneDX SBOMs from Python projects via GitHub action.",
     "repoUrl": "https://github.com/CycloneDX/gh-python-generate-sbom",
     "websiteUrl": "https://github.com/marketplace/actions/cyclonedx-python-generate-sbom",
     "categories": [
       "opensource",
-      "build-integration",
       "github-action"
     ]
   },
   {
-    "name": "GitHub Action: CycloneDX for Erlang/Elixir Mix",
+    "name": "Generate SBoM for Elixir project",
     "publisher": "Red Shirts",
     "description": "Creates CycloneDX SBOMs from Erlang/Elixir Mix projects via GitHub action.",
     "repoUrl": "https://github.com/red-shirts/action-mix-sbom",
     "websiteUrl": "https://github.com/marketplace/actions/generate-sbom-for-elixir-project",
     "categories": [
       "opensource",
-      "build-integration",
       "github-action"
     ]
   },
   {
-    "name": "GitHub Action: cdxgen",
+    "name": "cdxgen",
     "publisher": "AppThreat",
     "description": "GitHub action for CycloneDX BOM generator (cdxgen). cdxgen produced bom xml file can be uploaded to dependency track, AppThreat and other commercial Software Composition Analysis (SCA) products",
     "repoUrl": "https://github.com/AppThreat/cdxgen-action",
     "websiteUrl": "https://github.com/marketplace/actions/cdxgen",
     "categories": [
       "opensource",
-      "build-integration",
       "github-action"
     ]
   },
@@ -419,7 +413,7 @@
     "websiteUrl": "https://www.sonatype.com/product-nexus-lifecycle",
     "categories": [
       "proprietary",
-      "analyze"
+      "analysis"
     ]
   },
   {
@@ -429,7 +423,7 @@
     "repoUrl": "https://github.com/jenkinsci/nexus-platform-plugin",
     "websiteUrl": "https://plugins.jenkins.io/nexus-jenkins-plugin",
     "categories": [
-      "open-source",
+      "opensource",
       "build-integration"
     ]
   },
@@ -441,8 +435,8 @@
     "websiteUrl": "https://plugins.jenkins.io/nexus-jenkins-plugin",
     "categories": [
       "proprietary",
-      "analyze",
-      "transformation"
+      "analysis",
+      "transform"
     ]
   },
   {
@@ -452,7 +446,7 @@
     "websiteUrl": "https://www.medsec.com/medscan/",
     "categories": [
       "proprietary",
-      "analyze"
+      "analysis"
     ]
   },
   {
