@@ -9,6 +9,8 @@ doks:
         nav:
             - item_name: Use Cases
               item_url: '/use-cases'
+            - item_name: Tool Center
+              item_url: '/tool-center'
             - item_name: Specification
               item_url: 'https://cyclonedx.org/docs/1.2'
     footer:

@@ -13,6 +13,7 @@ function populateCards() {
         for (let aa = 0; aa < tool.categories.length; aa++) {
           categoryTemplate += formatCategoryLabel(tool.categories[aa]);
         }
+        let repoBadges = formatRepoBadges(tool.repoUrl);
         let template = `
           <div class="card-container ${classes}">
               <div class="card" onmouseup="window.location.href='${tool.websiteUrl}'">
@@ -20,10 +21,7 @@ function populateCards() {
                 <div class="card-title">${tool.name}</div>
                 <div class="card-publisher">${tool.publisher}</div>
                 <div class="card-body">${truncate(tool.description, 250)}</div>
-                <div class="card-footer">
-                  <img src="https://img.shields.io/github/forks/CycloneDX/cyclonedx-dotnet.svg?style=social&label=Fork">&nbsp;
-                  <img src="https://img.shields.io/github/stars/CycloneDX/cyclonedx-dotnet.svg?style=social&label=Stars">
-                </div>
+                <div class="card-footer">${repoBadges}</div>
               </div>
           </div> 
         `;
@@ -41,11 +39,23 @@ function formatCategoryLabel(category) {
   return `<span class="label card-category ${categoryClass}">${category}</span>`;
 }
 
+function formatRepoBadges(repoUrl) {
+  if (repoUrl && repoUrl.startsWith("https://github.com") && (repoUrl.split("/").length - 1) === 4) {
+    let gh = repoUrl.replace("https://github.com/", "").replace(".git", "");
+    return `
+        <img src="https://img.shields.io/github/forks/${gh}.svg?style=social&label=Fork">&nbsp;
+        <img src="https://img.shields.io/github/stars/${gh}.svg?style=social&label=Stars">`;
+  }
+  return "";
+}
+
 function truncate(str, n) {
   return (str.length > n) ? str.substr(0, n-1) + '&hellip;' : str;
 }
 
-function filterSelection(c) {
+function filterSelection(c, d) {
+  let desc = document.getElementById("category-description");
+  desc.innerText = (d) ? d : "\n";
   let x, i;
   x = document.getElementsByClassName("card-container");
   if (c === "all") c = "";

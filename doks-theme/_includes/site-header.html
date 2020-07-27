@@ -33,7 +33,7 @@
 							{% for item in site.doks.header.nav %}
 								<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.item_url }}">{{ item.item_name }}</a></li>
 							{% endfor %}
-							<li></li>
+							<li style="margin-left: 0;"></li>
 							{% for item in site.doks.footer.social_list %}
 							<li style="margin-left:0; font-size:1.2rem">
 								<a href="{{ item.profile_url }}" title="{{ item.network_title }}" target="_blank">

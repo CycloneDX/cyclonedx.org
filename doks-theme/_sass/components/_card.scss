@@ -108,26 +108,37 @@
   font-size: 75%;
 }
 .card-category-opensource {
-  background-color: #AECEE5;
+  background-color: rgba(#AECEE5, 0.3);
   border: 1px solid #5C9CCB;
 }
 .card-category-proprietary {
-  background-color: #B4AFE4;
+  background-color: rgba(#B4AFE4, 0.3);
   border: 1px solid #6E63CC;
 }
 .card-category-build-integration {
-  background-color: #AFE4BF;
+  background-color: rgba(#AFE4BF, 0.3);
   border: 1px solid #73D08F;
 }
 .card-category-analysis {
-  background-color: #FFC78B;
-  border: 1px solid #FE9536;
+  background-color: rgba(#FF891D, 0.3);
+  border: 1px solid #FF7F0B;
 }
 .card-category-authoring {
-  background-color: #E4AFAF;
+  background-color: rgba(#E4AFAF, 0.3);
   border: 1px solid #CC6666;
 }
 .card-category-github-action {
-  background-color: #EBE5A8;
-  border: 1px solid #DCD167;
+  background-color: rgba(#EBE5A8, 0.3);
+  border: 1px solid #FFEA1C;
+}
+.card-category-transform {
+  background-color: rgba(#FF5F5F, 0.3);
+  border: 1px solid #FF3333;
+}
+.card-category-library {
+  background-color: rgba(#FF52AE, 0.3);
+  border: 1px solid #FF33A0;
+}
+#category-description {
+  color: #888888;
 }
