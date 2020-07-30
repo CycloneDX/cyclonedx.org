@@ -3,11 +3,18 @@
  */
 
 /* ----- General ----- */
+.header-container {
+	background-image: url("/doks-theme/assets/images/hero-header.png");
+	background-size: cover;
+	width: 100%;
+}
 .site-header {
 	position: absolute;
 	width: 100%;
 	height: 5.625rem;
-	border-bottom: 1px solid rgba($color-h2-border, .15);
+	border-bottom: 1px solid rgba(#0064A1, .35);
+}
+.theme-background {
 	background: $color-theme-blue;
 }
 
@@ -61,7 +68,7 @@
 		&:hover,
 		&:focus,
 		&:active {
-			border-color: $color-orange;
+			/* border-color: $color-orange; */
 		}
 	}
 }

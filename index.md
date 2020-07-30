@@ -1,14 +1,14 @@
 ---
 # Page settings
 layout: default
-keywords: application security, software security, software bill of material, SBOM, BOM, open source, supply chain, specification, spdx, license, package url, purl, cpe
+keywords: application security, software security, software bill of materials, SBOM, BOM, open source, supply chain, specification, spdx, license, package url, purl, cpe
 comments: false
 banner: true
 
 # Hero section
 title: CycloneDX
 window_title: CycloneDX Software Bill of Material Specification (SBOM)
-description: CycloneDX is a lightweight software bill-of-material (SBOM) specification designed for use in application security contexts and supply chain component analysis.
+description: CycloneDX is a lightweight software bill of materials (SBOM) specification designed for use in application security contexts and supply chain component analysis.
 
 # Micro navigation
 micro_nav: false

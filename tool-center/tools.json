@@ -157,7 +157,7 @@
   {
     "name": "cdxgen",
     "publisher": "AppThreat",
-    "description": "Creates CycloneDX Software Bill-of-Materials (SBOM) for Node.js, Java, Python and golang projects",
+    "description": "Creates CycloneDX Software Bill of Materials (SBOM) for Node.js, Java, Python and golang projects",
     "repoUrl": "https://github.com/AppThreat/cdxgen",
     "websiteUrl": "https://github.com/AppThreat/cdxgen",
     "categories": [

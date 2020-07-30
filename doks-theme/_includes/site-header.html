@@ -9,7 +9,7 @@
 {% endif %}
 
 {% if site.doks.header.logo.text or site.doks.header.logo.image or site.doks.header.nav %}
-	<header class="site-header">
+	<header class="site-header {{ include.class }}">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -19,7 +19,7 @@
 
 					<div class="inline-block hidden-xs">
 						<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" class="site-header__logo">
-							<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/logo-aqua.svg" width="270" >
+							<img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/logo-aqua.svg" width="230" >
 						</a>
 					</div>
 					<div class="inline-block visible-xs">
