@@ -33,7 +33,9 @@
 	</footer><!-- /.site-footer -->
 {% endif %}
 
-<script src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/jquery.min.js"></script>
+<script src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/jquery-3.5.1.min.js"></script>
+<script src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/jquery.easing.min.js"></script>
+<script src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/jquery.inview.min.js"></script>
 <script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/bootstrap/affix.min.js"></script>
 <script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/bootstrap/scrollspy.min.js"></script>
 <script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/matchHeight.min.js"></script>

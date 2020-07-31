@@ -1,5 +1,10 @@
 {% if site.doks.header.nav %}
 	<div class="offcanvas visible-xs visible-sm">
+		<button class="offcanvas-toggle visible-xs visible-sm">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button><!-- /.offcanvas-toggle -->
 		<ul class="offcanvas__nav">
 			{% for item in site.doks.header.nav %}
 				<li><a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.item_url }}">{{ item.item_name }}</a></li>

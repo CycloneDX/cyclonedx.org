@@ -164,6 +164,22 @@
 		} );
 	} );
 
+
+		var nav = $('.site-header');
+		var scrolled = false;
+		$(window).scroll(function () {
+			if (110 < $(window).scrollTop() && !scrolled) {
+				nav.addClass('sticky animated fadeInDown').animate({ 'margin-top': '0px' });
+				scrolled = true;
+			}
+
+			if (110 > $(window).scrollTop() && scrolled) {
+				nav.removeClass('sticky animated fadeInDown').css('margin-top', '0px');
+				scrolled = false;
+			}
+		});
+
+
 	// Offcanvas
 	$( '.offcanvas-toggle' ).on( 'click', function() {
 		$( 'body' ).toggleClass( 'offcanvas-expanded' );

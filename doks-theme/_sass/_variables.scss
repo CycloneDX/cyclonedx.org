@@ -81,8 +81,8 @@ $line-height-base: 1.8em !default;
 $line-height-headings: 1.5em !default;
 
 /* ----- Z Indexes ----- */
-$z-index-offcanvas: 2 !default;
-$z-index-offcanvas-toggle: 3 !default;
+$z-index-offcanvas: 998 !default;
+$z-index-offcanvas-toggle: 999 !default;
 
 /* ----- Media queries breakpoints ----- */
 // Mobile first
