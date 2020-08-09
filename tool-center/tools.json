@@ -467,5 +467,16 @@
       "opensource",
       "author"
     ]
+  },
+  {
+    "name": "DtrackAuditor",
+    "publisher": "Thinksabin",
+    "description": "Publishes SBOMs to Dependency-Track for analysis and results through command line.",
+    "repoUrl": "https://github.com/thinksabin/DTrackAuditor",
+    "websiteUrl": "https://github.com/thinksabin/DTrackAuditor",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
   }
 ]
