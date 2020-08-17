@@ -64,14 +64,6 @@ h2, .h2 {
 	padding-bottom: .5rem;
 }
 
-h2:before, h3:before {
-	display: block;
-	content: " ";
-	height: 90px;      /* Give height of your fixed element */
-	margin-top: -90px; /* Give negative margin of your fixed element */
-	visibility: hidden;
-}
-
 h3, .h3 {
 	font-size: $font-size-h3;
 	font-weight: 500;
