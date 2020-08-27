@@ -43,10 +43,6 @@ h6, .h6 {
 	line-height: $line-height-headings;
 	margin: 2.5rem 0 .9375rem 0;
 
-	&[id] {
-		position: relative;
-	}
-
 	& + & {
 		margin-top: 0;
 	}
