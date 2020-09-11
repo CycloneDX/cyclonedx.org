@@ -153,47 +153,13 @@ CycloneDX is a versioned schema and conforms to JSON Schema draft-07.
 {% include code-example-tabs-tail.html %}
 
 ## Implementations
-Build plugins for a number of ecosystems have been created which support the automatic identification of all project 
-dependencies and automatically generate CycloneDX SBOMs. The resulting SBOMs may contain many of the elements above 
-including group, name, version, description, file hashes, license, and PackageURL. Additionally, a standalone Java API 
-was created for the programmatic creation and validation of CycloneDX SBOMs.
+A wide variety of implementations are available in the [CycloneDX Tool Center](https://cyclonedx.org/tool-center/).
+The Tool Center is a community effort to establish a marketplace of free, open source, and proprietary tools and 
+solutions that support the CycloneDX specification.
 
-- [CycloneDX .NET Core](https://github.com/CycloneDX/cyclonedx-dotnet)
-- [CycloneDX Node.js Module](https://github.com/CycloneDX/cyclonedx-node-module)
-- [CycloneDX Java (Maven) Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin)
-- [CycloneDX Java (Gradle) Plugin](https://github.com/CycloneDX/cyclonedx-gradle-plugin)
-- [CycloneDX Java API](https://github.com/CycloneDX/cyclonedx-core-java)
-- [CycloneDX PHP Composer](https://github.com/CycloneDX/cyclonedx-php-composer)
-- [CycloneDX Python Module](https://github.com/CycloneDX/cyclonedx-python)
-- [CycloneDX Ruby Gem](https://github.com/CycloneDX/cyclonedx-ruby-gem)
-- [CycloneDX Rust Cargo](https://github.com/CycloneDX/cyclonedx-rust-cargo)
-
-
-Additional build plugins are planned and we're actively looking for volunteers to assist.
-
-
-{% include implementations.html %}
-
-## Community Implementations
-A growing community of CycloneDX adopters are producing various tools for the generation, analysis, and 
-reporting of CycloneDX SBOMs. 
-
-<h5>Open Source</h5>
-- [CycloneDX for Go](https://github.com/ozonru/cyclonedx-go)
-- [CycloneDX SBT plugin for Scala](https://github.com/siculo/sbt-bom)
-- [CycloneDX Mix Task for Erlang/Elixir](https://hex.pm/packages/sbom)
-- [CycloneDX Rebar3 Plugin for Erlang/Elixir](https://hex.pm/packages/rebar3_sbom)
-- [OSS Review Toolkit](https://github.com/heremaps/oss-review-toolkit)
-- [OWASP Dependency-Track](https://dependencytrack.org/)
-- [Eclipse SW360 Antenna](https://www.eclipse.org/antenna/)
-- [Retire.js](https://retirejs.github.io/retire.js/)
-
-<h5>Proprietary</h5>
-- [Sonatype Nexus IQ Server](https://www.sonatype.com/nexus-iq-server)
-- [CyberProtek](https://cyberprotek.com)
-- [MedScan](https://www.medsec.com/medscan/)
-- [Reliza Hub](https://relizahub.com)
-
+CycloneDX is designed with simplicity in mind. The specification is well [documented](https://cyclonedx.org/docs/1.2) and
+includes [examples of common use cases](https://cyclonedx.org/use-cases/). CycloneDX is language, ecosystem, and vendor 
+agnostic and encourages community innovation in the creation of new implementations. 
 
 ## Extensions
 Support for additional use-cases or metadata is enabled through the use of schema extensions. Several
