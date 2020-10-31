@@ -1,14 +1,14 @@
 ---
 # Page settings
 layout: default
-keywords: application security, software security, software bill of materials, SBOM, BOM, open source, supply chain, specification, spdx, license, package url, purl, cpe
+keywords: application security, software security, software bill of materials, SBOM, BOM, open source, supply chain, specification, spdx, license, package url, purl, cpe, swid
 comments: false
 banner: true
 
 # Hero section
 title: CycloneDX
-window_title: CycloneDX Software Bill of Material Specification (SBOM)
-description: CycloneDX is a lightweight software bill of materials (SBOM) specification designed for use in application security contexts and supply chain component analysis.
+window_title: CycloneDX Software Bill of Materials (SBOM) Standard
+description: CycloneDX is a lightweight software bill of materials (SBOM) standard designed for use in application security contexts and supply chain component analysis.
 
 # Micro navigation
 micro_nav: false
@@ -23,10 +23,14 @@ micro_nav: false
 ## Introduction
 
 Modern software is assembled using third-party and open source components, glued together in complex and unique ways, 
-and integrated with original code to provide the desired functionality. Reusing components has many economic and
-technical advantages. Documenting the use of all components is often desirable in order to perform 
-[supply chain component analysis](https://owasp.org/www-community/Component_Analysis). 
+and integrated with original code to achieve the desired functionality. An accurate inventory of all components used in 
+the creation of software enables organizations to identify risk. Application-specific and organization-wide component 
+inventories allows for greater transparency, promotes software standardization and reuse, and enables rapid impact analysis.
+
 CycloneDX was created for this purpose.
+
+The CycloneDX Software Bill of Materials specification is maintained by the CycloneDX Core working group, with origins 
+in the [OWASP](https://owasp.org) community.
 
 ## Project Goals
 - Define a vendor agnostic specification independent of language or ecosystem
