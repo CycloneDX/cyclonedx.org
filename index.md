@@ -23,9 +23,8 @@ micro_nav: false
 ## Introduction
 
 Modern software is assembled using third-party and open source components, glued together in complex and unique ways, 
-and integrated with original code to achieve the desired functionality. An accurate inventory of all components used in 
-the creation of software enables organizations to identify risk. Application-specific and organization-wide component 
-inventories allows for greater transparency, promotes software standardization and reuse, and enables rapid impact analysis.
+and integrated with original code to achieve the desired functionality. An accurate inventory of all components enables 
+organizations to identify risk, allows for greater transparency, and enables rapid impact analysis.
 
 CycloneDX was created for this purpose.
 
