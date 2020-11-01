@@ -28,7 +28,7 @@ organizations to identify risk, allows for greater transparency, and enables rap
 
 CycloneDX was created for this purpose.
 
-The CycloneDX Software Bill of Materials specification is maintained by the CycloneDX Core working group, with origins 
+Strategic direction and maintenance of the specification is managed by the CycloneDX Core working group, with origins
 in the [OWASP](https://owasp.org) community.
 
 ## Project Goals
