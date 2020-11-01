@@ -9,7 +9,14 @@
 {% if page.description %}
     <meta name="twitter:description" content="{{ page.description }}">
 	<meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
 {% endif %}
+
+<meta property="og:title" content="{{ page.window_title }}">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://cyclonedx.org/doks-theme/assets/images/CycloneDX-Twitter-Card.png" />
+
 {% if page.keywords %}
 	<meta name="keywords" content="{{ page.keywords }}">
 {% endif %}
