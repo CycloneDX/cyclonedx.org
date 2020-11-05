@@ -501,5 +501,16 @@
       "opensource",
       "build-integration"
     ]
+  },
+  {
+    "name": "CycloneDX CLI",
+    "publisher": "CycloneDX",
+    "description": "A command line tool containing many common utilities including converting between SBOM formats.",
+    "repoUrl": "https://github.com/CycloneDX/cyclonedx-cli",
+    "websiteUrl": "https://github.com/CycloneDX/cyclonedx-cli",
+    "categories": [
+      "opensource",
+      "transform"
+    ]
   }
 ]
