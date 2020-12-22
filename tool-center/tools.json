@@ -22,6 +22,17 @@
     ]
   },
   {
+    "name": "CycloneDX Libraries for .NET",
+    "publisher": "CycloneDX",
+    "description": ".NET libraries to consume and produce CycloneDX Software Bill-of-Materials (SBOM)",
+    "repoUrl": "https://github.com/CycloneDX/cyclonedx-dotnet-library",
+    "websiteUrl": "https://www.nuget.org/profiles/CycloneDX",
+    "categories": [
+      "opensource",
+      "library"
+    ]
+  },
+  {
     "name": "CycloneDX for NPM",
     "publisher": "CycloneDX",
     "description": "Creates CycloneDX SBOMs for Node.js (NPM) projects. This package also doubles as a library which facilitates the creation of SBOMs from Javascript objects.",
