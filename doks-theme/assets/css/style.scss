@@ -42,6 +42,7 @@
 /* ----- Components ----- */
 @import 'components/callout';
 @import 'components/card';
+@import 'components/collapsibles';
 @import 'components/example';
 @import 'components/hero-subheader';
 @import 'components/micro-nav';
@@ -54,9 +55,3 @@
 @import 'components/title-anchor-link';
 @import 'components/implementations';
 @import 'components/tabbed-code-examples';
-
-/* ----- Themes ----- */
-@import 'themes/green';
-@import 'themes/red';
-@import 'themes/yellow';
-@import 'themes/purple';

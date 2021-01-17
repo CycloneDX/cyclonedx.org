@@ -247,3 +247,40 @@ button {
 		outline: none;
 	}
 }
+
+img.profile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	border-radius: 50%;
+}
+h4.profile-name {
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+}
+.profile-org {
+	font-size: 0.9em;
+	font-weight: normal;
+	text-align: center;
+}
+.profile-social {
+	font-size: 1.4em;
+	letter-spacing: 0.3em;
+	text-align: center;
+}
+.profile-social a {
+	text-decoration: none !important;
+	border: 0;
+}
+
+.text-center {
+	text-align:center
+}
+
+.feature-header {
+	margin: 20px 0 15px;
+	font-size: 22px;
+	color: #1E4877;
+}

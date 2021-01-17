@@ -23,218 +23,141 @@
 }
 
 /* ----- List of icons ----- */
-.icon--groupsio {
-	&::before {
-		content: '\e900';
-	}
+.icon--cog:before {
+	content: "\f013";
 }
-
-.icon--bitbucket {
-	&::before {
-		content: '\e901';
-	}
+.icon--gear:before {
+	content: "\f013";
 }
-
-.icon--codepen {
-	&::before {
-		content: '\e902';
-	}
+.icon--cogs:before {
+	content: "\f085";
 }
-
-.icon--book {
-	&::before {
-		content: '\e903';
-	}
+.icon--gears:before {
+	content: "\f085";
 }
-
-.icon--books {
-	&::before {
-		content: '\e904';
-	}
+.icon--external-link:before {
+	content: "\f08e";
 }
-
-.icon--facebook {
-	&::before {
-		content: '\e905';
-	}
+.icon--feed:before {
+	content: "\f09e";
 }
-
-.icon--github {
-	&::before {
-		content: '\e906';
-	}
+.icon--rss:before {
+	content: "\f09e";
 }
-
-.icon--gitlab {
-	&::before {
-		content: '\e907';
-	}
+.icon--globe:before {
+	content: "\f0ac";
 }
-
-.icon--google-plus {
-	&::before {
-		content: '\e908';
-	}
+.icon--wrench:before {
+	content: "\f0ad";
 }
-
-.icon--gulp {
-	&::before {
-		content: '\e909';
-	}
+.icon--chain:before {
+	content: "\f0c1";
 }
-
-.icon--instagram {
-	&::before {
-		content: '\e90a';
-	}
+.icon--link:before {
+	content: "\f0c1";
 }
-
-.icon--kickstarter {
-	&::before {
-		content: '\e90b';
-	}
+.icon--terminal:before {
+	content: "\f120";
 }
-
-.icon--linkedin {
-	&::before {
-		content: '\e90c';
-	}
+.icon--code:before {
+	content: "\f121";
 }
-
-.icon--medium {
-	&::before {
-		content: '\e90d';
-	}
+.icon--compass:before {
+	content: "\f14e";
 }
-
-.icon--meetup {
-	&::before {
-		content: '\e90e';
-	}
+.icon--youtube-square:before {
+	content: "\f166";
 }
-
-.icon--pocket {
-	&::before {
-		content: '\e90f';
-	}
+.icon--cube:before {
+	content: "\f1b2";
 }
-
-.icon--producthunt {
-	&::before {
-		content: '\e910';
-	}
+.icon--cubes:before {
+	content: "\f1b3";
 }
-
-.icon--reddit {
-	&::before {
-		content: '\e911';
-	}
+.icon--copyright:before {
+	content: "\f1f9";
 }
-
-.icon--skype {
-	&::before {
-		content: '\e912';
-	}
+.icon--trademark:before {
+	content: "\f25c";
 }
-
-.icon--slack {
-	&::before {
-		content: '\e913';
-	}
+.icon--registered:before {
+	content: "\f25d";
 }
-
-.icon--stackoverflow {
-	&::before {
-		content: '\e914';
-	}
+.icon--handshake-o:before {
+	content: "\f2b5";
 }
-
-.icon--trello {
-	&::before {
-		content: '\e915';
-	}
+.icon--user-circle:before {
+	content: "\f2bd";
 }
-
-.icon--tumblr {
-	&::before {
-		content: '\e916';
-	}
+.icon--user-circle-o:before {
+	content: "\f2be";
 }
-
-.icon--twitter {
-	&::before {
-		content: '\e917';
-	}
+.icon--user-o:before {
+	content: "\f2c0";
 }
-
-.icon--youtube {
-	&::before {
-		content: '\e918';
-	}
+.icon--facebook:before {
+	content: "\e905";
 }
-
-.icon--arrow-down {
-	&::before {
-		content: '\e919';
-	}
+.icon--linkedin:before {
+	content: "\e907";
 }
-
-.icon--arrow-left {
-	&::before {
-		content: '\e91a';
-	}
+.icon--groupsio:before {
+	content: "\e900";
 }
-
-.icon--arrow-right {
-	&::before {
-		content: '\e91b';
-	}
+.icon--bitbucket:before {
+	content: "\e901";
 }
-
-.icon--arrow-up {
-	&::before {
-		content: '\e91c';
-	}
+.icon--codepen:before {
+	content: "\e902";
 }
-
-.icon--chevron-down {
-	&::before {
-		content: '\e91d';
-	}
+.icon--github:before {
+	content: "\e906";
 }
-
-.icon--chevron-left {
-	&::before {
-		content: '\e91e';
-	}
+.icon--slack:before {
+	content: "\e913";
 }
-
-.icon--chevron-right {
-	&::before {
-		content: '\e91f';
-	}
+.icon--twitter:before {
+	content: "\e917";
 }
-
-.icon--chevron-up {
-	&::before {
-		content: '\e920';
-	}
+.icon--youtube:before {
+	content: "\e918";
 }
-
-.icon--home {
-	&::before {
-		content: '\e921';
-	}
+.icon--book:before {
+	content: "\e903";
 }
-
-.icon--maximize {
-	&::before {
-		content: '\e922';
-	}
+.icon--books:before {
+	content: "\e904";
 }
-
-.icon--x {
-	&::before {
-		content: '\e923';
-	}
+.icon--arrow-down:before {
+	content: "\e919";
+}
+.icon--arrow-left:before {
+	content: "\e91a";
+}
+.icon--arrow-right:before {
+	content: "\e91b";
+}
+.icon--arrow-up:before {
+	content: "\e91c";
+}
+.icon--chevron-down:before {
+	content: "\e91d";
+}
+.icon--chevron-left:before {
+	content: "\e91e";
+}
+.icon--chevron-right:before {
+	content: "\e91f";
+}
+.icon--chevron-up:before {
+	content: "\e920";
+}
+.icon--home:before {
+	content: "\e921";
+}
+.icon--maximize:before {
+	content: "\e922";
+}
+.icon--x:before {
+	content: "\e923";
 }
