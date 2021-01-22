@@ -1,0 +1,156 @@
+[
+  {
+    "displayName": "Steve Springett (Chair)",
+    "lastName": "Springett",
+    "headshot": "steve-springett.jpg",
+    "organization": "ServiceNow / OWASP",
+    "description": null,
+    "twitter": "stevespringett",
+    "linkedin": "stevespringett",
+    "github": "stevespringett",
+    "homepage": "https://about.me/stevespringett",
+    "categories": [
+      "core"
+    ]
+  },
+  {
+    "displayName": "Patrick Dwyer",
+    "lastName": "Dwyer",
+    "headshot": "patrick-dwyer.jpg",
+    "organization": "Government (confidential)",
+    "description": null,
+    "twitter": "coderpatros",
+    "linkedin": "coderpatros",
+    "github": "coderpatros",
+    "homepage": "",
+    "categories": [
+      "core"
+    ]
+  },
+  {
+    "displayName": "JC Herz",
+    "lastName": "Herz",
+    "headshot": "jc-herz.jpg",
+    "organization": "Ion Channel",
+    "description": null,
+    "twitter": "jcherz",
+    "linkedin": "jc-herz-1781",
+    "github": null,
+    "homepage":null,
+    "categories": [
+      "industry"
+    ]
+  },
+  {
+    "displayName": "Brian Fox",
+    "lastName": "Fox",
+    "headshot": "brian-fox.jpg",
+    "organization": "Sonatype",
+    "description": null,
+    "twitter": "Brian_Fox",
+    "linkedin": "brianefox",
+    "github": "brianf",
+    "homepage": null,
+    "categories": [
+      "industry"
+    ]
+  },
+  {
+    "displayName": "Asaf Karas",
+    "lastName": "Karas",
+    "headshot": "asaf-karas.png",
+    "organization": "VDOO",
+    "description": null,
+    "twitter": "asfkrs",
+    "linkedin": "asaf-k-46b04114a",
+    "github": null,
+    "homepage": "",
+    "categories": [
+      "industry"
+    ]
+  },
+  {
+    "displayName": "Richard Lee",
+    "lastName": "Lee",
+    "headshot": "richard-lee.jpg",
+    "organization": "TiVo",
+    "description": null,
+    "twitter": "llamahunter",
+    "linkedin": "richardlee3",
+    "github": "llamahunter",
+    "homepage": "",
+    "categories": [
+      "industry"
+    ]
+  },
+  {
+    "displayName": "TBD",
+    "lastName": "Unknown",
+    "headshot": "profile.png",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": null,
+    "homepage": "",
+    "categories": [
+      "industry"
+    ]
+  },
+  {
+    "displayName": "TBD",
+    "lastName": "Unknown",
+    "headshot": "profile.png",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": null,
+    "homepage": "",
+    "categories": [
+      "industry"
+    ]
+  },
+  {
+    "displayName": "TBD",
+    "lastName": "Unknown",
+    "headshot": "profile.png",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": null,
+    "homepage": "",
+    "categories": [
+      "industry"
+    ]
+  },
+  {
+    "displayName": "TBD",
+    "lastName": "Unknown",
+    "headshot": "profile.png",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": null,
+    "homepage": "",
+    "categories": [
+      "industry"
+    ]
+  },
+  {
+    "displayName": "TBD",
+    "lastName": "Unknown",
+    "headshot": "profile.png",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": null,
+    "homepage": "",
+    "categories": [
+      "industry"
+    ]
+  }
+]

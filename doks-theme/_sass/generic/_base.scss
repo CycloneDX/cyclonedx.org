@@ -259,6 +259,7 @@ h4.profile-name {
 	font-size: 1.3em;
 	font-weight: bold;
 	text-align: center;
+	margin: 1rem 0 .9375rem 0;
 }
 .profile-org {
 	font-size: 0.9em;
@@ -269,10 +270,18 @@ h4.profile-name {
 	font-size: 1.4em;
 	letter-spacing: 0.3em;
 	text-align: center;
+	color: #253951;
 }
 .profile-social a {
 	text-decoration: none !important;
 	border: 0;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+.profile-social a:hover {
+	text-decoration: none !important;
+	color: #3067AA;
 }
 
 .text-center {
