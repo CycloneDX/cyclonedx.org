@@ -39,11 +39,11 @@ doks:
 
 # SASS settings
 sass:
-    sass_dir: ./doks-theme/_sass
+    sass_dir: ./theme/_sass
     style: :compressed
 
 # Jekyll settings
-layouts_dir: ./doks-theme/_layouts
-includes_dir: ./doks-theme/_includes
+layouts_dir: ./theme/_layouts
+includes_dir: ./theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md' ]
 permalink: /:title/

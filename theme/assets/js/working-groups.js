@@ -53,7 +53,7 @@ function generateTemplate(member) {
   return `
     <div class="col-sm-4 col-md-4">
       <div class="thumbnail">
-        <img class="profile" src="/doks-theme/assets/images/headshots/${member.headshot}">
+        <img class="profile" src="/theme/assets/images/headshots/${member.headshot}">
         <div class="caption">
           ${generateName(member)}
           ${generateDescription(member)}
