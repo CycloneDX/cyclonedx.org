@@ -1,3 +1,5 @@
+ErrorDocument 404 /404/index.html
+
 Redirect 302 /slack/invite https://join.slack.com/t/cyclonedx/shared_invite/zt-cr5qsdhj-79iCCzgqgIKZXlKrqXVQrg
 Redirect 302 /slack https://cyclonedx.slack.com/messages/general
 Redirect 302 /discussion https://groups.io/g/CycloneDX
