@@ -224,8 +224,12 @@ li.dropdown {
 	line-height: 1.4em;
 }
 
-li.dropdown a:hover, .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
 	background-color: rgba(1,101,161,0.1);
+}
+
+li.dropdown a:hover {
+	background-color: rgba(241,171,14,.8);
 }
 
 li.dropdown {
@@ -244,7 +248,6 @@ li.dropdown {
 
 .dropdown-content a {
 	color: #071525;
-	font-weight: 600;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
