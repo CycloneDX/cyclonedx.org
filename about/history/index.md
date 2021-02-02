@@ -22,7 +22,7 @@ micro_nav: false
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
 ## Project History
-CycloneDX was designed in 2017 for use with [OWASP Dependency-Track](https://dependencytrack.org), an open-source
+CycloneDX was designed in 2017 for use with [OWASP Dependency-Track](https://dependencytrack.org). An open-source 
 Component Analysis platform that identifies risk in the software supply chain. The primary use-cases CycloneDX was 
 designed to solve were vulnerability identification, license compliance, and outdated component analysis. Additional 
 capabilities were added in subsequent releases of the specification.

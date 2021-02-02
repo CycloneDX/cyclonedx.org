@@ -25,7 +25,7 @@ micro_nav: false
 
 <button type="button" class="collapsible">Easy to adopt - easy to contribute</button>
 <div class="collapsible-content">
-  <p>From the prescriptive nature of the CycloneDX object model to the standardization process, the objective is to provide an easy path for adopting CycloneDX, making contributions or community implementations, or participating in the evolution of the standard.</p>
+  <p>From the prescriptive nature of the CycloneDX object model, to the standardization process, the objective is to provide an easy path for adopting CycloneDX. Including community contributions or implementations, or participating in the evolution of the standard.</p>
 </div>
 
 <button type="button" class="collapsible">Open source standard - permissive, commercial friendly, license</button>
@@ -45,12 +45,12 @@ micro_nav: false
 
 <button type="button" class="collapsible">Continuous improvement - innovate quickly, improve over time</button>
 <div class="collapsible-content">
-  <p>Incremental and measurable improvement is a foundational principal of the CycloneDX project. Rather than spending years attempting to draft the perfect standard, the project focuses on core use cases and incrementally expands capabilities over time.</p>
+  <p>Incremental and measurable improvement is a foundational principal of the CycloneDX project. Rather than spending years attempting to draft the perfect standard, the project focuses on core use cases and expands capabilities over time.</p>
 </div>
 
 <button type="button" class="collapsible">Encourage innovation and competition through extensions</button>
 <div class="collapsible-content">
-  <p>Innovation and experimentation is encouraged through the use of extensions to the CycloneDX standard. This allows for rapid prototyping, testing, and verification without impacting the core standard.</p>
+  <p>Innovation and experimentation is encouraged through the use of extensions to the CycloneDX standard. This allows for rapid prototyping, testing, and verification, without impacting the core standard.</p>
 </div>
 
 <button type="button" class="collapsible">Produce immutable and backward compatible releases</button>
@@ -65,12 +65,12 @@ micro_nav: false
 
 <button type="button" class="collapsible">Automation and optimization of BOM creation</button>
 <div class="collapsible-content">
-  <p>The CycloneDX project focuses on the efficiency at which BOMs are created, by creating implementations that are easily automatable and integrated into all major development platforms and ecosystems.</p>
+  <p>The CycloneDX project focuses on the efficiency at which BOMs are created. By creating implementations that are easily automatable and integrated into all major development platforms and ecosystems.</p>
 </div>
 
 <button type="button" class="collapsible">Full-stack BOM specification</button>
 <div class="collapsible-content">
-  <p>CycloneDX describes the entire stack for which software runs including operating systems, containers, firmware, applications, libraries, frameworks, files, services, and optionally, hardware.</p>
+  <p>CycloneDX describes the entire stack for which software runs. Including operating systems, containers, firmware, applications, libraries, frameworks, files, services, and optionally, hardware.</p>
 </div>
 
 </div>
