@@ -18,7 +18,7 @@ micro_nav: false
 ---
 
 # Governance
-**DRAFT**
+**December 2020**
 
 ## Introduction
 The CycloneDX Project Governance model is based on the [Meritocratic governance model](http://www.oss-watch.ac.uk/resources/meritocraticGovernanceModel.xml?style=printable) by Ross Gardler and Gabriel Hanganu. And is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).			 			
