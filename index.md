@@ -19,7 +19,7 @@ micro_nav: false
 
 ## Introduction
 
-Modern software is assembled using third-party and open source components. Glued together in complex and unique ways 
+Modern software is assembled using third-party and open source components. They are glued together in complex and unique ways 
 and integrated with original code to achieve the desired functionality. An accurate inventory of all components enables 
 organizations to identify risk, allows for greater transparency, and enables rapid impact analysis.
 
