@@ -23,9 +23,9 @@ micro_nav: false
 ## Introduction
 This is a meritocratic, consensus-based community project. Anyone with an interest in the project can join the community, contribute to the project design and participate in the decision making process.
 
-Community members who want to be involved in the standards process should be familiar with the CycloneDX Project Guiding Principles and the CycloneDX Specification Design Principles.
+Community members who want to be involved in the standards process should be familiar with the [CycloneDX Project Guiding Principles](/about/guiding-principles) and the CycloneDX Specification Design Principles.
 
-For more information on project governance please refer to the CycloneDX Project Governance document. Community members who want to participate in voting should also refer to the CycloneDX Voting Process document.
+For more information on project governance please refer to [CycloneDX Project Governance](/about/governance). Community members who want to participate in voting should also refer to [CycloneDX Voting Process](/about/voting-process).
 
 ## Standardization Process
 Proposed modifications and additions to the core specification and official extensions start as a discussion in the specification RFC tracker.
@@ -38,7 +38,7 @@ All RFCs will be announced via the CycloneDX mailing list. If a meeting is plann
 
 The deadline for comments is typically 4 weeks but will be specified when the RFC is created. Although extensions may be granted to ensure sufficient feedback is received from relevant subject matter experts in the community. Any extensions will be at the discretion of the CycloneDX Core Team.
 
-At the end of the RFC period the CycloneDX community will vote, by lazy consensus, to accept or reject the proposal and the initial in scope use cases and requirements that have been discussed. This will be announced via the CycloneDX mailing list. Community members wishing to participate in the voting process should take into consideration the CycloneDX Project Guiding Principles and CycloneDX Specification Design Principles. For more details on the voting process refer to the CycloneDX Voting Process document.
+At the end of the RFC period the CycloneDX community will vote, by lazy consensus, to accept or reject the proposal and the initial in scope use cases and requirements that have been discussed. This will be announced via the CycloneDX mailing list. Community members wishing to participate in the voting process should take into consideration the [CycloneDX Project Guiding Principles](/about/guiding-principles) and CycloneDX Specification Design Principles. For more details on the voting process refer to [CycloneDX Voting Process](/about/voting-process).
 
 Once the proposal is accepted, it will be recorded in the specification issue tracker to track implementation. The issue will be linked to the initial RFC discussion and assigned to the CycloneDX community member responsible for leading the implementation.
 
