@@ -68,7 +68,11 @@ function generateTemplate(member) {
 
 function generateName(member) {
   if (member.organization) {
-    return `<h4 class="profile-name">${member.displayName}<br><span class="profile-org">${member.organization}</span></h4>`;
+    if (member.homepage) {
+      return `<h4 class="profile-name">${member.displayName}<br><span class="profile-org"><a href="${member.homepage}">${member.organization}</a></span></h4>`;
+    } else {
+      return `<h4 class="profile-name">${member.displayName}<br><span class="profile-org">${member.organization}</span></h4>`;
+    }
   } else {
     return `<h4 class="profile-name">${member.displayName}</h4>`;
   }
