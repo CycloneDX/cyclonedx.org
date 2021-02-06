@@ -45,7 +45,7 @@ micro_nav: false
 
 <button type="button" class="collapsible">Continuous improvement - innovate quickly, improve over time</button>
 <div class="collapsible-content">
-  <p>Incremental and measurable improvement is a foundational principal of the CycloneDX project. Rather than spending years attempting to draft the perfect standard, the project focuses on core use cases and expands capabilities over time.</p>
+  <p>Incremental and measurable improvement is a foundational principle of the CycloneDX project. Rather than spending years attempting to draft the perfect standard, the project focuses on core use cases and expands capabilities over time.</p>
 </div>
 
 <button type="button" class="collapsible">Encourage innovation and competition through extensions</button>
