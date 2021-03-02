@@ -1,9 +1,12 @@
 function populateCards() {
   let coreWG = document.getElementById("core-wg");
+  let maintainers = document.getElementById("maintainers-wg");
   let industryWG = document.getElementById("industry-wg");
   let coreWGhtml = "";
+  let maintainershtml = "";
   let industryWGhtml = "";
   let coreWGcount = 0;
+  let maintainerscount = 0;
   let industryWGcount = 0;
   let xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
@@ -11,7 +14,7 @@ function populateCards() {
       let rowBegin = `<div class="row" style="margin-bottom: 6em">`;
       let rowEnd = `</div>`;
       let members = JSON.parse(this.responseText);
-      // Sort alphabetically by tool name
+      // Sort alphabetically by last name
       members.sort((a, b) => (a.lastName > b.lastName) ? 1 : -1);
       for (let i = 0; i < members.length; i++) {
         let member = members[i];
@@ -26,6 +29,15 @@ function populateCards() {
               coreWGhtml += template;
             }
             coreWGcount++;
+          } else if (member.categories[aa] === "maintainers") {
+            if (maintainerscount === 0) {
+              maintainershtml += rowBegin + template;
+            } else if (maintainerscount % 3 === 0) {
+              maintainershtml += rowEnd + rowBegin + template;
+            } else {
+              maintainershtml += template;
+            }
+            maintainerscount++;
           } else if (member.categories[aa] === "industry") {
             if (industryWGcount === 0) {
               industryWGhtml += rowBegin + template;
@@ -39,8 +51,10 @@ function populateCards() {
         }
       }
       coreWGhtml += rowEnd;
+      maintainershtml += rowEnd;
       industryWGhtml += rowEnd;
       coreWG.insertAdjacentHTML('beforeend', coreWGhtml);
+      maintainers.insertAdjacentHTML('beforeend', maintainershtml);
       industryWG.insertAdjacentHTML('beforeend', industryWGhtml);
 
     }

@@ -26,6 +26,11 @@ micro_nav: false
 <div id="core-wg">  
 </div>
 
+## Maintainers
+
+<div id="maintainers-wg">  
+</div>
+
 ## Industry Working Group
 
 <div id="industry-wg">  
