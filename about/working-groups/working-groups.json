@@ -28,6 +28,20 @@
     ]
   },
   {
+    "displayName": "Niklas Düster",
+    "lastName": "Düster",
+    "headshot": "niklas-düster.jpg",
+    "organization": "PAYONE",
+    "description": null,
+    "twitter": "nscur0",
+    "linkedin": "niklasduester",
+    "github": "nscuro",
+    "homepage": "https://www.payone.com",
+    "categories": [
+      "maintainers"
+    ]
+  },
+  {
     "displayName": "JC Herz",
     "lastName": "Herz",
     "headshot": "jc-herz.jpg",
