@@ -42,6 +42,20 @@
     ]
   },
   {
+    "displayName": "Jan Kowalleck",
+    "lastName": "Kowalleck",
+    "headshot": "jan-kowalleck.jpg",
+    "organization": "Software Engineer",
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "jkowalleck",
+    "homepage": null,
+    "categories": [
+      "maintainers"
+    ]
+  },
+  {
     "displayName": "JC Herz",
     "lastName": "Herz",
     "headshot": "jc-herz.jpg",
