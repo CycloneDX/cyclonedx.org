@@ -56,6 +56,17 @@
     ]
   },
   {
+    "name": "CycloneDX library for Go",
+    "publisher": "CycloneDX",
+    "description": "Go library to consume and produce CycloneDX Software Bill of Materials (SBOM)",
+    "repoUrl": "https://github.com/CycloneDX/cyclonedx-go",
+    "websiteUrl": "https://github.com/CycloneDX/cyclonedx-go",
+    "categories": [
+      "opensource",
+      "library"
+    ]
+  },
+  {
     "name": "CycloneDX for Gradle",
     "publisher": "CycloneDX",
     "description": "Creates CycloneDX SBOMs for Java (Gradle) projects",
