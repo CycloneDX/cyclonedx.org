@@ -67,6 +67,17 @@
     ]
   },
   {
+    "name": "CycloneDX for Go modules",
+    "publisher": "CycloneDX",
+    "description": "Creates CycloneDX Software Bill of Materials (SBOM) from Go modules",
+    "repoUrl": "https://github.com/CycloneDX/cyclonedx-gomod",
+    "websiteUrl": "https://github.com/CycloneDX/cyclonedx-gomod",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
+  },
+  {
     "name": "CycloneDX for Gradle",
     "publisher": "CycloneDX",
     "description": "Creates CycloneDX SBOMs for Java (Gradle) projects",
