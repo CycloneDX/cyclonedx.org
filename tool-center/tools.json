@@ -545,5 +545,16 @@
       "opensource",
       "transform"
     ]
+  },
+  {
+    "name": "CycloneDX Rust",
+    "publisher": "Mark Dodgson",
+    "description": "A Rust library to encode and decode the CycloneDX object model",
+    "repoUrl": "https://github.com/doddi/cyclonedx-rust",
+    "websiteUrl": "https://github.com/doddi/cyclonedx-rust",
+    "categories": [
+      "opensource",
+      "library"
+    ]
   }
 ]
