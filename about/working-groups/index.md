@@ -35,3 +35,8 @@ micro_nav: false
 
 <div id="industry-wg">  
 </div>
+
+## Contributors
+
+<div id="contributors-wg">  
+</div>
