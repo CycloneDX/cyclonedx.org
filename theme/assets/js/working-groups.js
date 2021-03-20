@@ -2,12 +2,15 @@ function populateCards() {
   let coreWG = document.getElementById("core-wg");
   let maintainers = document.getElementById("maintainers-wg");
   let industryWG = document.getElementById("industry-wg");
+  let contributors = document.getElementById("contributors-wg");
   let coreWGhtml = "";
   let maintainershtml = "";
   let industryWGhtml = "";
+  let contributorshtml= "";
   let coreWGcount = 0;
   let maintainerscount = 0;
   let industryWGcount = 0;
+  let contributorsCount = 0;
   let xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
     if (this.readyState === 4 && this.status === 200) {
@@ -47,6 +50,15 @@ function populateCards() {
               industryWGhtml += template;
             }
             industryWGcount++;
+          } else if (member.categories[aa] === "contributors") {
+            if (contributorsCount === 0) {
+              contributorshtml += rowBegin + template;
+            } else if (contributorsCount % 3 === 0) {
+              contributorshtml += rowEnd + rowBegin + template;
+            } else {
+              contributorshtml += template;
+            }
+            contributorsCount++;
           }
         }
       }
@@ -56,6 +68,7 @@ function populateCards() {
       coreWG.insertAdjacentHTML('beforeend', coreWGhtml);
       maintainers.insertAdjacentHTML('beforeend', maintainershtml);
       industryWG.insertAdjacentHTML('beforeend', industryWGhtml);
+      contributors.insertAdjacentHTML('beforeend', contributorshtml);
 
     }
   };
@@ -64,10 +77,18 @@ function populateCards() {
 }
 
 function generateTemplate(member) {
+  if (member.headshot.startsWith('https://'))
+  {
+    var headshotUrl = member.headshot;
+  }
+  else
+  {
+    var headshotUrl = "/theme/assets/images/headshots/" + member.headshot;
+  }
   return `
     <div class="col-sm-4 col-md-4">
       <div class="thumbnail">
-        <img class="profile" src="/theme/assets/images/headshots/${member.headshot}">
+        <img class="profile" src="${headshotUrl}">
         <div class="caption">
           ${generateName(member)}
           ${generateDescription(member)}
