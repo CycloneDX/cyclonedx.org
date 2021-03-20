@@ -1,0 +1,27 @@
+name: Update contributors
+
+on:
+  workflow_dispatch:
+  schedule:
+    # run weekly, every Sunday at 0:00
+    - cron: '0 0 * * 0'
+
+jobs:
+  udpate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Check for new contributors
+    - env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        ./update_contributors.py
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        branch: contributors
+        delete-branch: true
+        title: Update contributors
