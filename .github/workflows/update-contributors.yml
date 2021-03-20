@@ -13,8 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Check for new contributors
-    - env:
+      env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         ./update_contributors.py
