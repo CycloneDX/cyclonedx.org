@@ -26,3 +26,4 @@ jobs:
         branch: contributors
         delete-branch: true
         title: Update contributors
+        commit-message: Update contributors
