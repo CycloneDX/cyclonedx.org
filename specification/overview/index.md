@@ -55,6 +55,11 @@ CycloneDX provides the ability to describe components and their dependency on ot
 capable of representing both direct and transitive relationships. Components that depend on services can be represented 
 in the dependency graph and services that depend on other services can be represented as well.
 
+## Compositions
+Compositions describe constituent parts (including components, services, and dependency relationships) and their 
+completeness. The aggregate of each composition can be described as complete, incomplete, incomplete first-party only, 
+incomplete third-party only, incomplete redacted, or unknown.
+
 ## Extensions
 Multiple extension points exist throughout the CycloneDX object model allowing fast prototyping of new capabilities
 and support for specialized and future use cases. The CycloneDX project maintains extensions that are beneficial to
