@@ -7,8 +7,8 @@ banner: false
 
 # Hero section
 title: CycloneDX Extensions
-window_title: CycloneDX Extension - Dependency Graph (Tree)
-description: The CycloneDX Dependency Graph extension provides the ability to optionally describe component dependencies 
+window_title: CycloneDX Extension - Dependency Graph (OBSOLETE)
+description: The CycloneDX Dependency Graph extension provides the ability to optionally describe component dependencies
 
 # Micro navigation
 micro_nav: true
@@ -17,7 +17,7 @@ micro_nav: true
 
 ---
 
-# Extension: Dependency Graph
+# Extension: Dependency Graph (OBSOLETE)
 The Dependency Graph extension provides the ability to describe components and their dependency on other components. 
 This extension relies on a components `bom-ref` to associate the component to the dependency element in the graph. 
 The only requirement for bom-ref is that it is unique within the BOM. The Package URL (PURL) is an ideal choice for 
