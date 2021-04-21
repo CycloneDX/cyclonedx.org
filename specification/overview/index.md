@@ -59,7 +59,7 @@ in the dependency graph and services that depend on other services can be repres
 ## Compositions
 Compositions describe constituent parts (including components, services, and dependency relationships) and their 
 completeness. The aggregate of each composition can be described as complete, incomplete, incomplete first-party only, 
-incomplete third-party only, incomplete redacted, or unknown.
+incomplete third-party only, or unknown.
 
 ## Extensions
 Multiple extension points exist throughout the CycloneDX object model allowing fast prototyping of new capabilities
