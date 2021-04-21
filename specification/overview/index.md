@@ -24,7 +24,7 @@ micro_nav: false
 <img src="/theme/assets/images/high-level-object-model-small.svg" width="331" height="202" alt="CycloneDX Object Model Overview" style="display:block; float:right; margin:10px">
 
 The CycloneDX object model:
-* can be represented as XML and JSON
+* can be represented as XML, JSON and Protocol Buffers
 * consists of [metadata](#bom-metadata), [components](#components), [services](#services), and [dependencies](#dependencies)
 * is prescriptive and simple to use
 * can easily describe complex relationships
@@ -68,5 +68,9 @@ The following media types are officially registered with IANA:
 
 | Media Type | Format | Assignment |
 | ------- | --------- | --------- |
-| vnd.cyclonedx+xml | XML | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+xml) |
-| vnd.cyclonedx+json | JSON | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+json) |
+| application/vnd.cyclonedx+xml | XML | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+xml) |
+| application/vnd.cyclonedx+json | JSON | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+json) |
+
+Specific versions of CycloneDX can be specified by using the version parameter. i.e. `application/vnd.cyclonedx+xml; version=1.3`.
+
+The officially supported media type for Protocol Buffer format is `application/x.vnd.cyclonedx+protobuf`.
