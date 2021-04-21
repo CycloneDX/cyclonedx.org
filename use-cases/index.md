@@ -235,6 +235,15 @@ used to create the BOM.
 
 {% include examples/packaging-distribution.html %}
 
+## Composition completeness
+
+The inventory of components, services, and their relationships to one another can be described through the use of 
+compositions. The aggregate of each composition can be described as complete, incomplete, incomplete first-party only,
+incomplete third-party only, or unknown. This allows SBOM authors to describe how complete the SBOM is or if there are
+components in the SBOM where completeness is unknown.
+
+{% include examples/compositions.html %}
+
 ## Exploitability
 
 Vulnerability and Exploitability (VEX) use cases are also possible through the use of the optional [vulnerability
