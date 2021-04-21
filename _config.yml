@@ -46,4 +46,5 @@ sass:
 layouts_dir: ./theme/_layouts
 includes_dir: ./theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md' ]
+include: [ '_redirects' ]
 permalink: /:title/
