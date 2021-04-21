@@ -32,7 +32,8 @@ The CycloneDX object model:
 
 
 ## BOM Metadata
-BOM metadata includes the supplier, manufacturer, and the target component for which the SBOM describes. It also includes the tools used to create the SBOM.
+BOM metadata includes the supplier, manufacturer, and the target component for which the BOM describes. It also includes
+the tools used to create the BOM, and license information for the BOM document itself.
 
 ## Components
 Components describe the complete inventory of first-party and third-party components. Component identity can be represented as:
