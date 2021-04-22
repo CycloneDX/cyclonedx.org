@@ -247,8 +247,8 @@ used to create the BOM.
 
 The inventory of components, services, and their relationships to one another can be described through the use of 
 compositions. The aggregate of each composition can be described as complete, incomplete, incomplete first-party only,
-incomplete third-party only, or unknown. This allows SBOM authors to describe how complete the SBOM is or if there are
-components in the SBOM where completeness is unknown.
+incomplete third-party only, or unknown. This allows BOM authors to describe how complete the BOM is or if there are
+components in the BOM where completeness is unknown.
 
 {% include examples/compositions.html %}
 
