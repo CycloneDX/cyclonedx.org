@@ -227,6 +227,14 @@ between components. Additionally, services that depend on other services can als
 
 {% include examples/services.html %}
 
+## Key-value store
+The CycloneDX standard is fully extensible allowing for complex data to be represented in the BOM that is not provided
+by the core specification. In many cases however, key-value pairs are a simpler option. CycloneDX supports Properties
+which is a key-value store that can be used to describe additional data about the components, services, or the BOM
+that isn't native to the core specification.
+
+{% include examples/properties.html %}
+
 ## Packaging and distribution 
 
 For software that is produced for the consumption of others, it is important to apply additional metadata about the
