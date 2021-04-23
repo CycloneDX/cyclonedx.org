@@ -227,11 +227,12 @@ between components. Additionally, services that depend on other services can als
 
 {% include examples/services.html %}
 
-## Key-value store
+## Properties / name-value store
 The CycloneDX standard is fully extensible allowing for complex data to be represented in the BOM that is not provided
-by the core specification. In many cases however, key-value pairs are a simpler option. CycloneDX supports Properties
-which is a key-value store that can be used to describe additional data about the components, services, or the BOM
-that isn't native to the core specification.
+by the core specification. In many cases however, name-value pairs are a simpler option. CycloneDX supports Properties
+which is a name-value store that can be used to describe additional data about the components, services, or the BOM
+that isn't native to the core specification. Unlike key-value stores, properties support duplicate names, each 
+potentially having different values.
 
 {% include examples/properties.html %}
 

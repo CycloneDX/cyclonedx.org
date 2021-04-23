@@ -10,8 +10,10 @@
      version="1">
     <metadata>
         <properties>
-            <property key="Foo" value="123"/>
-            <property key="Bar" value="ABC"/>
+            <property name="Foo">Bar</property>
+            <property name="Foo">You</property>
+            <property name="Foo">Two</property>
+            <property name="Bar">Foo</property>
         </properties>
     </metadata>
     <components>
@@ -54,12 +56,20 @@
   "metadata": {
     "properties": [
       {
-        "key": "Foo",
-        "value": "123"
+        "name": "Foo",
+        "value": "Bar"
       },
       {
-        "key": "Bar",
-        "value": "ABC"
+        "name": "Foo",
+        "value": "You"
+      },
+      {
+        "name": "Foo",
+        "value": "Two"
+      },
+      {
+        "name": "Bar",
+        "value": "Foo"
       }
     ]
   },
