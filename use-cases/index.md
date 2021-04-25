@@ -253,17 +253,41 @@ components in the BOM where completeness is unknown.
 
 {% include examples/compositions.html %}
 
-## Exploitability
+## Vulnerability remediation
 
-Vulnerability and Exploitability (VEX) use cases are also possible through the use of the optional [vulnerability
-schema extension](/ext/vulnerability). Through the use of this extension, it is possible to document known 
-vulnerabilities per component as well as zero or more risk ratings per vulnerability. For example, a component
-may have a CVE with a CVSS score of 9.8, however, if the vulnerable function or method in the component is not called or
-if there are mitigating controls, additional risk ratings may be added to the vulnerability to provide a more accurate
-representation of risk.
+By leveraging the [pedigree](#pedigree) capabilities of CycloneDX, it is possible to describe remediations made to
+vulnerable components. In some cases, upgrading to a non-vulnerable version of a component may not be possible due to
+incompatibilities, or the project may no longer be maintained. In these situations, CycloneDX can describe all changes 
+that were made to the components along with the vulnerabilities those changes resolve.
+
+{% include examples/vulnerability-remediation.html %}
+
+## Vulnerability disclosure
+
+CycloneDX can optionally include vulnerabilities from the inventory of components and services. This is accomplished
+through the use of the [vulnerability schema extension](/ext/vulnerability). Common use cases of this extension are 
+seen in Software Composition Analysis (SCA) tools, OCI container analysis tools, and other software or systems that 
+analyze components, identify inherited risk, and generate SBOMs with component inventory and associated vulnerabilities.
+
+Vulnerability data is subject to change, even if the SBOM and its inventory of components does not. Due to the dynamic
+nature of vulnerability data, it is recommended that SBOMs with this information have a relatively short shelf-life and
+not persisted or referenced for longer periods of time. 
+
+CycloneDX can also reference dynamic vulnerability information through its support of 
+[security advisories](#security-advisories).
 
 <div class="callout callout--warning">
 The vulnerability schema extension is only available in XML. It is not currently available in JSON.
 </div>
 
-{% include examples/vex.html %}
+{% include examples/vulnerability-disclosure.html %}
+
+## Security advisories
+
+CycloneDX supports many different types of [external references](#external-references) including security advisories.
+Zero or more URLs to security advisories for a given component or service can be specified. CycloneDX does not prescribe
+the advisory format, however the [Common Security Advisory Framework (CSAF)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=csaf) 
+is recommended.
+
+{% include examples/security-advisories.html %}
+
