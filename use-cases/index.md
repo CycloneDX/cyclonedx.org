@@ -291,3 +291,29 @@ is recommended.
 
 {% include examples/security-advisories.html %}
 
+## External references
+
+External references provide a way to document systems, sites, and information that may be relevant but which are not 
+included with the BOM. External references can be applied to individual components, services, or to the BOM itself.
+
+{% include examples/external-references.html %}
+
+The following external reference types are supported:
+
+| Type | Description |
+| --- | --- |
+| advisories | Security advisories (e.g. CSAF) |
+| bom | Bill of materials document (CycloneDX, SPDX, etc) |
+| build-meta | Build-system specific meta file (i.e. pom.xml, package.json, .nuspec, etc) |
+| build-system | Automated build system |
+| chat | Real-time chat platform |
+| distribution | Direct or repository download location |
+| documentation | Documentation, guides, or how-to instructions |
+| issue-tracker | Issue or defect tracking system, or an Application Lifecycle Management (ALM) system |
+| license | License file. If a license URL has been defined in the license node, it should also be defined as an external reference for completeness |
+| mailing-list | Mailing list or discussion group |
+| other | Use this if no other types accurately describe the purpose of the external reference |
+| social | Social media account |
+| support | Community or commercial support |
+| vcs | Version Control System |
+| website | Website |
