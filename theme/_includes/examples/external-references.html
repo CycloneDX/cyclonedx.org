@@ -33,6 +33,22 @@
                 </reference>
             </externalReferences>
         </component>
+        <component type="library">
+            <group>org.example</group>
+            <name>persistence</name>
+            <version>5.2.0</version>
+            <externalReferences>
+                <reference type="bom">
+                    <url>urn:uuid:bdd819e6-ee8f-42d7-a4d0-166ff44d51e8</url>
+                    <comment>Refers to a specific BOM with the specified serial number</comment>
+                    <hashes>
+                        <hash alg="SHA-256">9048a24d72d3d4a1a0384f8f925566b44f133dd2a0194111a2daeb1cf9f7015b</hash>
+                        <hash alg="SHA-384">8640424aa9bf337678580c55d23e54b973703c6e586987d85700f24d5de383cd1add590ee5b98d1710a01aff212687f3</hash>
+                        <hash alg="SHA-512">45c6e3d03ec4207234e926063c484446d8b55f4bfce3f929f44cbc2320565290cc4b71de70c1d983792c6d63504f47f6b94513d09847dbae69c8f7cdd51ce980</hash>
+                    </hashes>
+                </reference>
+            </externalReferences>
+        </component>
     </components>
 </bom>
 {% endraw %}
@@ -83,6 +99,33 @@
           "type": "documentation",
           "url": "https://example.org/support/documentation/portal-server/1.0.0",
           "comment": "Vendor provided documentation for the product"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "group": "org.example",
+      "name": "persistence",
+      "version": "5.2.0",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:uuid:bdd819e6-ee8f-42d7-a4d0-166ff44d51e8",
+          "comment": "Refers to a specific BOM with the specified serial number",
+          "hashes": [
+            {
+              "alg": "SHA-256",
+              "content": "9048a24d72d3d4a1a0384f8f925566b44f133dd2a0194111a2daeb1cf9f7015b"
+            },
+            {
+              "alg": "SHA-384",
+              "content": "8640424aa9bf337678580c55d23e54b973703c6e586987d85700f24d5de383cd1add590ee5b98d1710a01aff212687f3"
+            }
+            {
+              "alg": "SHA-512",
+              "content": "45c6e3d03ec4207234e926063c484446d8b55f4bfce3f929f44cbc2320565290cc4b71de70c1d983792c6d63504f47f6b94513d09847dbae69c8f7cdd51ce980"
+            }
+          ]
         }
       ]
     }
