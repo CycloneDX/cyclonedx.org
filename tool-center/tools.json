@@ -491,9 +491,9 @@
     ]
   },
   {
-    "name": "SBOM Demo",
+    "name": "SwiftBOM",
     "publisher": "CERT Coordination Center (CERT/CC)",
-    "description": "Tool that manually creates SBOMs for the NTIA healthcare proof-of-concept.",
+    "description": "Generates SBOMs for demo and PoC purposes",
     "repoUrl": "https://github.com/CERTCC/SBOM",
     "websiteUrl": "https://sbom.democert.org/sbom/",
     "categories": [
@@ -555,6 +555,119 @@
     "categories": [
       "opensource",
       "library"
+    ]
+  },
+  {
+    "name": "CycloneDX for Cocoapods",
+    "publisher": "CycloneDX",
+    "description": "Creates CycloneDX SBOMs for iOS Objective-C and Swift projects",
+    "repoUrl": "https://github.com/CycloneDX/cyclonedx-cocoapods",
+    "websiteUrl": "https://github.com/CycloneDX/cyclonedx-cocoapods",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
+  },
+  {
+    "name": "mdbom",
+    "publisher": "Robert Hansel",
+    "description": "Transforms CycloneDX SBOMs to Markdown",
+    "repoUrl": "https://github.com/HaRo87/mdbom",
+    "websiteUrl": "https://haro87.github.io/mdbom/",
+    "categories": [
+      "opensource",
+      "transform"
+    ]
+  },
+  {
+    "name": "OpenRewrite",
+    "publisher": "OpenRewrite Project",
+    "description": "Rewrite is a mass refactoring system, designed to eliminate technical debt across an engineering. The project can generate CycloneDX SBOMs when refactoring",
+    "repoUrl": "https://github.com/openrewrite/rewrite",
+    "websiteUrl": "https://github.com/openrewrite/rewrite",
+    "categories": [
+      "opensource"
+    ]
+  },
+  {
+    "name": "Defect Dojo",
+    "publisher": "OWASP",
+    "description": "Open source vulnerability management and automation platform that can import CycloneDX SBOMs containing vulnerability information",
+    "repoUrl": "https://github.com/DefectDojo/django-DefectDojo",
+    "websiteUrl": "https://www.defectdojo.org/",
+    "categories": [
+      "opensource",
+      "analysis"
+    ]
+  },
+  {
+    "name": "OSS Inventory",
+    "publisher": "Thiago Pinto",
+    "description": "Imports CycloneDX SBOMs and visualizes OSS statistics",
+    "repoUrl": "https://github.com/thspinto/oss_inventory",
+    "websiteUrl": "https://github.com/thspinto/oss_inventory",
+    "categories": [
+      "opensource"
+    ]
+  },
+  {
+    "name": "Fortress File Integrity Assurance",
+    "publisher": "Fortress Information Security",
+    "description": "Creates SBOM from binary or archive, consumes externally provided SBOM, enriches SBOM with Fortress risk analysis, integrates via API to support continuous monitoring of software assurance.",
+    "websiteUrl": "https://assettovendor.com/fia",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
+  },
+  {
+    "name": "Software Assurance Guardian Point Man",
+    "publisher": "Reliable Energy Analytics LLC",
+    "description": "SAG-PM processes CycloneDX SBOM’s as part of a seven step software supply chain risk assessment",
+    "websiteUrl": "https://reliableenergyanalytics.com/products",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
+  },
+  {
+    "name": "Cybeats SBOM Studio",
+    "publisher": "Cybeats Technologies Inc.",
+    "description": "Analyzes IoT firmware and generates SBOMs with the runtime data information for more precise identification of vulnerabilities and exploits abilities",
+    "websiteUrl": "https://cybeats.com",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
+  },
+  {
+    "name": "TrustSource",
+    "publisher": "TrustSource",
+    "description": "TrustSource is a SaaS platform for implementing and maintaining open source compliance (ISO 5230 compliant). It can import CycloneDX, match them with its own information and add them to projects as modules for further analysis.",
+    "websiteUrl": "https://www.trustsource.io/",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
+  },
+  {
+    "name": "JDisc Discovery",
+    "publisher": "JDisc",
+    "description": "Network discovery and IT inventory that can discover CycloneDX SBOMs on enterprise assets and ingest component inventory into the platform.",
+    "websiteUrl": "https://www.jdisc.com/",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
+  },
+  {
+    "name": "PulseUno Plugin for Dimensions CM",
+    "publisher": "Microfocus",
+    "description": "PulseUno enables development teams to continually build and inspect the health and quality of code using plugins such as CycloneDX. Teams can use this information to help decide when changes are ready to be merged, deployed, and released.",
+    "websiteUrl": "https://www.microfocus.com/en-us/products/dimensions-cm",
+    "categories": [
+      "proprietary",
+      "build-integration"
     ]
   }
 ]
