@@ -22,15 +22,15 @@ micro_nav: true
 <p><span id="category-description"></span></p>
 
 <div id="button-container">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('opensource', 'Open source tools that support CycloneDX')"> Open source</button>
-  <button class="btn" onclick="filterSelection('proprietary', 'Proprietary tools that support CycloneDX')"> Proprietary</button>
-  <button class="btn" onclick="filterSelection('build-integration', 'Tools that integrate with build systems and package managers')"> Build integration</button>
-  <button class="btn" onclick="filterSelection('analysis', 'Tools that can analyze CycloneDX SBOMs')"> Analysis</button>
-  <button class="btn" onclick="filterSelection('author', 'Tools that human authors can use to create CycloneDX SBOMs')"> Author</button>
-  <button class="btn" onclick="filterSelection('github-action', 'GitHub actions which produce CycloneDX SBOMS')"> GitHub action</button>
-  <button class="btn" onclick="filterSelection('transform', 'Tools that transform CycloneDX into other formats or that transform other formats into CycloneDX')"> Transform</button>
-  <button class="btn" onclick="filterSelection('library', 'Modular components that can programmatically create, parse, or validate CycloneDX SBOMs')"> Library</button>
+  <button class="btn active" onclick="filterSelection('all')"> Show all <span id="btn-badge-all" class="badge"></span></button>
+  <button class="btn" onclick="filterSelection('opensource', 'Open source tools that support CycloneDX')"> Open source <span id="btn-badge-opensource" class="badge"></span></button>
+  <button class="btn" onclick="filterSelection('proprietary', 'Proprietary tools that support CycloneDX')"> Proprietary <span id="btn-badge-proprietary" class="badge"></span></button>
+  <button class="btn" onclick="filterSelection('build-integration', 'Tools that integrate with build systems and package managers')"> Build integration <span id="btn-badge-build-integration" class="badge"></span></button>
+  <button class="btn" onclick="filterSelection('analysis', 'Tools that can analyze CycloneDX SBOMs')"> Analysis <span id="btn-badge-analysis" class="badge"></span></button>
+  <button class="btn" onclick="filterSelection('author', 'Tools that human authors can use to create CycloneDX SBOMs')"> Author <span id="btn-badge-author" class="badge"></span></button>
+  <button class="btn" onclick="filterSelection('github-action', 'GitHub actions which produce CycloneDX SBOMS')"> GitHub action <span id="btn-badge-github-action" class="badge"></span></button>
+  <button class="btn" onclick="filterSelection('transform', 'Tools that transform CycloneDX into other formats or that transform other formats into CycloneDX')"> Transform <span id="btn-badge-transform" class="badge"></span></button>
+  <button class="btn" onclick="filterSelection('library', 'Modular components that can programmatically create, parse, or validate CycloneDX SBOMs')"> Library <span id="btn-badge-library" class="badge"></span></button>
 </div>
 
 <div class="cards" id="tools">  
