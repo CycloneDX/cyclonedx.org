@@ -25,7 +25,7 @@ micro_nav: false
 
 The CycloneDX object model:
 * can be represented as XML, JSON and Protocol Buffers
-* consists of [metadata](#bom-metadata), [components](#components), [services](#services), and [dependencies](#dependencies)
+* consists of [metadata](#bom-metadata), [components](#components), [services](#services), [dependencies](#dependencies), and [compositions](#compositions).
 * is prescriptive and simple to use
 * can easily describe complex relationships
 * is [extensible](#extensions) to support specialized and future use cases

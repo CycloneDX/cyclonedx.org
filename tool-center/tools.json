@@ -24,7 +24,7 @@
   {
     "name": "CycloneDX Libraries for .NET",
     "publisher": "CycloneDX",
-    "description": ".NET libraries to consume and produce CycloneDX Software Bill-of-Materials (SBOM)",
+    "description": ".NET libraries to consume and produce CycloneDX Software Bill of Materials (SBOM)",
     "repoUrl": "https://github.com/CycloneDX/cyclonedx-dotnet-library",
     "websiteUrl": "https://www.nuget.org/profiles/CycloneDX",
     "categories": [
@@ -201,7 +201,7 @@
   {
     "name": "CycloneDX-Buildroot",
     "publisher": "alvinchchen",
-    "description": "The CycloneDX-buildroot module for Python creates a valid CycloneDX bill-of-material document from buildroot manifest.xlsx files",
+    "description": "The CycloneDX-buildroot module for Python creates a valid CycloneDX bill of materials from buildroot manifest.xlsx files",
     "repoUrl": "https://github.com/alvinchchen/cyclonedx-buildroot",
     "websiteUrl": "https://github.com/alvinchchen/cyclonedx-buildroot",
     "categories": [
