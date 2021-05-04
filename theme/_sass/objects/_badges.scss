@@ -1,0 +1,19 @@
+.badge {
+  display: inline-block;
+  min-width: 20px;
+  padding: 2px 5px;
+  font-size: 0.75rem;
+  color: $color-badge-font;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: $color-badge-bg;
+  border-radius: 10px;
+  margin-left: 3px;
+  margin-top: -2px;
+}
+
+button.active span.badge {
+  color: $color-badge-font-active;
+  background-color: $color-badge-bg-active;
+}

@@ -24,15 +24,16 @@ micro_nav: false
 <img src="/theme/assets/images/high-level-object-model-small.svg" width="331" height="202" alt="CycloneDX Object Model Overview" style="display:block; float:right; margin:10px">
 
 The CycloneDX object model:
-* can be represented as XML and JSON
-* consists of [metadata](#bom-metadata), [components](#components), [services](#services), and [dependencies](#dependencies)
+* can be represented as XML, JSON and Protocol Buffers
+* consists of [metadata](#bom-metadata), [components](#components), [services](#services), [dependencies](#dependencies), and [compositions](#compositions).
 * is prescriptive and simple to use
 * can easily describe complex relationships
 * is [extensible](#extensions) to support specialized and future use cases
 
 
 ## BOM Metadata
-BOM metadata includes the supplier, manufacturer, and the target component for which the SBOM describes. It also includes the tools used to create the SBOM.
+BOM metadata includes the supplier, manufacturer, and the target component for which the BOM describes. It also includes
+the tools used to create the BOM, and license information for the BOM document itself.
 
 ## Components
 Components describe the complete inventory of first-party and third-party components. Component identity can be represented as:
@@ -55,6 +56,11 @@ CycloneDX provides the ability to describe components and their dependency on ot
 capable of representing both direct and transitive relationships. Components that depend on services can be represented 
 in the dependency graph and services that depend on other services can be represented as well.
 
+## Compositions
+Compositions describe constituent parts (including components, services, and dependency relationships) and their 
+completeness. The aggregate of each composition can be described as complete, incomplete, incomplete first-party only, 
+incomplete third-party only, or unknown.
+
 ## Extensions
 Multiple extension points exist throughout the CycloneDX object model allowing fast prototyping of new capabilities
 and support for specialized and future use cases. The CycloneDX project maintains extensions that are beneficial to
@@ -68,5 +74,9 @@ The following media types are officially registered with IANA:
 
 | Media Type | Format | Assignment |
 | ------- | --------- | --------- |
-| vnd.cyclonedx+xml | XML | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+xml) |
-| vnd.cyclonedx+json | JSON | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+json) |
+| application/vnd.cyclonedx+xml | XML | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+xml) |
+| application/vnd.cyclonedx+json | JSON | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+json) |
+
+Specific versions of CycloneDX can be specified by using the version parameter. i.e. `application/vnd.cyclonedx+xml; version=1.3`.
+
+The officially supported media type for Protocol Buffer format is `application/x.vnd.cyclonedx+protobuf`.

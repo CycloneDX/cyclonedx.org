@@ -10,8 +10,14 @@ function populateCards() {
         let tool = tools[i];
         let classes = tool.categories.join(" ");
         let categoryTemplate = "";
+        let elmAll = document.getElementById("btn-badge-all");
+        if (elmAll && !elmAll.innerText) elmAll.innerText = "0";
+        elmAll.innerText = (parseInt(elmAll.innerText) + 1).toString();
         for (let aa = 0; aa < tool.categories.length; aa++) {
           categoryTemplate += formatCategoryLabel(tool.categories[aa]);
+          let elm = document.getElementById("btn-badge-" + tool.categories[aa]);
+          if (elm && !elm.innerText) elm.innerText = "0";
+          elm.innerText = (parseInt(elm.innerText) + 1).toString();
         }
         let repoBadges = formatRepoBadges(tool.repoUrl);
         let template = `

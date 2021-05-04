@@ -27,7 +27,7 @@ Component Analysis platform that identifies risk in the software supply chain. T
 designed to solve were vulnerability identification, license compliance, and outdated component analysis. Additional 
 capabilities were added in subsequent releases of the specification.
 
-The value of a lightweight software bill-of-material specification, capable of achieving real-world usecases, transcends
+The value of a lightweight Software Bill of Materials (SBOM) specification, capable of achieving real-world usecases, transcends
 the boundaries of a single vendor or supplier. Therefore, a dedicated open source project, independent of OWASP, was
 founded to develop the specification, the implementations, and move the format into widespread adoption. Today, thousands
 of organizations ranging from financial services, manufacturing, government, software, and security firms are producing
@@ -38,6 +38,7 @@ and consuming CycloneDX SBOMs.
 
 | Version | Release Date |
 | ------- | --------- |
+| CycloneDX 1.3 | 04 May 2021 |
 | CycloneDX 1.2 | 26 May 2020 |
 | CycloneDX 1.1 | 03 March 2019 |
 | CycloneDX 1.0 | 26 March 2018 |

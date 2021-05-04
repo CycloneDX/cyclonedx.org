@@ -227,6 +227,15 @@ between components. Additionally, services that depend on other services can als
 
 {% include examples/services.html %}
 
+## Properties / name-value store
+The CycloneDX standard is fully extensible allowing for complex data to be represented in the BOM that is not provided
+by the core specification. In many cases however, name-value pairs are a simpler option. CycloneDX supports Properties
+which is a name-value store that can be used to describe additional data about the components, services, or the BOM
+that isn't native to the core specification. Unlike key-value stores, properties support duplicate names, each 
+potentially having different values.
+
+{% include examples/properties.html %}
+
 ## Packaging and distribution 
 
 For software that is produced for the consumption of others, it is important to apply additional metadata about the
@@ -235,17 +244,76 @@ used to create the BOM.
 
 {% include examples/packaging-distribution.html %}
 
-## Exploitability
+## Composition completeness
 
-Vulnerability and Exploitability (VEX) use cases are also possible through the use of the optional [vulnerability
-schema extension](/ext/vulnerability). Through the use of this extension, it is possible to document known 
-vulnerabilities per component as well as zero or more risk ratings per vulnerability. For example, a component
-may have a CVE with a CVSS score of 9.8, however, if the vulnerable function or method in the component is not called or
-if there are mitigating controls, additional risk ratings may be added to the vulnerability to provide a more accurate
-representation of risk.
+The inventory of components, services, and their relationships to one another can be described through the use of 
+compositions. The aggregate of each composition can be described as complete, incomplete, incomplete first-party only,
+incomplete third-party only, or unknown. This allows BOM authors to describe how complete the BOM is or if there are
+components in the BOM where completeness is unknown.
+
+{% include examples/compositions.html %}
+
+## Vulnerability remediation
+
+By leveraging the [pedigree](#pedigree) capabilities of CycloneDX, it is possible to describe remediations made to
+vulnerable components. In some cases, upgrading to a non-vulnerable version of a component may not be possible due to
+incompatibilities, or the project may no longer be maintained. In these situations, CycloneDX can describe all changes 
+that were made to the components along with the vulnerabilities those changes resolve.
+
+{% include examples/vulnerability-remediation.html %}
+
+## Vulnerability disclosure
+
+CycloneDX can optionally include vulnerabilities from the inventory of components and services. This is accomplished
+through the use of the [vulnerability schema extension](/ext/vulnerability). Common use cases of this extension are 
+seen in Software Composition Analysis (SCA) tools, OCI container analysis tools, and other software or systems that 
+analyze components, identify inherited risk, and generate SBOMs with component inventory and associated vulnerabilities.
+
+Vulnerability data is subject to change, even if the SBOM and its inventory of components does not. Due to the dynamic
+nature of vulnerability data, it is recommended that SBOMs with this information have a relatively short shelf-life and
+not persisted or referenced for longer periods of time. 
+
+CycloneDX can also reference dynamic vulnerability information through its support of 
+[security advisories](#security-advisories).
 
 <div class="callout callout--warning">
 The vulnerability schema extension is only available in XML. It is not currently available in JSON.
 </div>
 
-{% include examples/vex.html %}
+{% include examples/vulnerability-disclosure.html %}
+
+## Security advisories
+
+CycloneDX supports many different types of [external references](#external-references) including security advisories.
+Zero or more URLs to security advisories for a given component or service can be specified. CycloneDX does not prescribe
+the advisory format, however the [Common Security Advisory Framework (CSAF)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=csaf) 
+is recommended.
+
+{% include examples/security-advisories.html %}
+
+## External references
+
+External references provide a way to document systems, sites, and information that may be relevant but which are not 
+included with the BOM. External references can be applied to individual components, services, or to the BOM itself.
+
+{% include examples/external-references.html %}
+
+The following external reference types are supported:
+
+| Type | Description |
+| --- | --- |
+| advisories | Security advisories (e.g. CSAF) |
+| bom | Bill of materials document (CycloneDX, SPDX, etc) |
+| build-meta | Build-system specific meta file (i.e. pom.xml, package.json, .nuspec, etc) |
+| build-system | Automated build system |
+| chat | Real-time chat platform |
+| distribution | Direct or repository download location |
+| documentation | Documentation, guides, or how-to instructions |
+| issue-tracker | Issue or defect tracking system, or an Application Lifecycle Management (ALM) system |
+| license | License file. If a license URL has been defined in the license node, it should also be defined as an external reference for completeness |
+| mailing-list | Mailing list or discussion group |
+| other | Use this if no other types accurately describe the purpose of the external reference |
+| social | Social media account |
+| support | Community or commercial support |
+| vcs | Version Control System |
+| website | Website |
