@@ -266,15 +266,22 @@ li.dropdown {
 /* =========================================================
         CTA-Section STYLE
 ============================================================ */
+.news-section {
+	background-color: #f8f8f8;
+	padding: 45px 0 10px;
+}
+.news-section .news a {
+	color: #0064A0;
+}
 .cta-section {
 	background-color: #f8f8f8;
-	padding: 90px 0; }
+	padding: 45px 0 90px; }
 .cta-section .cta-wrapper:hover {
 	border-color: #4A5F77;
 }
 @media only screen and (max-width: 767px) {
 	.cta-section {
-		padding: 70px 0 50px; } }
+		padding: 35px 0 25px; } }
 .cta-section .cta-wrapper {
 	background-color: #FFFFFF;
 	padding: 35px 10px;

@@ -48,3 +48,13 @@ includes_dir: ./theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md' ]
 include: [ '_redirects' ]
 permalink: /:title/
+url: "https://cyclonedx.org"
+plugins:
+  - jekyll-sitemap
+  - jekyll-last-modified-at
+defaults:
+  -
+    scope:
+      path:            "google*.html"
+    values:
+      sitemap:         false
