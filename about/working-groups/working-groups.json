@@ -56,6 +56,20 @@
     ]
   },
   {
+    "displayName": "José González",
+    "lastName": "González",
+    "headshot": "https://avatars.githubusercontent.com/u/664005?v=4",
+    "organization": "OPEN input",
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "jgongo",
+    "homepage": "https://github.com/jgongo",
+    "categories": [
+      "maintainers"
+    ]
+  },
+  {
     "displayName": "JC Herz",
     "lastName": "Herz",
     "headshot": "jc-herz.jpg",
@@ -863,20 +877,6 @@
     "linkedin": null,
     "github": "bradh",
     "homepage": "https://github.com/bradh",
-    "categories": [
-      "contributors"
-    ]
-  },
-  {
-    "displayName": "jgongo",
-    "lastName": "jgongo",
-    "headshot": "https://avatars.githubusercontent.com/u/664005?v=4",
-    "organization": null,
-    "description": null,
-    "twitter": null,
-    "linkedin": null,
-    "github": "jgongo",
-    "homepage": "https://github.com/jgongo",
     "categories": [
       "contributors"
     ]
