@@ -56,8 +56,8 @@
     ]
   },
   {
-    "displayName": "José González",
-    "lastName": "González",
+    "displayName": "Jos\u00e9 Gonz\u00e1lez",
+    "lastName": "Gonz\u00e1lez",
     "headshot": "https://avatars.githubusercontent.com/u/664005?v=4",
     "organization": "OPEN input",
     "description": null,
@@ -1297,6 +1297,34 @@
     "linkedin": null,
     "github": "csvn",
     "homepage": "https://github.com/csvn",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "TedDriggs",
+    "lastName": "teddriggs",
+    "headshot": "https://avatars.githubusercontent.com/u/4805575?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "TedDriggs",
+    "homepage": "https://github.com/TedDriggs",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "mjkoo",
+    "lastName": "mjkoo",
+    "headshot": "https://avatars.githubusercontent.com/u/30420?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "mjkoo",
+    "homepage": "https://github.com/mjkoo",
     "categories": [
       "contributors"
     ]
