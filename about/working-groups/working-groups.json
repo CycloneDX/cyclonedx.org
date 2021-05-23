@@ -1328,5 +1328,19 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "lreading",
+    "lastName": "lreading",
+    "headshot": "https://avatars.githubusercontent.com/u/5851985?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "lreading",
+    "homepage": "https://github.com/lreading",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
