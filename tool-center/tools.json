@@ -547,6 +547,17 @@
     ]
   },
   {
+    "name": "CycloneDX Web Tool",
+    "publisher": "CycloneDX",
+    "description": "A web based tool incorporating many common utilities including converting between SBOM formats.",
+    "repoUrl": "https://github.com/CycloneDX/cyclonedx-web-tool",
+    "websiteUrl": "https://cyclonedx.github.io/cyclonedx-web-tool/",
+    "categories": [
+      "opensource",
+      "transform"
+    ]
+  },
+  {
     "name": "CycloneDX Rust",
     "publisher": "Mark Dodgson",
     "description": "A Rust library to encode and decode the CycloneDX object model",
