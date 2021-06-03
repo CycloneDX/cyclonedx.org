@@ -17,12 +17,26 @@
     "displayName": "Patrick Dwyer",
     "lastName": "Dwyer",
     "headshot": "patrick-dwyer.jpg",
-    "organization": "Government (confidential)",
+    "organization": "Government / OWASP",
     "description": null,
     "twitter": "coderpatros",
     "linkedin": "coderpatros",
     "github": "coderpatros",
     "homepage": null,
+    "categories": [
+      "core"
+    ]
+  },
+  {
+    "displayName": "Jeffry Hesse",
+    "lastName": "Hesse",
+    "headshot": "https://avatars.githubusercontent.com/u/5544326?v=4",
+    "organization": "Sonatype",
+    "description": null,
+    "twitter": null,
+    "linkedin": "jeffryhesse",
+    "github": "DarthHater",
+    "homepage": "https://www.sonatype.com/",
     "categories": [
       "core"
     ]
@@ -151,20 +165,6 @@
     "homepage": "https://www.fujitsu.com/uk/solutions/industry/defence-national-security/",
     "categories": [
       "industry"
-    ]
-  },
-  {
-    "displayName": "DarthHater",
-    "lastName": "darthhater",
-    "headshot": "https://avatars.githubusercontent.com/u/5544326?v=4",
-    "organization": null,
-    "description": null,
-    "twitter": null,
-    "linkedin": null,
-    "github": "DarthHater",
-    "homepage": "https://github.com/DarthHater",
-    "categories": [
-      "contributors"
     ]
   },
   {
