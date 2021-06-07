@@ -221,6 +221,17 @@
     ]
   },
   {
+    "name": "CycloneDX GoMod Generate SBOM",
+    "publisher": "CycloneDX",
+    "description": "Creates CycloneDX SBOMs from Go modules via GitHub action",
+    "repoUrl": "https://github.com/CycloneDX/gh-gomod-generate-sbom",
+    "websiteUrl": "https://github.com/marketplace/actions/cyclonedx-gomod-generate-sbom",
+    "categories": [
+      "opensource",
+      "github-action"
+    ]
+  },
+  {
     "name": "CycloneDX Node.js Generate SBOM",
     "publisher": "CycloneDX",
     "description": "Creates CycloneDX SBOMs from Node.js (NPM) projects via GitHub action",
