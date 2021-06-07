@@ -680,5 +680,27 @@
       "proprietary",
       "build-integration"
     ]
+  },
+  {
+    "name": "CycloneDX GoMod Generate SBOM",
+    "publisher": "CycloneDX",
+    "description": "GitHub action which generates CycloneDX SBOMs from Go modules",
+    "repoUrl": "https://github.com/CycloneDX/gh-gomod-generate-sbom",
+    "websiteUrl": "https://github.com/marketplace/actions/cyclonedx-gomod-generate-sbom",
+    "categories": [
+      "opensource",
+      "github-action"
+    ]
+  },
+  {
+    "name": "CycloneDX BOM Repo Server",
+    "publisher": "CycloneDX",
+    "description": "A lightweight repository server used to publish, manage, and distribute CycloneDX SBOMs ",
+    "repoUrl": "https://github.com/CycloneDX/cyclonedx-bom-repo-server",
+    "websiteUrl": "https://github.com/CycloneDX/cyclonedx-bom-repo-server",
+    "categories": [
+      "opensource",
+      "distribute"
+    ]
   }
 ]
