@@ -693,7 +693,7 @@
     ]
   },
   {
-    "name": "CycloneDX BOM Repo Server",
+    "name": "BOM Repository Server",
     "publisher": "CycloneDX",
     "description": "A lightweight repository server used to publish, manage, and distribute CycloneDX SBOMs ",
     "repoUrl": "https://github.com/CycloneDX/cyclonedx-bom-repo-server",
