@@ -702,5 +702,16 @@
       "opensource",
       "distribute"
     ]
+  },
+  {
+    "name": "ittosai",
+    "publisher": "DevOps KungFu Masters",
+    "description": "ittosai is a CycloneDX SBOM vulnerability analyzer that analyzes SBOMs every time a developer commits code to a repository",
+    "repoUrl": "https://github.com/devops-kung-fu/ittosai",
+    "websiteUrl": "https://dkfm.io/",
+    "categories": [
+      "opensource",
+      "analysis"
+    ]
   }
 ]
