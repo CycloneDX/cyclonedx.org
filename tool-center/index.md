@@ -11,7 +11,7 @@ window_title: CycloneDX Tool Center
 description: A discovery marketplace containing free, open source, and proprietary tools and solutions that support the CycloneDX specification.
 
 # Micro navigation
-micro_nav: true
+micro_nav: false
 
 # Page navigation
     

@@ -11,7 +11,7 @@ window_title: CycloneDX Use Cases
 description: CycloneDX examples of common use cases
 
 # Micro navigation
-micro_nav: true
+micro_nav: false
 
 # Page navigation
     
