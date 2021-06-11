@@ -5,7 +5,7 @@
 /* ----- General ----- */
 .site-footer {
 	background-color: $color-footer-bg;
-	padding: 3.75rem 0 (3.75rem - 1.25rem) 0;
+	padding: 2.0rem 0 (2.0rem - 1.5rem) 0;
 
 	hr {
 		width: 5.625rem;
@@ -25,13 +25,32 @@
 
 	img {
 		display: block;
-		width: 15.625rem;
+		height: 40px;
+	}
+}
+
+.site-footer__foundation_logo {
+	@include link-reset;
+	display: inline-block;
+	color: $color-footer-copyright;
+	font-family: $font-family-secondary;
+	font-size: $font-size-h3;
+	font-weight: 700;
+	vertical-align: top;
+	margin: 0 0 1.25rem 0;
+	float: right;
+
+	img {
+		display: block;
+		height: 40px;
 	}
 }
 
 /* ----- Copyright ----- */
 .site-footer__copyright {
+	text-align: center;
 	color: $color-footer-copyright;
 	font-size: .875em;
 	line-height: $line-height-base;
+	background-color: $color-dark-blue
 }

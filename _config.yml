@@ -32,6 +32,9 @@ doks:
             - network_name: slack
               network_title: Slack
               profile_url: 'https://cyclonedx.org/slack/invite'
+            - network_name: owasp
+              network_title: OWASP
+              profile_url: 'https://owasp.org/cyclonedx'
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
     comments:
