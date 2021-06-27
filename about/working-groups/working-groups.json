@@ -1342,5 +1342,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "wrgoff",
+    "lastName": "wrgoff",
+    "headshot": "https://avatars.githubusercontent.com/u/70279777?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "wrgoff",
+    "homepage": "https://github.com/wrgoff",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "sduquette-devolutions",
+    "lastName": "sduquette-devolutions",
+    "headshot": "https://avatars.githubusercontent.com/u/70600710?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "sduquette-devolutions",
+    "homepage": "https://github.com/sduquette-devolutions",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
