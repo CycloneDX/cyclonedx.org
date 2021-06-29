@@ -713,5 +713,15 @@
       "opensource",
       "analysis"
     ]
+  },
+  {
+    "name": "CodeSentry",
+    "publisher": "GrammaTech",
+    "description": "Software Composition Analysis (SCA) platform that leverages binary analysis to identify components, inherited risk, and communicates inventory through CycloneDX SBOMs",
+    "websiteUrl": "https://www.grammatech.com/codesentry-sca",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
   }
 ]
