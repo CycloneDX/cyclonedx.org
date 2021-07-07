@@ -1370,5 +1370,19 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "Andrew Hoog",
+    "lastName": "Hoog",
+    "headshot": "andrew-hoog.jpg",
+    "organization": "NowSecure",
+    "description": null,
+    "twitter": "ahoog42",
+    "linkedin": "andrewhoog",
+    "github": "ahoog42",
+    "homepage": "https://www.nowsecure.com/",
+    "categories": [
+      "industry"
+    ]
   }
 ]
