@@ -1384,5 +1384,19 @@
     "categories": [
       "industry"
     ]
+  },
+  {
+    "displayName": "oz-viadee",
+    "lastName": "oz-viadee",
+    "headshot": "https://avatars.githubusercontent.com/u/80469014?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "oz-viadee",
+    "homepage": "https://github.com/oz-viadee",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
