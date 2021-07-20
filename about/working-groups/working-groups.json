@@ -1398,5 +1398,19 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "Jeff Williams",
+    "lastName": "Williams",
+    "headshot": "jeff-williams.jpg",
+    "organization": "Contrast Security",
+    "description": null,
+    "twitter": "planetlevel",
+    "linkedin": "planetlevel",
+    "github": "planetlevel",
+    "homepage": "https://www.contrastsecurity.com/",
+    "categories": [
+      "industry"
+    ]
   }
 ]
