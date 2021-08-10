@@ -1412,5 +1412,47 @@
     "categories": [
       "industry"
     ]
+  },
+  {
+    "displayName": "jskov-jyskebank-dk",
+    "lastName": "jskov-jyskebank-dk",
+    "headshot": "https://avatars.githubusercontent.com/u/8705199?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "jskov-jyskebank-dk",
+    "homepage": "https://github.com/jskov-jyskebank-dk",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "akshadpai",
+    "lastName": "akshadpai",
+    "headshot": "https://avatars.githubusercontent.com/u/70975196?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "akshadpai",
+    "homepage": "https://github.com/akshadpai",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "VinodAnandan",
+    "lastName": "vinodanandan",
+    "headshot": "https://avatars.githubusercontent.com/u/29684753?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "VinodAnandan",
+    "homepage": "https://github.com/VinodAnandan",
+    "categories": [
+      "contributors"
+    ]
   }
 ]

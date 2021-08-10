@@ -614,7 +614,7 @@
     "name": "Fortress File Integrity Assurance",
     "publisher": "Fortress Information Security",
     "description": "Creates SBOM from binary or archive, consumes externally provided SBOM, enriches SBOM with Fortress risk analysis, integrates via API to support continuous monitoring of software assurance.",
-    "websiteUrl": "https://assettovendor.com/fia",
+    "websiteUrl": "https://fortressinfosec.com/solutions/file-integrity-assurance",
     "categories": [
       "proprietary",
       "analysis"
