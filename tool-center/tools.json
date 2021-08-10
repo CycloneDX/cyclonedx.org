@@ -461,17 +461,6 @@
     ]
   },
   {
-    "name": "CyberProtek",
-    "publisher": "MediSAO",
-    "description": "CyberProtek is an SBOM generation and translation tool for IoT that scans code metadata to create SBOMs, translates between SWID/SPDX/CycloneDx and manages vulnerabilities",
-    "websiteUrl": "https://www.cyberprotek.com/",
-    "categories": [
-      "proprietary",
-      "analysis",
-      "transform"
-    ]
-  },
-  {
     "name": "MedScan",
     "publisher": "MedSec",
     "description": "Consumes SBOM’s for helping hospitals manage medical device assets",
@@ -719,6 +708,16 @@
     "publisher": "GrammaTech",
     "description": "Software Composition Analysis (SCA) platform that leverages binary analysis to identify components, inherited risk, and communicates inventory through CycloneDX SBOMs",
     "websiteUrl": "https://www.grammatech.com/codesentry-sca",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
+  },
+  {
+    "name": "Heimdall",
+    "publisher": "Medcrypt",
+    "description": "Automatically extract or manually upload your Software Bill of Materials (SBOM), and Heimdall will, on a continual basis, identify known vulnerabilities affecting your software components",
+    "websiteUrl": "https://medcrypt.com/heimdall.html",
     "categories": [
       "proprietary",
       "analysis"
