@@ -722,5 +722,15 @@
       "proprietary",
       "analysis"
     ]
+  },
+  {
+    "name": "Contrast Security",
+    "publisher": "Contrast Security",
+    "description": "Automatically generates component inventory from runtime analysis (IAST or RASP) and generates CycloneDX SBOMs",
+    "websiteUrl": "https://www.contrastsecurity.com/",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
   }
 ]
