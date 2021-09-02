@@ -732,5 +732,53 @@
       "proprietary",
       "analysis"
     ]
+  },
+  {
+    "name": "Salus",
+    "publisher": "Coinbase",
+    "description": "Salus is a tool for coordinating the execution of security scanners. Salus can generate CycloneDX SBOMs from many language ecosystems.",
+    "repoUrl": "https://github.com/coinbase/salus",
+    "websiteUrl": "https://github.com/coinbase/salus",
+    "categories": [
+      "opensource",
+      "analysis",
+      "build-integration"
+    ]
+  },
+  {
+    "name": "CodeNotary",
+    "publisher": "CodeNotary",
+    "description": "Protects an organizations software development pipeline from supply chain attacks. CodeNotary natively supports CycloneDX SBOMs",
+    "repoUrl": "https://github.com/codenotary/vcn",
+    "websiteUrl": "https://codenotary.io/",
+    "categories": [
+      "opensource",
+      "analysis",
+      "build-integration"
+    ]
+  },
+  {
+    "name": "Cosign",
+    "publisher": "Sigstore",
+    "description": "Container Signing, Verification and Storage in an OCI registry, including CycloneDX SBOMs",
+    "repoUrl": "https://github.com/sigstore/cosign",
+    "websiteUrl": "https://sigstore.dev/",
+    "categories": [
+      "opensource",
+      "analysis",
+      "build-integration"
+    ]
+  },
+  {
+    "name": "Tern",
+    "publisher": "Tern",
+    "description": "Tern is a software composition analysis tool and Python library that generates a Software Bill of Materials for container images and Dockerfiles.",
+    "repoUrl": "https://github.com/tern-tools/tern",
+    "websiteUrl": "https://github.com/tern-tools/tern",
+    "categories": [
+      "opensource",
+      "analysis",
+      "build-integration"
+    ]
   }
 ]
