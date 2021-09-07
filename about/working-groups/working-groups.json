@@ -1482,5 +1482,75 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "carldea",
+    "lastName": "carldea",
+    "headshot": "https://avatars.githubusercontent.com/u/1594624?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "carldea",
+    "homepage": "https://github.com/carldea",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "sophiewigmore",
+    "lastName": "sophiewigmore",
+    "headshot": "https://avatars.githubusercontent.com/u/20341599?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "sophiewigmore",
+    "homepage": "https://github.com/sophiewigmore",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "ForestEckhardt",
+    "lastName": "foresteckhardt",
+    "headshot": "https://avatars.githubusercontent.com/u/17186605?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "ForestEckhardt",
+    "homepage": "https://github.com/ForestEckhardt",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "webwart-bln",
+    "lastName": "webwart-bln",
+    "headshot": "https://avatars.githubusercontent.com/u/60545462?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "webwart-bln",
+    "homepage": "https://github.com/webwart-bln",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "boris-cybelllum",
+    "lastName": "boris-cybelllum",
+    "headshot": "https://avatars.githubusercontent.com/u/79354377?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "boris-cybelllum",
+    "homepage": "https://github.com/boris-cybelllum",
+    "categories": [
+      "contributors"
+    ]
   }
 ]

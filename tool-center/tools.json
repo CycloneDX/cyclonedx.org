@@ -525,17 +525,6 @@
     ]
   },
   {
-    "name": "Scan Action",
-    "publisher": "Anchore",
-    "description": "GitHub action which generates CycloneDX SBOMs from container images.",
-    "repoUrl": "https://github.com/anchore/scan-action",
-    "websiteUrl": "https://github.com/marketplace/actions/anchore-container-scan",
-    "categories": [
-      "opensource",
-      "github-action"
-    ]
-  },
-  {
     "name": "CycloneDX CLI",
     "publisher": "CycloneDX",
     "description": "A command line tool incorporating many common utilities including converting between SBOM formats.",
@@ -790,6 +779,16 @@
       "opensource",
       "analysis",
       "build-integration"
+    ]
+  },
+  {
+    "name": "Cybellum SBOM",
+    "publisher": "Cybellum Technologies LTD.",
+    "description": "Analyzes binary artifacts to generate SBoM including context based analysis to perform accurate vulnerability assessment",
+    "websiteUrl": "https://cybellum.com",
+    "categories": [
+      "proprietary",
+      "analysis"
     ]
   },
   {
