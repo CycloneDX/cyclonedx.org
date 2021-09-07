@@ -525,6 +525,17 @@
     ]
   },
   {
+    "name": "Scan Action",
+    "publisher": "Anchore",
+    "description": "GitHub action which generates CycloneDX SBOMs from container images.",
+    "repoUrl": "https://github.com/anchore/scan-action",
+    "websiteUrl": "https://github.com/marketplace/actions/anchore-container-scan",
+    "categories": [
+      "opensource",
+      "github-action"
+    ]
+  },
+  {
     "name": "CycloneDX CLI",
     "publisher": "CycloneDX",
     "description": "A command line tool incorporating many common utilities including converting between SBOM formats.",
@@ -779,6 +790,40 @@
       "opensource",
       "analysis",
       "build-integration"
+    ]
+  },
+  {
+    "name": "Scancode Toolkit",
+    "publisher": "nexB",
+    "description": "ScanCode detects licenses, copyrights, package manifests & dependencies and more by scanning code to discover and inventory open source and third-party packages.",
+    "repoUrl": "https://github.com/nexB/scancode-toolkit",
+    "websiteUrl": "https://github.com/nexB/scancode-toolkit",
+    "categories": [
+      "opensource",
+      "analysis"
+    ]
+  },
+  {
+    "name": "swift-package-sbom-generator",
+    "publisher": "Mattt",
+    "description": "A software bill of materials (SBOM) generator for Swift packages",
+    "repoUrl": "https://github.com/mattt/swift-package-sbom",
+    "websiteUrl": "https://github.com/mattt/swift-package-sbom",
+    "categories": [
+      "opensource",
+      "author"
+    ]
+  },
+  {
+    "name": "SRC:CLR SBOM Generator",
+    "publisher": "Veracode",
+    "description": "Generates a Software Bill of Materials in CycloneDX JSON Format from Veracode SCA Agent results.",
+    "repoUrl": "https://github.com/veracode/srcclr_sbom_gen",
+    "websiteUrl": "https://github.com/veracode/srcclr_sbom_gen",
+    "categories": [
+      "opensource",
+      "author",
+      "transform"
     ]
   }
 ]
