@@ -834,5 +834,17 @@
       "opensource",
       "transform"
     ]
+  },
+  {
+    "name": "Codenotary vcn",
+    "publisher": "Codenotary",
+    "description": "Notarization and authentication of build artifacts and their dependencies",
+    "repoUrl": "https://github.com/codenotary/vcn",
+    "websiteUrl": "https://github.com/codenotary/vcn/blob/master/docs/user-guide/bom.md",
+    "categories": [
+      "opensource",
+      "build-integration",
+      "notarization"
+    ]
   }
 ]
