@@ -45,6 +45,17 @@
     ]
   },
   {
+    "name": "CycloneDX for Webpack",
+    "publisher": "CycloneDX",
+    "description": "Creates CycloneDX SBOMs for frontend Javascript applications that have been bundled with webpack.",
+    "repoUrl": "https://github.com/CycloneDX/cyclonedx-webpack-plugin",
+    "websiteUrl": "https://github.com/CycloneDX/cyclonedx-webpack-plugin",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
+  },
+  {
     "name": "CycloneDX for Maven",
     "publisher": "CycloneDX",
     "description": "Creates CycloneDX SBOMs for Java (Maven) projects",
@@ -810,7 +821,7 @@
     "websiteUrl": "https://github.com/mattt/swift-package-sbom",
     "categories": [
       "opensource",
-      "author"
+      "build-integration"
     ]
   },
   {
@@ -821,7 +832,6 @@
     "websiteUrl": "https://github.com/veracode/srcclr_sbom_gen",
     "categories": [
       "opensource",
-      "author",
       "transform"
     ]
   }
