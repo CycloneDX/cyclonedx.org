@@ -122,6 +122,17 @@
     ]
   },
   {
+    "name": "CycloneDX Python Library",
+    "publisher": "CycloneDX",
+    "description": "Python Library for generating CycloneDX SBOMs",
+    "repoUrl": "https://github.com/CycloneDX/cyclonedx-python-lib",
+    "websiteUrl": "https://pypi.org/project/cyclonedx-python-lib/",
+    "categories": [
+      "opensource",
+      "library"
+    ]
+  },
+  {
     "name": "CycloneDX for Ruby Gems",
     "publisher": "CycloneDX",
     "description": "Creates CycloneDX SBOMs for Ruby projects",
@@ -757,15 +768,14 @@
     ]
   },
   {
-    "name": "CodeNotary",
+    "name": "CodeNotary vcn",
     "publisher": "CodeNotary",
     "description": "Protects an organizations software development pipeline from supply chain attacks. CodeNotary natively supports CycloneDX SBOMs",
     "repoUrl": "https://github.com/codenotary/vcn",
     "websiteUrl": "https://codenotary.io/",
     "categories": [
       "opensource",
-      "analysis",
-      "build-integration"
+      "signing-notary"
     ]
   },
   {
@@ -776,8 +786,7 @@
     "websiteUrl": "https://sigstore.dev/",
     "categories": [
       "opensource",
-      "analysis",
-      "build-integration"
+      "signing-notary"
     ]
   },
   {

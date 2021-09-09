@@ -31,6 +31,7 @@ micro_nav: false
   <button class="btn" onclick="filterSelection('github-action', 'GitHub actions which produce CycloneDX SBOMS')"> GitHub action <span id="btn-badge-github-action" class="badge"></span></button>
   <button class="btn" onclick="filterSelection('transform', 'Tools that transform CycloneDX into other formats or that transform other formats into CycloneDX')"> Transform <span id="btn-badge-transform" class="badge"></span></button>
   <button class="btn" onclick="filterSelection('library', 'Modular components that can programmatically create, parse, or validate CycloneDX SBOMs')"> Library <span id="btn-badge-library" class="badge"></span></button>
+  <button class="btn" onclick="filterSelection('signing-notary', 'Tools used to sign or notarize software and CycloneDX SBOMs')"> Signing / Notary <span id="btn-badge-signing-notary" class="badge"></span></button>
   <button class="btn" onclick="filterSelection('distribute', 'Tools used to capture and distribute CycloneDX SBOMs')"> Distribute <span id="btn-badge-distribute" class="badge"></span></button>
 </div>
 
