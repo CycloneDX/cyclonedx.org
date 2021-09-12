@@ -1552,5 +1552,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "madpah",
+    "lastName": "madpah",
+    "headshot": "https://avatars.githubusercontent.com/u/10280392?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "madpah",
+    "homepage": "https://github.com/madpah",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "actions-user",
+    "lastName": "actions-user",
+    "headshot": "https://avatars.githubusercontent.com/u/65916846?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "actions-user",
+    "homepage": "https://github.com/actions-user",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
