@@ -84,6 +84,20 @@
     ]
   },
   {
+    "displayName": "Paul Horton",
+    "lastName": "Horton",
+    "headshot": "https://avatars.githubusercontent.com/u/10280392?v=4",
+    "organization": "Sonatype",
+    "description": null,
+    "twitter": "madpah",
+    "linkedin": "madpah",
+    "github": "madpah",
+    "homepage": "https://www.sonatype.com/",
+    "categories": [
+      "maintainers"
+    ]
+  },
+  {
     "displayName": "JC Herz",
     "lastName": "Herz",
     "headshot": "jc-herz.jpg",

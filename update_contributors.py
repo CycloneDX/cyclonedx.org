@@ -33,7 +33,8 @@ def get_cyclonedx_contributors():
         repo_contributors = get_repo_contributors(repo['contributors_url'])
         print(len(repo_contributors), 'contributors.')
         for contributor in repo_contributors:
-            if contributor['type'] != 'Bot':
+            # for some reason the actions-user is reported as a normal user
+            if contributor['type'].lower() != 'bot' and contributor['login'] != 'actions-user':
                 contributors[contributor['login']] = {
                     'github': contributor['login'],
                     'headshot': contributor['avatar_url'],
