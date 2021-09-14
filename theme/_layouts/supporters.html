@@ -27,7 +27,6 @@
     </div><!-- /.container -->
 </div><!-- /.section -->
 {% endif %}
-{% include site-supporters-footer.html %}
 <div class="js-footer-area">
     {% if page.page_nav.prev.content or page.page_nav.next.content %}
     <nav class="page-nav">
@@ -55,7 +54,7 @@
     {% include micro-nav.html %}
     {% endif %}
     {% include site-footer.html %}
-    <script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/theme/assets/js/tools.js"></script>
+    <script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/theme/assets/js/supporters.js"></script>
 </div><!-- /.js-footer-area -->
 </body>
 </html>

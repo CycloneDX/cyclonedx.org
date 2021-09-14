@@ -1,0 +1,263 @@
+[
+  {
+    "organization": "Sonatype",
+    "logo": "sonatype.svg",
+    "homepage": "https://sonatype.com",
+    "categories": [
+      "supporters",
+      "organizations"
+    ]
+  },
+  {
+    "organization": "IonChannel",
+    "logo": "ionchannel.svg",
+    "homepage": "https://ionchannel.io",
+    "categories": [
+      "supporters",
+      "organizations"
+    ]
+  },
+  {
+    "organization": "NowSecure",
+    "logo": "nowsecure.svg",
+    "homepage": "https://nowsecure.com",
+    "categories": [
+      "supporters",
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Xperi",
+    "logo": "xperi.svg",
+    "homepage": "https://www.xperi.com/",
+    "categories": [
+      "supporters"
+    ]
+  },
+  {
+    "organization": "Vdoo",
+    "logo": "vdoo.svg",
+    "homepage": "https://vdoo.com",
+    "categories": [
+      "supporters",
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Lockheed Martin",
+    "logo": "lockheed-martin.svg",
+    "homepage": "https://lockheedmartin.com",
+    "categories": [
+      "supporters"
+    ]
+  },
+  {
+    "organization": "Medcrypt",
+    "logo": "medcrypt.svg",
+    "homepage": "https://medcrypt.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "OWASP",
+    "logo": "owasp.svg",
+    "homepage": "https://owasp.org",
+    "categories": [
+      "supporters"
+    ]
+  },
+  {
+    "organization": "Contrast Security",
+    "logo": "contrast-security.svg",
+    "homepage": "https://contrastsecurity.com",
+    "categories": [
+      "supporters",
+      "organizations"
+    ]
+  },
+  {
+    "organization": "CodeNotary",
+    "logo": "code-notary.svg",
+    "homepage": "https://codenotary.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "GrammaTech",
+    "logo": "grammatech.svg",
+    "homepage": "https://grammatech.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Cybeats",
+    "logo": "cybeats.jpg",
+    "homepage": "https://cybeats.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Cybellum",
+    "logo": "cybellum.svg",
+    "homepage": "https://cybellum.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Fortress Information Security",
+    "logo": "fortress-info-sec.png",
+    "homepage": "https://fortressinfosec.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Anchore",
+    "logo": "anchore.svg",
+    "homepage": "https://anchore.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "JDisc",
+    "logo": "jdisc.svg",
+    "homepage": "https://jdisc.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Medsec",
+    "logo": "medsec.svg",
+    "homepage": "https://medsec.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Reliza",
+    "logo": "reliza.svg",
+    "homepage": "https://reliza.io",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "SCANOSS",
+    "logo": "scanoss.svg",
+    "homepage": "https://scanoss.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Veracode",
+    "logo": "veracode.svg",
+    "homepage": "https://veracode.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "nexB",
+    "logo": "nexb.svg",
+    "homepage": "https://nexb.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "ShiftLeft",
+    "logo": "shiftleft.svg",
+    "homepage": "https://shiftleft.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "TrustSource",
+    "logo": "trustsource.svg",
+    "homepage": "https://trustsource.io",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Buildpacks",
+    "logo": "buildpacks.svg",
+    "homepage": "https://buildpacks.io",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "OWASP Dependency-Track",
+    "logo": "dependency-track.svg",
+    "homepage": "https://dependencytrack.org",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "Sigstore",
+    "logo": "sigstore.svg",
+    "homepage": "https://sigstore.dev",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "OpenRewrite",
+    "logo": "openrewrite.svg",
+    "homepage": "https://github.com/openrewrite",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "Open Source Review Toolkit (ORT)",
+    "logo": "ort.png",
+    "homepage": "https://github.com/oss-review-toolkit",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "Tern",
+    "logo": "tern.svg",
+    "homepage": "https://github.com/tern-tools/tern",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "Defect Dojo",
+    "logo": "defectdojo.svg",
+    "homepage": "https://www.defectdojo.org/",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "DevOps KungFu Masters",
+    "logo": "dkfm.svg",
+    "homepage": "https://dkfm.io/",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "Salus",
+    "logo": "salus.png",
+    "homepage": "https://github.com/coinbase/salus",
+    "categories": [
+      "projects"
+    ]
+  }
+]

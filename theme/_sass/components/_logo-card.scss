@@ -1,0 +1,54 @@
+/**
+ * Callout (components/_logo-card.scss)
+ */
+
+/* Remove extra left and right margins, due to padding in columns */
+.logo-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
+  padding: 0;
+}
+.logo-card-container {
+  display: flex;
+  padding: 1rem;
+  @media(min-width: 40rem) {
+    width: 50%;
+  }
+  @media(min-width: 60rem) {
+    width: 33.3333%;
+  }
+  @media(max-width: 40rem) {
+    width: 100%;
+    display: block;
+  }
+}
+.logo-card-container a {
+  border: 0;
+}
+/* Style the counter cards */
+.logo-card {
+  flex-direction: column;
+  overflow: hidden;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  text-align: center;
+  /* border: 1px solid #c0c0c0; */
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+.logo-card:hover {
+  /* border: 1px solid $color-dark-blue; */
+  cursor: pointer;
+}
+/* Style the logo cards */
+.logo-card-body {
+  padding: 0.8rem;
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+.logo-card-container {
+  display: block;
+}
