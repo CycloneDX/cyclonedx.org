@@ -253,6 +253,19 @@ components in the BOM where completeness is unknown.
 
 {% include examples/compositions.html %}
 
+## OpenChain conformance
+
+CycloneDX incorporates SPDX license IDs and expressions to document stated licenses of open source components and
+individual source files. Observed licenses and copyright statements are also fully supported. In OpenChain terms,
+a CycloneDX BOM is classified as a __compliance artifact__.
+
+Organizations seeking OpenChain conformance should review the specification and ensure all verification requirements are
+met including fully documented processes for how the CycloneDX BOMs where created, distributed, and archived.
+The [CycloneDX BOM Repository Server](https://github.com/CycloneDX/cyclonedx-bom-repo-server) is a simple and effective
+way to automate publishing, versioning, and archiving of BOMs.
+
+{% include examples/openchain-conformance.html %}
+
 ## Vulnerability remediation
 
 By leveraging the [pedigree](#pedigree) capabilities of CycloneDX, it is possible to describe remediations made to
