@@ -843,5 +843,15 @@
       "opensource",
       "transform"
     ]
+  },
+  {
+    "name": "NowSecure Platform",
+    "publisher": "NowSecure",
+    "description": "NowSecure automates security and privacy testing of mobile applications through static and dynamic binary analysis. NowSecure identifies packages and native components bundled with mobile apps and exports inventory in CycloneDX format.",
+    "websiteUrl": "https://www.nowsecure.com/",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
   }
 ]
