@@ -853,5 +853,26 @@
       "proprietary",
       "analysis"
     ]
+  },
+  {
+    "name": "Ion Channel Platform",
+    "publisher": "Ion Channel",
+    "description": "Ion Channel is a software supply chain assurance platform that transforms software inventory data into positive control of known and potential risks. Ion Channel consumes, analyzes, and exports CycloneDX SBOMs.",
+    "websiteUrl": "https://ionchannel.io/",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
+  },
+  {
+    "name": "CVE Binary Tool",
+    "publisher": "Intel",
+    "description": "This tool scans for a number of common, vulnerable components to let you know if your system includes common libraries with known vulnerabilities. Exports scanned files as CycloneDX SBOMs.",
+    "repoUrl": "https://github.com/intel/cve-bin-tool",
+    "websiteUrl": "https://github.com/intel/cve-bin-tool",
+    "categories": [
+      "opensource",
+      "analysis"
+    ]
   }
 ]
