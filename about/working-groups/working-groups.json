@@ -1568,17 +1568,17 @@
     ]
   },
   {
-    "displayName": "amy-keibler",
+    "displayName": "Amy Keibler",
     "lastName": "amy-keibler",
     "headshot": "https://avatars.githubusercontent.com/u/3483663?v=4",
-    "organization": null,
+    "organization": "Sonatype",
     "description": null,
     "twitter": null,
-    "linkedin": null,
+    "linkedin": "amelia-keibler-590970122",
     "github": "amy-keibler",
     "homepage": "https://github.com/amy-keibler",
     "categories": [
-      "contributors"
+      "maintainers"
     ]
   }
 ]
