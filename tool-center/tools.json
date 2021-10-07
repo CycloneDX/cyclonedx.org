@@ -111,6 +111,17 @@
     ]
   },
   {
+    "name": "CycloneDX PHP Library",
+    "publisher": "CycloneDX",
+    "description": "Work with CycloneDX data format in PHP",
+    "repoUrl": "https://github.com/CycloneDX/cyclonedx-php-library",
+    "websiteUrl": "https://packagist.org/packages/cyclonedx/cyclonedx-library",
+    "categories": [
+      "opensource",
+      "library"
+    ]
+  },
+  {
     "name": "CycloneDX for Python",
     "publisher": "CycloneDX",
     "description": "Creates CycloneDX SBOMs for Python projects",
