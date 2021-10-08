@@ -6,9 +6,9 @@ comments: false
 banner: true
 
 # Hero section
-title: CycloneDX
-window_title: CycloneDX Software Bill of Materials (SBOM) Standard
-description: CycloneDX is a lightweight software bill of materials (SBOM) standard designed for use in application security contexts and supply chain component analysis.
+title: OWASP CycloneDX
+window_title: OWASP CycloneDX Software Bill of Materials (SBOM) Standard
+description: OWASP CycloneDX is a lightweight software bill of materials (SBOM) standard designed for use in application security contexts and supply chain component analysis.
 
 # Micro navigation
 micro_nav: false
