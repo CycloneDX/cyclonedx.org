@@ -1,4 +1,6 @@
 # Theme settings
+name: OWASP CycloneDX
+description: OWASP CycloneDX is a lightweight software bill of materials (SBOM) standard designed for use in application security contexts and supply chain component analysis.
 doks:
     baseurl:
     color_theme: blue # Available themes: blue (default), green, purple, red and yellow
@@ -50,11 +52,13 @@ layouts_dir: ./theme/_layouts
 includes_dir: ./theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md' ]
 include: [ '_redirects' ]
-permalink: /:title/
+#permalink: /:title/
+permalink: /news/:title/
 url: "https://cyclonedx.org"
 plugins:
   - jekyll-sitemap
   - jekyll-last-modified-at
+  - jekyll-feed
 defaults:
   -
     scope:
