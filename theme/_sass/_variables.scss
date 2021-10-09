@@ -8,6 +8,7 @@ $color-white: #fff !default;
 $color-black: #000 !default;
 $color-dark: #333 !default;
 $color-dark-blue: #071525 !default;
+$color-blue: #337ab7;
 $color-aqua: #bff2fb !default;
 $color-yellow: #f6d000 !default;
 $color-orange: #FF8C00 !default;
@@ -59,7 +60,7 @@ $color-hamburger: #c0c0c0 !default;
 $color-badge-bg: #a0a0a0 !default;
 $color-badge-bg-active: #ffffff !default;
 $color-badge-font: #ffffff;
-$color-badge-font-active: #337ab7;
+$color-badge-font-active: $color-blue;
 
 /* ----- Font families ----- */
 $font-family-primary: 'Noto Sans', sans-serif !default;

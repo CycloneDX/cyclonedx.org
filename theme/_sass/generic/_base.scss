@@ -85,6 +85,39 @@ h6, .h6 {
 	font-size: $font-size-h6;
 }
 
+/* ----- News article listing ----- */
+.article-item .title {
+	font-family: $font-family-secondary;
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: $line-height-headings;
+	color: $color-blue;
+	margin: 2.5rem 0 0 0;
+	text-decoration: none;
+}
+
+.article-item .title a {
+	border-bottom: 0;
+}
+
+.article-item .subtitle {
+	font-size: 1.1rem;
+	color: $color-blue;
+}
+
+.article-item .date {
+	color: $color-pre-border;
+	font-weight: 600;
+}
+
+.article-item .overview {
+	margin-top: 1.1rem;
+}
+
+.article-item {
+	padding-bottom: 1.5rem;
+}
+
 /* ----- Inline elements ----- */
 small,
 .text-small {
