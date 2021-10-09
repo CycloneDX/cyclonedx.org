@@ -229,7 +229,7 @@ li.dropdown {
 }
 
 li.dropdown a:hover {
-	background-color: rgba(241,171,14,.8);
+	background-color: rgba(255,184,69,.8);
 }
 
 li.dropdown {
@@ -271,13 +271,13 @@ li.dropdown {
 	padding: 45px 0 10px;
 }
 .news-section .news a {
-	color: #0064A0;
+	color: #0057C4;
 }
 .cta-section {
 	background-color: #f8f8f8;
 	padding: 45px 0 90px; }
 .cta-section .cta-wrapper:hover {
-	border-color: #4A5F77;
+	border-color: #0057C4;
 }
 @media only screen and (max-width: 767px) {
 	.cta-section {
@@ -299,7 +299,7 @@ li.dropdown {
 	font-size: 22px;
 	margin: 20px 0 15px; }
 .cta-section .cta-wrapper h1 a, .cta-section .cta-wrapper h3 a {
-	color: #1E4877; }
+	color: $color-blue; }
 .cta-section .cta-wrapper p {
 	color: #555555; }
 .cta-section .cta-wrapper .link:hover {
