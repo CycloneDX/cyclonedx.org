@@ -7,8 +7,8 @@ banner: false
 
 # Hero section
 title: News
-window_title: News
-description: 
+window_title: OWASP CycloneDX News
+description: News and updates from the OWASP SBOM community
 
 # Micro navigation
 micro_nav: true
