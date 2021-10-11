@@ -14,6 +14,9 @@
 	height: 5.625rem;
 	border-bottom: 1px solid rgba(#0064A1, .35);
 }
+.site-header a {
+	color: $color-white;
+}
 .theme-background {
 	background: $color-theme-blue;
 }

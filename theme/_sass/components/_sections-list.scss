@@ -76,6 +76,7 @@
 
 			a {
 				@include link-reset;
+				color: $color-dark;
 			}
 		}
 	}
