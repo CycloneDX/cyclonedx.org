@@ -874,5 +874,16 @@
       "proprietary",
       "analysis"
     ]
+  },
+  {
+    "name": "CycloneDX for Conan",
+    "publisher": "CycloneDX",
+    "description": "Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects using Conan",
+    "repoUrl": "https://github.com/CycloneDX/cyclonedx-conan",
+    "websiteUrl": "https://github.com/CycloneDX/cyclonedx-conan",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
   }
 ]
