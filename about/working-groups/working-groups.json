@@ -1580,5 +1580,33 @@
     "categories": [
       "maintainers"
     ]
+  },
+  {
+    "displayName": "AlbertoMonteiro",
+    "lastName": "albertomonteiro",
+    "headshot": "https://avatars.githubusercontent.com/u/836496?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "AlbertoMonteiro",
+    "homepage": "https://github.com/AlbertoMonteiro",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "nil4",
+    "lastName": "nil4",
+    "headshot": "https://avatars.githubusercontent.com/u/139133?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "nil4",
+    "homepage": "https://github.com/nil4",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
