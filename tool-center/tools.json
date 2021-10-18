@@ -885,5 +885,16 @@
       "opensource",
       "build-integration"
     ]
+  },
+  {
+    "name": "Checkov",
+    "publisher": "Checkov",
+    "description": "Prevent cloud misconfigurations during build-time for Terraform, Cloudformation, Kubernetes, Serverless framework and other infrastructure-as-code-languages with Checkov by Bridgecrew. Can output to CycloneDX.",
+    "repoUrl": "https://github.com/bridgecrewio/checkov",
+    "websiteUrl": "https://www.checkov.io/",
+    "categories": [
+      "opensource",
+      "analysis"
+    ]
   }
 ]
