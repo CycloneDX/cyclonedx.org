@@ -896,5 +896,16 @@
       "opensource",
       "analysis"
     ]
+  },
+  {
+    "name": "SBOM CLI",
+    "publisher": "Defense Unicorns",
+    "description": "Creates CycloneDX SBOMs from Kubernetes Helm charts",
+    "repoUrl": "https://github.com/defenseunicorns/sbom-cli",
+    "websiteUrl": "https://github.com/defenseunicorns/sbom-cli",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
   }
 ]
