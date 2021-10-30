@@ -21,8 +21,8 @@
             <name>acme-library</name>
             <version>1.0.0</version>
             <properties>
-                <property key="Foo" value="456"/>
-                <property key="Bar" value="DEF"/>
+                <property name="Foo" value="456"/>
+                <property name="Bar" value="DEF"/>
             </properties>
         </component>
     </components>
@@ -34,8 +34,8 @@
                 <endpoint>https://partner.org/api/v1/stock</endpoint>
             </endpoints>
             <properties>
-                <property key="Foo" value="789"/>
-                <property key="Bar" value="GHI"/>
+                <property name="Foo" value="789"/>
+                <property name="Bar" value="GHI"/>
             </properties>
         </service>
     </services>
@@ -80,11 +80,11 @@
       "version": "1.0.0",
       "properties": [
         {
-          "key": "Foo",
+          "name": "Foo",
           "value": "456"
         },
         {
-          "key": "Bar",
+          "name": "Bar",
           "value": "DEF"
         }
       ]
@@ -100,11 +100,11 @@
       ],
       "properties": [
         {
-          "key": "Foo",
+          "name": "Foo",
           "value": "789"
         },
         {
-          "key": "Bar",
+          "name": "Bar",
           "value": "GHI"
         }
       ]
