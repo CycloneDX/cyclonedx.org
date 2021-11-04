@@ -23,15 +23,15 @@ micro_nav: false
 
 ## CycloneDX Supporters
 
-<div class="logo-cards" id="adopters-supporters">  
+<div class="logo-cards" id="adopters-supporters" style="padding-top:3rem;">  
 </div>
 
 ## Vendor Support
 
-<div class="logo-cards" id="adopters-organizations">  
+<div class="logo-cards" id="adopters-organizations" style="padding-top:3rem;">  
 </div>
 
 ## Project Support
 
-<div class="logo-cards" id="adopters-projects">  
+<div class="logo-cards" id="adopters-projects" style="padding-top:3rem;">  
 </div>
