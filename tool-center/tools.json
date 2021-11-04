@@ -907,5 +907,15 @@
       "opensource",
       "build-integration"
     ]
+  },
+  {
+    "name": "CxSCA",
+    "publisher": "Checkmarx",
+    "description": "Checkmarx SCA is a Software Composition Analysis (SCA) platform that can produce CycloneDX SBOMs",
+    "websiteUrl": "https://checkmarx.com/product/cxsca-open-source-scanning",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
   }
 ]
