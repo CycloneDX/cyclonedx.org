@@ -259,5 +259,21 @@
     "categories": [
       "projects"
     ]
+  },
+  {
+    "organization": "Checkmarx",
+    "logo": "checkmarx.svg",
+    "homepage": "https://checkmarx.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Checkov",
+    "logo": "checkov.svg",
+    "homepage": "https://www.checkov.io/",
+    "categories": [
+      "projects"
+    ]
   }
 ]
