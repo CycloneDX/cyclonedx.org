@@ -34,7 +34,7 @@ function generateTemplate(entity) {
     }
     return `
     <div class="logo-card-container">
-      <div class="logo-card">
+      <div class="logo-card" style="overflow: visible;">
         <div class="logo-card-body"><a href="${entity.homepage}"><img class="adopter" src="${logoUrl}" alt="${entity.organization}" border="0"></a></div>
       </div>
     </div>  
