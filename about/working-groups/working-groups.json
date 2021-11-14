@@ -1636,5 +1636,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "davideicardi",
+    "lastName": "davideicardi",
+    "headshot": "https://avatars.githubusercontent.com/u/852570?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "davideicardi",
+    "homepage": "https://github.com/davideicardi",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "woodruffw",
+    "lastName": "woodruffw",
+    "headshot": "https://avatars.githubusercontent.com/u/3059210?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "woodruffw",
+    "homepage": "https://github.com/woodruffw",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
