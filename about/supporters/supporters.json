@@ -275,5 +275,13 @@
     "categories": [
       "projects"
     ]
+  },
+  {
+    "organization": "Reliable Energy Analytics",
+    "logo": "reliableenergyanalytics.svg",
+    "homepage": "https://reliableenergyanalytics.com/",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
