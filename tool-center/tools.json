@@ -917,5 +917,17 @@
       "proprietary",
       "analysis"
     ]
+  },
+  {
+    "name": "Ochrona CLI",
+    "publisher": "Ochrona",
+    "description": "A command line tool for detecting vulnerabilities in Python dependencies and doing safe package installs. Output CycloneDX of all dependencies.",
+    "repoUrl": "https://github.com/ochronasec/ochrona-cli",
+    "websiteUrl": "https://ochrona.dev/",
+    "categories": [
+      "opensource",
+      "analysis",
+      "build-integration"
+    ]
   }
 ]
