@@ -929,5 +929,17 @@
       "analysis",
       "build-integration"
     ]
+  },
+  {
+    "name": "pip-audit",
+    "publisher": "Trail of Bits",
+    "description": "Audits Python environments and dependency trees for known vulnerabilities. Generates CycloneDX SBOM of vulnerable components.",
+    "repoUrl": "https://github.com/trailofbits/pip-audit",
+    "websiteUrl": "https://github.com/trailofbits/pip-audit",
+    "categories": [
+      "opensource",
+      "build-integration",
+      "analysis"
+    ]
   }
 ]
