@@ -1664,5 +1664,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "khuey",
+    "lastName": "khuey",
+    "headshot": "https://avatars.githubusercontent.com/u/325892?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "khuey",
+    "homepage": "https://github.com/khuey",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "JAG-UK",
+    "lastName": "jag-uk",
+    "headshot": "https://avatars.githubusercontent.com/u/19373278?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "JAG-UK",
+    "homepage": "https://github.com/JAG-UK",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
