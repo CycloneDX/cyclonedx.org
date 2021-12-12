@@ -1692,5 +1692,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "hanstdam",
+    "lastName": "hanstdam",
+    "headshot": "https://avatars.githubusercontent.com/u/6084115?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "hanstdam",
+    "homepage": "https://github.com/hanstdam",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "mckalea",
+    "lastName": "mckalea",
+    "headshot": "https://avatars.githubusercontent.com/u/81175035?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "mckalea",
+    "homepage": "https://github.com/mckalea",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
