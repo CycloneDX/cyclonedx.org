@@ -952,5 +952,16 @@
       "proprietary",
       "distribute"
     ]
+  },
+  {
+    "name": "WpBom",
+    "publisher": "Sepbit",
+    "description": "WordPress integration with OWASP CycloneDX and Dependency Track",
+    "repoUrl": "https://github.com/sepbit/wpbom",
+    "websiteUrl": "https://wordpress.org/plugins/wpbom/",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
   }
 ]
