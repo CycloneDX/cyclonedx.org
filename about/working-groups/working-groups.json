@@ -1720,5 +1720,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "fanovilla",
+    "lastName": "fanovilla",
+    "headshot": "https://avatars.githubusercontent.com/u/63714262?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "fanovilla",
+    "homepage": "https://github.com/fanovilla",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "vitoranguia",
+    "lastName": "vitoranguia",
+    "headshot": "https://avatars.githubusercontent.com/u/9786665?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "vitoranguia",
+    "homepage": "https://github.com/vitoranguia",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
