@@ -952,5 +952,16 @@
       "proprietary",
       "distribute"
     ]
+  },
+  {
+    "name": "Meterian BOSS scanner",
+    "publisher": "Meterian",
+    "description": "Software composition analysis for codebases providing precise and comprehensive CycloneDX SBOMs for open source and private source code projects. Supports all major ecosystems Java, NodeJS, .NET, Go, Rust, Swift, Python, Ruby, PHP, C/C++, Perl",
+    "websiteUrl": "https://meterian.io/products/boss",
+    "categories": [
+      "proprietary",
+      "github-action",
+      "build-integration"
+    ]
   }
 ]
