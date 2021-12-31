@@ -43,20 +43,7 @@ With CycloneDX, it is possible to reference a component, service, or vulnerabili
 other BOMs. This deep-linking capability is referred to as [BOM-Link](../rfc-tbd) and is defined in IETF 
 [RFC-TBD](https://datatracker.ietf.org/doc/html/rfcTBD).
 
-The syntax is:
-```
-urn:cdx:serialNumber/version#bomref
-```
-
-For example, a VEX BOM could reference componentA in version 1 of a BOM with serial number `f08a6ccd-4dce-4759-bd84-c626675d60a7`, 
-using the following syntax:
-
-```
-urn:cdx:f08a6ccd-4dce-4759-bd84-c626675d60a7/1#componentA
-```
-
 Learn more about how CycloneDX makes use of [BOM-Link](../rfc-tbd).
-
 
 ## BOM With Embedded VEX
 
