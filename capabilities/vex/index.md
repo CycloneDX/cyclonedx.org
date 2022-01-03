@@ -37,7 +37,7 @@ the VEX from the BOM. This allows VEX information to be updated without having t
 
 VEX is an integral part of the CycloneDX specification providing the convenience of leveraging a single format and tool chain.
 
-![Independent BOM and VEX Document](vexbom.svg){: width="500" }
+![Independent BOM and VEX Document](../../theme/assets/images/vexbom.svg){: width="500" }
 
 With CycloneDX, it is possible to reference a component, service, or vulnerability inside a BOM from other systems or 
 other BOMs. This deep-linking capability is referred to as [BOM-Link](../rfc-tbd) and is defined in IETF 
@@ -47,7 +47,7 @@ Learn more about how CycloneDX makes use of [BOM-Link](../rfc-tbd).
 
 ## BOM With Embedded VEX
 
-![BOM With Embedded VEX](embedded-vex.svg){: width="167" }
+![BOM With Embedded VEX](../../theme/assets/images/embedded-vex.svg){: width="167" }
 
 CycloneDX also supports embedding VEX information inside a BOM, thus having a single artifact that describes both
 inventory and VEX data. There are several uses for embedding VEX data including:
@@ -63,6 +63,10 @@ feeds. CycloneDX is agnostic to the advisory format, however, the
 recommended. Refer to the [Security Advisories Use Case](../../use-cases/#security-advisories) for more information.
 
 CSAF also supports an optional VEX profile which can be used with CycloneDX.
+
+## High-Level Object Model
+
+![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
 
 ## Documentation and Examples
 
