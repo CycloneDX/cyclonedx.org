@@ -348,3 +348,22 @@ h4.profile-name {
 .feature-text {
 	padding: 0 20px;
 }
+
+abbr {
+	position: relative;
+}
+abbr:hover::after {
+	content: attr(data-title);
+	position: absolute;
+	width: 300px;
+	left: 100%;
+	display: block;
+	padding: .5em;
+	background: $color-theme-blue;
+	border-radius:8px;
+	color:white;
+	z-index: 999;
+}
+abbr[data-title] {
+	border-bottom: orange 2px dotted;
+}
