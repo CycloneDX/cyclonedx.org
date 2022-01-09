@@ -3,10 +3,10 @@
 <svg width="100%" height="100%" viewBox="0 0 815 620" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g id="Extensions" transform="matrix(1,0,0,1,-100,169.75)">
         <g transform="matrix(0.8545,0,0,1.01705,69.4127,283.647)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#c1c2c2;"/>
         </g>
         <g transform="matrix(3.78829,0,0,1.01705,114.396,283.647)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#d7d7d7;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#ebebeb;"/>
         </g>
         <g transform="matrix(1,0,0,1,10.7333,337.3)">
             <g transform="matrix(16,0,0,16,120.355,78.8299)">
@@ -42,10 +42,10 @@
         </g>
         <g id="Tag:-Properties" serif:id="Tag: Properties" transform="matrix(4.59945,0,0,4.59945,-98.6552,57.2374)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -82,10 +82,10 @@
         </g>
         <g id="Tag:-Per-Organization" serif:id="Tag: Per Organization" transform="matrix(4.59945,0,0,4.59945,-98.6552,96.4598)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -134,10 +134,10 @@
         </g>
         <g id="Tag:-Per-Industry" serif:id="Tag: Per Industry" transform="matrix(4.59945,0,0,4.59945,61.3836,96.4598)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -177,10 +177,10 @@
         </g>
         <g id="Tag:-Team" serif:id="Tag: Team" transform="matrix(4.59945,0,0,4.59945,221.309,57.2374)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -208,10 +208,10 @@
         </g>
         <g id="Tag:-..." serif:id="Tag: ..." transform="matrix(4.59945,0,0,4.59945,221.309,96.4598)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -227,10 +227,10 @@
         </g>
         <g id="Tag:-Per-Organization1" serif:id="Tag: Per Organization" transform="matrix(4.59945,0,0,4.59945,61.3493,57.2374)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#9a9a9a;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#c1c2c2;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -283,10 +283,10 @@
     </g>
     <g id="Vulnerabilities" transform="matrix(1,0,0,1,-100,79.8016)">
         <g transform="matrix(0.8545,0,0,1.01705,69.4127,283.647)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#f18b88;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#f9b8b8;"/>
         </g>
         <g transform="matrix(3.78829,0,0,1.01705,114.396,283.647)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#fcc;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#ffe5e6;"/>
         </g>
         <g transform="matrix(1,0,0,1,-1.81871,337.3)">
             <g transform="matrix(16,0,0,16,120.355,78.8299)">
@@ -337,10 +337,10 @@
         </g>
         <g id="Tag:-Details" serif:id="Tag: Details" transform="matrix(4.59945,0,0,4.59945,-98.6552,57.2374)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#f18b88;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#f9b8b8;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#f18b88;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#f9b8b8;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -368,10 +368,10 @@
         </g>
         <g id="Tag:-Advisories" serif:id="Tag: Advisories" transform="matrix(4.59945,0,0,4.59945,-98.6552,96.4598)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#f18b88;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#f9b8b8;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#f18b88;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#f9b8b8;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -408,10 +408,10 @@
         </g>
         <g id="Tag:-Risk-Rating" serif:id="Tag: Risk Rating" transform="matrix(4.59945,0,0,4.59945,61.3836,96.4598)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#f18b88;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#f9b8b8;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#f18b88;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#f9b8b8;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -451,10 +451,10 @@
         </g>
         <g id="Tag:-Exploitability" serif:id="Tag: Exploitability" transform="matrix(4.59945,0,0,4.59945,221.309,57.2374)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#f18b88;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#f9b8b8;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#f18b88;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#f9b8b8;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -503,10 +503,10 @@
         </g>
         <g id="Tag:-Source" serif:id="Tag: Source" transform="matrix(4.59945,0,0,4.59945,61.3493,57.2374)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#f18b88;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#f9b8b8;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#f18b88;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#f9b8b8;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -532,10 +532,10 @@
     </g>
     <g id="Compositions" transform="matrix(1,0,0,1,-100,-100.005)">
         <g transform="matrix(0.8545,0,0,1.01705,69.4127,373.762)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#d6b656;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#ebdaad;"/>
         </g>
         <g transform="matrix(3.78829,0,0,1.01705,114.396,373.762)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#fff2cc;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#fff9e5;"/>
         </g>
         <g transform="matrix(1,0,0,1,-0.834713,425.904)">
             <g transform="matrix(16,0,0,16,120.355,78.8299)">
@@ -577,10 +577,10 @@
         </g>
         <g id="Tag:-Services" serif:id="Tag: Services" transform="matrix(4.59945,0,0,4.59945,61.3359,166.899)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#d6b656;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ebdaad;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#d6b656;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ebdaad;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -611,10 +611,10 @@
         </g>
         <g id="Tag:-Dependencies" serif:id="Tag: Dependencies" transform="matrix(4.59945,0,0,4.59945,221.298,166.899)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#d6b656;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ebdaad;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#d6b656;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ebdaad;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -657,10 +657,10 @@
         </g>
         <g id="Tag:-Components" serif:id="Tag: Components" transform="matrix(4.59945,0,0,4.59945,-98.6558,166.933)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#d6b656;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ebdaad;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#d6b656;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ebdaad;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -745,10 +745,10 @@
     </g>
     <g id="Dependencies" transform="matrix(1,0,0,1,-100,-100.005)">
         <g transform="matrix(0.8545,0,0,1.01705,69.4127,283.647)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#ffb673;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#ffd4ad;"/>
         </g>
         <g transform="matrix(3.78829,0,0,1.01705,114.396,283.647)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#ffe6cc;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#fff3e6;"/>
         </g>
         <g transform="matrix(1,0,0,1,-4.13071,335.788)">
             <g transform="matrix(16,0,0,16,120.355,78.8299)">
@@ -790,10 +790,10 @@
         </g>
         <g id="Tag:-Components1" serif:id="Tag: Components" transform="matrix(4.59945,0,0,4.59945,-98.6558,76.7842)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ffb673;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ffd4ad;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ffb673;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ffd4ad;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -830,10 +830,10 @@
         </g>
         <g id="Tag:-Services1" serif:id="Tag: Services" transform="matrix(4.59945,0,0,4.59945,61.3359,76.7842)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ffb673;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ffd4ad;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ffb673;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ffd4ad;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -865,10 +865,10 @@
     </g>
     <g id="Services" transform="matrix(1,0,0,1,-100,-100.005)">
         <g transform="matrix(0.8545,0,0,1.01705,69.4127,193.587)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#77b8aa;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#afdccd;"/>
         </g>
         <g transform="matrix(3.78829,0,0,1.01705,114.396,193.587)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#ccffe6;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#e5fff2;"/>
         </g>
         <g transform="matrix(1,0,0,1,21.7813,247.233)">
             <g transform="matrix(16,0,0,16,120.355,78.8299)">
@@ -898,10 +898,10 @@
         </g>
         <g id="Tag:-Provider" serif:id="Tag: Provider" transform="matrix(4.59945,0,0,4.59945,-98.6595,-33.4501)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#77b8aa;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#afdccd;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#77b8aa;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#afdccd;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -932,10 +932,10 @@
         </g>
         <g id="Tag:-Endpoints" serif:id="Tag: Endpoints" transform="matrix(4.59945,0,0,4.59945,-98.6595,7.16673)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#77b8aa;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#afdccd;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#77b8aa;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#afdccd;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -969,10 +969,10 @@
         </g>
         <g id="Tag:-Data" serif:id="Tag: Data" transform="matrix(4.59945,0,0,4.59945,61.3265,-33.4501)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#77b8aa;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#afdccd;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#77b8aa;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#afdccd;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -991,10 +991,10 @@
         </g>
         <g id="Tag:-Trust-Boundary" serif:id="Tag: Trust Boundary" transform="matrix(4.59945,0,0,4.59945,61.3265,7.16673)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#77b8aa;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#afdccd;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#77b8aa;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#afdccd;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1041,10 +1041,10 @@
     </g>
     <g id="Components" transform="matrix(1,0,0,1,-100,-100.005)">
         <g transform="matrix(0.8545,0,0,1.01705,69.4127,103.506)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#94b7e8;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#bcd5f4;"/>
         </g>
         <g transform="matrix(3.78829,0,0,1.01705,114.396,103.506)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#cce5ff;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#e4f2ff;"/>
         </g>
         <g transform="matrix(1,0,0,1,2.14929,155.359)">
             <g transform="matrix(16,0,0,16,120.355,78.8299)">
@@ -1080,10 +1080,10 @@
         </g>
         <g id="Tag:-Application" serif:id="Tag: Application" transform="matrix(4.59945,0,0,4.59945,-98.6595,-123.708)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1123,10 +1123,10 @@
         </g>
         <g id="Tag:-Library" serif:id="Tag: Library" transform="matrix(4.59945,0,0,4.59945,-98.6595,-83.3781)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1154,10 +1154,10 @@
         </g>
         <g id="Tag:-Framework" serif:id="Tag: Framework" transform="matrix(4.59945,0,0,4.59945,61.3361,-123.708)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1191,10 +1191,10 @@
         </g>
         <g id="Tag:-Operating-System" serif:id="Tag: Operating System" transform="matrix(4.59945,0,0,4.59945,221.329,-123.708)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1246,10 +1246,10 @@
         </g>
         <g id="Tag:-Device" serif:id="Tag: Device" transform="matrix(4.59945,0,0,4.59945,221.329,-83.3781)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1274,10 +1274,10 @@
         </g>
         <g id="Tag:-Firmware" serif:id="Tag: Firmware" transform="matrix(4.59945,0,0,4.59945,381.318,-123.708)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1308,10 +1308,10 @@
         </g>
         <g id="Tag:-File" serif:id="Tag: File" transform="matrix(4.59945,0,0,4.59945,381.318,-83.3781)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1330,10 +1330,10 @@
         </g>
         <g id="Tag:-Container" serif:id="Tag: Container" transform="matrix(4.59945,0,0,4.59945,61.3361,-83.3781)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#94b7e8;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#bcd5f4;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1368,10 +1368,10 @@
     </g>
     <g id="Metadata" transform="matrix(1,0,0,1,-100,-100.005)">
         <g transform="matrix(0.8545,0,0,1.01705,69.4127,13.418)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#ad89c0;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#cfb7e0;"/>
         </g>
         <g transform="matrix(3.78829,0,0,1.01705,114.396,13.418)">
-            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#e5ccff;fill-opacity:0.5;"/>
+            <rect x="35.796" y="85.135" width="175.541" height="78.659" style="fill:#f2e6ff;"/>
         </g>
         <g transform="matrix(1,0,0,1,15.9333,67.0714)">
             <g transform="matrix(16,0,0,16,120.355,78.8299)">
@@ -1401,10 +1401,10 @@
         </g>
         <g id="Tag:-Supplier" serif:id="Tag: Supplier" transform="matrix(4.59945,0,0,4.59945,-98.6595,-213.226)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ad89c0;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#cfb7e0;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ad89c0;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#cfb7e0;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1435,10 +1435,10 @@
         </g>
         <g id="Tag:-Manufacturer" serif:id="Tag: Manufacturer" transform="matrix(4.59945,0,0,4.59945,-98.6595,-173.033)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ad89c0;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#cfb7e0;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ad89c0;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#cfb7e0;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1481,10 +1481,10 @@
         </g>
         <g id="Tag:-Authors" serif:id="Tag: Authors" transform="matrix(4.59945,0,0,4.59945,61.3692,-213.226)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ad89c0;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#cfb7e0;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ad89c0;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#cfb7e0;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1512,10 +1512,10 @@
         </g>
         <g id="Tag:-Tools" serif:id="Tag: Tools" transform="matrix(4.59945,0,0,4.59945,61.3692,-173.033)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ad89c0;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#cfb7e0;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ad89c0;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#cfb7e0;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
@@ -1537,10 +1537,10 @@
         </g>
         <g id="Tag:-Component" serif:id="Tag: Component" transform="matrix(4.59945,0,0,4.59945,221.328,-213.226)">
             <g transform="matrix(0.000853892,-1.01803,1.08168,0.000907279,3.01566,159.061)">
-                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#ad89c0;fill-opacity:0.5;"/>
+                <path d="M85.094,71.106L87.553,72.307L82.635,72.307L85.094,71.106Z" style="fill:#cfb7e0;"/>
             </g>
             <g transform="matrix(7.90449,0,0,1.73436,-569.57,-53.359)">
-                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#ad89c0;fill-opacity:0.5;"/>
+                <rect x="82.342" y="71.124" width="3.906" height="2.887" style="fill:#cfb7e0;"/>
             </g>
             <g transform="matrix(0.217417,0,0,0.217417,21.6776,52.17)">
                 <g transform="matrix(14,0,0,14,284.851,97.333)">
