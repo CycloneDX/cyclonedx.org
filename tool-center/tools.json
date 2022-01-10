@@ -974,5 +974,27 @@
       "github-action",
       "build-integration"
     ]
+  },
+  {
+    "name": "Spack",
+    "publisher": "Spack",
+    "description": "Spack is a package manager for supercomputers, Linux, and macOS. The package managers can export inventory in CycloneDX.",
+    "repoUrl": "https://github.com/spack/spack-sbom",
+    "websiteUrl": "https://spack.io/",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
+  },
+  {
+    "name": "build-info-go",
+    "publisher": "JFrog",
+    "description": "build-info-go is a Go library and a CLI, which allows generating build-info and CycloneDX for a source code project.",
+    "repoUrl": "https://github.com/jfrog/build-info-go",
+    "websiteUrl": "https://github.com/jfrog/build-info-go",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
   }
 ]

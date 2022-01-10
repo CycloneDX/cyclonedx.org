@@ -283,5 +283,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "Spack",
+    "logo": "spack.svg",
+    "homepage": "https://spack.io/",
+    "categories": [
+      "projects"
+    ]
   }
 ]
