@@ -29,7 +29,7 @@ types of embedded devices. CycloneDX fills an important role in-between traditio
 <abbr data-title="Engineering Bill of Materials">eBOM</abbr> and <abbr data-title="Manufacturing Bill of Materials">mBOM</abbr>
 use cases for hardware devices.
 - Supports `device` as a first-class component type
-- Utilizes a formal and extensible taxonomy that defines a wide range of hardware devices and configurations
+- Utilizes a [formal and extensible taxonomy](https://github.com/CycloneDX/cyclonedx-property-taxonomy/blob/main/cdx/device.md) that defines a wide range of hardware devices and configurations
 
 CycloneDX can represent any type of software component, service, and the firmware and hardware devices in an 'as-built'
 product. A formal property taxonomy can be leveraged and extended to describe any type of hardware attribute or configuration.
