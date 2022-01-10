@@ -299,5 +299,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "Kyverno",
+    "logo": "kyverno.svg",
+    "homepage": "https://kyverno.io/",
+    "categories": [
+      "projects"
+    ]
   }
 ]

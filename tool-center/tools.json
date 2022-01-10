@@ -996,5 +996,15 @@
       "opensource",
       "build-integration"
     ]
+  },
+  {
+    "name": "Kyverno",
+    "publisher": "Kyverno",
+    "description": "Kyverno is a policy engine designed for Kubernetes. It can validate, mutate, and generate configurations using admission controls and background scans.",
+    "repoUrl": "https://github.com/kyverno/kyverno",
+    "websiteUrl": "https://github.com/kyverno/kyverno",
+    "categories": [
+      "opensource"
+    ]
   }
 ]
