@@ -291,5 +291,13 @@
     "categories": [
       "projects"
     ]
+  },
+  {
+    "organization": "JFrog",
+    "logo": "jfrog.svg",
+    "homepage": "https://jfrog.com",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
