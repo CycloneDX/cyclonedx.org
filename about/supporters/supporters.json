@@ -307,5 +307,13 @@
     "categories": [
       "projects"
     ]
+  },
+  {
+    "organization": "Eclipse",
+    "logo": "temurin.svg",
+    "homepage": "https://projects.eclipse.org/projects/adoptium.temurin",
+    "categories": [
+      "projects"
+    ]
   }
 ]

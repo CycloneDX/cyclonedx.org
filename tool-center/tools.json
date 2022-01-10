@@ -1006,5 +1006,15 @@
     "categories": [
       "opensource"
     ]
+  },
+  {
+    "name": "jbom",
+    "publisher": "Contrast Security",
+    "description": "jbom generates a CycloneDX Software Bill of Materials (SBOM) for apps on a running JVM",
+    "repoUrl": "https://github.com/Contrast-Security-OSS/jbom",
+    "websiteUrl": "https://github.com/Contrast-Security-OSS/jbom",
+    "categories": [
+      "opensource"
+    ]
   }
 ]
