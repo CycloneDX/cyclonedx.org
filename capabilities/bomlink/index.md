@@ -27,7 +27,7 @@ micro_nav: false
 
 With CycloneDX, it is possible to reference a component, service, or vulnerability inside a BOM from other systems or
 other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink) and is currently under review by
-[IANA](https://www.iana.org/) for acceptance and an RFC identifier.
+[IETF](https://www.ietf.org/).
 
 **Syntax**:
 ```

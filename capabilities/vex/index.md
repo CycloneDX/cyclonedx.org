@@ -40,8 +40,8 @@ VEX is an integral part of the CycloneDX specification providing the convenience
 ![Independent BOM and VEX Document](../../theme/assets/images/vexbom.svg){: width="500" }
 
 With CycloneDX, it is possible to reference a component, service, or vulnerability inside a BOM from other systems or 
-other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink) and is currently under review by 
-[IANA](https://www.iana.org/) for acceptance and an RFC identifier.
+other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink) and is currently under review by
+[IETF](https://www.ietf.org/).
 
 Learn more about how CycloneDX makes use of [BOM-Link](../bomlink).
 
