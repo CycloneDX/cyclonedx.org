@@ -41,6 +41,39 @@ security and privacy threat modeling. Refer to [Use Cases](../../use-cases) for 
 
 Use of CycloneDX SaaSBOMs is recommended by the [Cloud Security Alliance](https://cloudsecurityalliance.org/).
 
+## Independent SBOM and SaaSBOM
+The inventory of services and software components may be combined into a single BOM, or may have independent BOMs.
+Inventory described in an SBOM will typically remain static until such time the inventory changes.
+However, deployment information is much more dynamic and subject to change. Therefore, it is recommended to decouple
+the SaaSOMs from the SBOMs for large systems. This allows service information to be updated without having to create 
+and track additional SBOMs.
+
+![Independent BOM and VEX Document](../../theme/assets/images/saasbom-sbom.svg){: width="500" }
+
+When SaaSBOMs are decoupled from SBOMs, it is possible for every service defined in an SaaSBOM to reference its 
+corresponding SBOM. In the case of large microservice architectures, this would typically result in a one to many
+relationship with a single SaaSBOM and many SBOMs. Each service in the SaaSBOM would reference its corresponding SBOM.
+
+With CycloneDX, it is possible to reference a component, service, or vulnerability inside a BOM from other systems or
+other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink) and is currently under review by
+[IANA](https://www.iana.org/) for acceptance and an RFC identifier.
+
+Learn more about how CycloneDX makes use of [BOM-Link](../bomlink).
+
+## SBOM With Embedded Services
+
+![BOM With Embedded VEX](../../theme/assets/images/embedded-saasbom.svg){: width="334" }
+
+CycloneDX also supports embedding services information inside a BOM. There are several uses for embedding services including:
+
+* Organizations with a shared responsibility model for software development and deployment
+* SBOMs containing components that may rely on external services with the goal of augmenting the SBOM with these services
+
 ## High-Level Object Model
 
 ![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
+
+## Examples
+
+BOMs demonstrating SaaSBOM capabilities can be found at
+[https://github.com/CycloneDX/sbom-examples](https://github.com/CycloneDX/sbom-examples)

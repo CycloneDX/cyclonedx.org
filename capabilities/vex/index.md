@@ -40,10 +40,13 @@ VEX is an integral part of the CycloneDX specification providing the convenience
 ![Independent BOM and VEX Document](../../theme/assets/images/vexbom.svg){: width="500" }
 
 With CycloneDX, it is possible to reference a component, service, or vulnerability inside a BOM from other systems or 
-other BOMs. This deep-linking capability is referred to as [BOM-Link](../rfc-tbd) and is defined in IETF 
-[RFC-TBD](https://datatracker.ietf.org/doc/html/rfcTBD).
+other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink) and is currently under review by 
+[IANA](https://www.iana.org/) for acceptance and an RFC identifier.
 
-Learn more about how CycloneDX makes use of [BOM-Link](../rfc-tbd).
+Learn more about how CycloneDX makes use of [BOM-Link](../bomlink).
+
+CycloneDX VEX BOMs can also be used with alternative SBOM formats such as SPDX, but without the tight integration or
+support of an [IANA standard](https://www.iana.org/assignments/urn-namespaces) for linkage. Vendor support may vary.
 
 ## BOM With Embedded VEX
 
@@ -68,10 +71,7 @@ CSAF also supports an optional VEX profile which can be used with CycloneDX.
 
 ![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
 
-## Documentation and Examples
+## Examples
 
-Detailed support for vulnerabilities, including VEX, can be found in the 
-[CycloneDX specification documentation](https://cyclonedx.org/docs/latest/#vulnerabilities).
-
-BOMs demonstrating VEX capabilities can be found at 
+BOMs demonstrating VEX capabilities can be found at
 [https://github.com/CycloneDX/sbom-examples](https://github.com/CycloneDX/sbom-examples)

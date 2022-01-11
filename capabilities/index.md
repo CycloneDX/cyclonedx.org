@@ -23,7 +23,7 @@ micro_nav: false
 
 {% include capabilities.html %}
 
-CycloneDX was designed from the ground-up to be a Bill of Materials (BOM) format, capable of capturing complex inventory information for a wide range of cybersecurity and software supply chain use cases.
+CycloneDX was designed from the ground-up to be a Bill of Materials (BOM) format, capable of capturing complex inventory information for a wide range of cybersecurity and software supply chain [use cases](../use-cases).
 
 ## Software Bill of Materials (SBOM)
 A complete and accurate inventory of all first-party and third-party components is essential for risk identification. BOMs should ideally contain all direct and transitive components and the dependency relationships between them.

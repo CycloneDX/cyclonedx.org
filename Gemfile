@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
-gem "jekyll", "~> 4.2"
+gem "jekyll"
 gem "jekyll-sitemap"
 gem "jekyll-last-modified-at"
 gem 'jekyll-feed'
+gem 'jekyll-redirect-from'

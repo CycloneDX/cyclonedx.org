@@ -39,3 +39,8 @@ Organizations, or entire industries, can also leverage multiple extension points
 ## High-Level Object Model
 
 ![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
+
+## Examples
+
+BOMs demonstrating MBOM capabilities can be found at
+[https://github.com/CycloneDX/sbom-examples](https://github.com/CycloneDX/sbom-examples)
