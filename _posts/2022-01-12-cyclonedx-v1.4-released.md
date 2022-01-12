@@ -6,7 +6,7 @@ comments: false
 banner: false
 
 # News article settings
-title: CycloneDX v1.4 Released
+title: OWASP Expands SBOM Capabilities, Accelerating Innovation and Supply Chain Risk Reduction
 window_title: CycloneDX v1.4 Released
 description: CycloneDX v1.4 Released
 location:
