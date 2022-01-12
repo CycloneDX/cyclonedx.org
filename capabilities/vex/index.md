@@ -46,7 +46,7 @@ other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink
 Learn more about how CycloneDX makes use of [BOM-Link](../bomlink).
 
 CycloneDX VEX BOMs can also be used with alternative SBOM formats such as SPDX, but without the tight integration or
-support of an [IANA standard](https://www.iana.org/assignments/urn-namespaces) for linkage. Vendor support may vary.
+support of an [IETF standard](https://www.iana.org/assignments/urn-namespaces) for linkage. Vendor support may vary.
 
 ## BOM With Embedded VEX
 
