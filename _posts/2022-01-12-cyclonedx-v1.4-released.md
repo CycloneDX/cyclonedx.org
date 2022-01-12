@@ -21,7 +21,7 @@ micro_nav: false
     
 ---
 
-# OWASP Expands SBOM Capabilities Accelerating Innovation and Supply Chain Risk Reduction
+# OWASP Expands SBOM Capabilities, Accelerating Innovation and Supply Chain Risk Reduction
 **12 January 2022**
 
 OWASP today, launched an updated version of the CycloneDX Software Bill of Materials (SBOM) standard. CycloneDX version 
