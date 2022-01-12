@@ -9,7 +9,7 @@ banner: false
 title: OWASP Expands SBOM Capabilities, Accelerating Innovation and Supply Chain Risk Reduction
 window_title: CycloneDX v1.4 Released
 description: CycloneDX v1.4 Released
-location:
+location: Wakefield, MA
 subtitle: Adds support for Vulnerability Exploitability Exchange (VEX), release notes, and improved support for hardware devices
 excerpt: CycloneDX adds the ability to communicate vulnerabilities and their exploitability for software defined in a bill of materials. This capability, known as Vulnerability Exploitability Exchange (VEX), works with SBOMs, forming a comprehensive view of possible risk. Together, the combination of SBOM and VEX can significantly reduce the efforts and costs associated with vulnerability management
 image: https://cyclonedx.org/theme/assets/images/hero-subheader.png
