@@ -1,17 +1,17 @@
 <div class="code-example-tab">
-    <input id="{{ include.id }}-tab1" class="inputtab1" type="radio" name="{{ include.id }}-pct" checked="checked"/>
+    <input id="{{ include.id }}-tab1" class="inputtab1" type="radio" name="{{ include.id }}-pct" />
     <input id="{{ include.id }}-tab2" class="inputtab2" type="radio" name="{{ include.id }}-pct" />
-    <input id="{{ include.id }}-tab3" class="inputtab3" type="radio" name="{{ include.id }}-pct" />
+    <input id="{{ include.id }}-tab3" class="inputtab3" type="radio" name="{{ include.id }}-pct" checked="checked" />
     <nav>
         <ul class="navtab">
-            <li class="tab1">
-                <label for="{{ include.id }}-tab1">XML</label>
+            <li class="tab3">
+                <label for="{{ include.id }}-tab3">JSON (JSF)</label>
             </li>
             <li class="tab2">
                 <label for="{{ include.id }}-tab2">JSON (JWS)</label>
             </li>
-            <li class="tab3">
-                <label for="{{ include.id }}-tab3">JSON (JSF)</label>
+            <li class="tab1">
+                <label for="{{ include.id }}-tab1">XML</label>
             </li>
         </ul>
     </nav>
@@ -23,7 +23,7 @@
 {% highlight xml %}
 {% raw %}
 <?xml version="1.0" encoding="UTF-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.3"
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4"
      serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79"
      version="1">
     <components>
@@ -140,7 +140,7 @@ eyJraWQiOiJpM1VINUZYeFl4RGNKbkJxQzRFTkotZVhqUjNfcjRDNEVaUnFvNzJqUHc0IiwiYWxnIjoi
 {% raw %}
 {
   "bomFormat": "CycloneDX",
-  "specVersion": "1.3",
+  "specVersion": "1.4",
   "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
   "version": 1,
   "components": [{

@@ -44,3 +44,8 @@ the OBOM from the SBOM. This allows OBOM information to be updated without havin
 ## References
 
 * [BSIMM SE3.6 - Enhance application inventory with operations bill of materials](https://www.bsimm.com/framework/deployment/software-environment.html)
+
+## Examples
+
+BOMs demonstrating OBOM capabilities can be found at
+[https://github.com/CycloneDX/sbom-examples](https://github.com/CycloneDX/sbom-examples)

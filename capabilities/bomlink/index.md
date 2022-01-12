@@ -4,6 +4,8 @@ layout: document
 keywords: application security, software security, software bill of material, SBOM, BOM, open source, supply chain, specification, spdx, license, package url, purl, cpe
 comments: false
 banner: false
+redirect_from:
+- /capabilities/rfc-tbd/
 
 # Hero section
 title: IETF RFC TBD
@@ -24,8 +26,8 @@ micro_nav: false
 {% include capabilities.html %}
 
 With CycloneDX, it is possible to reference a component, service, or vulnerability inside a BOM from other systems or
-other BOMs. This deep-linking capability is known as BOM-Link. The specification is defined in 
-[RFC-TBD](https://datatracker.ietf.org/doc/html/rfcTBD).
+other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink) and is currently under review by
+[IETF](https://www.ietf.org/).
 
 **Syntax**:
 ```

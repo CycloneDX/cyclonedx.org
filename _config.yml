@@ -59,6 +59,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-last-modified-at
   - jekyll-feed
+  - jekyll-redirect-from
 defaults:
   -
     scope:

@@ -41,3 +41,8 @@ for details on the many possibilities that exist for beginner, intermediate, and
 SBOM use cases.
 
 ![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900" }
+
+## Examples
+
+BOMs demonstrating SBOM capabilities can be found at
+[https://github.com/CycloneDX/sbom-examples](https://github.com/CycloneDX/sbom-examples)

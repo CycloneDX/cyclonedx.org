@@ -19,11 +19,7 @@ micro_nav: false
 
 ## Introduction
 
-Modern software is assembled using third-party and open source components. They are glued together in complex and unique ways 
-and integrated with original code to achieve the desired functionality. An accurate inventory of all components enables 
-organizations to identify risk, allows for greater transparency, and enables rapid impact analysis.
-
-CycloneDX was created for this purpose.
+OWASP CycloneDX is a lightweight Software Bill of Materials (SBOM) standard designed for use in application security contexts and supply chain component analysis.
 
 Strategic direction and maintenance of the specification is managed by the CycloneDX Core working group, with origins
 in the [OWASP](https://owasp.org) community.

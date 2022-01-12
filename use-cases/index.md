@@ -275,32 +275,24 @@ that were made to the components along with the vulnerabilities those changes re
 
 {% include examples/vulnerability-remediation.html %}
 
-## Vulnerability disclosure
+## Vulnerability exploitability
 
-CycloneDX can optionally include vulnerabilities from the inventory of components and services. This is accomplished
-through the use of the [vulnerability schema extension](/ext/vulnerability). Common use cases of this extension are 
+CycloneDX can optionally include vulnerabilities from the inventory of components and services. Common use cases are 
 seen in Software Composition Analysis (SCA) tools, OCI container analysis tools, and other software or systems that 
 analyze components, identify inherited risk, and generate SBOMs with component inventory and associated vulnerabilities.
 
-Vulnerability data is subject to change, even if the SBOM and its inventory of components does not. Due to the dynamic
-nature of vulnerability data, it is recommended that SBOMs with this information have a relatively short shelf-life and
-not persisted or referenced for longer periods of time. 
+Optionally the exploitability of the vulnerabilities in the context of the assembled software, system, or device may
+also be communicated. This capability is referred to as [Vulnerability Exploitability Exchange (VEX)](../capabilities/vex).
 
-CycloneDX can also reference dynamic vulnerability information through its support of 
-[security advisories](#security-advisories).
-
-<div class="callout callout--warning">
-The vulnerability schema extension is only available in XML. It is not currently available in JSON.
-</div>
-
-{% include examples/vulnerability-disclosure.html %}
+{% include examples/vex.html %}
 
 ## Security advisories
 
 CycloneDX supports many different types of [external references](#external-references) including security advisories.
 Zero or more URLs to security advisories for a given component or service can be specified. CycloneDX does not prescribe
-the advisory format, however the [Common Security Advisory Framework (CSAF)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=csaf) 
-is recommended.
+the advisory format, however, use of CycloneDX as an advisory format is highly encouraged as it simplifies usage through
+a common format and tool set. Alternatively , the [Common Security Advisory Framework (CSAF)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=csaf) 
+is also recommended.
 
 {% include examples/security-advisories.html %}
 

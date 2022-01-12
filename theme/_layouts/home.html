@@ -12,29 +12,32 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="align-container" data-mh>
-                        <div class="align-inner">
-                            <!--
-                            {% if page.title %}
-                                <h1 class="hero-subheader__title">{{ page.title }}</h1>
-                            {% endif %}
-                            -->
-                            {% if page.description %}
-                            <p class="hero-subheader__desc">{{ page.description }}</p>
-                            {% endif %}
-                            {% if page.page_nav.prev.content or page.page_nav.next.content %}
-                            {% if page.page_nav.prev.content and page.page_nav.prev.url %}
-                            <a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">
-                                <i class="icon icon--arrow-left"></i>
-                                {{ page.page_nav.prev.content }}
-                            </a>
-                            {% endif %}
-                            {% if page.page_nav.next.content and page.page_nav.next.url %}
-                            <a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}" class="btn btn--dark btn--rounded btn--w-icon">
-                                <i class="icon icon--arrow-right"></i>
-                                {{ page.page_nav.next.content }}
-                            </a>
-                            {% endif %}
-                            {% endif %}
+                        <div class="align-inner" role="img">
+                            <section class="cd-intro">
+                                <div class="cd-headline rotate-1">
+                                    <span style="display:table-cell;">CycloneDX is&nbsp;</span>
+                                    <span class="cd-words-wrapper" style="display:table-cell; vertical-align:middle;">
+                                        <b class="is-visible">SBOM</b>
+                                        <b>SaaSBOM</b>
+                                        <b>VEX</b>
+                                        <b>OBOM</b>
+                                        <b>MBOM</b>
+                                        <b><i style="font-size:3rem" class="icon icon--owasp-logo"></i></b>
+		                            </span>
+                                </div>
+                            </section>
+                            <section class="cd-intro">
+                                <div style="margin-top:0.8rem" class="cd-headline cd-sub-headline rotate-1">
+                                    <span class="cd-words-wrapper">
+                                        <div class="is-visible">Software Bill of Materials</div>
+                                        <div>Software-as-a-Service Bill of Materials</div>
+                                        <div>Vulnerability Exploitability Exchange</div>
+                                        <div>Operations Bill of Materials</div>
+                                        <div>Manufacturing Bill of Materials</div>
+                                        <div></div>
+                                    </span>
+                                </div>
+                            </section>
                         </div><!-- /.align-inner -->
                     </div><!-- /.align-container -->
                 </div><!-- /.col -->
@@ -71,7 +74,7 @@
     <div class="container text-center">
         <div class="row">
             <section class="news">
-                <a href="/news/cyclonedx-launches-learning-series">16 August 2021 - OWASP CycloneDX SBOM Standard Launches Educational Learning Series</a>
+                <a href="/news/cyclonedx-v1.4-released">12 January 2022 - CycloneDX v1.4 Released - Expands SBOM Capabilities, Accelerating Innovation and Supply Chain Risk Reduction</a>
             </section>
         </div>
     </div>
@@ -81,11 +84,11 @@
     <div class="container text-center">
         <div class="row">
             <div class="col-md-4 col-sm-6">
-                <a href="/about/guiding-principles/">
+                <a href="/capabilities/">
                     <div class="cta-wrapper">
-                        <i class="icon icon--compass" style="color:#0C3A76; font-size:70px"></i>
-                        <h1 class="feature-header">Guiding Principles</h1>
-                        <p class="feature-text">Discover a unique approach to standards development that benefits the entire community.</p>
+                        <i class="icon icon--cube" style="color:#0C3A76; font-size:70px"></i>
+                        <h1 class="feature-header">Capabilities</h1>
+                        <p class="feature-text">CycloneDX is a modern standard for the software supply chain. Discover the many capabilities that await.</p>
                     </div> <!-- cta-wrapper -->
                 </a>
             </div>
@@ -116,7 +119,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="content">
+                <div class="content home-content">
                     {{ content }}
                 </div><!-- /.content -->
             </div><!-- /.col -->
@@ -163,5 +166,47 @@
     {% endif %}
     {% include site-footer.html %}
 </div><!-- /.js-footer-area -->
+<script>
+    const animationDelay = 3500;
+
+    animateHeadline($('.cd-headline'));
+
+    function animateHeadline($headlines) {
+        $headlines.each(function(){
+            let headline = $(this);
+            setTimeout(function(){ hideWord( headline.find('.is-visible') ) }, animationDelay);
+        });
+    }
+
+    function hideWord($word) {
+        let nextWord = takeNext($word);
+        switchWord($word, nextWord);
+        setTimeout(function(){ hideWord(nextWord) }, animationDelay);
+    }
+
+    function takeNext($word) {
+        return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
+    }
+
+    function switchWord($oldWord, $newWord) {
+        $oldWord.removeClass('is-visible').addClass('is-hidden');
+        $newWord.removeClass('is-hidden').addClass('is-visible');
+    }
+
+    singleLetters($('.cd-headline.letters').find('b'));
+
+    function singleLetters($words) {
+        $words.each(function(){
+            let word = $(this),
+                letters = word.text().split(''),
+                selected = word.hasClass('is-visible');
+            for (let i in letters) {
+                letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
+            }
+            let newLetters = letters.join('');
+            word.html(newLetters);
+        });
+    }
+</script>
 </body>
 </html>

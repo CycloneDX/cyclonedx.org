@@ -24,9 +24,10 @@ micro_nav: false
 <img src="/theme/assets/images/high-level-object-model-small.svg" width="331" height="202" alt="CycloneDX Object Model Overview" style="display:block; float:right; margin:10px">
 
 The CycloneDX object model:
-* can be represented as XML, JSON and Protocol Buffers
-* consists of [metadata](#bom-metadata), [components](#components), [services](#services), [dependencies](#dependencies), and [compositions](#compositions).
+* is defined in [JSON Schema](https://github.com/CycloneDX/specification/blob/1.4/schema/bom-1.4.schema.json), [XML Schema](https://github.com/CycloneDX/specification/blob/1.4/schema/bom-1.4.xsd), and [Protocol Buffers](https://github.com/CycloneDX/specification/blob/1.4/schema/bom-1.4.proto)
+* consists of [metadata](#bom-metadata), [components](#components), [services](#services), [dependencies](#dependencies), [compositions](#compositions), and [vulnerabilities](#vulnerabilities).
 * is prescriptive and simple to use
+* is designed for <abbr data-title="Software Bill of Materials">SBOM</abbr>, <abbr data-title="Software-as-a-Service Bill of Materials">SaaSBOM</abbr>, <abbr data-title="Operations Bill of Materials">OBOM</abbr>, <abbr data-title="Manufacturing Bill of Materials">MBOM</abbr>, and <abbr data-title="Vulnerability Exploitability Exchange">VEX</abbr> use cases
 * can easily describe complex relationships
 * is [extensible](#extensions) to support specialized and future use cases
 
@@ -61,12 +62,20 @@ Compositions describe constituent parts (including components, services, and dep
 completeness. The aggregate of each composition can be described as complete, incomplete, incomplete first-party only, 
 incomplete third-party only, or unknown.
 
+## Vulnerabilities
+Known vulnerabilities inherited from the use of third-party and open source software and the exploitability of the vulnerabilities
+can be communicated with CycloneDX. Previously unknown vulnerabilities affecting both components and services may also be disclosed
+using CycloneDX, making it ideal for both VEX and security advisory use cases.
+
 ## Extensions
 Multiple extension points exist throughout the CycloneDX object model allowing fast prototyping of new capabilities
 and support for specialized and future use cases. The CycloneDX project maintains extensions that are beneficial to
 the larger community. The project encourages community participation and development of extensions that target 
 specialized or industry-specific use cases.
 
+## High-Level Object Model
+
+![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
 
 ## Registered Media Types
 
@@ -77,6 +86,6 @@ The following media types are officially registered with IANA:
 | application/vnd.cyclonedx+xml | XML | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+xml) |
 | application/vnd.cyclonedx+json | JSON | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+json) |
 
-Specific versions of CycloneDX can be specified by using the version parameter. i.e. `application/vnd.cyclonedx+xml; version=1.3`.
+Specific versions of CycloneDX can be specified by using the version parameter. i.e. `application/vnd.cyclonedx+xml; version=1.4`.
 
 The officially supported media type for Protocol Buffer format is `application/x.vnd.cyclonedx+protobuf`.
