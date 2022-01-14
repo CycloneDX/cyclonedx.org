@@ -654,6 +654,16 @@
     ]
   },
   {
+    "name": "Fortress Asset 2 Vendor",
+    "publisher": "Fortress Information Security",
+    "description": "Comprehensive Cyber Supply Chain Risk Management data library that ingests, analyzes and securely shares SBOMs, HBOMs and other supply chain attestations via SaaS and permissioned blockchain solutions to facilitate Supplier to Asset Owner trust conversations.",
+    "websiteUrl": "https://assettovendor.com/",
+    "categories": [
+      "proprietary",
+      "distribute"
+    ]
+  },
+  {
     "name": "Software Assurance Guardian Point Man",
     "publisher": "Reliable Energy Analytics LLC",
     "description": "SAG-PM processes CycloneDX SBOM’s as part of a seven step software supply chain risk assessment",
