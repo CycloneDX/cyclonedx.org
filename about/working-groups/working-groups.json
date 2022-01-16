@@ -1748,5 +1748,47 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "macblazer",
+    "lastName": "macblazer",
+    "headshot": "https://avatars.githubusercontent.com/u/6825873?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "macblazer",
+    "homepage": "https://github.com/macblazer",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "artem-smotrakov",
+    "lastName": "artem-smotrakov",
+    "headshot": "https://avatars.githubusercontent.com/u/19523081?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "artem-smotrakov",
+    "homepage": "https://github.com/artem-smotrakov",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "chris-sansone-angi",
+    "lastName": "chris-sansone-angi",
+    "headshot": "https://avatars.githubusercontent.com/u/51127567?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "chris-sansone-angi",
+    "homepage": "https://github.com/chris-sansone-angi",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
