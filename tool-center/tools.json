@@ -789,14 +789,49 @@
     ]
   },
   {
-    "name": "CodeNotary vcn",
+    "name": "Codenotary vcn",
+    "publisher": "Codenotary",
+    "description": "Protects an organizations software development pipeline from supply chain attacks. Codenotary natively supports CycloneDX SBOMs.",
+    "repoUrl": "https://github.com/codenotary/vcn",
+    "websiteUrl": "https://codenotary.com/",
+    "categories": [
+      "opensource",
+      "signing-notary"
+    ]
+  },
+  {
+    "name": "CodeNotary CAS",
     "publisher": "CodeNotary",
-    "description": "Protects an organizations software development pipeline from supply chain attacks. CodeNotary natively supports CycloneDX SBOMs",
+    "description": "CAS is an open source attestation service for the community. Notarize and authorize files, directories, git repos and Build SBOMs of containers. CAS natively supports CycloneDX SBOMs.",
+    "repoUrl": "https://github.com/codenotary/cas",
+    "websiteUrl": "https://cas.codenotary.com/",
+    "categories": [
+      "opensource",
+      "signing-notary"
+    ]
+  },
+  {
+    "name": "Codenotary CAS Notarize Docker Image and SBOM",
+    "publisher": "Codenotary",
+    "description": "A GitHub Action which notarizes and creates an SBOM for Docker images.",
     "repoUrl": "https://github.com/codenotary/vcn",
     "websiteUrl": "https://codenotary.io/",
     "categories": [
       "opensource",
-      "signing-notary"
+      "signing-notary",
+      "github-action"
+    ]
+  },
+  {
+    "name": "Codenotary CAS Authenticate Docker Image and SBOM",
+    "publisher": "Codenotary",
+    "description": "A GitHub Action which authenticates notarized Docker images and SBOMs.",
+    "repoUrl": "https://github.com/codenotary/vcn",
+    "websiteUrl": "https://codenotary.io/",
+    "categories": [
+      "opensource",
+      "signing-notary",
+      "github-action"
     ]
   },
   {
