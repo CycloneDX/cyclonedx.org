@@ -990,7 +990,7 @@
   {
     "name": "RKVST SBOM Hub",
     "publisher": "Jitsuin",
-    "description": "RKVST SBOM Hub is a free repository service for communities to discover, publish, and privately manage SBOMs with native support for CycloneDX format SBOMs. Advanced users can trace provenance, govern private permissioned distribution, and prove high assurance with immutable SBOMs with RKVST.",
+    "description": "A free SaaS repo to find and fetch public or private CycloneDX v1.4 BOMs. RKVST sustains and enhances SaaS/S/H/C-BOM or VEX publishing and consumption by tracing provenance, governing permissioned distribution and proving immutable assurance...",
     "repoUrl": "https://github.com/jitsuin-inc/archivist-samples/tree/main/archivist_samples/software_bill_of_materials",
     "websiteUrl": "https://sbom.rkvst.io",
     "categories": [
