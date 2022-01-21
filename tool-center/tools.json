@@ -1071,5 +1071,14 @@
     "categories": [
       "opensource"
     ]
+  },
+  {
+    "name": "Xray",
+    "publisher": "JFrog",
+    "description": "JFrog Xray is a software composition analysis (SCA) solution that proactively identifies vulnerabilities and license violations in open source. Xray generates CycloneDX SBOMs.",
+    "websiteUrl": "https://jfrog.com/xray/",
+    "categories": [
+      "proprietary"
+    ]
   }
 ]
