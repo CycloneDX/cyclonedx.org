@@ -51,7 +51,7 @@ sass:
 layouts_dir: ./theme/_layouts
 includes_dir: ./theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md' ]
-include: [ '_redirects' ]
+include: [ '_redirects', '.well-known' ]
 #permalink: /:title/
 permalink: /news/:title/
 url: "https://cyclonedx.org"
