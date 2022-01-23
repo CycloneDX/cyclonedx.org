@@ -1790,5 +1790,47 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "coderpatros-admin",
+    "lastName": "coderpatros-admin",
+    "headshot": "https://avatars.githubusercontent.com/u/98200781?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "coderpatros-admin",
+    "homepage": "https://github.com/coderpatros-admin",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "allisonsierra",
+    "lastName": "allisonsierra",
+    "headshot": "https://avatars.githubusercontent.com/u/85902135?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "allisonsierra",
+    "homepage": "https://github.com/allisonsierra",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "jaboutboul",
+    "lastName": "jaboutboul",
+    "headshot": "https://avatars.githubusercontent.com/u/1034564?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "jaboutboul",
+    "homepage": "https://github.com/jaboutboul",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
