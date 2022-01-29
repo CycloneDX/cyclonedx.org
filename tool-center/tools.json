@@ -1085,7 +1085,7 @@
     "name" : "apt2sbom",
     "publisher" : "Eliot Lear",
     "description" : "Build an SBOM out of APT and python information",
-    "websiteURL": "https://github.com/elear/apt2sbom",
+    "websiteUrl": "https://github.com/elear/apt2sbom",
     "repoUrl" : "https://github.com/elear/apt2sbom",
     "categories": [
       "opensource",
