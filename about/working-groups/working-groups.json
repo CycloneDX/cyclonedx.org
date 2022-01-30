@@ -1832,5 +1832,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "jblu42",
+    "lastName": "jblu42",
+    "headshot": "https://avatars.githubusercontent.com/u/82205623?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "jblu42",
+    "homepage": "https://github.com/jblu42",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "elear",
+    "lastName": "elear",
+    "headshot": "https://avatars.githubusercontent.com/u/1016623?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "elear",
+    "homepage": "https://github.com/elear",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
