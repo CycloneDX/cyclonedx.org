@@ -14,7 +14,7 @@ description: CycloneDX Specification Overview
 micro_nav: false
 
 # Page navigation
-    
+
 ---
 
 # Specification Overview
@@ -48,18 +48,18 @@ CycloneDX can represent applications, frameworks, libraries, containers, operati
 with the manufacturer information, license and copyright details, and complete pedigree and provenance for every component.
 
 ## Services
-Services describe external APIs that the software may call. Services describe endpoint URI’s, authentication requirements, 
-and trust boundary traversals. The flow of data between software and services can also be described including the data 
+Services describe external APIs that the software may call. Services describe endpoint URI’s, authentication requirements,
+and trust boundary traversals. The flow of data between software and services can also be described including the data
 classifications, and the flow direction of each type.
 
 ## Dependencies
-CycloneDX provides the ability to describe components and their dependency on other components. The dependency graph is 
-capable of representing both direct and transitive relationships. Components that depend on services can be represented 
+CycloneDX provides the ability to describe components and their dependency on other components. The dependency graph is
+capable of representing both direct and transitive relationships. Components that depend on services can be represented
 in the dependency graph and services that depend on other services can be represented as well.
 
 ## Compositions
-Compositions describe constituent parts (including components, services, and dependency relationships) and their 
-completeness. The aggregate of each composition can be described as complete, incomplete, incomplete first-party only, 
+Compositions describe constituent parts (including components, services, and dependency relationships) and their
+completeness. The aggregate of each composition can be described as complete, incomplete, incomplete first-party only,
 incomplete third-party only, or unknown.
 
 ## Vulnerabilities
@@ -70,7 +70,7 @@ using CycloneDX, making it ideal for both VEX and security advisory use cases.
 ## Extensions
 Multiple extension points exist throughout the CycloneDX object model allowing fast prototyping of new capabilities
 and support for specialized and future use cases. The CycloneDX project maintains extensions that are beneficial to
-the larger community. The project encourages community participation and development of extensions that target 
+the larger community. The project encourages community participation and development of extensions that target
 specialized or industry-specific use cases.
 
 ## High-Level Object Model
@@ -89,3 +89,15 @@ The following media types are officially registered with IANA:
 Specific versions of CycloneDX can be specified by using the version parameter. i.e. `application/vnd.cyclonedx+xml; version=1.4`.
 
 The officially supported media type for Protocol Buffer format is `application/x.vnd.cyclonedx+protobuf`.
+
+### Recognized file patterns
+
+The following file names are conventionally used for storing CycloneDX BOM files -
+
+- `bom.json` for `JSON` encoded CycloneDX BOM files.
+- `bom.xml` for `XML` encoded CycloneDX BOM files.
+
+Alternatively, files that match the glob pattern below are also recognized -
+
+- `*.cdx.json` for `JSON` encoded CycloneDX BOM files.
+- `*.cdx.xml` for `XML` encoded CycloneDX BOM files.
