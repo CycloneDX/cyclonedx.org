@@ -1091,5 +1091,14 @@
       "opensource",
       "build-integration"
       ]
+  },
+  {
+    "name": "NetRise Turbine",
+    "publisher": "NetRise",
+    "description": "NetRise Turbine is a firmware analysis platform that creates SBOMs by analyzing binary artifacts and other key components such as configuration files, credentials and cryptographic artifacts for maximum visibility and holistic risk identification.",
+    "websiteUrl": "https://www.netrise.io/",
+    "categories": [
+      "proprietary"
+    ]
   }
 ]
