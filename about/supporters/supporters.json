@@ -315,5 +315,13 @@
     "categories": [
       "projects"
     ]
+  },
+  {
+    "organization": "NetRise",
+    "logo": "netrise.svg",
+    "homepage": "https://netrise.io",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
