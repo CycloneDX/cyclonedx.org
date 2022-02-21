@@ -1100,5 +1100,16 @@
     "categories": [
       "proprietary"
     ]
+  },
+  {
+    "name" : "Rebom",
+    "publisher" : "Reliza",
+    "websiteUrl": "https://rebomdemo.relizahub.com",
+    "repoUrl" : "https://github.com/relizaio/rebom",
+    "description": "Rebom by Reliza is an open source catalog of Software Bills of Materials that supports CycloneDX in JSON format",
+    "categories": [
+      "opensource",
+      "distribute"
+      ]
   }
 ]
