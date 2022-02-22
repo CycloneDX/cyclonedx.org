@@ -1100,5 +1100,59 @@
     "categories": [
       "proprietary"
     ]
+  },
+  {
+    "name": "cve-bin-tool",
+    "publisher": "Intel",
+    "description": "CVE bin tool scans for a number of common, vulnerable components to let you know if your system includes common libraries with known vulnerabilities and outputs into CycloneDX format.",
+    "repoUrl": "https://github.com/intel/cve-bin-tool",
+    "websiteUrl": "https://cve-bin-tool.readthedocs.io/en/latest/",
+    "categories": [
+      "opensource",
+      "analysis"
+    ]
+  },
+  {
+    "name": "Jetstack Secure",
+    "publisher": "Jetstack",
+    "description": "Jetstack Secure manages your machine identities across Cloud Native Kubernetes and OpenShift environments and builds a detailed view of the enterprise security posture.",
+    "repoUrl": "https://github.com/jetstack/jetstack-secure",
+    "websiteUrl": "https://www.jetstack.io/jetstack-secure/",
+    "categories": [
+      "opensource"
+    ]
+  },
+  {
+    "name": "Ko",
+    "publisher": "Google",
+    "description": "Build and deploy Go applications on Kubernetes. Generates CycloneDX SBOMs for all project dependencies.",
+    "repoUrl": "https://github.com/google/ko",
+    "websiteUrl": "https://github.com/google/ko",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
+  },
+  {
+    "name": "Sonatype Lift",
+    "publisher": "Sonatype",
+    "description": "Sonatype Lift is a cloud-native, collaborative, code analysis platform built for developers. It analyzes each developer pull request to find and fix security, performance, reliability, and style issues, and generates CycloneDX SBOMs.",
+    "repoUrl": "https://lift.sonatype.com/",
+    "websiteUrl": "https://lift.sonatype.com/",
+    "categories": [
+      "proprietary",
+      "build-integration"
+    ]
+  },
+  {
+    "name": "spdxcyclone",
+    "publisher": "Gary O'Neall",
+    "description": "Prototype utility that converts SBOM documents between SPDX and CycloneDX.",
+    "repoUrl": "https://github.com/goneall/spdxcyclone",
+    "websiteUrl": "https://github.com/goneall/spdxcyclone",
+    "categories": [
+      "opensource",
+      "transform"
+    ]
   }
 ]

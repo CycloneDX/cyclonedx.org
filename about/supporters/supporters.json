@@ -323,5 +323,37 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "VMware",
+    "logo": "vmware.svg",
+    "homepage": "https://vmware.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Aqua Security",
+    "logo": "aquasec.svg",
+    "homepage": "https://aquasec.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Aqua Trivy",
+    "logo": "aqua-trivy.svg",
+    "homepage": "https://aquasecurity.github.io/trivy/",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "Google Ko",
+    "logo": "ko.png",
+    "homepage": "https://github.com/google/ko",
+    "categories": [
+      "projects"
+    ]
   }
 ]
