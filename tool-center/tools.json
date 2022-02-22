@@ -1102,6 +1102,17 @@
     ]
   },
   {
+    "name" : "Rebom",
+    "publisher" : "Reliza",
+    "websiteUrl": "https://rebomdemo.relizahub.com",
+    "repoUrl" : "https://github.com/relizaio/rebom",
+    "description": "Rebom by Reliza is an open source catalog of Software Bills of Materials that supports CycloneDX in JSON format",
+    "categories": [
+      "opensource",
+      "distribute"
+      ]
+  },
+  {
     "name": "cve-bin-tool",
     "publisher": "Intel",
     "description": "CVE bin tool scans for a number of common, vulnerable components to let you know if your system includes common libraries with known vulnerabilities and outputs into CycloneDX format.",
