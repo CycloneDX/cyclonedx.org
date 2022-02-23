@@ -1165,5 +1165,16 @@
       "opensource",
       "transform"
     ]
+  },
+  {
+    "name": "Trivy",
+    "publisher": "Aqua Security",
+    "description": "Trivy is a simple and comprehensive scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues. Trivy detects vulnerabilities of OS and language-specific packages, and generates CycloneDX.",
+    "repoUrl": "https://github.com/aquasecurity/trivy",
+    "websiteUrl": "https://aquasecurity.github.io/trivy/",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
   }
 ]
