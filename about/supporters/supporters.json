@@ -355,5 +355,14 @@
     "categories": [
       "projects"
     ]
+  },
+  {
+    "organization": "Apiiro",
+    "logo": "apiiro.svg",
+    "homepage": "https://apiiro.com",
+    "categories": [
+      "supporters",
+      "organizations"
+    ]
   }
 ]
