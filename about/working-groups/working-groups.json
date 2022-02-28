@@ -1930,5 +1930,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "taleodor",
+    "lastName": "taleodor",
+    "headshot": "https://avatars.githubusercontent.com/u/3857268?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "taleodor",
+    "homepage": "https://github.com/taleodor",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "Zenithar",
+    "lastName": "zenithar",
+    "headshot": "https://avatars.githubusercontent.com/u/3110?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "Zenithar",
+    "homepage": "https://github.com/Zenithar",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
