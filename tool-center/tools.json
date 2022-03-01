@@ -1176,5 +1176,17 @@
       "opensource",
       "build-integration"
     ]
+  },
+  {
+    "name": "Apiiro",
+    "publisher": "Apiiro",
+    "description": "Apiiro enables security & development teams to proactively remediate critical risks in their cloud-native applications such as design flaws, secrets, IaC misconfigurations, API & OSS vulnerabilities across the software supply chain.",
+    "repoUrl": "https://apiiro.com/",
+    "websiteUrl": "https://apiiro.com/",
+    "categories": [
+      "proprietary",
+      "analysis",
+      "build-integration"
+    ]
   }
 ]
