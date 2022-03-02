@@ -364,5 +364,21 @@
       "supporters",
       "organizations"
     ]
+  },
+  {
+    "organization": "GitLab",
+    "logo": "gitlab.svg",
+    "homepage": "https://gitlab.com/",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Alpine Linux",
+    "logo": "alpinelinux.svg",
+    "homepage": "https://alpinelinux.org/",
+    "categories": [
+      "projects"
+    ]
   }
 ]

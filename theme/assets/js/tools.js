@@ -50,7 +50,7 @@ function formatRepoBadges(repoUrl) {
   if (repoUrl && repoUrl.startsWith("https://github.com") && (repoUrl.split("/").length - 1) === 4) {
     let gh = repoUrl.replace("https://github.com/", "").replace(".git", "");
     return `
-        <img src="https://img.shields.io/github/forks/${gh}.svg?style=social&label=Fork">&nbsp;
+        <img src="https://img.shields.io/github/forks/${gh}.svg?style=social&label=Forks">&nbsp;
         <img src="https://img.shields.io/github/stars/${gh}.svg?style=social&label=Stars">`;
   }
   return "";

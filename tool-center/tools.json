@@ -1188,5 +1188,17 @@
       "analysis",
       "build-integration"
     ]
+  },
+  {
+    "name": "Gemnasium",
+    "publisher": "GitLab",
+    "description": "Dependency Scanning analyzer that uses the GitLab Advisory Database and generates CycloneDX SBOMs.",
+    "repoUrl": "https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium",
+    "websiteUrl": "https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium",
+    "categories": [
+      "opensource",
+      "analysis",
+      "build-integration"
+    ]
   }
 ]
