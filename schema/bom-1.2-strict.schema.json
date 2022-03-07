@@ -9,7 +9,14 @@
     "specVersion",
     "version"
   ],
+  "additionalProperties": false,
   "properties": {
+    "$schema": {
+      "type": "string",
+      "enum": [
+        "http://cyclonedx.org/schema/bom-1.2a.schema.json"
+      ]
+    },
     "bomFormat": {
       "$id": "#/properties/bomFormat",
       "type": "string",
@@ -83,6 +90,7 @@
     "metadata": {
       "type": "object",
       "title": "BOM Metadata Object",
+      "additionalProperties": false,
       "properties": {
         "timestamp": {
           "type": "string",
@@ -123,6 +131,7 @@
       "type": "object",
       "title": "Tool",
       "description": "The tool used to create the BOM.",
+      "additionalProperties": false,
       "properties": {
         "vendor": {
           "type": "string",
@@ -155,6 +164,7 @@
       "type": "object",
       "title": "Organizational Entity Object",
       "description": "",
+      "additionalProperties": false,
       "properties": {
         "name": {
           "type": "string",
@@ -186,6 +196,7 @@
       "type": "object",
       "title": "Organizational Contact Object",
       "description": "",
+      "additionalProperties": false,
       "properties": {
         "name": {
           "type": "string",
@@ -221,6 +232,7 @@
         "name",
         "version"
       ],
+      "additionalProperties": false,
       "properties": {
         "type": {
           "type": "string",
@@ -328,6 +340,7 @@
           "type": "array",
           "title": "Component License(s)",
           "items": {
+            "additionalProperties": false,
             "properties": {
               "license": {
                 "$ref": "#/definitions/license"
@@ -387,6 +400,7 @@
           "type": "object",
           "title": "Component Pedigree",
           "description": "Component pedigree is a way to document complex supply chain scenarios where components are created, distributed, modified, redistributed, combined with other components, etc. Pedigree supports viewing this complex chain from the beginning, the end, or anywhere in the middle. It also provides a way to document variants where the exact relation may not be known.",
+          "additionalProperties": false,
           "properties": {
             "ancestors": {
               "type": "array",
@@ -448,6 +462,7 @@
         "tagId",
         "name"
       ],
+      "additionalProperties": false,
       "properties": {
         "tagId": {
           "type": "string",
@@ -497,6 +512,7 @@
       "required": [
         "content"
       ],
+      "additionalProperties": false,
       "properties": {
         "contentType": {
           "type": "string",
@@ -528,6 +544,7 @@
         "alg",
         "content"
       ],
+      "additionalProperties": false,
       "properties": {
         "alg": {
           "$ref": "#/definitions/hash-alg"
@@ -575,6 +592,7 @@
           "required": ["name"]
         }
       ],
+      "additionalProperties": false,
       "properties": {
         "id": {
           "$ref": "spdx.schema.json",
@@ -608,6 +626,7 @@
       "type": "object",
       "title": "Commit",
       "description": "Specifies an individual commit",
+      "additionalProperties": false,
       "properties": {
         "uid": {
           "type": "string",
@@ -646,6 +665,7 @@
       "required": [
         "type"
       ],
+      "additionalProperties": false,
       "properties": {
         "type": {
           "type": "string",
@@ -675,6 +695,7 @@
       "type": "object",
       "title": "Diff",
       "description": "The patch file (or diff) that show changes. Refer to https://en.wikipedia.org/wiki/Diff",
+      "additionalProperties": false,
       "properties": {
         "text": {
           "title": "Diff text",
@@ -696,6 +717,7 @@
       "required": [
         "type"
       ],
+      "additionalProperties": false,
       "properties": {
         "type": {
           "type": "string",
@@ -729,6 +751,7 @@
           "type": "object",
           "title": "Source",
           "description": "The source of the issue where it is documented",
+          "additionalProperties": false,
           "properties": {
             "name": {
               "type": "string",
@@ -758,6 +781,7 @@
       "type": "object",
       "title": "Identifiable Action",
       "description": "Specifies an individual commit",
+      "additionalProperties": false,
       "properties": {
         "timestamp": {
           "type": "string",
@@ -787,6 +811,7 @@
         "url",
         "type"
       ],
+      "additionalProperties": false,
       "properties": {
         "url": {
           "type": "string",
@@ -831,6 +856,7 @@
       "required": [
         "ref"
       ],
+      "additionalProperties": false,
       "properties": {
         "ref": {
           "type": "string",
@@ -855,6 +881,7 @@
       "required": [
         "name"
       ],
+      "additionalProperties": false,
       "properties": {
         "bom-ref": {
           "type": "string",
@@ -927,6 +954,7 @@
           "type": "array",
           "title": "Component License(s)",
           "items": {
+            "additionalProperties": false,
             "properties": {
               "license": {
                 "$ref": "#/definitions/license"
@@ -972,6 +1000,7 @@
         "flow",
         "classification"
       ],
+      "additionalProperties": false,
       "properties": {
         "flow": {
           "$ref": "#/definitions/dataFlow"
