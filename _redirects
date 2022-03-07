@@ -26,4 +26,5 @@
 /docs/latest/xml/ /docs/1.4/xml/ 302
 
 /schema/bom-1.2a.schema.json /schema/bom-1.2-strict.schema.json 302
+/schema/bom-1.2b.schema.json /schema/bom-1.2-strict.schema.json 302
 /schema/bom-1.3a.schema.json /schema/bom-1.3-strict.schema.json 302
