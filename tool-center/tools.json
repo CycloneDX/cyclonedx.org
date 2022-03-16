@@ -1200,5 +1200,71 @@
       "analysis",
       "build-integration"
     ]
+  },
+  {
+    "name": "Lagoon Insights Handler",
+    "publisher": "Lagoon",
+    "description": "Lagoon is an application delivery platform for Kubernetes that supports the consumption of CycloneDX SBOMs as part of the Insights Handler component.",
+    "repoUrl": "https://github.com/uselagoon/insights-handler",
+    "websiteUrl": "https://lagoon.sh/",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
+  },
+  {
+    "name": "SnykVulnCheck",
+    "publisher": "Andrii Grytsenko",
+    "description": "SnykVulnCheck analyzes the contents of CycloneDX SBOMs and evaluates components for known vulnerabilities by using public APIs to Snyk Vulnerability DB.",
+    "repoUrl": "https://github.com/Andrii-Grytsenko-OWASP/SnykVulnCheck",
+    "websiteUrl": "https://github.com/Andrii-Grytsenko-OWASP/SnykVulnCheck",
+    "categories": [
+      "opensource",
+      "analysis"
+    ]
+  },
+  {
+    "name": "apko",
+    "publisher": "Chainguard",
+    "description": "Build OCI images using APK directly without Dockerfile. Generates CycloneDX SBOMs for containers using native SBOM functionality in apk-tools v3.0 and higher.",
+    "repoUrl": "https://github.com/chainguard-dev/apko",
+    "websiteUrl": "https://apko.dev/",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
+  },
+  {
+    "name": "OSV",
+    "publisher": "Google",
+    "description": "OSV is an open source vulnerability database and triage service. OSV includes a scanner that accepts CycloneDX SBOMs as input and identifies known vulnerabilities in components using the OSV service.",
+    "repoUrl": "https://github.com/google/osv",
+    "websiteUrl": "https://osv.dev/",
+    "categories": [
+      "opensource",
+      "analysis"
+    ]
+  },
+  {
+    "name": "docker-sbom-cli-plugin",
+    "publisher": "Docker",
+    "description": "Plugin for Docker CLI that generates CycloneDX SBOMs.",
+    "repoUrl": "https://github.com/docker/docker-sbom-cli-plugin",
+    "websiteUrl": "https://github.com/docker/docker-sbom-cli-plugin",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
+  },
+  {
+    "name": "ThreatMapper",
+    "publisher": "Deepfence",
+    "description": "Deepfence ThreatMapper hunts for vulnerabilities in production platforms, ranks vulnerabilities based on their risk-of-exploit, and generates CycloneDX SBOMs.",
+    "repoUrl": "https://github.com/deepfence/ThreatMapper",
+    "websiteUrl": "https://deepfence.io/",
+    "categories": [
+      "opensource",
+      "analysis"
+    ]
   }
 ]
