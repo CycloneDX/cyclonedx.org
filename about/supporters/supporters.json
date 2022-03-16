@@ -380,5 +380,29 @@
     "categories": [
       "projects"
     ]
+  },
+  {
+    "organization": "Chainguard",
+    "logo": "chainguard.svg",
+    "homepage": "https://chainguard.dev/",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Deepfence",
+    "logo": "deepfence.svg",
+    "homepage": "https://deepfence.io/",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Lagoon",
+    "logo": "lagoon.svg",
+    "homepage": "https://lagoon.sh/",
+    "categories": [
+      "projects"
+    ]
   }
 ]
