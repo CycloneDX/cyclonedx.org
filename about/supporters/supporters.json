@@ -404,5 +404,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "Google",
+    "logo": "osv.svg",
+    "homepage": "https://osv.dev/",
+    "categories": [
+      "projects"
+    ]
   }
 ]
