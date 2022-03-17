@@ -396,5 +396,13 @@
     "categories": [
       "projects"
     ]
+  },
+  {
+    "organization": "Google",
+    "logo": "google.svg",
+    "homepage": "https://google.com/",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
