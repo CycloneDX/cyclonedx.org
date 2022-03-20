@@ -1266,5 +1266,15 @@
       "opensource",
       "analysis"
     ]
+  },
+  {
+    "name": "JupiterOne",
+    "publisher": "JupiterOne",
+    "description": "Easily identify, map, analyze, and secure cyber assets and attack surface. Gain full visibility into complex cloud environments to uncover threats, close compliance gaps, and prioritize risk. Consumes and analyzes CycloneDX SBOMs.",
+    "websiteUrl": "https://jupiterone.com/",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
   }
 ]
