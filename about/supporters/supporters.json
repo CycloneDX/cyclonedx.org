@@ -412,5 +412,29 @@
     "categories": [
       "projects"
     ]
+  },
+  {
+    "organization": "Intel",
+    "logo": "intel.svg",
+    "homepage": "https://intel.com/",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "gum",
+    "logo": "goreleaser.svg",
+    "homepage": "https://goreleaser.com/",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "JupiterOne",
+    "logo": "jupiterone.svg",
+    "homepage": "https://jupiterone.com/",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
