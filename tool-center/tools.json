@@ -1276,5 +1276,16 @@
       "proprietary",
       "analysis"
     ]
+  },
+  {
+    "name": "Veracode",
+    "publisher": "Veracode",
+    "description": "API to output SBOM in CycloneDX in JSON format based on Veracode's software composition analysis scan.",
+    "repoUrl": false,
+    "websiteUrl": "https://www.veracode.com/",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
   }
 ]
