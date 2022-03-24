@@ -1286,5 +1286,14 @@
       "proprietary",
       "analysis"
     ]
+  },
+  {
+    "name": "Tidelift",
+    "publisher": "Tidelift",
+    "description": "Tidelift is a managed open source subscription, offering commercial support and maintenance for the open source dependencies used to build applications, backed by maintainers.",
+    "websiteUrl": "https://tidelift.com/",
+    "categories": [
+      "proprietary"
+    ]
   }
 ]

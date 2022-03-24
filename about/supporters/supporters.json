@@ -436,5 +436,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "Tidelift",
+    "logo": "tidelift.svg",
+    "homepage": "https://tidelift.com/",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
