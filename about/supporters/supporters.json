@@ -444,5 +444,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "Cybellum",
+    "logo": "cybellum.svg",
+    "homepage": "https://cybellum.com",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
