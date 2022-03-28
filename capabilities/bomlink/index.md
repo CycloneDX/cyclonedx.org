@@ -8,9 +8,9 @@ redirect_from:
 - /capabilities/rfc-tbd/
 
 # Hero section
-title: IETF RFC TBD
-window_title: CycloneDX - RFC TBD
-description: IETF RFC TBD
+title: CycloneDX BOM-Link
+window_title: CycloneDX BOM-Link
+description: CycloneDX BOM-Link is a formally registered URN that provides the ability to reference components, services, or vulnerabilities inside a BOM from other systems or other BOMs.
 
 # Micro navigation
 micro_nav: false
@@ -19,15 +19,16 @@ micro_nav: false
     
 ---
 
-# IETF RFC-TBD
+# CycloneDX BOM-Link
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
 {% include capabilities.html %}
 
 With CycloneDX, it is possible to reference a component, service, or vulnerability inside a BOM from other systems or
-other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink) and is currently under review by
-[IETF](https://www.ietf.org/).
+other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink) and is a 
+[formally registered URN](https://www.iana.org/assignments/urn-formal/cdx), governed by [IANA](https://www.iana.org), 
+and compliant with [RFC-8141](https://www.rfc-editor.org/rfc/rfc8141.html).
 
 **Syntax**:
 ```
