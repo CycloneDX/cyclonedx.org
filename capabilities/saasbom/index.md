@@ -55,8 +55,8 @@ corresponding SBOM. In the case of large microservice architectures, this would 
 relationship with a single SaaSBOM and many SBOMs. Each service in the SaaSBOM would reference its corresponding SBOM.
 
 With CycloneDX, it is possible to reference a component, service, or vulnerability inside a BOM from other systems or
-other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink) and is currently under review by
-[IETF](https://www.ietf.org/).
+other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink) and is a 
+[formally registered URN](https://www.iana.org/assignments/urn-formal/cdx).
 
 Learn more about how CycloneDX makes use of [BOM-Link](../bomlink).
 
