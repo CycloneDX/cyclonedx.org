@@ -1295,5 +1295,15 @@
     "categories": [
       "proprietary"
     ]
+  },
+  {
+    "name": "Bytesafe",
+    "publisher": "Bytesafe",
+    "description": "A Dependency Firewall that protects organizations from malicious dependencies. Detect and prevent vulnerabilities across the software supply chain. +SCA +CycloneDX SBOMs +License compliance +Secure package management",
+    "websiteUrl": "https://bytesafe.dev/",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
   }
 ]
