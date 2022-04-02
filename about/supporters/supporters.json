@@ -460,5 +460,21 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "Snyk",
+    "logo": "snyk.svg",
+    "homepage": "https://snyk.io",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "FOSSA",
+    "logo": "fossa.svg",
+    "homepage": "https://fossa.com",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
