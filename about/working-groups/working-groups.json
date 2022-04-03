@@ -2014,5 +2014,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "JanKrivanek",
+    "lastName": "jankrivanek",
+    "headshot": "https://avatars.githubusercontent.com/u/3809076?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "JanKrivanek",
+    "homepage": "https://github.com/JanKrivanek",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "niclas-g",
+    "lastName": "niclas-g",
+    "headshot": "https://avatars.githubusercontent.com/u/45293037?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "niclas-g",
+    "homepage": "https://github.com/niclas-g",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
