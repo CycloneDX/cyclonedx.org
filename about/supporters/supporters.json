@@ -476,5 +476,29 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "Syft",
+    "logo": "syft.svg",
+    "homepage": "https://github.com/anchore/syft",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "Grype",
+    "logo": "grype.svg",
+    "homepage": "https://github.com/anchore/grype",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "Amass",
+    "logo": "amass.svg",
+    "homepage": "https://github.com/OWASP/Amass",
+    "categories": [
+      "projects"
+    ]
   }
 ]
