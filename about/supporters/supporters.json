@@ -516,5 +516,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "CyberTest",
+    "logo": "cybertest.svg",
+    "homepage": "https://cybertest.com",
+    "categories": [
+      "organizations"
+    ]
   }
 ]

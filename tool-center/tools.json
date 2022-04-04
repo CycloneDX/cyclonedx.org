@@ -1316,5 +1316,15 @@
       "opensource",
       "analysis"
     ]
+  },
+  {
+    "name": "AppSonar",
+    "publisher": "CyberTest",
+    "description": "AppSonar Static Code Analyzer helps improve the security and quality of application code and can generate CycloneDX BOMs during analysis.",
+    "websiteUrl": "https://www.appsonar.com/",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
   }
 ]
