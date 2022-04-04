@@ -500,5 +500,21 @@
     "categories": [
       "projects"
     ]
+  },
+  {
+    "organization": "Kubeclarity",
+    "logo": "kubeclarity.svg",
+    "homepage": "https://github.com/cisco-open/kubei",
+    "categories": [
+      "projects"
+    ]
+  },
+  {
+    "organization": "Cisco",
+    "logo": "cisco.svg",
+    "homepage": "https://cisco.com",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
