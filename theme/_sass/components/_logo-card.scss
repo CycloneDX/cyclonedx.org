@@ -18,6 +18,9 @@
   @media(min-width: 60rem) {
     width: 33.3333%;
   }
+  @media(min-width: 80rem) {
+    width: 25%;
+  }
   @media(max-width: 40rem) {
     width: 100%;
     display: block;
