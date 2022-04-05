@@ -367,3 +367,15 @@ abbr:hover::after {
 abbr[data-title] {
 	border-bottom: orange 2px dotted;
 }
+
+h2 abbr.title-icon i {
+	font-size: 1.25rem;
+	color: #3067AA;
+}
+
+abbr[data-title].title-icon {
+	font-size: 1.0rem;
+	line-height: 1.5rem;
+	font-weight: normal;
+	border-bottom: 0;
+}
