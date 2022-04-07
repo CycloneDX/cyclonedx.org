@@ -182,6 +182,34 @@
     ]
   },
   {
+    "displayName": "Sambhav Kothari",
+    "lastName": "Kothari",
+    "headshot": "sambhav-kothari.jpg",
+    "organization": "Bloomberg",
+    "description": null,
+    "twitter": "_sambhavkothari",
+    "linkedin": "sambhav-kothari",
+    "github": "samj1912",
+    "homepage": "https://www.bloomberg.com/",
+    "categories": [
+      "industry"
+    ]
+  },
+  {
+    "displayName": "Jerod Heck",
+    "lastName": "Heck",
+    "headshot": "jerod-heck.jpg",
+    "organization": "Lockheed Martin",
+    "description": null,
+    "twitter": null,
+    "linkedin": "jmh88",
+    "github": null,
+    "homepage": "https://www.lockheedmartin.com/",
+    "categories": [
+      "industry"
+    ]
+  },
+  {
     "displayName": "bhamail",
     "lastName": "bhamail",
     "headshot": "https://avatars.githubusercontent.com/u/578919?v=4",
