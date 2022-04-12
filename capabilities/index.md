@@ -25,6 +25,9 @@ micro_nav: false
 
 CycloneDX was designed from the ground-up to be a Bill of Materials (BOM) format, capable of capturing complex inventory information for a wide range of cybersecurity and software supply chain [use cases](../use-cases).
 
+With CycloneDX, it is possible to reference a component, service, or vulnerability inside a BOM from other systems or other BOMs. This deep-linking capability is referred to as [BOM-Link](bomlink) and is a 
+[formally registered URN](https://www.iana.org/assignments/urn-formal/cdx), governed by [IANA](https://www.iana.org), and compliant with [RFC-8141](https://www.rfc-editor.org/rfc/rfc8141.html).
+
 ## Software Bill of Materials (SBOM)
 A complete and accurate inventory of all first-party and third-party components is essential for risk identification. BOMs should ideally contain all direct and transitive components and the dependency relationships between them.
 CycloneDX supports a wide range of software components, including:
