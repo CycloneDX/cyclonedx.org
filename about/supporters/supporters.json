@@ -524,5 +524,21 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "SonarSource",
+    "logo": "sonarsource.svg",
+    "homepage": "https://sonarsource.com",
+    "categories": [
+      "organizations"
+    ]
+  },
+  {
+    "organization": "Synopsys",
+    "logo": "synopsys.svg",
+    "homepage": "https://synopsys.com",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
