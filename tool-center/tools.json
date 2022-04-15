@@ -1326,5 +1326,26 @@
       "proprietary",
       "analysis"
     ]
+  },
+  {
+    "name": "SonarQube",
+    "publisher": "SonarSource",
+    "description": "SonarQube allows developers and development teams to write clean code and remediate existing code organically, so they can focus on the work they love and maximize the value they generate for businesses.",
+    "websiteUrl": "https://sonarsource.com/",
+    "categories": [
+      "opensource",
+      "proprietary",
+      "analysis"
+    ]
+  },
+  {
+    "name": "Black Duck",
+    "publisher": "Synopsys",
+    "description": "Black Duck software composition analysis (SCA) helps teams manage the security, quality, and license compliance risks that come from the use of open source and third-party code in applications and containers.",
+    "websiteUrl": "https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html",
+    "categories": [
+      "proprietary",
+      "analysis"
+    ]
   }
 ]
