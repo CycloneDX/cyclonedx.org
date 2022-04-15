@@ -1196,7 +1196,7 @@
     "repoUrl": "https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium",
     "websiteUrl": "https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium",
     "categories": [
-      "opensource",
+      "proprietary",
       "analysis",
       "build-integration"
     ]
