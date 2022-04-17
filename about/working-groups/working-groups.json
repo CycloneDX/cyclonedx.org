@@ -2098,5 +2098,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "koconnor-dev",
+    "lastName": "koconnor-dev",
+    "headshot": "https://avatars.githubusercontent.com/u/85152517?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "koconnor-dev",
+    "homepage": "https://github.com/koconnor-dev",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "CircuitSwan",
+    "lastName": "circuitswan",
+    "headshot": "https://avatars.githubusercontent.com/u/38862666?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "CircuitSwan",
+    "homepage": "https://github.com/CircuitSwan",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
