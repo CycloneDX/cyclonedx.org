@@ -548,5 +548,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "IBM",
+    "logo": "ibm.svg",
+    "homepage": "https://ibm.com",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
