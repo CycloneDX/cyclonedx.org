@@ -556,5 +556,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "Cloud Native Computing Foundation",
+    "logo": "cncf.svg",
+    "homepage": "https://www.cncf.io",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
