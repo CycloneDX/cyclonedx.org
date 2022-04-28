@@ -540,5 +540,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "Microfocus",
+    "logo": "microfocus.svg",
+    "homepage": "https://microfocus.com",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
