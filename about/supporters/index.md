@@ -26,7 +26,7 @@ micro_nav: false
 <div class="logo-cards" id="adopters-supporters" style="padding-top:3rem;">  
 </div>
 
-## Vendor Support <abbr class="title-icon" data-title="Commercial vendors that support the CycloneDX standard"><i class="icon icon--info-circle"></i></abbr>
+## Vendor Support <abbr class="title-icon" data-title="Vendors that support the CycloneDX standard"><i class="icon icon--info-circle"></i></abbr>
 
 <div class="logo-cards" id="adopters-organizations" style="padding-top:3rem;">  
 </div>

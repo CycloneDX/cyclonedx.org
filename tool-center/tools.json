@@ -363,6 +363,17 @@
     ]
   },
   {
+    "name": "Dependency-Track Maven Plugin",
+    "publisher": "Paul McKeown",
+    "description": "Maven plugin that integrates with a Dependency-Track server to submit SBOMs and optionally fail execution when vulnerable dependencies are found.",
+    "repoUrl": "https://github.com/pmckeown/dependency-track-maven-plugin",
+    "websiteUrl": "https://github.com/pmckeown/dependency-track-maven-plugin#readme",
+    "categories": [
+      "opensource",
+      "build-integration"
+    ]
+  },
+  {
     "name": "dtrack-audit",
     "publisher": "OZON",
     "description": "Publishes SBOMs to Dependency-Track for analysis and displays visualization from the command-line",
@@ -1196,7 +1207,7 @@
     "repoUrl": "https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium",
     "websiteUrl": "https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium",
     "categories": [
-      "opensource",
+      "proprietary",
       "analysis",
       "build-integration"
     ]
