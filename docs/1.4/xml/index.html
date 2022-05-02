@@ -3256,7 +3256,7 @@ pre {
                                  </tr>
                                  <tr>
                                     <th>Version</th>
-                                    <td>1.4</td>
+                                    <td>1.4.1</td>
                                  </tr>
                                  <tr>
                                     <th>Element and Attribute Namespaces</th>
@@ -3343,7 +3343,7 @@ pre {
                         </div>
                         <div id="schema-schemaComponent-collapse" class="panel-collapse collapse">
                            <div class="panel-body">
-                              <pre class="codehilite"><span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:schema</span> <span class="na">elementFormDefault=</span><span class="s">"qualified"</span> <span class="na">targetNamespace=</span><span class="s">"http://cyclonedx.org/schema/bom/1.4"</span> <span class="na">minVersion=</span><span class="s">"1.0"</span> <span class="na">maxVersion=</span><span class="s">"1.1"</span> <span class="na">version=</span><span class="s">"1.4"</span><span class="nt">&gt;</span>
+                              <pre class="codehilite"><span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:schema</span> <span class="na">elementFormDefault=</span><span class="s">"qualified"</span> <span class="na">targetNamespace=</span><span class="s">"http://cyclonedx.org/schema/bom/1.4"</span> <span class="na">minVersion=</span><span class="s">"1.0"</span> <span class="na">maxVersion=</span><span class="s">"1.1"</span> <span class="na">version=</span><span class="s">"1.4.1"</span><span class="nt">&gt;</span>
    <span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:import</span> <span class="na">namespace=</span><span class="s">"http://cyclonedx.org/schema/spdx"</span> <span class="na">schemaLocation=</span><span class="s">"http://cyclonedx.org/schema/spdx"</span><span class="nt">/&gt;</span>
 <span class="scContent">...</span>
 <span class="nt">&lt;/<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:schema&gt;</span>
@@ -9136,7 +9136,7 @@ pre {
                                           <li>Base XSD Type: token</li>
                                        </ul>
                                        <ul>
-                                          <li><em>pattern</em> = ^[-+a-z0-9.]+/[-+a-z0-9.]+$</li>
+                                          <li><em>pattern</em> = [-+a-z0-9.]+/[-+a-z0-9.]+</li>
                                        </ul>
                                     </td>
                                  </tr>
@@ -9166,7 +9166,7 @@ pre {
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:simpleType</span> <span class="na">name=</span><span class="s">"mimeType"</span><span class="nt">&gt;</span>
    <span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:restriction</span> <span class="na">base=</span><span class="s">"<span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:token</span>"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:pattern</span> <span class="na">value=</span><span class="s">"^[-+a-z0-9.]+/[-+a-z0-9.]+$"</span><span class="nt">/&gt;</span>
+      <span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:pattern</span> <span class="na">value=</span><span class="s">"[-+a-z0-9.]+/[-+a-z0-9.]+"</span><span class="nt">/&gt;</span>
    <span class="nt">&lt;/<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:restriction&gt;</span>
 <span class="nt">&lt;/<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:simpleType&gt;</span>
 </pre>
