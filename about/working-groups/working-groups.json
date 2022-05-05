@@ -98,6 +98,20 @@
     ]
   },
   {
+    "displayName": "Guillaume Le Floch",
+    "lastName": "Le Floch",
+    "headshot": "guillaume-le-floch.jpg",
+    "organization": "Zenika",
+    "description": null,
+    "twitter": "glfloch",
+    "linkedin": "guillaume-le-floch-025a8441",
+    "github": "glefloch",
+    "homepage": "https://www.zenika.com/",
+    "categories": [
+      "maintainers"
+    ]
+  },
+  {
     "displayName": "JC Herz",
     "lastName": "Herz",
     "headshot": "jc-herz.jpg",
