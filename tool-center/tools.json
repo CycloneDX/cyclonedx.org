@@ -1358,5 +1358,15 @@
       "proprietary",
       "analysis"
     ]
+  },
+  {
+    "name": "SBOM-Operator",
+    "publisher": "Christian Kotzbauer",
+    "description": "Catalogue all images of a Kubernetes cluster to multiple targets with Syft.",
+    "websiteUrl": "https://github.com/ckotzbauer/sbom-operator",
+    "categories": [
+      "opensource",
+      "analysis"
+    ]
   }
 ]
