@@ -2294,5 +2294,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "ThomGeG",
+    "lastName": "thomgeg",
+    "headshot": "https://avatars.githubusercontent.com/u/16097487?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "ThomGeG",
+    "homepage": "https://github.com/ThomGeG",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "ckotzbauer",
+    "lastName": "ckotzbauer",
+    "headshot": "https://avatars.githubusercontent.com/u/14875968?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "ckotzbauer",
+    "homepage": "https://github.com/ckotzbauer",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
