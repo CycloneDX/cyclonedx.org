@@ -2,3 +2,4 @@ user-agent: *
 disallow: /ext/
 disallow: /ext/bom-descriptor/
 disallow: /ext/dependency-graph/
+disallow: /ext/vulnerability/
