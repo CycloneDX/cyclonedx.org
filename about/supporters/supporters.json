@@ -564,5 +564,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "ArmorCode",
+    "logo": "armorcode.svg",
+    "homepage": "https://armorcode.com",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
