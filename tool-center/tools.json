@@ -1368,5 +1368,16 @@
       "opensource",
       "analysis"
     ]
+  },
+  {
+    "name": "yasca (Yet Another SCA tool)",
+    "publisher": "Javi",
+    "description": "Yasca is an opensource SCA tool that leverages Github advisories. The tool identifies vulnerabilities in direct and transitive Maven dependencies and generates CycloneDX SBOMs.",
+    "repoUrl": "https://github.com/javixeneize/yasca",
+    "websiteUrl": "https://github.com/javixeneize/yasca",
+    "categories": [
+      "opensource",
+      "analysis"
+    ]
   }
 ]
