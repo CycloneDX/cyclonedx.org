@@ -4,7 +4,11 @@
   <button title="{{c[1].text}}" class="btn" data-category="{{category_code}}">
     {{c[1].label}}
     <span class="badge">
-      {{site.data.tools|where_exp: "tool", "tool.categories contains category_code" | size}}
+      {% if category_code == 'all' %}
+      {{site.data.tools | size}}
+      {% else %}
+      {{site.data.tools | where_exp: "tool", "tool.categories contains category_code" | size}}
+      {% endif %}
     </span>
   </button>
   {% endfor %}

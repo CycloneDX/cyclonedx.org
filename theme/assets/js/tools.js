@@ -1,6 +1,15 @@
 $('#button-container button').click((e)=>{
-  let category = e.target.getAttribute('data-category')
-  $("#category-description").text(e.target.getAttribute('title'))
+  let target = e.currentTarget
+  let category = target.getAttribute('data-category')
+  
+  $("#category-description").text(target.getAttribute('title'))
+  
+  // Hide all cards and show the filtered ones
   $(".card-container").hide()
   $(`.card-container[data-categories*='${category}']`).show();
+
+  // Remove active class from all buttons
+  // And add it back on the current button
+  $('#button-container button').removeClass('active')
+  $(target).addClass('active')
 })
