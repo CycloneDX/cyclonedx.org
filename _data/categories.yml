@@ -1,0 +1,33 @@
+all:
+  text: Show All
+  label: All tools
+opensource: 
+  text: Open source tools that support CycloneDX
+  label: Open Source
+proprietary: 
+  text: Proprietary tools that support CycloneDX
+  label: Proprietary
+build-integration: 
+  text: Tools that integrate with build systems and package managers
+  label: Build Integration
+analysis: 
+  text: Tools that can analyze CycloneDX SBOMs
+  label: Analysis
+author: 
+  text: Tools that human authors can use to create CycloneDX SBOMs
+  label: Author
+github-action: 
+  text: GitHub actions which produce CycloneDX SBOMS
+  label: GitHub Action
+transform: 
+  text: Tools that transform CycloneDX into other formats or that transform other formats into CycloneDX
+  label: Transform
+library: 
+  text: Modular components that can programmatically create, parse, or validate CycloneDX SBOMs
+  label: Library
+signing-notary: 
+  text: Tools used to sign or notarize software and CycloneDX SBOMs
+  label: Signing / Notary
+distribute: 
+  text: Tools used to capture and distribute CycloneDX SBOMs
+  label: Distribute
