@@ -28,6 +28,7 @@
 }
 /* Style the counter cards */
 .card {
+  display: block;
   flex-direction: column;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
@@ -59,6 +60,7 @@
   font-size: 0.9rem;
   line-height: 1.2rem;
   background-color: #ffffff;
+  color: #01152f;
 }
 .card-title {
   padding: 0 0.8rem;
@@ -78,9 +80,6 @@
   text-align: left;
   position: absolute;
   bottom: 0;
-}
-.card-container {
-  display: none; /* Hidden by default */
 }
 .show {
   display: block;

@@ -1,0 +1,11 @@
+<div id="button-container">
+  {% for c in site.data.categories %}
+  {% assign category_code = c[0] %}
+  <button title="{{c[1].text}}" class="btn" data-category="{{category_code}}">
+    {{c[1].label}}
+    <span class="badge">
+      {{site.data.tools|where_exp: "tool", "tool.categories contains category_code" | size}}
+    </span>
+  </button>
+  {% endfor %}
+</div>
