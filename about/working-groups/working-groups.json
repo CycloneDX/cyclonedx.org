@@ -2392,5 +2392,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "RodneyRichardson",
+    "lastName": "rodneyrichardson",
+    "headshot": "https://avatars.githubusercontent.com/u/4490952?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "RodneyRichardson",
+    "homepage": "https://github.com/RodneyRichardson",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "adamchainz",
+    "lastName": "adamchainz",
+    "headshot": "https://avatars.githubusercontent.com/u/857609?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "adamchainz",
+    "homepage": "https://github.com/adamchainz",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
