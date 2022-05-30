@@ -1121,3 +1121,11 @@
   categories:
   - opensource
   - analysis
+- name: Guage
+  publisher: IBM
+  description: Measure release insights and recommendations for open-source dependencies. Gauge imports CycloneDX SBOM and makes recommendations for every OSS dependency
+  repoUrl: https://github.com/IBM/gauge
+  websiteUrl: https://github.com/IBM/gauge
+  categories:
+    - opensource
+    - analysis
