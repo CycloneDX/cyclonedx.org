@@ -1,5 +1,5 @@
 <div id="button-container">
-  {% for c in site.data.categories %}
+  {% for c in site.data.tool-categories %}
   {% assign category_code = c[0] %}
   <button title="{{c[1].text}}" class="btn" data-category="{{category_code}}">
     {{c[1].label}}
