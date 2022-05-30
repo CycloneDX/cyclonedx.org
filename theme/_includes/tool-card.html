@@ -1,0 +1,23 @@
+{% assign tool=include.tool %}
+<div class="card-container" data-categories="all {{tool.categories|join:" "}}">
+    <a target="_blank" href="{{tool.websiteUrl}}" class="card">
+      <div class="card-header">
+        {%for category in tool.categories%}
+        <span class="label card-category card-category-{{category}}">{{category}}</span>
+        {%endfor%}
+      </div>
+      <div class="card-title">{{tool.name}}</div>
+      <div class="card-publisher">{{tool.publisher}}</div>
+      <div class="card-body">{{tool.description | truncate:250}}</div>
+      <div style="line-height: 3.0rem">&nbsp;</div>
+      <div class="card-footer">
+        {% assign url_prefix = tool.repoUrl | slice:0,19 %}
+        {% if url_prefix == 'https://github.com/' %}
+        {%comment%}repo holds the "org/repo" name, for eg anchore/syft{%endcomment%}
+        {% assign repo = tool.repoUrl | replace:'https://github.com/','' | replace: '.git','' %}
+        <img src="https://img.shields.io/github/forks/{{repo}}.svg?style=social&label=Forks">&nbsp;
+        <img src="https://img.shields.io/github/stars/{{repo}}.svg?style=social&label=Stars">
+        {% endif%}
+      </div>
+    </a>
+</div> 

@@ -11,6 +11,21 @@
             <div class="col-md-12">
                 <div class="content">
                     {{ content }}
+                    <div class="cards" id="tools">
+                    {%assign sorted_tools = site.data.tools|sort:'name' %}
+                    {% for tool in sorted_tools %}
+                    {% include tool-card.html tool=tool %}
+                    {% endfor %}
+                    </div>
+                    
+                    <p><br></p>
+
+                    <hr>
+                    The CycloneDX Tool Center is a community effort to establish a marketplace of free, open source, and proprietary tools 
+                    and solutions that support the CycloneDX specification. Every effort is made to ensure the accuracy of the information. 
+                    If there are errors or omissions, please submit modifications in the form of a GitHub  pull request by editing 
+                    <a href="https://github.com/CycloneDX/cyclonedx.org/blob/master/_data/tools.yml">tools.yml</a>.
+
                 </div><!-- /.content -->
             </div><!-- /.col -->
         </div><!-- /.row -->

@@ -1,0 +1,1123 @@
+---
+- name: CycloneDX Core for Java
+  publisher: CycloneDX
+  description: Library which facilitates the creation of SBOMs from Java objects,
+    parsing of existing SBOMs into an object model, and validation of SBOMs
+  repoUrl: https://github.com/CycloneDX/cyclonedx-core-java
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-core-java
+  categories:
+  - opensource
+  - library
+- name: CycloneDX for .NET
+  publisher: CycloneDX
+  description: Creates CycloneDX Software Bill of Materials (SBOM) from .NET Projects
+  repoUrl: https://github.com/CycloneDX/cyclonedx-dotnet
+  websiteUrl: https://www.nuget.org/packages/CycloneDX/
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX Libraries for .NET
+  publisher: CycloneDX
+  description: ".NET libraries to consume and produce CycloneDX Software Bill of Materials (SBOM)"
+  repoUrl: https://github.com/CycloneDX/cyclonedx-dotnet-library
+  websiteUrl: https://www.nuget.org/profiles/CycloneDX
+  categories:
+  - opensource
+  - library
+- name: CycloneDX for NPM
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs for Node.js (NPM) projects. This package also
+    doubles as a library which facilitates the creation of SBOMs from Javascript objects.
+  repoUrl: https://github.com/CycloneDX/cyclonedx-node-module
+  websiteUrl: https://www.npmjs.com/package/@cyclonedx/bom
+  categories:
+  - opensource
+  - build-integration
+  - library
+- name: CycloneDX for Webpack
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs for frontend Javascript applications that have
+    been bundled with webpack.
+  repoUrl: https://github.com/CycloneDX/cyclonedx-webpack-plugin
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-webpack-plugin
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for Maven
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs for Java (Maven) projects
+  repoUrl: https://github.com/CycloneDX/cyclonedx-maven-plugin
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-maven-plugin
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX library for Go
+  publisher: CycloneDX
+  description: Go library to consume and produce CycloneDX Software Bill of Materials
+    (SBOM)
+  repoUrl: https://github.com/CycloneDX/cyclonedx-go
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-go
+  categories:
+  - opensource
+  - library
+- name: CycloneDX for Go modules
+  publisher: CycloneDX
+  description: Creates CycloneDX Software Bill of Materials (SBOM) from Go modules
+  repoUrl: https://github.com/CycloneDX/cyclonedx-gomod
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-gomod
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for Gradle
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs for Java (Gradle) projects
+  repoUrl: https://github.com/CycloneDX/cyclonedx-gradle-plugin
+  websiteUrl: https://plugins.gradle.org/plugin/org.cyclonedx.bom
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for PHP Composer
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs for PHP Composer projects
+  repoUrl: https://github.com/CycloneDX/cyclonedx-php-composer
+  websiteUrl: https://packagist.org/packages/cyclonedx/cyclonedx-php-composer
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX PHP Library
+  publisher: CycloneDX
+  description: Work with CycloneDX data format in PHP
+  repoUrl: https://github.com/CycloneDX/cyclonedx-php-library
+  websiteUrl: https://packagist.org/packages/cyclonedx/cyclonedx-library
+  categories:
+  - opensource
+  - library
+- name: CycloneDX for Python
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs for Python projects
+  repoUrl: https://github.com/CycloneDX/cyclonedx-python
+  websiteUrl: https://pypi.org/project/cyclonedx-bom/
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX Python Library
+  publisher: CycloneDX
+  description: Python Library for generating CycloneDX SBOMs
+  repoUrl: https://github.com/CycloneDX/cyclonedx-python-lib
+  websiteUrl: https://pypi.org/project/cyclonedx-python-lib/
+  categories:
+  - opensource
+  - library
+- name: CycloneDX for Ruby Gems
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs for Ruby projects
+  repoUrl: https://github.com/CycloneDX/cyclonedx-ruby-gem
+  websiteUrl: https://rubygems.org/gems/cyclonedx-ruby
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for Rust Cargo
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs for Rust Cargo projects
+  repoUrl: https://github.com/CycloneDX/cyclonedx-rust-cargo
+  websiteUrl: https://crates.io/crates/cyclonedx-bom
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for SBT (Scala)
+  publisher: Fabrizio Di Giuseppe
+  description: Creates CycloneDX SBOMs for SBT (Scala) projects
+  repoUrl: https://github.com/siculo/sbt-bom
+  websiteUrl: https://github.com/siculo/sbt-bom
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for Erlang/Elixir (Mix)
+  publisher: Bram Verburg
+  description: Creates CycloneDX SBOMs for Mix projects
+  repoUrl: https://github.com/voltone/sbom
+  websiteUrl: https://hex.pm/packages/sbom
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for Erlang/Elixir (Rebar3)
+  publisher: Bram Verburg
+  description: Creates CycloneDX SBOMs for Rebar3 projects
+  repoUrl: https://github.com/voltone/rebar3_sbom
+  websiteUrl: https://hex.pm/packages/rebar3_sbom
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for Go
+  publisher: OZON
+  description: Creates CycloneDX SBOMs for Go projects
+  repoUrl: https://github.com/ozonru/cyclonedx-go
+  websiteUrl: https://github.com/ozonru/cyclonedx-go
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for Bower
+  publisher: Hans Thorhauge Dam
+  description: Creates CycloneDX SBOMs for Javascript projects using Bower
+  repoUrl: https://github.com/hanstdam/cdx-bower-bom
+  websiteUrl: https://www.npmjs.com/package/cdx-bower-bom
+  categories:
+  - opensource
+  - build-integration
+- name: cdxgen
+  publisher: AppThreat
+  description: Creates CycloneDX Software Bill of Materials (SBOM) for Node.js, Java,
+    Python and golang projects
+  repoUrl: https://github.com/AppThreat/cdxgen
+  websiteUrl: https://github.com/AppThreat/cdxgen
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX-Buildroot
+  publisher: alvinchchen
+  description: The CycloneDX-buildroot module for Python creates a valid CycloneDX
+    bill of materials from buildroot manifest.xlsx files
+  repoUrl: https://github.com/alvinchchen/cyclonedx-buildroot
+  websiteUrl: https://github.com/alvinchchen/cyclonedx-buildroot
+  categories:
+  - opensource
+  - build-integration
+- name: Eclipse SW360 Antenna
+  publisher: Eclipse
+  description: Creates CycloneDX SBOMs from Maven projects
+  repoUrl: https://github.com/eclipse/antenna
+  websiteUrl: https://www.eclipse.org/antenna
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX Node.js Generate SBOM
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs from Node.js (NPM) projects via GitHub action
+  repoUrl: https://github.com/CycloneDX/gh-node-module-generatebom
+  websiteUrl: https://github.com/marketplace/actions/cyclonedx-node-js-generate-sbom
+  categories:
+  - opensource
+  - github-action
+- name: CycloneDX .NET Generate SBOM
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs from .NET projects via GitHub action
+  repoUrl: https://github.com/CycloneDX/gh-dotnet-generate-sbom
+  websiteUrl: https://github.com/marketplace/actions/cyclonedx-net-generate-sbom
+  categories:
+  - opensource
+  - github-action
+- name: CycloneDX PHP Composer Generate SBOM
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs from PHP Composer projects via GitHub action
+  repoUrl: https://github.com/CycloneDX/gh-php-composer-generate-sbom
+  websiteUrl: https://github.com/marketplace/actions/cyclonedx-php-composer-generate-sbom
+  categories:
+  - opensource
+  - github-action
+- name: CycloneDX Python Generate SBOM
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs from Python projects via GitHub action
+  repoUrl: https://github.com/CycloneDX/gh-python-generate-sbom
+  websiteUrl: https://github.com/marketplace/actions/cyclonedx-python-generate-sbom
+  categories:
+  - opensource
+  - github-action
+- name: Generate SBoM for Elixir project
+  publisher: Red Shirts
+  description: Creates CycloneDX SBOMs from Erlang/Elixir Mix projects via GitHub
+    action
+  repoUrl: https://github.com/red-shirts/action-mix-sbom
+  websiteUrl: https://github.com/marketplace/actions/generate-sbom-for-elixir-project
+  categories:
+  - opensource
+  - github-action
+- name: cdxgen
+  publisher: AppThreat
+  description: GitHub action for CycloneDX BOM generator (cdxgen). cdxgen produced
+    bom xml file can be uploaded to Dependency-Track, AppThreat, and other commercial
+    Software Composition Analysis (SCA) products
+  repoUrl: https://github.com/AppThreat/cdxgen-action
+  websiteUrl: https://github.com/marketplace/actions/cdxgen
+  categories:
+  - opensource
+  - github-action
+- name: OpenSource Review Toolkit (ORT)
+  publisher: HERE Europe B.V.
+  description: A suite of tools to assist with reviewing open source software dependencies.
+  repoUrl: https://github.com/oss-review-toolkit/ort
+  websiteUrl: http://oss-review-toolkit.org/
+  categories:
+  - opensource
+  - build-integration
+- name: Retire.js
+  publisher: RetireJS
+  description: Scanner that detects the use of JavaScript libraries with known vulnerabilities
+  repoUrl: https://github.com/RetireJS/retire.js
+  websiteUrl: https://retirejs.github.io/retire.js
+  categories:
+  - opensource
+- name: Dependency-Track
+  publisher: OWASP
+  description: Supply Chain Component Analysis platform that allows organizations
+    to identify and reduce risk from the use of third-party and open source components
+  repoUrl: https://github.com/DependencyTrack/dependency-track
+  websiteUrl: https://dependencytrack.org/
+  categories:
+  - opensource
+  - analysis
+- name: Dependency-Track Jenkins Plugin
+  publisher: OWASP
+  description: Publishes SBOMs to Dependency-Track for per-build analysis, result
+    visualization, and configurable risk thresholds
+  repoUrl: https://github.com/jenkinsci/dependency-track-plugin
+  websiteUrl: https://plugins.jenkins.io/dependency-track
+  categories:
+  - opensource
+  - build-integration
+- name: Dependency-Track Maven Plugin
+  publisher: Paul McKeown
+  description: Maven plugin that integrates with a Dependency-Track server to submit
+    SBOMs and optionally fail execution when vulnerable dependencies are found.
+  repoUrl: https://github.com/pmckeown/dependency-track-maven-plugin
+  websiteUrl: https://github.com/pmckeown/dependency-track-maven-plugin#readme
+  categories:
+  - opensource
+  - build-integration
+- name: dtrack-audit
+  publisher: OZON
+  description: Publishes SBOMs to Dependency-Track for analysis and displays visualization
+    from the command-line
+  repoUrl: https://github.com/ozonru/dtrack-audit
+  websiteUrl: https://github.com/ozonru/dtrack-audit
+  categories:
+  - opensource
+  - build-integration
+- name: ShiftLeft Scan
+  publisher: ShiftLeft
+  description: An open-source security tool for modern DevSecOps teams that can detect
+    various kinds of security flaws in your application and infrastructure code in
+    a single fast scan
+  repoUrl: https://github.com/ShiftLeftSecurity/sast-scan
+  websiteUrl: https://www.shiftleft.io/scan/
+  categories:
+  - opensource
+  - analysis
+- name: SCANOSS
+  publisher: SCANOSS
+  description: An open source inventory engine built for modern development teams
+  repoUrl: https://github.com/scanoss/engine
+  websiteUrl: https://www.scanoss.co.uk/
+  categories:
+  - opensource
+  - analysis
+- name: oss_inventory
+  publisher: Thiago Pinto
+  description: Import CycloneDX BOMs and see OSS statistics
+  repoUrl: https://github.com/thspinto/oss_inventory
+  websiteUrl: https://github.com/thspinto/oss_inventory
+  categories:
+  - opensource
+  - analysis
+- name: Auditjs
+  publisher: Sonatype
+  description: Audits an NPM package.json file to identify known vulnerabilities
+  repoUrl: https://github.com/sonatype-nexus-community/auditjs
+  websiteUrl: https://github.com/sonatype-nexus-community/auditjs
+  categories:
+  - opensource
+  - build-integration
+- name: Chelsea
+  publisher: Sonatype
+  description: Dependency vulnerability auditor for Ruby
+  repoUrl: https://github.com/sonatype-nexus-community/chelsea
+  websiteUrl: https://github.com/sonatype-nexus-community/chelsea
+  categories:
+  - opensource
+  - build-integration
+- name: Jake
+  publisher: Sonatype
+  description: An OSS Index integration to check your Conda environments for vulnerable
+    Open Source packages
+  repoUrl: https://github.com/sonatype-nexus-community/jake
+  websiteUrl: https://github.com/sonatype-nexus-community/jake
+  categories:
+  - opensource
+  - build-integration
+- name: Nancy
+  publisher: Sonatype
+  description: A tool to check for vulnerabilities in your Golang dependencies, powered
+    by Sonatype OSS Index
+  repoUrl: https://github.com/sonatype-nexus-community/nancy
+  websiteUrl: https://github.com/sonatype-nexus-community/nancy
+  categories:
+  - opensource
+  - build-integration
+- name: Go Sonatypes
+  publisher: Sonatype
+  description: Common utility packages for working with OSS Index, Nexus IQ Server,
+    CycloneDX SBOMs or getting a user-agent
+  repoUrl: https://github.com/sonatype-nexus-community/go-sona-types
+  websiteUrl: https://github.com/sonatype-nexus-community/go-sona-types
+  categories:
+  - opensource
+  - library
+- name: Valaa Stack
+  publisher: Valaa Technologies
+  description: SBoMDoc is a VDoc extension which uses CycloneDX namespaces and can
+    emit BOM documents in various formats
+  repoUrl: https://github.com/valaatech/kernel
+  websiteUrl: https://valospace.org/
+  categories:
+  - opensource
+  - transform
+- name: Nexus IQ
+  publisher: Sonatype
+  description: Software Composition Analysis (SCA) platform that can consume, analyze,
+    and produce CycloneDX SBOMs
+  websiteUrl: https://www.sonatype.com/product-nexus-lifecycle
+  categories:
+  - proprietary
+  - analysis
+- name: Nexus Lifecycle Jenkins Plugin
+  publisher: Sonatype
+  description: Publishes CycloneDX SBOMs to Nexus IQ for per-build analysis, result
+    visualization, and policy evaluation
+  repoUrl: https://github.com/jenkinsci/nexus-platform-plugin
+  websiteUrl: https://plugins.jenkins.io/nexus-jenkins-plugin
+  categories:
+  - opensource
+  - build-integration
+- name: MedScan
+  publisher: MedSec
+  description: Consumes SBOM’s for helping hospitals manage medical device assets
+  websiteUrl: https://www.medsec.com/medscan/
+  categories:
+  - proprietary
+  - analysis
+- name: Reliza Hub
+  publisher: Reliza
+  description: Publishes Reliza Hub metadata as SBOM for use in other tools or ingests
+    SBOMs produced in other tools to update Reliza Hub metadata
+  websiteUrl: https://relizahub.com/
+  categories:
+  - proprietary
+- name: SwiftBOM
+  publisher: CERT Coordination Center (CERT/CC)
+  description: Generates SBOMs for demo and PoC purposes
+  repoUrl: https://github.com/CERTCC/SBOM
+  websiteUrl: https://sbom.democert.org/sbom/
+  categories:
+  - opensource
+  - author
+- name: DtrackAuditor
+  publisher: Thinksabin
+  description: Publishes SBOMs to Dependency-Track for analysis and results through
+    command line.
+  repoUrl: https://github.com/thinksabin/DTrackAuditor
+  websiteUrl: https://github.com/thinksabin/DTrackAuditor
+  categories:
+  - opensource
+  - build-integration
+- name: Syft
+  publisher: Anchore
+  description: CLI tool and library for generating a Software Bill of Materials from
+    container images and filesystems.
+  repoUrl: https://github.com/anchore/syft
+  websiteUrl: https://github.com/anchore/syft
+  categories:
+  - opensource
+  - build-integration
+  - library
+- name: Grype
+  publisher: Anchore
+  description: A vulnerability scanner for container images and filesystems.
+  repoUrl: https://github.com/anchore/grype
+  websiteUrl: https://github.com/anchore/grype
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX CLI
+  publisher: CycloneDX
+  description: A command line tool incorporating many common utilities including converting
+    between SBOM formats.
+  repoUrl: https://github.com/CycloneDX/cyclonedx-cli
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-cli
+  categories:
+  - opensource
+  - transform
+- name: CycloneDX Web Tool
+  publisher: CycloneDX
+  description: A web based tool incorporating many common utilities including converting
+    between SBOM formats.
+  repoUrl: https://github.com/CycloneDX/cyclonedx-web-tool
+  websiteUrl: https://cyclonedx.github.io/cyclonedx-web-tool/
+  categories:
+  - opensource
+  - transform
+- name: CycloneDX Rust
+  publisher: Mark Dodgson
+  description: A Rust library to encode and decode the CycloneDX object model
+  repoUrl: https://github.com/doddi/cyclonedx-rust
+  websiteUrl: https://github.com/doddi/cyclonedx-rust
+  categories:
+  - opensource
+  - library
+- name: CycloneDX for Cocoapods
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs for iOS Objective-C and Swift projects
+  repoUrl: https://github.com/CycloneDX/cyclonedx-cocoapods
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-cocoapods
+  categories:
+  - opensource
+  - build-integration
+- name: mdbom
+  publisher: Robert Hansel
+  description: Transforms CycloneDX SBOMs to Markdown
+  repoUrl: https://github.com/HaRo87/mdbom
+  websiteUrl: https://haro87.github.io/mdbom/
+  categories:
+  - opensource
+  - transform
+- name: OpenRewrite
+  publisher: OpenRewrite Project
+  description: Rewrite is a mass refactoring system, designed to eliminate technical
+    debt across an engineering. The project can generate CycloneDX SBOMs when refactoring
+  repoUrl: https://github.com/openrewrite/rewrite
+  websiteUrl: https://github.com/openrewrite/rewrite
+  categories:
+  - opensource
+- name: Defect Dojo
+  publisher: OWASP
+  description: Open source vulnerability management and automation platform that can
+    import CycloneDX SBOMs containing vulnerability information
+  repoUrl: https://github.com/DefectDojo/django-DefectDojo
+  websiteUrl: https://www.defectdojo.org/
+  categories:
+  - opensource
+  - analysis
+- name: OSS Inventory
+  publisher: Thiago Pinto
+  description: Imports CycloneDX SBOMs and visualizes OSS statistics
+  repoUrl: https://github.com/thspinto/oss_inventory
+  websiteUrl: https://github.com/thspinto/oss_inventory
+  categories:
+  - opensource
+- name: Fortress File Integrity Assurance
+  publisher: Fortress Information Security
+  description: Creates SBOM from binary or archive, consumes externally provided SBOM,
+    enriches SBOM with Fortress risk analysis, integrates via API to support continuous
+    monitoring of software assurance.
+  websiteUrl: https://fortressinfosec.com/solutions/file-integrity-assurance
+  categories:
+  - proprietary
+  - analysis
+- name: Fortress Asset 2 Vendor
+  publisher: Fortress Information Security
+  description: Comprehensive Cyber Supply Chain Risk Management data library that
+    ingests, analyzes and securely shares SBOMs, HBOMs and other supply chain attestations
+    via SaaS and permissioned blockchain solutions to facilitate Supplier to Asset
+    Owner trust conversations.
+  websiteUrl: https://assettovendor.com/
+  categories:
+  - proprietary
+  - distribute
+- name: Software Assurance Guardian Point Man
+  publisher: Reliable Energy Analytics LLC
+  description: SAG-PM processes CycloneDX SBOM’s as part of a seven step software
+    supply chain risk assessment
+  websiteUrl: https://reliableenergyanalytics.com/products
+  categories:
+  - proprietary
+  - analysis
+- name: Cybeats SBOM Studio
+  publisher: Cybeats Technologies Inc.
+  description: Analyzes IoT firmware and generates SBOMs with the runtime data information
+    for more precise identification of vulnerabilities and exploits abilities
+  websiteUrl: https://cybeats.com
+  categories:
+  - proprietary
+  - analysis
+- name: TrustSource
+  publisher: TrustSource
+  description: TrustSource is a SaaS platform for implementing and maintaining open
+    source compliance (ISO 5230 compliant). It can import CycloneDX, match them with
+    its own information and add them to projects as modules for further analysis.
+  websiteUrl: https://www.trustsource.io/
+  categories:
+  - proprietary
+  - analysis
+- name: JDisc Discovery
+  publisher: JDisc
+  description: Network discovery and IT inventory that can discover CycloneDX SBOMs
+    on enterprise assets and ingest component inventory into the platform.
+  websiteUrl: https://www.jdisc.com/
+  categories:
+  - proprietary
+  - analysis
+- name: PulseUno Plugin for Dimensions CM
+  publisher: Microfocus
+  description: PulseUno enables development teams to continually build and inspect
+    the health and quality of code using plugins such as CycloneDX. Teams can use
+    this information to help decide when changes are ready to be merged, deployed,
+    and released.
+  websiteUrl: https://www.microfocus.com/en-us/products/dimensions-cm
+  categories:
+  - proprietary
+  - build-integration
+- name: CycloneDX GoMod Generate SBOM
+  publisher: CycloneDX
+  description: GitHub action which generates CycloneDX SBOMs from Go modules
+  repoUrl: https://github.com/CycloneDX/gh-gomod-generate-sbom
+  websiteUrl: https://github.com/marketplace/actions/cyclonedx-gomod-generate-sbom
+  categories:
+  - opensource
+  - github-action
+- name: BOM Repository Server
+  publisher: CycloneDX
+  description: 'A lightweight repository server used to publish, manage, and distribute
+    CycloneDX SBOMs '
+  repoUrl: https://github.com/CycloneDX/cyclonedx-bom-repo-server
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-bom-repo-server
+  categories:
+  - opensource
+  - distribute
+- name: ittosai
+  publisher: DevOps KungFu Masters
+  description: ittosai is a CycloneDX SBOM vulnerability analyzer that analyzes SBOMs
+    every time a developer commits code to a repository
+  repoUrl: https://github.com/devops-kung-fu/ittosai
+  websiteUrl: https://dkfm.io/
+  categories:
+  - opensource
+  - analysis
+- name: CodeSentry
+  publisher: GrammaTech
+  description: Software Composition Analysis (SCA) platform that leverages binary
+    analysis to identify components, inherited risk, and communicates inventory through
+    CycloneDX SBOMs
+  websiteUrl: https://www.grammatech.com/codesentry-sca
+  categories:
+  - proprietary
+  - analysis
+- name: Heimdall
+  publisher: Medcrypt
+  description: Automatically extract or manually upload your Software Bill of Materials
+    (SBOM), and Heimdall will, on a continual basis, identify known vulnerabilities
+    affecting your software components
+  websiteUrl: https://medcrypt.com/heimdall.html
+  categories:
+  - proprietary
+  - analysis
+- name: Contrast Security
+  publisher: Contrast Security
+  description: Automatically generates component inventory from runtime analysis (IAST
+    or RASP) and generates CycloneDX SBOMs
+  websiteUrl: https://www.contrastsecurity.com/
+  categories:
+  - proprietary
+  - analysis
+- name: Salus
+  publisher: Coinbase
+  description: Salus is a tool for coordinating the execution of security scanners.
+    Salus can generate CycloneDX SBOMs from many language ecosystems.
+  repoUrl: https://github.com/coinbase/salus
+  websiteUrl: https://github.com/coinbase/salus
+  categories:
+  - opensource
+  - analysis
+  - build-integration
+- name: Codenotary vcn
+  publisher: Codenotary
+  description: Protects an organizations software development pipeline from supply
+    chain attacks. Codenotary natively supports CycloneDX SBOMs.
+  repoUrl: https://github.com/codenotary/vcn
+  websiteUrl: https://codenotary.com/
+  categories:
+  - opensource
+  - signing-notary
+- name: CodeNotary CAS
+  publisher: CodeNotary
+  description: CAS is an open source attestation service for the community. Notarize
+    and authorize files, directories, git repos and Build SBOMs of containers. CAS
+    natively supports CycloneDX SBOMs.
+  repoUrl: https://github.com/codenotary/cas
+  websiteUrl: https://cas.codenotary.com/
+  categories:
+  - opensource
+  - signing-notary
+- name: Codenotary CAS Notarize Docker Image and SBOM
+  publisher: Codenotary
+  description: A GitHub Action which notarizes and creates an SBOM for Docker images.
+  repoUrl: https://github.com/codenotary/cas-notarize-docker-image-bom-github-action
+  websiteUrl: https://cas.codenotary.com/
+  categories:
+  - opensource
+  - signing-notary
+  - github-action
+- name: Codenotary CAS Authenticate Docker Image and SBOM
+  publisher: Codenotary
+  description: A GitHub Action which authenticates notarized Docker images and SBOMs.
+  repoUrl: https://github.com/codenotary/cas-authenticate-docker-bom-github-action
+  websiteUrl: https://cas.codenotary.com/
+  categories:
+  - opensource
+  - signing-notary
+  - github-action
+- name: Cosign
+  publisher: Sigstore
+  description: Container Signing, Verification and Storage in an OCI registry, including
+    CycloneDX SBOMs
+  repoUrl: https://github.com/sigstore/cosign
+  websiteUrl: https://sigstore.dev/
+  categories:
+  - opensource
+  - signing-notary
+- name: Tern
+  publisher: Tern
+  description: Tern is a software composition analysis tool and Python library that
+    generates a Software Bill of Materials for container images and Dockerfiles.
+  repoUrl: https://github.com/tern-tools/tern
+  websiteUrl: https://github.com/tern-tools/tern
+  categories:
+  - opensource
+  - analysis
+  - build-integration
+- name: Cybellum SBOM
+  publisher: Cybellum Technologies LTD.
+  description: Analyzes binary artifacts to generate SBoM including context based
+    analysis to perform accurate vulnerability assessment
+  websiteUrl: https://cybellum.com
+  categories:
+  - proprietary
+  - analysis
+- name: Scancode Toolkit
+  publisher: nexB
+  description: ScanCode detects licenses, copyrights, package manifests & dependencies
+    and more by scanning code to discover and inventory open source and third-party
+    packages.
+  repoUrl: https://github.com/nexB/scancode-toolkit
+  websiteUrl: https://github.com/nexB/scancode-toolkit
+  categories:
+  - opensource
+  - analysis
+- name: swift-package-sbom-generator
+  publisher: Mattt
+  description: A software bill of materials (SBOM) generator for Swift packages
+  repoUrl: https://github.com/mattt/swift-package-sbom
+  websiteUrl: https://github.com/mattt/swift-package-sbom
+  categories:
+  - opensource
+  - build-integration
+- name: SRC:CLR SBOM Generator
+  publisher: Veracode
+  description: Generates a Software Bill of Materials in CycloneDX JSON Format from
+    Veracode SCA Agent results.
+  repoUrl: https://github.com/veracode/srcclr_sbom_gen
+  websiteUrl: https://github.com/veracode/srcclr_sbom_gen
+  categories:
+  - opensource
+  - transform
+- name: NowSecure Platform
+  publisher: NowSecure
+  description: NowSecure automates security and privacy testing of mobile applications
+    through static and dynamic binary analysis. NowSecure identifies packages and
+    native components bundled with mobile apps and exports inventory in CycloneDX
+    format.
+  websiteUrl: https://www.nowsecure.com/
+  categories:
+  - proprietary
+  - analysis
+- name: Ion Channel Platform
+  publisher: Ion Channel
+  description: Ion Channel is a software supply chain assurance platform that transforms
+    software inventory data into positive control of known and potential risks. Ion
+    Channel consumes, analyzes, and exports CycloneDX SBOMs.
+  websiteUrl: https://ionchannel.io/
+  categories:
+  - proprietary
+  - analysis
+- name: CycloneDX for Conan
+  publisher: CycloneDX
+  description: Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects
+    using Conan
+  repoUrl: https://github.com/CycloneDX/cyclonedx-conan
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-conan
+  categories:
+  - opensource
+  - build-integration
+- name: Checkov
+  publisher: Checkov
+  description: Prevent cloud misconfigurations during build-time for Terraform, Cloudformation,
+    Kubernetes, Serverless framework and other infrastructure-as-code-languages with
+    Checkov by Bridgecrew. Can output to CycloneDX.
+  repoUrl: https://github.com/bridgecrewio/checkov
+  websiteUrl: https://www.checkov.io/
+  categories:
+  - opensource
+  - analysis
+- name: SBOM CLI
+  publisher: Defense Unicorns
+  description: Creates CycloneDX SBOMs from Kubernetes Helm charts
+  repoUrl: https://github.com/defenseunicorns/sbom-cli
+  websiteUrl: https://github.com/defenseunicorns/sbom-cli
+  categories:
+  - opensource
+  - build-integration
+- name: CxSCA
+  publisher: Checkmarx
+  description: Checkmarx SCA is a Software Composition Analysis (SCA) platform that
+    can produce CycloneDX SBOMs
+  websiteUrl: https://checkmarx.com/product/cxsca-open-source-scanning
+  categories:
+  - proprietary
+  - analysis
+- name: Ochrona CLI
+  publisher: Ochrona
+  description: A command line tool for detecting vulnerabilities in Python dependencies
+    and doing safe package installs. Output CycloneDX of all dependencies.
+  repoUrl: https://github.com/ochronasec/ochrona-cli
+  websiteUrl: https://ochrona.dev/
+  categories:
+  - opensource
+  - analysis
+  - build-integration
+- name: pip-audit
+  publisher: Trail of Bits
+  description: Audits Python environments and dependency trees for known vulnerabilities.
+    Generates CycloneDX SBOM of vulnerable components.
+  repoUrl: https://github.com/trailofbits/pip-audit
+  websiteUrl: https://github.com/trailofbits/pip-audit
+  categories:
+  - opensource
+  - build-integration
+  - analysis
+- name: RKVST SBOM Hub
+  publisher: Jitsuin
+  description: A free SaaS repo to find and fetch public or private CycloneDX v1.4
+    BOMs. RKVST sustains and enhances SaaS/S/H/C-BOM or VEX publishing and consumption
+    by tracing provenance, governing permissioned distribution and proving immutable
+    assurance...
+  repoUrl: https://github.com/jitsuin-inc/archivist-samples
+  websiteUrl: https://sbom.rkvst.io
+  categories:
+  - proprietary
+  - distribute
+- name: WpBom
+  publisher: Sepbit
+  description: WordPress integration with OWASP CycloneDX and Dependency Track
+  repoUrl: https://github.com/sepbit/wpbom
+  websiteUrl: https://wordpress.org/plugins/wpbom/
+  categories:
+  - opensource
+  - build-integration
+- name: Meterian BOSS scanner
+  publisher: Meterian
+  description: Software composition analysis for codebases providing precise and comprehensive
+    CycloneDX SBOMs for open source and private source code projects. Supports all
+    major ecosystems Java, NodeJS, .NET, Go, Rust, Swift, Python, Ruby, PHP, C/C++,
+    Perl
+  websiteUrl: https://meterian.io/products/boss
+  categories:
+  - proprietary
+  - github-action
+  - build-integration
+- name: Spack
+  publisher: Spack
+  description: Spack is a package manager for supercomputers, Linux, and macOS. The
+    package managers can export inventory in CycloneDX.
+  repoUrl: https://github.com/spack/spack-sbom
+  websiteUrl: https://spack.io/
+  categories:
+  - opensource
+  - build-integration
+- name: build-info-go
+  publisher: JFrog
+  description: build-info-go is a Go library and a CLI, which allows generating build-info
+    and CycloneDX for a source code project.
+  repoUrl: https://github.com/jfrog/build-info-go
+  websiteUrl: https://github.com/jfrog/build-info-go
+  categories:
+  - opensource
+  - build-integration
+- name: Kyverno
+  publisher: Kyverno
+  description: Kyverno is a policy engine designed for Kubernetes. It can validate,
+    mutate, and generate configurations using admission controls and background scans.
+  repoUrl: https://github.com/kyverno/kyverno
+  websiteUrl: https://github.com/kyverno/kyverno
+  categories:
+  - opensource
+- name: jbom
+  publisher: Contrast Security
+  description: jbom generates a CycloneDX Software Bill of Materials (SBOM) for apps
+    on a running JVM
+  repoUrl: https://github.com/Contrast-Security-OSS/jbom
+  websiteUrl: https://github.com/Contrast-Security-OSS/jbom
+  categories:
+  - opensource
+- name: KICS
+  publisher: Checkmarx
+  description: Find security vulnerabilities, compliance issues, and infrastructure
+    misconfigurations early in the development cycle of your infrastructure-as-code
+    with KICS by Checkmarx.
+  repoUrl: https://github.com/Checkmarx/kics
+  websiteUrl: https://www.kics.io/
+  categories:
+  - opensource
+- name: Xray
+  publisher: JFrog
+  description: JFrog Xray is a software composition analysis (SCA) solution that proactively
+    identifies vulnerabilities and license violations in open source. Xray generates
+    CycloneDX SBOMs.
+  websiteUrl: https://jfrog.com/xray/
+  categories:
+  - proprietary
+- name: apt2sbom
+  publisher: Eliot Lear
+  description: Build an SBOM out of APT and python information
+  websiteUrl: https://github.com/elear/apt2sbom
+  repoUrl: https://github.com/elear/apt2sbom
+  categories:
+  - opensource
+  - build-integration
+- name: NetRise Turbine
+  publisher: NetRise
+  description: NetRise Turbine is a firmware analysis platform that creates SBOMs
+    by analyzing binary artifacts and other key components such as configuration files,
+    credentials and cryptographic artifacts for maximum visibility and holistic risk
+    identification.
+  websiteUrl: https://www.netrise.io/
+  categories:
+  - proprietary
+- name: Rebom
+  publisher: Reliza
+  websiteUrl: https://rebomdemo.relizahub.com
+  repoUrl: https://github.com/relizaio/rebom
+  description: Rebom by Reliza is an open source catalog of Software Bills of Materials
+    that supports CycloneDX in JSON format
+  categories:
+  - opensource
+  - distribute
+- name: cve-bin-tool
+  publisher: Intel
+  description: CVE bin tool scans for a number of common, vulnerable components to
+    let you know if your system includes common libraries with known vulnerabilities
+    and outputs into CycloneDX format.
+  repoUrl: https://github.com/intel/cve-bin-tool
+  websiteUrl: https://cve-bin-tool.readthedocs.io/en/latest/
+  categories:
+  - opensource
+  - analysis
+- name: Jetstack Secure
+  publisher: Jetstack
+  description: Jetstack Secure manages your machine identities across Cloud Native
+    Kubernetes and OpenShift environments and builds a detailed view of the enterprise
+    security posture.
+  repoUrl: https://github.com/jetstack/jetstack-secure
+  websiteUrl: https://www.jetstack.io/jetstack-secure/
+  categories:
+  - opensource
+- name: Ko
+  publisher: Google
+  description: Build and deploy Go applications on Kubernetes. Generates CycloneDX
+    SBOMs for all project dependencies.
+  repoUrl: https://github.com/google/ko
+  websiteUrl: https://github.com/google/ko
+  categories:
+  - opensource
+  - build-integration
+- name: Sonatype Lift
+  publisher: Sonatype
+  description: Sonatype Lift is a cloud-native, collaborative, code analysis platform
+    built for developers. It analyzes each developer pull request to find and fix
+    security, performance, reliability, and style issues, and generates CycloneDX
+    SBOMs.
+  repoUrl: https://lift.sonatype.com/
+  websiteUrl: https://lift.sonatype.com/
+  categories:
+  - proprietary
+  - build-integration
+- name: spdxcyclone
+  publisher: Gary O'Neall
+  description: Prototype utility that converts SBOM documents between SPDX and CycloneDX.
+  repoUrl: https://github.com/goneall/spdxcyclone
+  websiteUrl: https://github.com/goneall/spdxcyclone
+  categories:
+  - opensource
+  - transform
+- name: Trivy
+  publisher: Aqua Security
+  description: Trivy is a simple and comprehensive scanner for vulnerabilities in
+    container images, file systems, and Git repositories, as well as for configuration
+    issues. Trivy detects vulnerabilities of OS and language-specific packages, and
+    generates CycloneDX.
+  repoUrl: https://github.com/aquasecurity/trivy
+  websiteUrl: https://aquasecurity.github.io/trivy/
+  categories:
+  - opensource
+  - build-integration
+- name: Apiiro
+  publisher: Apiiro
+  description: Apiiro enables security & development teams to proactively remediate
+    critical risks in their cloud-native applications such as design flaws, secrets,
+    IaC misconfigurations, API & OSS vulnerabilities across the software supply chain.
+  websiteUrl: https://apiiro.com/
+  categories:
+  - proprietary
+  - analysis
+  - build-integration
+- name: Gemnasium
+  publisher: GitLab
+  description: Dependency Scanning analyzer that uses the GitLab Advisory Database
+    and generates CycloneDX SBOMs.
+  websiteUrl: https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium
+  categories:
+  - proprietary
+  - analysis
+  - build-integration
+- name: Lagoon Insights Handler
+  publisher: Lagoon
+  description: Lagoon is an application delivery platform for Kubernetes that supports
+    the consumption of CycloneDX SBOMs as part of the Insights Handler component.
+  repoUrl: https://github.com/uselagoon/insights-handler
+  websiteUrl: https://lagoon.sh/
+  categories:
+  - opensource
+  - build-integration
+- name: SnykVulnCheck
+  publisher: Andrii Grytsenko
+  description: SnykVulnCheck analyzes the contents of CycloneDX SBOMs and evaluates
+    components for known vulnerabilities by using public APIs to Snyk Vulnerability
+    DB.
+  repoUrl: https://github.com/Andrii-Grytsenko-OWASP/SnykVulnCheck
+  websiteUrl: https://github.com/Andrii-Grytsenko-OWASP/SnykVulnCheck
+  categories:
+  - opensource
+  - analysis
+- name: apko
+  publisher: Chainguard
+  description: Build OCI images using APK directly without Dockerfile. Generates CycloneDX
+    SBOMs for containers using native SBOM functionality in apk-tools v3.0 and higher.
+  repoUrl: https://github.com/chainguard-dev/apko
+  websiteUrl: https://apko.dev/
+  categories:
+  - opensource
+  - build-integration
+- name: OSV
+  publisher: Google
+  description: OSV is an open source vulnerability database and triage service. OSV
+    includes a scanner that accepts CycloneDX SBOMs as input and identifies known
+    vulnerabilities in components using the OSV service.
+  repoUrl: https://github.com/google/osv
+  websiteUrl: https://osv.dev/
+  categories:
+  - opensource
+  - analysis
+- name: docker-sbom-cli-plugin
+  publisher: Docker
+  description: Plugin for Docker CLI that generates CycloneDX SBOMs.
+  repoUrl: https://github.com/docker/docker-sbom-cli-plugin
+  websiteUrl: https://github.com/docker/docker-sbom-cli-plugin
+  categories:
+  - opensource
+  - build-integration
+- name: ThreatMapper
+  publisher: Deepfence
+  description: Deepfence ThreatMapper hunts for vulnerabilities in production platforms,
+    ranks vulnerabilities based on their risk-of-exploit, and generates CycloneDX
+    SBOMs.
+  repoUrl: https://github.com/deepfence/ThreatMapper
+  websiteUrl: https://deepfence.io/
+  categories:
+  - opensource
+  - analysis
+- name: JupiterOne
+  publisher: JupiterOne
+  description: Easily identify, map, analyze, and secure cyber assets and attack surface.
+    Gain full visibility into complex cloud environments to uncover threats, close
+    compliance gaps, and prioritize risk. Consumes and analyzes CycloneDX SBOMs.
+  websiteUrl: https://jupiterone.com/
+  categories:
+  - proprietary
+  - analysis
+- name: Veracode
+  publisher: Veracode
+  description: API to output SBOM in CycloneDX (JSON) format based on Veracode's software
+    composition analysis (SCA) scan.
+  websiteUrl: https://www.veracode.com/
+  categories:
+  - proprietary
+  - analysis
+- name: Tidelift
+  publisher: Tidelift
+  description: Tidelift is a managed open source subscription, offering commercial
+    support and maintenance for the open source dependencies used to build applications,
+    backed by maintainers.
+  websiteUrl: https://tidelift.com/
+  categories:
+  - proprietary
+- name: Bytesafe
+  publisher: Bytesafe
+  description: A Dependency Firewall that protects organizations from malicious dependencies.
+    Detect and prevent vulnerabilities across the software supply chain. +SCA +CycloneDX
+    SBOMs +License compliance +Secure package management
+  websiteUrl: https://bytesafe.dev/
+  categories:
+  - proprietary
+  - analysis
+- name: KubeClarity
+  publisher: Cisco
+  description: KubeClarity is a tool for detection and management of Software Bill
+    Of Materials (SBOM) and vulnerabilities of container images and filesystems. It
+    scans both runtime K8s clusters and CI/CD pipelines for enhanced software supply
+    chain security.
+  repoUrl: https://github.com/cisco-open/kubei
+  websiteUrl: https://github.com/cisco-open/kubei
+  categories:
+  - opensource
+  - analysis
+- name: AppSonar
+  publisher: CyberTest
+  description: AppSonar Static Code Analyzer helps improve the security and quality
+    of application code and can generate CycloneDX BOMs during analysis.
+  websiteUrl: https://www.appsonar.com/
+  categories:
+  - proprietary
+  - analysis
+- name: SonarQube
+  publisher: SonarSource
+  description: SonarQube allows developers and development teams to write clean code
+    and remediate existing code organically, so they can focus on the work they love
+    and maximize the value they generate for businesses.
+  websiteUrl: https://sonarsource.com/
+  categories:
+  - opensource
+  - proprietary
+  - analysis
+- name: Black Duck
+  publisher: Synopsys
+  description: Black Duck software composition analysis (SCA) helps teams manage the
+    security, quality, and license compliance risks that come from the use of open
+    source and third-party code in applications and containers.
+  websiteUrl: https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html
+  categories:
+  - proprietary
+  - analysis
+- name: SBOM-Operator
+  publisher: Christian Kotzbauer
+  description: Catalogue all images of a Kubernetes cluster to multiple targets with
+    Syft.
+  websiteUrl: https://github.com/ckotzbauer/sbom-operator
+  categories:
+  - opensource
+  - analysis
+- name: yasca (Yet Another SCA tool)
+  publisher: Javi
+  description: Yasca is an opensource SCA tool that leverages Github advisories. The
+    tool identifies vulnerabilities in direct and transitive Maven dependencies and
+    generates CycloneDX SBOMs.
+  repoUrl: https://github.com/javixeneize/yasca
+  websiteUrl: https://github.com/javixeneize/yasca
+  categories:
+  - opensource
+  - analysis
