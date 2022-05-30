@@ -1,5 +1,5 @@
 all:
-  text: Show All
+  text: '&nbsp;'
   label: All tools
 opensource: 
   text: Open source tools that support CycloneDX

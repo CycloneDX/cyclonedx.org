@@ -19,6 +19,6 @@ micro_nav: false
 
 # Tool Center
 
-<p><span id="category-description"></span></p>
+<p><span id="category-description">&nbsp;</span></p>
 
 {% include tool-categories.html %}
