@@ -572,5 +572,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "Finite State",
+    "logo": "finite-state.svg",
+    "homepage": "https://finitestate.io",
+    "categories": [
+      "organizations"
+    ]
   }
 ]
