@@ -10,7 +10,54 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="content">
-                    {{ content }}
+
+                    <h1 id="supporters">Supporters</h1>
+                    &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
+
+                    <h2 id="cyclonedx-supporters">CycloneDX Supporters <abbr class="title-icon" data-title="Organizations that have made substantical contributions to the CycloneDX specification or code projects, participate in the Industry Working Group, or have contributed financially to the CycloneDX project in accordance with the OWASP donation policy."><i class="icon icon--info-circle"></i></abbr></h2>
+
+                    {%assign sorted_supporters = site.data.supporters|sort:'name' %}
+
+                    <div class="logo-cards" style="padding-top:3rem;">
+                        {% for supporter in sorted_supporters %}
+                        {% if supporter.categories contains 'supporter' %}
+                        <div class="logo-card-container">
+                            <div class="logo-card" style="overflow: visible;">
+                                <div class="logo-card-body"><a href="{{supporter.websiteUrl}}"><img class="adopter" src="/theme/assets/images/logos/{{supporter.logo}}" alt="{{supporter.name}}" border="0"></a></div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+
+                    <h2 id="vendor-support">Vendor Support <abbr class="title-icon" data-title="Vendors that support the CycloneDX standard"><i class="icon icon--info-circle"></i></abbr></h2>
+
+                    <div class="logo-cards" style="padding-top:3rem;">
+                        {% for supporter in sorted_supporters %}
+                        {% if supporter.categories contains 'vendor' %}
+                        <div class="logo-card-container">
+                            <div class="logo-card" style="overflow: visible;">
+                                <div class="logo-card-body"><a href="{{supporter.websiteUrl}}"><img class="adopter" src="/theme/assets/images/logos/{{supporter.logo}}" alt="{{supporter.name}}" border="0"></a></div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+
+                    <h2 id="project-support">Project Support <abbr class="title-icon" data-title="Open source projects that support the CycloneDX standard"><i class="icon icon--info-circle"></i></abbr></h2>
+
+                    <div class="logo-cards" style="padding-top:3rem;">
+                        {% for supporter in sorted_supporters %}
+                        {% if supporter.categories contains 'project' %}
+                        <div class="logo-card-container">
+                            <div class="logo-card" style="overflow: visible;">
+                                <div class="logo-card-body"><a href="{{supporter.websiteUrl}}"><img class="adopter" src="/theme/assets/images/logos/{{supporter.logo}}" alt="{{supporter.name}}" border="0"></a></div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+
                 </div><!-- /.content -->
             </div><!-- /.col -->
         </div><!-- /.row -->
@@ -54,7 +101,6 @@
     {% include micro-nav.html %}
     {% endif %}
     {% include site-footer.html %}
-    <script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/theme/assets/js/supporters.js"></script>
 </div><!-- /.js-footer-area -->
 </body>
 </html>

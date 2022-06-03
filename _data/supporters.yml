@@ -1,0 +1,367 @@
+---
+- name: Sonatype
+  logo: sonatype.svg
+  websiteUrl: https://sonatype.com
+  categories:
+    - supporter
+    - vendor
+- name: IonChannel
+  logo: ionchannel.svg
+  websiteUrl: https://ionchannel.io
+  categories:
+    - supporter
+    - vendor
+- name: NowSecure
+  logo: nowsecure.svg
+  websiteUrl: https://nowsecure.com
+  categories:
+    - supporter
+    - vendor
+- name: Xperi
+  logo: xperi.svg
+  websiteUrl: https://www.xperi.com/
+  categories:
+    - supporter
+- name: Vdoo
+  logo: vdoo.svg
+  websiteUrl: https://vdoo.com
+  categories:
+    - supporter
+    - vendor
+- name: Lockheed Martin
+  logo: lockheed-martin.svg
+  websiteUrl: https://lockheedmartin.com
+  categories:
+    - supporter
+- name: Medcrypt
+  logo: medcrypt.svg
+  websiteUrl: https://medcrypt.com
+  categories:
+    - vendor
+- name: OWASP
+  logo: owasp.svg
+  websiteUrl: https://owasp.org
+  categories:
+    - supporter
+- name: Contrast Security
+  logo: contrast-security.svg
+  websiteUrl: https://contrastsecurity.com
+  categories:
+    - supporter
+    - vendor
+- name: CodeNotary
+  logo: code-notary.svg
+  websiteUrl: https://codenotary.com
+  categories:
+    - vendor
+- name: GrammaTech
+  logo: grammatech.svg
+  websiteUrl: https://grammatech.com
+  categories:
+    - vendor
+- name: Cybeats
+  logo: cybeats.jpg
+  websiteUrl: https://cybeats.com
+  categories:
+    - vendor
+- name: Jitsuin
+  logo: jitsuin.svg
+  websiteUrl: https://jitsuin.com
+  categories:
+    - vendor
+- name: Fortress Information Security
+  logo: fortress.svg
+  websiteUrl: https://fortressinfosec.com
+  categories:
+    - vendor
+- name: Anchore
+  logo: anchore.svg
+  websiteUrl: https://anchore.com
+  categories:
+    - vendor
+- name: JDisc
+  logo: jdisc.svg
+  websiteUrl: https://jdisc.com
+  categories:
+    - vendor
+- name: Medsec
+  logo: medsec.svg
+  websiteUrl: https://medsec.com
+  categories:
+    - vendor
+- name: Reliza
+  logo: reliza.svg
+  websiteUrl: https://reliza.io
+  categories:
+    - vendor
+- name: SCANOSS
+  logo: scanoss.svg
+  websiteUrl: https://scanoss.com
+  categories:
+    - vendor
+- name: Veracode
+  logo: veracode.svg
+  websiteUrl: https://veracode.com
+  categories:
+    - vendor
+- name: nexB
+  logo: nexb.svg
+  websiteUrl: https://nexb.com
+  categories:
+    - vendor
+- name: ShiftLeft
+  logo: shiftleft.svg
+  websiteUrl: https://shiftleft.io
+  categories:
+    - vendor
+- name: TrustSource
+  logo: trustsource.svg
+  websiteUrl: https://www.trustsource.io
+  categories:
+    - vendor
+- name: Buildpacks
+  logo: buildpacks.svg
+  websiteUrl: https://buildpacks.io
+  categories:
+    - project
+- name: OWASP Dependency-Track
+  logo: dependency-track.svg
+  websiteUrl: https://dependencytrack.org
+  categories:
+    - project
+- name: Sigstore
+  logo: sigstore.svg
+  websiteUrl: https://sigstore.dev
+  categories:
+    - project
+- name: OpenRewrite
+  logo: openrewrite.svg
+  websiteUrl: https://github.com/openrewrite
+  categories:
+    - project
+- name: Open Source Review Toolkit (ORT)
+  logo: ort.png
+  websiteUrl: https://github.com/oss-review-toolkit
+  categories:
+    - project
+- name: Tern
+  logo: tern.svg
+  websiteUrl: https://github.com/tern-tools/tern
+  categories:
+    - project
+- name: Defect Dojo
+  logo: defectdojo.svg
+  websiteUrl: https://www.defectdojo.org/
+  categories:
+    - project
+- name: DevOps KungFu Masters
+  logo: dkfm.svg
+  websiteUrl: https://dkfm.io/
+  categories:
+    - project
+- name: Salus
+  logo: salus.png
+  websiteUrl: https://github.com/coinbase/salus
+  categories:
+    - project
+- name: Checkmarx
+  logo: checkmarx.svg
+  websiteUrl: https://checkmarx.com
+  categories:
+    - vendor
+- name: Checkov
+  logo: checkov.svg
+  websiteUrl: https://www.checkov.io/
+  categories:
+    - project
+- name: Reliable Energy Analytics
+  logo: reliableenergyanalytics.svg
+  websiteUrl: https://reliableenergyanalytics.com/
+  categories:
+    - vendor
+- name: Spack
+  logo: spack.svg
+  websiteUrl: https://spack.io/
+  categories:
+    - project
+- name: JFrog
+  logo: jfrog.svg
+  websiteUrl: https://jfrog.com
+  categories:
+    - vendor
+- name: Kyverno
+  logo: kyverno.svg
+  websiteUrl: https://kyverno.io/
+  categories:
+    - project
+- name: Eclipse
+  logo: temurin.svg
+  websiteUrl: https://projects.eclipse.org/projects/adoptium.temurin
+  categories:
+    - project
+- name: NetRise
+  logo: netrise.svg
+  websiteUrl: https://netrise.io
+  categories:
+    - vendor
+- name: VMware
+  logo: vmware.svg
+  websiteUrl: https://vmware.com
+  categories:
+    - vendor
+- name: Aqua Security
+  logo: aquasec.svg
+  websiteUrl: https://aquasec.com
+  categories:
+    - vendor
+- name: Aqua Trivy
+  logo: aqua-trivy.svg
+  websiteUrl: https://aquasecurity.github.io/trivy/
+  categories:
+    - project
+- name: Google Ko
+  logo: ko.png
+  websiteUrl: https://github.com/google/ko
+  categories:
+    - project
+- name: Apiiro
+  logo: apiiro.svg
+  websiteUrl: https://apiiro.com
+  categories:
+    - supporter
+    - vendor
+- name: GitLab
+  logo: gitlab.svg
+  websiteUrl: https://gitlab.com/
+  categories:
+    - vendor
+- name: Chainguard
+  logo: chainguard.svg
+  websiteUrl: https://chainguard.dev/
+  categories:
+    - vendor
+- name: Deepfence
+  logo: deepfence.svg
+  websiteUrl: https://deepfence.io/
+  categories:
+    - vendor
+- name: Lagoon
+  logo: lagoon.svg
+  websiteUrl: https://lagoon.sh/
+  categories:
+    - project
+- name: Google
+  logo: google.svg
+  websiteUrl: https://google.com/
+  categories:
+    - vendor
+- name: Google
+  logo: osv.svg
+  websiteUrl: https://osv.dev/
+  categories:
+    - project
+- name: Intel
+  logo: intel.svg
+  websiteUrl: https://intel.com/
+  categories:
+    - vendor
+- name: gum
+  logo: goreleaser.svg
+  websiteUrl: https://goreleaser.com/
+  categories:
+    - project
+- name: JupiterOne
+  logo: jupiterone.svg
+  websiteUrl: https://jupiterone.com/
+  categories:
+    - vendor
+- name: Tidelift
+  logo: tidelift.svg
+  websiteUrl: https://tidelift.com/
+  categories:
+    - vendor
+- name: Cybellum
+  logo: cybellum.svg
+  websiteUrl: https://cybellum.com
+  categories:
+    - vendor
+- name: Bytesafe
+  logo: bytesafe.svg
+  websiteUrl: https://bytesafe.dev
+  categories:
+    - vendor
+- name: Snyk
+  logo: snyk.svg
+  websiteUrl: https://snyk.io
+  categories:
+    - vendor
+- name: FOSSA
+  logo: fossa.svg
+  websiteUrl: https://fossa.com
+  categories:
+    - vendor
+- name: Syft
+  logo: syft.svg
+  websiteUrl: https://github.com/anchore/syft
+  categories:
+    - project
+- name: Grype
+  logo: grype.svg
+  websiteUrl: https://github.com/anchore/grype
+  categories:
+    - project
+- name: Amass
+  logo: amass.svg
+  websiteUrl: https://github.com/OWASP/Amass
+  categories:
+    - project
+- name: Kubeclarity
+  logo: kubeclarity.svg
+  websiteUrl: https://github.com/cisco-open/kubei
+  categories:
+    - project
+- name: Cisco
+  logo: cisco.svg
+  websiteUrl: https://cisco.com
+  categories:
+    - vendor
+- name: CyberTest
+  logo: cybertest.svg
+  websiteUrl: https://cybertest.com
+  categories:
+    - vendor
+- name: SonarSource
+  logo: sonarsource.svg
+  websiteUrl: https://sonarsource.com
+  categories:
+    - vendor
+- name: Synopsys
+  logo: synopsys.svg
+  websiteUrl: https://synopsys.com
+  categories:
+    - vendor
+- name: Microfocus
+  logo: microfocus.svg
+  websiteUrl: https://microfocus.com
+  categories:
+    - vendor
+- name: IBM
+  logo: ibm.svg
+  websiteUrl: https://ibm.com
+  categories:
+    - vendor
+- name: Cloud Native Computing Foundation
+  logo: cncf.svg
+  websiteUrl: https://www.cncf.io
+  categories:
+    - vendor
+- name: ArmorCode
+  logo: armorcode.svg
+  websiteUrl: https://armorcode.com
+  categories:
+    - vendor
+- name: Finite State
+  logo: finite-state.svg
+  websiteUrl: https://finitestate.io
+  categories:
+    - vendor
