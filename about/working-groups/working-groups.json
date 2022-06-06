@@ -2420,5 +2420,47 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "fgunbin",
+    "lastName": "fgunbin",
+    "headshot": "https://avatars.githubusercontent.com/u/8119086?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "fgunbin",
+    "homepage": "https://github.com/fgunbin",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "lmco-ek",
+    "lastName": "lmco-ek",
+    "headshot": "https://avatars.githubusercontent.com/u/105302662?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "lmco-ek",
+    "homepage": "https://github.com/lmco-ek",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "captn3m0",
+    "lastName": "captn3m0",
+    "headshot": "https://avatars.githubusercontent.com/u/584253?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "captn3m0",
+    "homepage": "https://github.com/captn3m0",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
