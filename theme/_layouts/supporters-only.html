@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include site-head.html %}
+</head>
+<body data-spy="scroll" data-target=".js-scrollspy">
+
+{%assign sorted_supporters = site.data.supporters|sort:'name' %}
+
+<div class="logo-cards" style="padding-top:3rem;">
+    {% for supporter in sorted_supporters %}
+    <div class="logo-card-full-screen-container">
+        <div class="logo-card" style="overflow: visible;">
+            <div class="logo-card-body"><a href="{{supporter.websiteUrl}}"><img class="adopter" src="/theme/assets/images/logos/{{supporter.logo}}" alt="{{supporter.name}}" border="0"></a></div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+</body>
+</html>
