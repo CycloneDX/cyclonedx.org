@@ -1,6 +1,7 @@
-user-agent: *
-disallow: /ext/
-disallow: /ext/bom-descriptor/
-disallow: /ext/dependency-graph/
-disallow: /ext/vulnerability/
-disallow: /about/supporters-only/
+User-agent: *
+Disallow: /ext/
+Disallow: /ext/bom-descriptor/
+Disallow: /ext/dependency-graph/
+Disallow: /ext/vulnerability/
+Disallow: /about/supporters-only/
+Sitemap: https://cyclonedx.org/sitemap.xml
