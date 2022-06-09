@@ -39,7 +39,7 @@ CycloneDX is protocol agnostic and is capable of describing services over HTTP(S
 The specification provides enough information about services to automatically generate dataflow diagrams useful in 
 security and privacy threat modeling. Refer to [Use Cases](../../use-cases) for details on services.
 
-Use of CycloneDX SaaSBOMs is recommended by the [Cloud Security Alliance](https://cloudsecurityalliance.org/).
+Use of CycloneDX SaaSBOMs is [recommended by the Cloud Security Alliance](https://cloudsecurityalliance.org/artifacts/saas-governance-best-practices-for-cloud-customers/).
 
 ## Independent SBOM and SaaSBOM
 The inventory of services and software components may be combined into a single BOM, or may have independent BOMs.
