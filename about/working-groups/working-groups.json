@@ -2462,5 +2462,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "jgraglia",
+    "lastName": "jgraglia",
+    "headshot": "https://avatars.githubusercontent.com/u/754914?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "jgraglia",
+    "homepage": "https://github.com/jgraglia",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "peschuster",
+    "lastName": "peschuster",
+    "headshot": "https://avatars.githubusercontent.com/u/281340?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "peschuster",
+    "homepage": "https://github.com/peschuster",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
