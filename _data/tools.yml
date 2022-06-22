@@ -24,16 +24,22 @@
   categories:
   - opensource
   - library
+- name: CycloneDX JavaScript Library
+  publisher: CycloneDX
+  description: Core functionality of CycloneDX for JavaScript (Node.js or WebBrowser) written in TypeScript. 
+  repoUrl: https://github.com/CycloneDX/cyclonedx-javascript-library
+  websiteUrl: https://www.npmjs.com/package/%40cyclonedx/cyclonedx-library
+  categories:
+  - opensource
+  - library
 - name: CycloneDX for NPM
   publisher: CycloneDX
-  description: Creates CycloneDX SBOMs for Node.js (NPM) projects. This package also
-    doubles as a library which facilitates the creation of SBOMs from Javascript objects.
+  description: Creates CycloneDX SBOMs for Node.js (NPM and Yarn1) projects.
   repoUrl: https://github.com/CycloneDX/cyclonedx-node-module
-  websiteUrl: https://www.npmjs.com/package/@cyclonedx/bom
+  websiteUrl: https://www.npmjs.com/package/%40cyclonedx/bom
   categories:
   - opensource
   - build-integration
-  - library
 - name: CycloneDX for Webpack
   publisher: CycloneDX
   description: Creates CycloneDX SBOMs for frontend Javascript applications that have
