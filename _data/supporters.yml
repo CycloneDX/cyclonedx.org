@@ -365,3 +365,9 @@
   websiteUrl: https://finitestate.io
   categories:
     - vendor
+- name: Rezilion
+  logo: rezilion.svg
+  websiteUrl: https://www.rezilion.com
+  categories:
+    - supporter
+    - vendor
