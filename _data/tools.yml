@@ -1135,3 +1135,16 @@
   categories:
     - opensource
     - analysis
+- name: Rezilion Dynamic SBOM
+  publisher: Rezilion
+  description: Rezilion provides customers with end-to-end continuous inventory
+    of all software components down to the file/class level, across dev and
+    prod, on-prem and cloud, hosts, containers, and IoT devices. Dynamically
+    tracks their associated supply chain risks, dependencies, and behaviors
+    and validates their exploitability in runtime.
+  websiteUrl: https://www.rezilion.com/platform/dynamic-sbom
+  categories:
+   - proprietary
+   - analysis
+   - author
+   - build-integration
