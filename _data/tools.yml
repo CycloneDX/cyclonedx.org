@@ -1137,7 +1137,7 @@
     - analysis
 - name: Rezilion Dynamic SBOM
   publisher: Rezilion
-  description: End-to-end continuous inventory of all software components down to the file/class level from development to production across your entire technology stack. Dynamically track associated supply chain risks, dependencies, and behaviors and validate their exploitability in runtime.
+  description: Continuous inventory of all software components down to the file/class level from development to production across entire tech stack. Dynamically track associated supply chain risks, dependencies, and behaviors and validate exploitability in runtime.
   websiteUrl: https://www.rezilion.com/platform/dynamic-sbom
   categories:
    - proprietary
