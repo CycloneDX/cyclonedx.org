@@ -371,3 +371,8 @@
   categories:
     - supporter
     - vendor
+- name: BlackBerry
+  logo: blackberry.svg
+  websiteUrl: https://blackberry.qnx.com
+  categories:
+    - vendor
