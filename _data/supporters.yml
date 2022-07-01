@@ -64,10 +64,11 @@
   websiteUrl: https://cybeats.com
   categories:
     - vendor
-- name: Jitsuin
-  logo: jitsuin.svg
-  websiteUrl: https://jitsuin.com
+- name: RKVST
+  logo: rkvst.svg
+  websiteUrl: https://rkvst.com
   categories:
+    - supporter
     - vendor
 - name: Fortress Information Security
   logo: fortress.svg
