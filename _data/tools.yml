@@ -561,7 +561,7 @@
   - proprietary
   - analysis
 - name: PulseUno Plugin for Dimensions CM
-  publisher: Microfocus
+  publisher: Micro Focus
   description: PulseUno enables development teams to continually build and inspect
     the health and quality of code using plugins such as CycloneDX. Teams can use
     this information to help decide when changes are ready to be merged, deployed,
@@ -1144,3 +1144,24 @@
    - analysis
    - author
    - build-integration
+- name: BlackBerry Jarvis
+  publisher: BlackBerry
+  description: Software composition analysis (SCA) and security testing solution that detects and list open-source software and software licenses within embedded systems and associated cybersecurity vulnerabilities and exposures
+  websiteUrl: https://blackberry.qnx.com/en/products/security/blackberry-jarvis
+  categories:
+    - proprietary
+    - analysis
+- name: Fortify Software Security Center
+  publisher: Micro Focus
+  description: Open source plugin for Fortify Software Security Center (SSC) that parses CycloneDX BOMs and integrates vulnerability data within the SSC portal
+  websiteUrl: https://github.com/fortify-ps/fortify-ssc-parser-cyclonedx
+  categories:
+    - proprietary
+    - opensource
+- name: sbom-dependency-submission-action
+  publisher: TietoEVRY
+  description: GitHub Action that submits CycloneDX SBOMs to GitHub's dependency submission API
+  websiteUrl: https://github.com/evryfs/sbom-dependency-submission-action
+  categories:
+    - github-action
+    - opensource
