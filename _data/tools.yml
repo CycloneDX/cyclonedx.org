@@ -1154,14 +1154,16 @@
 - name: Fortify Software Security Center
   publisher: Micro Focus
   description: Open source plugin for Fortify Software Security Center (SSC) that parses CycloneDX BOMs and integrates vulnerability data within the SSC portal
+  repoUrl: https://github.com/fortify-ps/fortify-ssc-parser-cyclonedx
   websiteUrl: https://github.com/fortify-ps/fortify-ssc-parser-cyclonedx
   categories:
     - proprietary
     - opensource
-- name: sbom-dependency-submission-action
+- name: sbom-submission-action
   publisher: TietoEVRY
   description: GitHub Action that submits CycloneDX SBOMs to GitHub's dependency submission API
-  websiteUrl: https://github.com/evryfs/sbom-dependency-submission-action
+  repoUrl: https://github.com/evryfs/sbom-dependency-submission-action
+  websiteUrl: https://github.com/marketplace/actions/sbom-submission-action
   categories:
     - github-action
     - opensource
