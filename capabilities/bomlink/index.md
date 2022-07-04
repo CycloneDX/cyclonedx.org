@@ -41,10 +41,10 @@ urn:cdx:f08a6ccd-4dce-4759-bd84-c626675d60a7/1
 urn:cdx:f08a6ccd-4dce-4759-bd84-c626675d60a7/1#componentA
 ```
 
-| Field        | Description |
-| ------------ | ----------- |
-| serialNumber | The unique serial number of the BOM. The serial number MUST conform to RFC-4122. |
-| version      | The version of the BOM. The default version is `1`. |
+| Field        | Description                                                                       |
+| ------------ | --------------------------------------------------------------------------------- |
+| serialNumber | The unique serial number of the BOM. The serial number MUST conform to RFC-4122.  |
+| version      | The version of the BOM. The default version is `1`.                               |
 | bom-ref      | The unique identifier of the component, service, or vulnerability within the BOM. |
 
 There are many use cases that BOM-Link supports. Two common scenarios are to:
@@ -59,7 +59,7 @@ references the precise serial number and version of the BOM.
 
 {% include examples/bom-link-bom.html %}
 
-Refer to the [External References Use Case](http://0.0.0.0:4000/use-cases/#external-references) for additional information.
+Refer to the [External References Use Case](/use-cases/#external-references) for additional information.
 
 ## Linking External VEX to BOM Inventory
 Inventory described in a BOM (SBOM, SaaSBOM, etc) will typically remain static until such time the inventory changes.
