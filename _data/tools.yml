@@ -798,7 +798,7 @@
   - build-integration
   - analysis
 - name: RKVST SBOM Hub
-  publisher: Jitsuin
+  publisher: RKVST
   description: A free SaaS repo to find and fetch public or private CycloneDX v1.4
     BOMs. RKVST sustains and enhances SaaS/S/H/C-BOM or VEX publishing and consumption
     by tracing provenance, governing permissioned distribution and proving immutable
