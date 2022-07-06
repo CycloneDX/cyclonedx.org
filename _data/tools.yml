@@ -1167,7 +1167,7 @@
   categories:
     - github-action
     - opensource
-- name: vexy
+- name: Vexy
   publisher: Paul Horton
   description: Generate VEX (Vulnerability Exploitability Exchange) CycloneDX documents
   repoUrl: https://github.com/madpah/vexy
