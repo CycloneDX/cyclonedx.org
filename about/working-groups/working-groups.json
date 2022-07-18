@@ -2518,5 +2518,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "tsjensen",
+    "lastName": "tsjensen",
+    "headshot": "https://avatars.githubusercontent.com/u/7677131?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "tsjensen",
+    "homepage": "https://github.com/tsjensen",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "gradle-update-robot",
+    "lastName": "gradle-update-robot",
+    "headshot": "https://avatars.githubusercontent.com/u/71028193?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "gradle-update-robot",
+    "homepage": "https://github.com/gradle-update-robot",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
