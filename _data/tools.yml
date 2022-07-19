@@ -537,12 +537,14 @@
   - analysis
 - name: Cybeats SBOM Studio
   publisher: Cybeats Technologies Inc.
-  description: Analyzes IoT firmware and generates SBOMs with the runtime data information
-    for more precise identification of vulnerabilities and exploits abilities
+  description: Manage SBOMs at scale and proactively discover & reduce risk across the entire
+    software supply chain, from development through deployment.
   websiteUrl: https://cybeats.com
   categories:
   - proprietary
   - analysis
+  - transform
+  - build-integration
 - name: TrustSource
   publisher: TrustSource
   description: TrustSource is a SaaS platform for implementing and maintaining open
