@@ -2546,5 +2546,61 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "vargenau",
+    "lastName": "vargenau",
+    "headshot": "https://avatars.githubusercontent.com/u/378154?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "vargenau",
+    "homepage": "https://github.com/vargenau",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "tmehnert",
+    "lastName": "tmehnert",
+    "headshot": "https://avatars.githubusercontent.com/u/92546601?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "tmehnert",
+    "homepage": "https://github.com/tmehnert",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "killi199",
+    "lastName": "killi199",
+    "headshot": "https://avatars.githubusercontent.com/u/55409634?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "killi199",
+    "homepage": "https://github.com/killi199",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "pjfanning",
+    "lastName": "pjfanning",
+    "headshot": "https://avatars.githubusercontent.com/u/11783444?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "pjfanning",
+    "homepage": "https://github.com/pjfanning",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
