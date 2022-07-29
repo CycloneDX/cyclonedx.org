@@ -78,7 +78,7 @@ for vulnerability disclosure information.
 
 <i class="icon icon--arrow-right call-out"></i> Learn more about [Vulnerability Disclosure Report (VDR)](vdr)
 
-## Manufacturing Bill of Materials (MBOM)
+## Hardware Bill of Materials (HBOM)
 CycloneDX supports many types of components, including hardware devices, making it ideal for use with consumer electronics, 
 <abbr data-title="Internet of Things">IoT</abbr>, <abbr data-title="Industrial Control System">ICS</abbr>, and other
 types of embedded devices. CycloneDX fills an important role in-between traditional 
@@ -87,7 +87,7 @@ use cases for hardware devices.
 - Supports `device` as a first-class component type
 - Utilizes a formal and extensible taxonomy that defines a wide range of hardware devices and configurations
 
-<i class="icon icon--arrow-right call-out"></i> Learn more about [Manufacturing Bill of Materials (MBOM)](mbom)
+<i class="icon icon--arrow-right call-out"></i> Learn more about [Hardware Bill of Materials (HBOM)](hbom)
 
 ## Operations Bill of Materials (OBOM)
 CycloneDX is a full-stack bill of materials standard supporting entire runtime environments consisting of hardware, 

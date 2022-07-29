@@ -6,9 +6,9 @@ comments: false
 banner: false
 
 # Hero section
-title: Manufacturing Bill of Materials (MBOM)
-window_title: CycloneDX - Manufacturing Bill of Materials (MBOM)
-description: Manufacturing Bill of Materials (MBOM)
+title: Hardware Bill of Materials (HBOM)
+window_title: CycloneDX - Hardware Bill of Materials (HBOM)
+description: Hardware Bill of Materials (HBOM)
 
 # Micro navigation
 micro_nav: false
@@ -17,7 +17,7 @@ micro_nav: false
     
 ---
 
-# Manufacturing Bill of Materials (MBOM)
+# Hardware Bill of Materials (HBOM)
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
