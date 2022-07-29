@@ -76,4 +76,4 @@ CycloneDX also supports embedding services information inside a BOM. There are s
 ## Examples
 
 BOMs demonstrating SaaSBOM capabilities can be found at
-[https://github.com/CycloneDX/sbom-examples](https://github.com/CycloneDX/sbom-examples)
+[https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)

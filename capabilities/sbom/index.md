@@ -45,4 +45,4 @@ SBOM use cases.
 ## Examples
 
 BOMs demonstrating SBOM capabilities can be found at
-[https://github.com/CycloneDX/sbom-examples](https://github.com/CycloneDX/sbom-examples)
+[https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)

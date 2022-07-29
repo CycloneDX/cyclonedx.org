@@ -42,5 +42,5 @@ Organizations, or entire industries, can also leverage multiple extension points
 
 ## Examples
 
-BOMs demonstrating MBOM capabilities can be found at
-[https://github.com/CycloneDX/sbom-examples](https://github.com/CycloneDX/sbom-examples)
+BOMs demonstrating HBOM capabilities can be found at
+[https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)

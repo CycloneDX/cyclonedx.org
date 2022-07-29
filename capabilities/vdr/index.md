@@ -75,4 +75,4 @@ inventory and VDR data. There are several uses for embedding VDR data including:
 ## Examples
 
 BOMs demonstrating VDR capabilities can be found at
-[https://github.com/CycloneDX/sbom-examples](https://github.com/CycloneDX/sbom-examples)
+[https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
