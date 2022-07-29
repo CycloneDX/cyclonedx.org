@@ -6,9 +6,9 @@ comments: false
 banner: false
 
 # Hero section
-title: Vulnerability Exploitability Exchange (VEX)
-window_title: CycloneDX - Vulnerability Exploitability Exchange (VEX)
-description: Vulnerability Exploitability Exchange (VEX)
+title: Vulnerability Exploitability eXchange (VEX)
+window_title: CycloneDX - Vulnerability Exploitability eXchange (VEX)
+description: Vulnerability Exploitability eXchange (VEX)
 
 # Micro navigation
 micro_nav: false
@@ -17,18 +17,23 @@ micro_nav: false
     
 ---
 
-# Vulnerability Exploitability Exchange (VEX)
+# Vulnerability Exploitability eXchange (VEX)
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
 {% include capabilities.html %}
 
-Known vulnerabilities inherited from the use of third-party and open source software and the exploitability of the vulnerabilities
-can be communicated with CycloneDX. Previously unknown vulnerabilities affecting both components and services may also be disclosed
-using CycloneDX, making it ideal for both VEX and security advisory use cases.
+Vulnerability Exploitability eXchange (VEX) is a form of a security advisory where the goal is to communicate the exploitability
+of components with known vulnerabilities in the context of the product in which they are used. Often times, products 
+are not affected by a vulnerability simply by including an otherwise vulnerable component. VEX allows software vendors 
+and other parties to communicate the exploitability status of vulnerabilities, providing clarity on the vulnerabilities
+that pose risk and the ones that do not.
+
+VEX is a critical capability necessary to operationalize SBOM. 
+
 - VEX information can be represented inside an existing BOM, or in a dedicated VEX BOM
-- Supports known and unknown vulnerabilities against components and services
 - Communicates the vulnerability details, exploitability, and detailed analysis
+- Informs software consumers on actions the vendor has taken, or which the consumer must take, to reduce risk
 
 ## Independent BOM and VEX BOM
 Inventory described in a BOM (SBOM, SaaSBOM, etc) will typically remain static until such time the inventory changes. 
@@ -74,4 +79,4 @@ CSAF also supports an optional VEX profile which can be used with CycloneDX.
 ## Examples
 
 BOMs demonstrating VEX capabilities can be found at
-[https://github.com/CycloneDX/sbom-examples](https://github.com/CycloneDX/sbom-examples)
+[https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)

@@ -56,14 +56,27 @@ The specification provides enough information about services to automatically ge
 <i class="icon icon--arrow-right call-out"></i> Learn more about [Software-as-a-Service BOM (SaaSBOM)](saasbom)
 
 ## Vulnerability Exploitability Exchange (VEX)
-Known vulnerabilities inherited from the use of third-party and open source software and the exploitability of the vulnerabilities 
-can be communicated with CycloneDX. Previously unknown vulnerabilities affecting both components and services may also be disclosed
-using CycloneDX, making it ideal for both VEX and security advisory use cases.
-- VEX information can be represented inside an existing BOM, or in a dedicated VEX BOM
-- Supports known and unknown vulnerabilities against components and services
-- Communicates the vulnerability details, exploitability, and detailed analysis
+Vulnerability Exploitability eXchange (VEX) is a form of a security advisory where the goal is to communicate the exploitability 
+of components with known vulnerabilities in the context of the product in which they are used. Often times, products are not 
+affected by a vulnerability simply by including an otherwise vulnerable component. VEX allows software vendors and other 
+parties to communicate the exploitability status of vulnerabilities, providing clarity on the vulnerabilities that pose 
+risk and the ones that do not.
 
-<i class="icon icon--arrow-right call-out"></i> Learn more about [Vulnerability Exploitability Exchange (VEX)](vex)
+VEX is a critical capability necessary to operationalize SBOM.
+
+<i class="icon icon--arrow-right call-out"></i> Learn more about [Vulnerability Exploitability eXchange (VEX)](vex)
+
+## Vulnerability Disclosure Report (VDR)
+Known vulnerabilities inherited from the use of third-party and open source software can be communicated with CycloneDX.
+Previously unknown vulnerabilities affecting both components and services may also be disclosed using CycloneDX, making
+it ideal for Vulnerability Disclosure Report (VDR) use cases.
+
+Vulnerability Disclosure Report (VDR) is defined by [NIST SP 800-161: Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations](https://csrc.nist.gov/publications/detail/sp/800-161/rev-1/final).
+Both known and unknown vulnerabilities may be communicated against any component or service affecting a product or individual
+components within a product. CycloneDX exceeds the data field requirements defined in [ISO/IEC 29147:2018](https://www.iso.org/standard/72311.html)
+for vulnerability disclosure information.
+
+<i class="icon icon--arrow-right call-out"></i> Learn more about [Vulnerability Disclosure Report (VDR)](vdr)
 
 ## Manufacturing Bill of Materials (MBOM)
 CycloneDX supports many types of components, including hardware devices, making it ideal for use with consumer electronics, 
