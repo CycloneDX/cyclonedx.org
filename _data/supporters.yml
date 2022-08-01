@@ -376,3 +376,38 @@
   websiteUrl: https://blackberry.qnx.com
   categories:
     - vendor
+- name: Oracle
+  logo: oracle.svg
+  websiteUrl: https://oracle.com
+  categories:
+    - vendor
+- name: SAP
+  logo: sap.svg
+  websiteUrl: https://sap.com
+  categories:
+    - vendor
+- name: GraalVM
+  logo: graalvm.svg
+  websiteUrl: https://graalvm.org
+  categories:
+    - project
+- name: RedHat
+  logo: redhat.svg
+  websiteUrl: https://redhat.com
+  categories:
+    - vendor
+- name: ServiceNow
+  logo: servicenow.svg
+  websiteUrl: https://servicenow.com
+  categories:
+    - supporter
+- name: Cloudsmith
+  logo: cloudsmith.svg
+  websiteUrl: https://cloudsmith.com
+  categories:
+    - vendor
+- name: 18F
+  logo: 18f.svg
+  websiteUrl: https://18f.gsa.gov/
+  categories:
+    - vendor

@@ -1176,3 +1176,44 @@
   websiteUrl: https://github.com/madpah/vexy
   categories:
     - opensource
+- name: Project Piper
+  publisher: SAP
+  description: Jenkins shared library for Continuous Delivery pipelines, applicable to projects both for SAP BTP and SAP on-premise platforms. Project Piper can generates CycloneDX BOMs for multiple ecosystems.
+  repoUrl: https://github.com/SAP/jenkins-library
+  websiteUrl: https://www.project-piper.io/
+  categories:
+    - opensource
+    - build-integration
+- name: action-owasp-dependecy-track-check
+  publisher: Quobis
+  description: Github action that generates BOMs and uploads them to OWASP Dependency-Track for vulnerability analysis
+  repoUrl: https://github.com/Quobis/action-owasp-dependecy-track-check
+  websiteUrl: https://github.com/Quobis/action-owasp-dependecy-track-check
+  categories:
+    - opensource
+    - github-action
+    - build-integration
+- name: LicenseComplianceTool
+  publisher: medavis GmbH
+  description: A Jenkins plugin to create listings of third-party components and their licenses
+  repoUrl: https://github.com/medavis-gmbh/LicenseComplianceTool
+  websiteUrl: https://github.com/medavis-gmbh/LicenseComplianceTool
+  categories:
+    - opensource
+    - build-integration
+- name: sbom-action
+  publisher: Pete Wagner
+  description: GitHub action which can diff CycloneDX SBOMs on pull request and on commit
+  repoUrl: https://github.com/thepwagner/sbom-action
+  websiteUrl: https://github.com/thepwagner/sbom-action
+  categories:
+    - opensource
+    - build-integration
+- name: DaggerBoard
+  publisher: NewYork-Presbyterian Hospital
+  description: DaggerBoard is a vulnerability scanning tool that ingests Software Bill of Material (SBOM) files and outputs results in a human-readable format. This tool evaluates software dependencies outlined within the SBOM file for package vulnerabilities.
+  repoUrl: https://github.com/nyph-infosec/daggerboard
+  websiteUrl: https://github.com/nyph-infosec/daggerboard
+  categories:
+    - opensource
+    - analysis
