@@ -1217,3 +1217,25 @@
   categories:
     - opensource
     - analysis
+- name: gobom
+  publisher: Mattermost
+  description: An extensible CycloneDX BOM generator and Dependency-Track API client written in Go
+  repoUrl: https://github.com/mattermost/gobom
+  websiteUrl: https://github.com/mattermost/gobom
+  categories:
+    - opensource
+    - build-integration
+- name: sca-codeinsight-reports-cyclonedx
+  publisher: Flexera
+  description: Report generation tools for Flexera Code Insight. The report allows generates CycloneDX software bill of materials (SBOM) for a given project
+  repoUrl: https://github.com/flexera-public/sca-codeinsight-reports-cyclonedx
+  websiteUrl: https://github.com/flexera-public/sca-codeinsight-reports-cyclonedx
+  categories:
+    - opensource
+- name: meta-dependencytrack
+  publisher: BG Networks
+  description: meta-dependencytrack is a Yocto meta-layer which produces a CycloneDX Software Bill of Materials (aka SBOM) from your root filesystem and then uploads it to a Dependency-Track server against the project of your choice
+  repoUrl: https://github.com/bgnetworks/meta-dependencytrack
+  websiteUrl: https://github.com/bgnetworks/meta-dependencytrack
+  categories:
+    - opensource
