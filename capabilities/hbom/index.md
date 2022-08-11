@@ -21,7 +21,10 @@ micro_nav: false
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
-{% include capabilities.html %}
+<div id="capabilities-section">
+<p class="large-quote">Inventory hardware components for IoT, ICS, and other types of embedded and connected devices</p>
+{% include capabilities-stack.html %}
+</div>
 
 CycloneDX supports many types of components, including hardware devices, making it ideal for use with consumer electronics,
 <abbr data-title="Internet of Things">IoT</abbr>, <abbr data-title="Industrial Control System">ICS</abbr>, and other
@@ -44,3 +47,6 @@ Organizations, or entire industries, can also leverage multiple extension points
 
 BOMs demonstrating HBOM capabilities can be found at
 [https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
+
+## Additional Capabilities
+{% include capabilities-selection.html %}

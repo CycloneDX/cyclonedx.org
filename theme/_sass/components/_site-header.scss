@@ -280,7 +280,10 @@ li.dropdown {
 	background-color: #f8f8f8;
 	padding: 45px 0 90px; }
 .cta-section .cta-wrapper:hover {
-	border-color: #0C3A76;
+	cursor: pointer;
+	border-left: 1px solid $color-light-blue;
+	border-right: 1px solid $color-light-blue;
+	border-bottom: 1px solid $color-light-blue;
 }
 @media only screen and (max-width: 767px) {
 	.cta-section {
@@ -288,7 +291,11 @@ li.dropdown {
 .cta-section .cta-wrapper {
 	background-color: #FFFFFF;
 	padding: 35px 10px;
-	border: 2px solid #f1f1f1; }
+	border: 1px solid transparent;
+	border-radius: 5px;
+	border-top: 3px solid $color-light-blue;
+	box-shadow: 0px 30px 40px -20px $color-grey-blue;
+}
 .cta-section .cta-wrapper:hover a {
 	color: #089af7; }
 @media only screen and (max-width: 991px) {

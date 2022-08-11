@@ -1,0 +1,144 @@
+/**
+ * Callout (components/_info-card.scss)
+ */
+
+/* Remove extra left and right margins, due to padding in columns */
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
+  padding: 0;
+}
+.info-card-container {
+  display: flex;
+  padding: 1rem;
+  @media(min-width: 40rem) {
+    width: 50%;
+  }
+  @media(min-width: 60rem) {
+    width: 33.3333%;
+  }
+  @media(max-width: 40rem) {
+    width: 100%;
+    display: block;
+  }
+}
+/* Style the counter cards */
+.info-card {
+  display: block;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 30px 40px -20px $color-grey-blue;
+  text-align: center;
+  border: 1px solid transparent;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  padding: 30px;
+  border-top: 3px solid $color-light-blue;
+}
+.info-card:hover {
+  cursor: pointer;
+  border-left: 1px solid $color-light-blue;
+  border-right: 1px solid $color-light-blue;
+  border-bottom: 1px solid $color-light-blue;
+}
+.info-card > h2 {
+  text-align: left;
+  color: $color-very-dark-blue;
+  font-size: 1.5em;
+  font-weight: 600;
+  border-bottom: 0;
+  padding: 0;
+  /* margin: 1.5rem 0 0.9375rem 0; */
+  margin: .5rem 0 0 0;
+}
+.info-card > h3 {
+  text-align: left;
+  color: $color-very-dark-blue;
+  font-size: 0.7em;
+  font-weight: 500;
+  border-bottom: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.info-card > p {
+  text-align: left;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  border-bottom: 0;
+  padding: 0;
+}
+.info-card > img {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+/*
+.info-card.cyan {
+  border-top: 3px solid $color-cyan;
+}
+.info-card.green {
+  border-top: 3px solid #73D08F;
+}
+.info-card.red {
+  border-top: 3px solid $color-red;
+}
+.info-card.pink {
+  border-top: 3px solid #FF33A0;
+}
+.info-card.blue {
+  border-top: 3px solid $color-blue;
+}
+.info-card.orange {
+  border-top: 3px solid $color-orange;
+}
+.info-card.purple {
+  border-top: 3px solid #6E63CC;
+}
+.info-card.cyan:hover {
+  border-left: 1px solid $color-cyan;
+  border-right: 1px solid $color-cyan;
+  border-bottom: 1px solid $color-cyan;
+  cursor: pointer;
+}
+.info-card.green:hover {
+  border-left: 1px solid #73D08F;
+  border-right: 1px solid #73D08F;
+  border-bottom: 1px solid #73D08F;
+  cursor: pointer;
+}
+.info-card.red:hover {
+  border-left: 1px solid $color-red;;
+  border-right: 1px solid $color-red;;
+  border-bottom: 1px solid $color-red;;
+  cursor: pointer;
+}
+.info-card.pink:hover {
+  border-left: 1px solid #FF33A0;
+  border-right: 1px solid #FF33A0;
+  border-bottom: 1px solid #FF33A0;
+  cursor: pointer;
+}
+.info-card.blue:hover {
+  border-left: 1px solid $color-blue;
+  border-right: 1px solid $color-blue;
+  border-bottom: 1px solid $color-blue;
+  cursor: pointer;
+}
+.info-card.orange:hover {
+  border-left: 1px solid $color-orange;
+  border-right: 1px solid $color-orange;
+  border-bottom: 1px solid $color-orange;
+  cursor: pointer;
+}
+.info-card.purple:hover {
+  border-left: 1px solid #6E63CC;
+  border-right: 1px solid #6E63CC;
+  border-bottom: 1px solid #6E63CC;
+  cursor: pointer;
+}
+*/

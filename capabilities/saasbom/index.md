@@ -21,7 +21,10 @@ micro_nav: false
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
-{% include capabilities.html %}
+<div id="capabilities-section">
+<p class="large-quote">Inventory services, endpoints, and data flows and classifications that power cloud-native applications</p>
+{% include capabilities-stack.html %}
+</div>
 
 Modern software often relies on external services, or is made up entirely of services. CycloneDX is capable of describing any type of service including:
 - Microservice Architecture
@@ -77,3 +80,6 @@ CycloneDX also supports embedding services information inside a BOM. There are s
 
 BOMs demonstrating SaaSBOM capabilities can be found at
 [https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
+
+## Additional Capabilities
+{% include capabilities-selection.html %}

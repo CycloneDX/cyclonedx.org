@@ -21,7 +21,10 @@ micro_nav: false
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
-{% include capabilities.html %}
+<div id="capabilities-section">
+<p class="large-quote">Standardizes release notes unlocking new workflows for software publishers and consumers</p>
+{% include capabilities-stack.html %}
+</div>
 
 CycloneDX standardizes release notes into a common, machine-readable format. This capability unlocks new workflow
 potential for software publishers and consumers alike. This functionality works with or without the Bill of Materials
@@ -40,3 +43,6 @@ capabilities of the spec.
 ## High-Level Object Model
 
 ![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
+
+## Additional Capabilities
+{% include capabilities-selection.html %}

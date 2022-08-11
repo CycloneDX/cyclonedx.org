@@ -379,3 +379,46 @@ abbr[data-title].title-icon {
 	font-weight: normal;
 	border-bottom: 0;
 }
+#capabilities-section {
+	min-height: 251px;
+	display: flex;
+	align-items: center;
+	@media(max-width: $screen-sm-min) {
+		margin-top: 2rem;
+		display: block;
+	}
+}
+#capability-tile {
+	display: inline-block;
+	@media(max-width: $screen-sm-min) {
+		text-align: center;
+		display: block;
+		float: none;
+	}
+}
+.hover-title {
+	display: none;
+	font-size: 0.8rem;
+}
+#capability-title {
+	width: 100%;
+	height: 4rem;
+	text-align: center;
+	color: #4CA7F1;
+	padding: 0;
+	margin: 0;
+}
+.large-quote {
+	font-family: $font-family-secondary;
+	font-weight: 200;
+	font-size: 2.75rem;
+	font-style: italic;
+	line-height: 3.25rem;
+	display: inline-block;
+	margin-top:-64px;
+	width: 100%;
+	@media(max-width: $screen-md-min) {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+}

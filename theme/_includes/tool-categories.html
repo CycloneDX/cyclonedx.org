@@ -1,7 +1,7 @@
 <div id="button-container">
   {% for c in site.data.tool-categories %}
   {% assign category_code = c[0] %}
-  <button title="{{c[1].text}}" class="btn" data-category="{{category_code}}">
+  <button title="{{c[1].text}}" class="btn" id="btn-{{category_code}}" data-category="{{category_code}}">
     {{c[1].label}}
     <span class="badge">
       {% if category_code == 'all' %}

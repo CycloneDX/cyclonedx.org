@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: home
-keywords: application security, software security, software bill of materials, SBOM, BOM, open source, supply chain, specification, spdx, license, package url, purl, cpe, swid
+keywords: application security, software security, software bill of materials, SBOM, BOM, HBOM, VEX, VDR, open source, supply chain, specification, spdx, license, package url, purl, cpe, swid
 comments: false
 banner: true
 

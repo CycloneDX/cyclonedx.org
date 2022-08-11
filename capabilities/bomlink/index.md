@@ -23,7 +23,10 @@ micro_nav: false
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
-{% include capabilities.html %}
+<div id="capabilities-section">
+<p class="large-quote">Reference components, services, or vulnerabilities in BOMs from other systems or other BOMs</p>
+{% include capabilities-stack.html %}
+</div>
 
 With CycloneDX, it is possible to reference a component, service, or vulnerability inside a BOM from other systems or
 other BOMs. This deep-linking capability is referred to as [BOM-Link](../bomlink) and is a 
@@ -74,3 +77,6 @@ direct link to the precise component within a BOM.
 <h3>Example</h3>
 
 {% include examples/bom-link-vex.html %}
+
+## Additional Capabilities
+{% include capabilities-selection.html %}

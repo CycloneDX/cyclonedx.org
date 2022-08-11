@@ -21,7 +21,10 @@ micro_nav: false
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
-{% include capabilities.html %}
+<div id="capabilities-section">
+<p class="large-quote">Inventory software components and services and the dependency relationships between them</p>
+{% include capabilities-stack.html %}
+</div>
 
 A complete and accurate inventory of all first-party and third-party components is essential for risk identification. 
 BOMs should ideally contain all direct and transitive components and the dependency relationships between them.
@@ -32,7 +35,7 @@ to [U.S. Executive Order 14028](https://www.whitehouse.gov/briefing-room/preside
 
 Adopting CycloneDX allows organizations to quickly meet these minimum requirements and mature into using more 
 sophisticated use cases over time. CycloneDX is capable of achieving all SBOM requirements defined in the 
-[OWASP Software Component Verification Standard (SCVS)](http://owasp.org/scvs). 
+[OWASP Software Component Verification Standard (SCVS)](http://owasp.org/scvs).
 
 ## High-Level Object Model
 
@@ -46,3 +49,6 @@ SBOM use cases.
 
 BOMs demonstrating SBOM capabilities can be found at
 [https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
+
+## Additional Capabilities
+{% include capabilities-selection.html %}

@@ -21,7 +21,10 @@ micro_nav: false
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
-{% include capabilities.html %}
+<div id="capabilities-section">
+<p class="large-quote">Full-stack inventory of runtime environments, configurations, and additional dependencies</p>
+{% include capabilities-stack.html %}
+</div>
 
 CycloneDX is a full-stack bill of materials standard supporting entire runtime environments consisting of hardware,
 firmware, containers, operating systems, applications and their libraries. Coupled with the ability to specify configuration
@@ -49,3 +52,6 @@ the OBOM from the SBOM. This allows OBOM information to be updated without havin
 
 BOMs demonstrating OBOM capabilities can be found at
 [https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
+
+## Additional Capabilities
+{% include capabilities-selection.html %}

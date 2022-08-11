@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: document
-keywords: application security, software security, software bill of material, SBOM, BOM, open source, supply chain, specification, spdx, license, package url, purl, cpe
+keywords: application security, software security, software bill of material, SBOM, BOM, HBOM, VEX, VDR, open source, supply chain, specification, spdx, license, package url, purl, cpe
 comments: false
 banner: false
 
@@ -21,7 +21,10 @@ micro_nav: false
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
-{% include capabilities.html %}
+<div id="capabilities-section">
+<p class="large-quote">Convey the exploitability of vulnerable components in the context of the product in which they're used</p>
+{% include capabilities-stack.html %}
+</div>
 
 Vulnerability Exploitability eXchange (VEX) is a form of a security advisory where the goal is to communicate the exploitability
 of components with known vulnerabilities in the context of the product in which they are used. Often times, products 
@@ -34,6 +37,8 @@ VEX is a critical capability necessary to operationalize SBOM.
 - VEX information can be represented inside an existing BOM, or in a dedicated VEX BOM
 - Communicates the vulnerability details, exploitability, and detailed analysis
 - Informs software consumers on actions the vendor has taken, or which the consumer must take, to reduce risk
+
+![Abstract of VDR and VEX data represented in a BOM](../../theme/assets/images/VDR+VEX-BOM-Cascade.svg)
 
 ## Independent BOM and VEX BOM
 Inventory described in a BOM (SBOM, SaaSBOM, etc) will typically remain static until such time the inventory changes. 
@@ -80,3 +85,6 @@ CSAF also supports an optional VEX profile which can be used with CycloneDX.
 
 BOMs demonstrating VEX capabilities can be found at
 [https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
+
+## Additional Capabilities
+{% include capabilities-selection.html %}

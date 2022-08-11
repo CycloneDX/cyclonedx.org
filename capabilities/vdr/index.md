@@ -21,7 +21,10 @@ micro_nav: false
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
-{% include capabilities.html %}
+<div id="capabilities-section">
+<p class="large-quote">Communicate known and unknown vulnerabilities affecting components and services</p>
+{% include capabilities-stack.html %}
+</div>
 
 Known vulnerabilities inherited from the use of third-party and open source software can be communicated with CycloneDX. 
 Previously unknown vulnerabilities affecting both components and services may also be disclosed using CycloneDX, making 
@@ -40,7 +43,7 @@ information.
 
 ![Abstract of VDR and VEX data represented in a BOM](../../theme/assets/images/VDR+VEX-BOM-Cascade.svg)
 
-## VDR Support in CycloneDX
+## Independent BOM and VDR BOM
 CycloneDX fully supports all NIST recommendations for VDR including:
 - Optional analysis of the impact of each reported vulnerability against a component, service, or product
 - Plans to address the vulnerability
@@ -76,3 +79,6 @@ inventory and VDR data. There are several uses for embedding VDR data including:
 
 BOMs demonstrating VDR capabilities can be found at
 [https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
+
+## Additional Capabilities
+{% include capabilities-selection.html %}
