@@ -32,11 +32,19 @@
   categories:
   - opensource
   - library
-- name: CycloneDX for NPM
+- name: CycloneDX for Node.js
   publisher: CycloneDX
   description: Creates CycloneDX SBOMs for Node.js (NPM and Yarn1) projects.
   repoUrl: https://github.com/CycloneDX/cyclonedx-node-module
   websiteUrl: https://www.npmjs.com/package/%40cyclonedx/bom
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for NPM
+  publisher: CycloneDX
+  description: Creates CycloneDX SBOMs for Node.js NPM projects.
+  repoUrl: https://github.com/CycloneDX/cyclonedx-node-npm
+  websiteUrl: https://www.npmjs.com/package/%40cyclonedx/cyclonedx-npm
   categories:
   - opensource
   - build-integration
