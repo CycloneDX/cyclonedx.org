@@ -1239,3 +1239,15 @@
   websiteUrl: https://github.com/bgnetworks/meta-dependencytrack
   categories:
     - opensource
+- name: Mend SCA
+  publisher: Mend (Whitesource)
+  description: Mend allows organizations to gain full visibility and control over their open source usage. Mend SCA exports direct and transitive dependencies in CycloneDX format.
+  websiteUrl: https://www.mend.io/
+  categories:
+    - proprietary
+- name: Prisma Cloud
+  publisher: Palo Alto Networks
+  description: Prisma® Cloud secures infrastructure, applications, data and entitlements across the world’s largest clouds, all from a single unified solution.
+  websiteUrl: https://paloaltonetworks.com
+  categories:
+    - proprietary

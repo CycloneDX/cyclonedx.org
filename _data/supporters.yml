@@ -416,3 +416,13 @@
   websiteUrl: https://flexera.com
   categories:
     - vendor
+- name: Mend
+  logo: mend.svg
+  websiteUrl: https://mend.io
+  categories:
+    - vendor
+- name: Palo Alto Networks
+  logo: palo-alto-networks.svg
+  websiteUrl: https://paloaltonetworks.com
+  categories:
+    - vendor
