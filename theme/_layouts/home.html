@@ -139,7 +139,24 @@
     </div><!-- /.container -->
 </div><!-- /.section -->
 {% endif %}
-{% include site-supporters-footer.html %}
+
+<section class="cta-section" style="background: linear-gradient(180deg, rgba(248,248,248,1) 0%, rgba(255,255,255,1) 100%);">
+    <div class="container">
+        <h3 style="text-align:center; margin:0 0 1.2rem 0; color:#0057C4">CycloneDX Supporters, Vendors, and Projects</h3>
+        {%assign sorted_supporters = site.data.supporters|sort:'name' %}
+        <div class="logo-cards" style="padding-top:3rem;">
+            {% for supporter in sorted_supporters %}
+            <div class="logo-card-container">
+                <div class="logo-card" style="overflow: visible;">
+                    <div class="logo-card-body"><a href="{{supporter.websiteUrl}}"><img class="adopter" src="/theme/assets/images/logos/{{supporter.logo}}" alt="{{supporter.name}}" border="0"></a></div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
 <div class="js-footer-area">
     {% if page.page_nav.prev.content or page.page_nav.next.content %}
     <nav class="page-nav">
