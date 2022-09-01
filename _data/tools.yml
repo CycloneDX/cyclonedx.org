@@ -1137,14 +1137,6 @@
   categories:
   - opensource
   - analysis
-- name: Guage
-  publisher: IBM
-  description: Measure release insights and recommendations for open-source dependencies. Gauge imports CycloneDX SBOM and makes recommendations for every OSS dependency
-  repoUrl: https://github.com/IBM/gauge
-  websiteUrl: https://github.com/IBM/gauge
-  categories:
-    - opensource
-    - analysis
 - name: Rezilion Dynamic SBOM
   publisher: Rezilion
   description: Continuous inventory of all software components down to the file/class level from development to production across entire tech stack. Dynamically track associated supply chain risks, dependencies, and behaviors and validate exploitability in runtime.
