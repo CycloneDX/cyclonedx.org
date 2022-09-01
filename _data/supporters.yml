@@ -426,3 +426,8 @@
   websiteUrl: https://paloaltonetworks.com
   categories:
     - vendor
+- name: MergeBase
+  logo: mergebase.svg
+  websiteUrl: https://mergebase.com
+  categories:
+    - vendor
