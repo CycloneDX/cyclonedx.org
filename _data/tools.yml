@@ -1251,3 +1251,9 @@
   websiteUrl: https://paloaltonetworks.com
   categories:
     - proprietary
+    name: CAST Highlight
+  publisher: CAST
+  description: CAST Highlight automatically analyzes source code of hundreds of applications in a week for Software Composition Analysis (Open Source risks), Cloud Readiness, Resiliency, and Technical Debt.
+  websiteUrl: https://www.castsoftware.com/products/highlight
+  categories:
+    - proprietary
