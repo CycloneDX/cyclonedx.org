@@ -431,3 +431,8 @@
   websiteUrl: https://mergebase.com
   categories:
     - vendor
+- name: Kondukto
+  logo: kondukto.svg
+  websiteUrl: https://kondukto.io
+  categories:
+    - vendor
