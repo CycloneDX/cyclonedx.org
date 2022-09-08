@@ -1257,3 +1257,15 @@
   websiteUrl: https://www.castsoftware.com/products/highlight
   categories:
     - proprietary
+- name: Kondukto
+  publisher: Kondukto
+  description: Kondukto is an Application Security Orchestration and Correlation tool to manage vulnerability scanning tools and remediation workflows to increase AppSec Team efficiency. It can consume and analyzes CycloneDX SBOMs via CI/CD integration or manual.
+  websiteUrl: https://kondukto.io
+  categories:
+    - proprietary
+- name: Enso
+  publisher: Enso Security
+  description: Enso is an Application Security Posture Management (ASPM) platform that automates the identification of software assets as well as the tracking and scheduling of all application security tools and processes.
+  websiteUrl: https://www.enso.security
+  categories:
+    - proprietary
