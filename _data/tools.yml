@@ -1257,6 +1257,9 @@
   websiteUrl: https://www.castsoftware.com/products/highlight
   categories:
     - proprietary
+    - build-integration
+    - analysis
+    - github-action
 - name: Kondukto
   publisher: Kondukto
   description: Kondukto is an Application Security Orchestration and Correlation tool to manage vulnerability scanning tools and remediation workflows to increase AppSec Team efficiency. It can consume and analyzes CycloneDX SBOMs via CI/CD integration or manual.
