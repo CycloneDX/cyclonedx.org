@@ -436,3 +436,8 @@
   websiteUrl: https://kondukto.io
   categories:
     - vendor
+- name: Enso Security
+  logo: enso.svg
+  websiteUrl: https://enso.security
+  categories:
+    - vendor
