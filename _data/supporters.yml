@@ -441,3 +441,8 @@
   websiteUrl: https://enso.security
   categories:
     - vendor
+- name: CAST Software
+  logo: cast-software.svg
+  websiteUrl: https://castsoftware.com
+  categories:
+    - vendor
