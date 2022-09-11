@@ -1272,3 +1272,10 @@
   websiteUrl: https://www.enso.security
   categories:
     - proprietary
+- name: Tally
+  publisher: Jetstack
+  description: Finds OpenSSF Scorecard scores for packages in a CycloneDX Software Bill of Materials
+  repoUrl: https://github.com/jetstack/tally
+  websiteUrl: https://github.com/jetstack/tally
+  categories:
+    - opensource
