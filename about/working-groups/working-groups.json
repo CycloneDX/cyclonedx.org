@@ -2672,5 +2672,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "bmodotdev",
+    "lastName": "bmodotdev",
+    "headshot": "https://avatars.githubusercontent.com/u/90572149?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "bmodotdev",
+    "homepage": "https://github.com/bmodotdev",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "Codex-",
+    "lastName": "codex-",
+    "headshot": "https://avatars.githubusercontent.com/u/8297838?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "Codex-",
+    "homepage": "https://github.com/Codex-",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
