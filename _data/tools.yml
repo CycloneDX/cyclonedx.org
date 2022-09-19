@@ -255,14 +255,16 @@
   categories:
   - opensource
   - github-action
-- name: OpenSource Review Toolkit (ORT)
-  publisher: HERE Europe B.V.
-  description: A suite of tools to assist with reviewing open source software dependencies.
+- name: OSS Review Toolkit (ORT)
+  publisher: OSS Review Toolkit
+  description: A suite of tools to assist with reviewing Open Source Software dependencies.
   repoUrl: https://github.com/oss-review-toolkit/ort
   websiteUrl: http://oss-review-toolkit.org/
   categories:
   - opensource
   - build-integration
+  - transform
+  - library
 - name: Retire.js
   publisher: RetireJS
   description: Scanner that detects the use of JavaScript libraries with known vulnerabilities
