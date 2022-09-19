@@ -1279,3 +1279,10 @@
   websiteUrl: https://github.com/jetstack/tally
   categories:
     - opensource
+- name: SecureStack
+  publisher: SecureStack
+  description: SecureStack analyzes your application and finds all source code, cloud stack and third-party services and builds a CycloneDX SBOM every time you deploy
+  websiteUrl: https://securestack.com/
+  categories:
+    - proprietary
+    - build-integration

@@ -446,3 +446,8 @@
   websiteUrl: https://castsoftware.com
   categories:
     - vendor
+- name: SecureStack
+  logo: securestack.svg
+  websiteUrl: https://securestack.com/
+  categories:
+    - vendor
