@@ -451,3 +451,8 @@
   websiteUrl: https://securestack.com/
   categories:
     - vendor
+- name: Revenera
+  logo: revenera.svg
+  websiteUrl: https://revenera.com/
+  categories:
+    - vendor

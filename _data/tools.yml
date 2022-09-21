@@ -1288,3 +1288,9 @@
   categories:
     - proprietary
     - build-integration
+- name: SBOM Insights
+  publisher: Revenera
+  description: SBOM Insights is a SaaS solution that helps organizations manage their Software Bill of Materials (SBOM)
+  websiteUrl: https://www.revenera.com/software-composition-analysis/products/sbom-insights
+  categories:
+    - proprietary
