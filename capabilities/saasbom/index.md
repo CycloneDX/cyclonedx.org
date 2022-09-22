@@ -48,7 +48,7 @@ Use of CycloneDX SaaSBOMs is [recommended by the Cloud Security Alliance](https:
 The inventory of services and software components may be combined into a single BOM, or may have independent BOMs.
 Inventory described in an SBOM will typically remain static until such time the inventory changes.
 However, deployment information is much more dynamic and subject to change. Therefore, it is recommended to decouple
-the SaaSOMs from the SBOMs for large systems. This allows service information to be updated without having to create 
+the SaaSBOMs from the SBOMs for large systems. This allows service information to be updated without having to create 
 and track additional SBOMs.
 
 ![Independent BOM and VEX Document](../../theme/assets/images/saasbom-sbom.svg){: width="500" }
