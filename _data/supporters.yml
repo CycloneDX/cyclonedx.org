@@ -456,3 +456,8 @@
   websiteUrl: https://revenera.com/
   categories:
     - vendor
+- name: EMBA
+  logo: emba.svg
+  websiteUrl: https://www.securefirmware.de/
+  categories:
+    - project

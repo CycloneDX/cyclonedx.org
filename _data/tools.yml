@@ -1294,3 +1294,11 @@
   websiteUrl: https://www.revenera.com/software-composition-analysis/products/sbom-insights
   categories:
     - proprietary
+- name: EMBA
+  publisher: EMBA Project
+  description: EMBA is a security analyzer for firmware and embedded devices supporting firmware extraction, static analysis, dynamic analysis, and CycloneDX SBOM production
+  repoUrl: https://github.com/e-m-b-a/emba
+  websiteUrl: https://www.securefirmware.de
+  categories:
+    - opensource
+    - analysis
