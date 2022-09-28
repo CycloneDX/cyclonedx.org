@@ -73,6 +73,7 @@
   logo: fortress.svg
   websiteUrl: https://fortressinfosec.com
   categories:
+    - supporter
     - vendor
 - name: Anchore
   logo: anchore.svg
@@ -435,6 +436,7 @@
   logo: kondukto.svg
   websiteUrl: https://kondukto.io
   categories:
+    - supporter
     - vendor
 - name: Enso Security
   logo: enso.svg
