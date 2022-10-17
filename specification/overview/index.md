@@ -101,3 +101,10 @@ Alternatively, files that match the glob pattern below are also recognized -
 
 - `*.cdx.json` for `JSON` encoded CycloneDX BOM files.
 - `*.cdx.xml` for `XML` encoded CycloneDX BOM files.
+
+### Recognized predicate type
+
+Many tools in the software supply chain capture attestations at the time of execution. A 'predicate' contains metadata 
+about the attestation. Tools such as in-toto use predicate types to provide context about the subject of the predicate. 
+CycloneDX recognizes `https://cyclonedx.org/bom` as the official predicate type for all bill of material types including
+SBOM, SaaSBOM, and HBOM.
