@@ -463,3 +463,8 @@
   websiteUrl: https://www.securefirmware.de/
   categories:
     - project
+- name: ReversingLabs
+  logo: reversing-labs.svg
+  websiteUrl: https://www.reversinglabs.com/
+  categories:
+    - vendor

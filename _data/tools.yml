@@ -1312,3 +1312,10 @@
   categories:
     - opensource
     - analysis
+- name: secure.software
+  publisher: ReversingLabs
+  description: Software supply chain security protection for CI/CD workflows, containers, and release packages that enables DevSecOps teams to release software with confidence.
+  websiteUrl: https://securestack.com/
+  categories:
+    - proprietary
+    - build-integration
