@@ -104,7 +104,7 @@ Alternatively, files that match the glob pattern below are also recognized -
 
 ### Recognized predicate type
 
-Many tools in the software supply chain capture attestations at the time of execution. A 'predicate' contains metadata 
+Many tools in the software supply chain capture attestations at the time of execution. A _predicate_ contains metadata 
 about the attestation. Tools such as [in-toto](https://in-toto.io/) use predicate types to provide context about the 
 subject of the predicate. CycloneDX recognizes `https://cyclonedx.org/bom` as the official predicate type for all bill 
 of material types including SBOM, SaaSBOM, and HBOM.
