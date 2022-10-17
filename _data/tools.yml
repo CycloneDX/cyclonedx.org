@@ -454,17 +454,27 @@
   - build-integration
 - name: CycloneDX CLI
   publisher: CycloneDX
-  description: A command line tool incorporating many common utilities including converting
-    between SBOM formats.
+  description: >
+    A command line tool incorporating many common utilities including:
+    alter an SBOM,
+    convert between SBOM formats,
+    merge multiple SBOMs,
+    sign an SBOM file,
+    validate an SBOM,
+    verify signatures in an SBOM
   repoUrl: https://github.com/CycloneDX/cyclonedx-cli
   websiteUrl: https://github.com/CycloneDX/cyclonedx-cli
   categories:
   - opensource
   - transform
+  - signing-notary
 - name: CycloneDX Web Tool
   publisher: CycloneDX
-  description: A web based tool incorporating many common utilities including converting
-    between SBOM formats.
+  description: >
+    A web based tool incorporating many common utilities including:
+    convert between SBOM formats,
+    merge multiple SBOMs,
+    validate an SBOM
   repoUrl: https://github.com/CycloneDX/cyclonedx-web-tool
   websiteUrl: https://cyclonedx.github.io/cyclonedx-web-tool/
   categories:
