@@ -2784,5 +2784,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "aristotelos",
+    "lastName": "aristotelos",
+    "headshot": "https://avatars.githubusercontent.com/u/2814758?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "aristotelos",
+    "homepage": "https://github.com/aristotelos",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "fgreinacher",
+    "lastName": "fgreinacher",
+    "headshot": "https://avatars.githubusercontent.com/u/1540469?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "fgreinacher",
+    "homepage": "https://github.com/fgreinacher",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
