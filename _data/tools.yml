@@ -1321,7 +1321,7 @@
     - build-integration
 - name: Deepbits BOM Builder
   publisher: Deepbits
-  description: A free online service that generates SBOM and SaaSBOM directly from executable code.
+  description: A free online service that generates SBOM and SaaSBOM directly from executable code. Vulnerability and license information are also analyzed using generated BOMs.
   websiteUrl: https://tools.deepbits.com/sbom
   categories:
     - analysis
