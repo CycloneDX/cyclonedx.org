@@ -1321,8 +1321,8 @@
     - build-integration
 - name: Fortify on Demand
   publisher: Micro Focus
-  description: Comprehensive Application Security-as-a-Service (SaaS) includes software composition analysis (SCA) that produces and consumes CycloneDX SBOMs for a wide range of languages and package managers.
-  websiteUrl: https://www.microfocus.com/en-us/cyberres/application-security
+  description: AppSec platform, powered by expert research teams and machine learning/AI, aimed at protecting the integrity of your software supply chain by producing and consuming CycloneDX SBOMs for a wide range of languages and package managers.
+  websiteUrl: https://www.microfocus.com/en-us/cyberres/application-security/fortify-on-demand
   categories:
     - proprietary
     - analysis
