@@ -1326,3 +1326,11 @@
   categories:
     - analysis
     - proprietary
+- name: Fortify on Demand
+  publisher: Micro Focus
+  description: AppSec platform, powered by expert research teams and machine learning/AI, aimed at protecting the integrity of your software supply chain by producing and consuming CycloneDX SBOMs for a wide range of languages and package managers.
+  websiteUrl: https://www.microfocus.com/en-us/cyberres/application-security/fortify-on-demand
+  categories:
+    - proprietary
+    - analysis
+    - build-integration
