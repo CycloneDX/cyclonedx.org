@@ -1338,6 +1338,7 @@
 - name: SBOMDiff
   publisher: Anthony Harrison
   description: A tool that compares two Software Bill of Materials (SBOM) files and reports the differences. It supports SBOMs created in both SPDX and CycloneDX formats.
+  repoUrl: https://github.com/anthonyharrison/sbomdiff
   websiteUrl: https://github.com/anthonyharrison/sbomdiff
   categories:
     - opensource
@@ -1345,6 +1346,7 @@
 - name: bomber
   publisher: DevOps Kung Fu Mafia
   description: Scans SBOMs (CycloneDX, SPDX, or Syft-formatted) for security vulnerabilities, using OSV or Sonatype OSS Index for analysis.
+  repoUrl: https://github.com/devops-kung-fu/bomber
   websiteUrl: https://github.com/devops-kung-fu/bomber
   categories:
     - opensource
@@ -1352,6 +1354,7 @@
 - name: Covenant
   publisher: Patrik Svensson
   description: A tool to generate SBOMs in CycloneDX or SPDX formats from source code artifacts (.NET 5/.NET 6, .NET Core, or NPM).
+  repoUrl: https://github.com/patriksvensson/covenant
   websiteUrl: https://github.com/patriksvensson/covenant
   categories:
     - opensource
