@@ -1359,3 +1359,10 @@
   categories:
     - opensource
     - transform
+- name: ONEKEY firmware analysis platform
+  publisher: ONEKEY
+  description: Automatic firmware analysis platform exracting, enumerating and checking binary images to create SBOM & vulnerability reports.
+  websiteUrl: https://onekey.com/
+  categories:
+    - proprietary
+    - analysis
