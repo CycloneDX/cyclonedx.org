@@ -2812,5 +2812,47 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "synaos-bwi",
+    "lastName": "synaos-bwi",
+    "headshot": "https://avatars.githubusercontent.com/u/117291659?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "synaos-bwi",
+    "homepage": "https://github.com/synaos-bwi",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "a1lu",
+    "lastName": "a1lu",
+    "headshot": "https://avatars.githubusercontent.com/u/5518716?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "a1lu",
+    "homepage": "https://github.com/a1lu",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "sharkwouter",
+    "lastName": "sharkwouter",
+    "headshot": "https://avatars.githubusercontent.com/u/5042659?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "sharkwouter",
+    "homepage": "https://github.com/sharkwouter",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
