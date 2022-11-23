@@ -1374,3 +1374,11 @@
   categories:
     - opensource
     - analysis
+- name: StackAware
+  publisher: StackAware
+  description: StackAware helps organizations communicate about supply chain cybersecurity risk. A SaaS platform, it allows for the management and analysis of SBOMs as well as structured communications about the exploitability of vulnerabilities identified in them.
+  websiteUrl: https://stackaware.com/
+  categories:
+    - proprietary
+    - analysis
+    - distribute
