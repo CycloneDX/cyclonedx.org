@@ -1366,3 +1366,11 @@
   categories:
     - proprietary
     - analysis
+- name: Vuls
+  publisher: Future Corp
+  description: Agent-less vulnerability scanner for Linux, FreeBSD, containers, WordPress, programming language libraries and network devices which outputs CycloneDX Vulnerability Disclosure Reports (VDR)
+  repoUrl: https://github.com/future-architect/vuls
+  websiteUrl: https://vuls.io/
+  categories:
+    - opensource
+    - analysis
