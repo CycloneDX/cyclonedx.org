@@ -468,3 +468,8 @@
   websiteUrl: https://www.reversinglabs.com/
   categories:
     - vendor
+- name: StackAware
+  logo: stackaware.svg
+  websiteUrl: https://stackaware.com/
+  categories:
+    - vendor
