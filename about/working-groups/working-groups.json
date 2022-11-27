@@ -2854,5 +2854,47 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "syalioune",
+    "lastName": "syalioune",
+    "headshot": "https://avatars.githubusercontent.com/u/6144741?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "syalioune",
+    "homepage": "https://github.com/syalioune",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "carvalhorui84",
+    "lastName": "carvalhorui84",
+    "headshot": "https://avatars.githubusercontent.com/u/109536134?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "carvalhorui84",
+    "homepage": "https://github.com/carvalhorui84",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "adam-siklosi",
+    "lastName": "adam-siklosi",
+    "headshot": "https://avatars.githubusercontent.com/u/60606607?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "adam-siklosi",
+    "homepage": "https://github.com/adam-siklosi",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
