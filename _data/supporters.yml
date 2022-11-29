@@ -473,3 +473,8 @@
   websiteUrl: https://stackaware.com/
   categories:
     - vendor
+- name: Manifest
+  logo: manifest.svg
+  websiteUrl: https://manifestcyber.com/
+  categories:
+    - vendor
