@@ -478,3 +478,8 @@
   websiteUrl: https://manifestcyber.com/
   categories:
     - vendor
+- name: Scribe Security
+  logo: scribe.svg
+  websiteUrl: https://scribesecurity.com/
+  categories:
+    - vendor
