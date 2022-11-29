@@ -1390,3 +1390,13 @@
     - proprietary
     - analysis
     - github-action
+- name: Valint
+  publisher: Scribe Security
+  description: Scribe helps you build trust in the software you produce or use, across teams and organizations. You can generate, manage and share SBOMs, validate integrity, and track vulnerabilities of your containers, source repositories, dependencies, and pipelines.
+  websiteUrl: https://scribesecurity.com/scribe-platform-lp
+  categories:
+  - build-integration
+  - analysis
+  - signing-notary
+  - proprietary
+
