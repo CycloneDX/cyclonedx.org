@@ -483,3 +483,8 @@
   websiteUrl: https://scribesecurity.com/
   categories:
     - vendor
+- name: Debricked
+  logo: debricked.svg
+  websiteUrl: https://debricked.com/
+  categories:
+    - vendor
