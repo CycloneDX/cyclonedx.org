@@ -1406,3 +1406,11 @@
   categories:
     - analysis
     - proprietary
+- name: EXPLIoT IoT Security Assessment Framework
+  publisher: EXPLIoT
+  description: A Framework for security testing and exploiting IoT products and IoT infrastructure. It provides a set of plugins (test cases) which are used to perform the assessment and can be extended easily with new ones. Documentation - https://expliot.readthedocs.io/en/latest/
+  repoUrl: https://gitlab.com/expliot_framework/expliot
+  websiteUrl: https://expliot.io/
+  categories:
+  - opensource
+  - analysis
