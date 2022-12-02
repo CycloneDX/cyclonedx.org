@@ -1412,5 +1412,5 @@
   repoUrl: https://gitlab.com/expliot_framework/expliot
   websiteUrl: https://expliot.io/
   categories:
-  - opensource
-  - analysis
+    - opensource
+    - analysis
