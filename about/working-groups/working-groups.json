@@ -2924,5 +2924,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "volviq",
+    "lastName": "volviq",
+    "headshot": "https://avatars.githubusercontent.com/u/4905204?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "volviq",
+    "homepage": "https://github.com/volviq",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "rolweber",
+    "lastName": "rolweber",
+    "headshot": "https://avatars.githubusercontent.com/u/12234414?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "rolweber",
+    "homepage": "https://github.com/rolweber",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
