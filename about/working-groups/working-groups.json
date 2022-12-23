@@ -2952,5 +2952,19 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "Philippe Ombredanne",
+    "lastName": "Ombredanne",
+    "headshot": "philippe-ombredanne.jpg",
+    "organization": "nexB",
+    "description": null,
+    "twitter": "pombr",
+    "linkedin": "philippeombredanne",
+    "github": "pombredanne",
+    "homepage": "https://nexb.com/",
+    "categories": [
+      "industry"
+    ]
   }
 ]
