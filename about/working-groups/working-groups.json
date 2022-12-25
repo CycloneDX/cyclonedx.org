@@ -2966,5 +2966,19 @@
     "categories": [
       "industry"
     ]
+  },
+  {
+    "displayName": "kzantow",
+    "lastName": "kzantow",
+    "headshot": "https://avatars.githubusercontent.com/u/3009477?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "kzantow",
+    "homepage": "https://github.com/kzantow",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
