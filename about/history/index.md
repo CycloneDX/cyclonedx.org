@@ -27,7 +27,7 @@ Component Analysis platform that identifies risk in the software supply chain. T
 designed to solve were vulnerability identification, license compliance, and outdated component analysis. Additional 
 capabilities were added in subsequent releases of the specification.
 
-The value of a lightweight Software Bill of Materials (SBOM) specification, capable of achieving real-world usecases, transcends
+The value of a full-stack Bill of Materials (BOM) specification, capable of achieving real-world usecases, transcends
 the boundaries of a single vendor or supplier. Therefore, a dedicated open source project was
 founded to develop the specification, the implementations, and move the format into widespread adoption. Today, hundreds of thousands
 of organizations ranging from financial services, manufacturing, government, software, and security firms are producing
