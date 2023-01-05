@@ -1414,3 +1414,10 @@
   categories:
     - opensource
     - analysis
+- name: Endor Labs
+  publisher: Endor Labs
+  description: Endor Labs helps organizations maximize software reuse by enabling security and development teams to select, secure, and maintain OSS at scale. Endor Labs creates CycloneDX SBOMs and automatically generates VEX for software prodcuers.
+  websiteUrl: https://endorlabs.com
+  categories:
+    - proprietary
+    - build-integration
