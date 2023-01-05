@@ -488,3 +488,8 @@
   websiteUrl: https://debricked.com/
   categories:
     - vendor
+- name: Endor Labs
+  logo: endorlabs.svg
+  websiteUrl: https://endorlabs.com
+  categories:
+    - vendor
