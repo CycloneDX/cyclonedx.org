@@ -1421,3 +1421,10 @@
   categories:
     - proprietary
     - build-integration
+- name: Value Stream Management (VSM)
+  publisher: LeanIX
+  description: LeanIX Value Stream Management (VSM) can consume CycloneDX SBOMs via REST APIs, making data from hundreds of BOMs available in a search- & filterable catalog in relation to Team ownership and Product architecture
+  websiteUrl: https://www.leanix.net/en/products/value-stream-management
+  categories:
+    - proprietary
+    - build-integration
