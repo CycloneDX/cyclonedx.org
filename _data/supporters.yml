@@ -493,3 +493,8 @@
   websiteUrl: https://endorlabs.com
   categories:
     - vendor
+- name: LeanIX
+  logo: leanix.svg
+  websiteUrl: https://leanix.net
+  categories:
+    - vendor
