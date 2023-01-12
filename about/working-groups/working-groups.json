@@ -2980,5 +2980,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "behnazh-w",
+    "lastName": "behnazh-w",
+    "headshot": "https://avatars.githubusercontent.com/u/27933054?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "behnazh-w",
+    "homepage": "https://github.com/behnazh-w",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "thbeu",
+    "lastName": "thbeu",
+    "headshot": "https://avatars.githubusercontent.com/u/115483027?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "thbeu",
+    "homepage": "https://github.com/thbeu",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
