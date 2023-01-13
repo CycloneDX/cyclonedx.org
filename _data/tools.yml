@@ -1428,3 +1428,10 @@
   categories:
     - proprietary
     - build-integration
+- name: RapidFort
+  publisher: RapidFort
+  description: RapidFort container optimization platform finds and eliminates unused container components and hardens containers so you spend less time on vulnerability remediation. RapidFort natively exports CycloneDX BOMs
+  websiteUrl: https://www.rapidfort.com/
+  categories:
+    - proprietary
+    - build-integration

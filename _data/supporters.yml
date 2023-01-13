@@ -498,3 +498,8 @@
   websiteUrl: https://leanix.net
   categories:
     - vendor
+- name: RapidFort
+  logo: rapidfort.svg
+  websiteUrl: https://rapidfort.com
+  categories:
+    - vendor
