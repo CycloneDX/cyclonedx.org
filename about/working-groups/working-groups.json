@@ -248,7 +248,8 @@
     "github": "mrutkows",
     "homepage": "https://ibm.com/",
     "categories": [
-      "industry"
+      "industry",
+      "maintainers"
     ]
   },
   {
@@ -3007,6 +3008,34 @@
     "homepage": "https://github.com/thbeu",
     "categories": [
       "contributors"
+    ]
+  },
+  {
+    "displayName": "Mark Sturdevant",
+    "lastName": "Sturdevant",
+    "headshot": "mark-sturdevant.jpg",
+    "organization": "IBM",
+    "description": null,
+    "twitter": null,
+    "linkedin": "markstur",
+    "github": "markstur",
+    "homepage": "https://ibm.com",
+    "categories": [
+      "maintainers"
+    ]
+  },
+  {
+    "displayName": "Priti Desai",
+    "lastName": "Desai",
+    "headshot": "priti-desai.jpg",
+    "organization": "IBM",
+    "description": null,
+    "twitter": null,
+    "linkedin": "priti-desai",
+    "github": "pritidesai",
+    "homepage": "https://ibm.com",
+    "categories": [
+      "maintainers"
     ]
   }
 ]
