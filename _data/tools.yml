@@ -1437,3 +1437,11 @@
   categories:
     - proprietary
     - build-integration
+- name: FOSSA
+  publisher: FOSSA
+  description: Software Composition Analysis (SCA) platform that can ingest, analyze, and generate CycloneDX SBOMs
+  websiteUrl: https://fossa.com
+  categories:
+     - proprietary
+     - analysis
+
