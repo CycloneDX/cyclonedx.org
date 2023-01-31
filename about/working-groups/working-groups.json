@@ -59,14 +59,14 @@
     "displayName": "Jan Kowalleck",
     "lastName": "Kowalleck",
     "headshot": "jan-kowalleck.jpg",
-    "organization": null,
+    "organization": "GfK",
     "description": null,
     "twitter": null,
     "linkedin": "jankowalleck",
     "github": "jkowalleck",
-    "homepage": null,
+    "homepage": "https://www.gfk.com",
     "categories": [
-      "maintainers"
+      "core"
     ]
   },
   {
