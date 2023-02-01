@@ -323,17 +323,17 @@
     ]
   },
   {
-    "displayName": "hboutemy",
-    "lastName": "hboutemy",
+    "displayName": "Hervé Boutemy",
+    "lastName": "Boutemy",
     "headshot": "https://avatars.githubusercontent.com/u/237462?v=4",
-    "organization": null,
+    "organization": "Sonatype",
     "description": null,
-    "twitter": null,
-    "linkedin": null,
+    "twitter": "hboutemy",
+    "linkedin": "hboutemy",
     "github": "hboutemy",
-    "homepage": "https://github.com/hboutemy",
+    "homepage": "https://sonatype.com",
     "categories": [
-      "contributors"
+      "maintainers"
     ]
   },
   {
