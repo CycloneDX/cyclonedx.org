@@ -1446,11 +1446,9 @@
      - analysis
 - name: SBOM Quality Score
   publisher: Interlynk.io
-  description: Sbomqs cmdline tool, helps producers & consumers of sboms to quickly evaluate the quality of their sboms based
-  on various categories. Tool can be integrated in your automation pipeline, to evaluate a minimum level of SBOM quality that is expected.
+  description: Sbomqs cmdline tool, helps producers & consumers of sboms to quickly evaluate the quality of their sboms based on various categories. Tool can be integrated in your automation pipeline, to evaluate a minimum level of SBOM quality that is expected.
   repoUrl: https://github.com/interlynk-io/sbomqs
   websiteUrl: https://www.interlynk.io/
   categories:
-  - opensource
-  - analysis
-
+    - opensource
+    - analysis
