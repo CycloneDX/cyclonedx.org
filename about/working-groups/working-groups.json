@@ -309,7 +309,7 @@
     ]
   },
   {
-    "displayName": "Hervé Boutemy",
+    "displayName": "Herv\u00e9 Boutemy",
     "lastName": "Boutemy",
     "headshot": "https://avatars.githubusercontent.com/u/237462?v=4",
     "organization": "Sonatype",
@@ -3034,6 +3034,244 @@
     "linkedin": null,
     "github": "tokcum",
     "homepage": "https://github.com/tokcum",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "sullivtr",
+    "lastName": "sullivtr",
+    "headshot": "https://avatars.githubusercontent.com/u/24365459?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "sullivtr",
+    "homepage": "https://github.com/sullivtr",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "hubertp",
+    "lastName": "hubertp",
+    "headshot": "https://avatars.githubusercontent.com/u/292128?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "hubertp",
+    "homepage": "https://github.com/hubertp",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "mikejarrett",
+    "lastName": "mikejarrett",
+    "headshot": "https://avatars.githubusercontent.com/u/1672173?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "mikejarrett",
+    "homepage": "https://github.com/mikejarrett",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "brumfb",
+    "lastName": "brumfb",
+    "headshot": "https://avatars.githubusercontent.com/u/1197985?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "brumfb",
+    "homepage": "https://github.com/brumfb",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "gitnachogo",
+    "lastName": "gitnachogo",
+    "headshot": "https://avatars.githubusercontent.com/u/67385224?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "gitnachogo",
+    "homepage": "https://github.com/gitnachogo",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "ksg97031",
+    "lastName": "ksg97031",
+    "headshot": "https://avatars.githubusercontent.com/u/6715194?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "ksg97031",
+    "homepage": "https://github.com/ksg97031",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "amlweems",
+    "lastName": "amlweems",
+    "headshot": "https://avatars.githubusercontent.com/u/117625?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "amlweems",
+    "homepage": "https://github.com/amlweems",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "pinkcr",
+    "lastName": "pinkcr",
+    "headshot": "https://avatars.githubusercontent.com/u/67261588?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "pinkcr",
+    "homepage": "https://github.com/pinkcr",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "joshlreese",
+    "lastName": "joshlreese",
+    "headshot": "https://avatars.githubusercontent.com/u/39748?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "joshlreese",
+    "homepage": "https://github.com/joshlreese",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "mwing",
+    "lastName": "mwing",
+    "headshot": "https://avatars.githubusercontent.com/u/96297?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "mwing",
+    "homepage": "https://github.com/mwing",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "Preetam",
+    "lastName": "preetam",
+    "headshot": "https://avatars.githubusercontent.com/u/379404?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "Preetam",
+    "homepage": "https://github.com/Preetam",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "willienel",
+    "lastName": "willienel",
+    "headshot": "https://avatars.githubusercontent.com/u/4620380?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "willienel",
+    "homepage": "https://github.com/willienel",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "yutayamate",
+    "lastName": "yutayamate",
+    "headshot": "https://avatars.githubusercontent.com/u/11874627?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "yutayamate",
+    "homepage": "https://github.com/yutayamate",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "andreyeto",
+    "lastName": "andreyeto",
+    "headshot": "https://avatars.githubusercontent.com/u/51911032?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "andreyeto",
+    "homepage": "https://github.com/andreyeto",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "bobflannigon",
+    "lastName": "bobflannigon",
+    "headshot": "https://avatars.githubusercontent.com/u/42199073?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "bobflannigon",
+    "homepage": "https://github.com/bobflannigon",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "mistog4n",
+    "lastName": "mistog4n",
+    "headshot": "https://avatars.githubusercontent.com/u/88181996?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "mistog4n",
+    "homepage": "https://github.com/mistog4n",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "rwanauo",
+    "lastName": "rwanauo",
+    "headshot": "https://avatars.githubusercontent.com/u/38076067?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "rwanauo",
+    "homepage": "https://github.com/rwanauo",
     "categories": [
       "contributors"
     ]
