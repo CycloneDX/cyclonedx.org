@@ -351,6 +351,7 @@
   websiteUrl: https://ibm.com
   categories:
     - vendor
+    - supporter
 - name: Cloud Native Computing Foundation
   logo: cncf.svg
   websiteUrl: https://www.cncf.io
