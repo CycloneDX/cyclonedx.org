@@ -3275,5 +3275,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "kevinconner",
+    "lastName": "kevinconner",
+    "headshot": "https://avatars.githubusercontent.com/u/47122?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "kevinconner",
+    "homepage": "https://github.com/kevinconner",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "knrc",
+    "lastName": "knrc",
+    "headshot": "https://avatars.githubusercontent.com/u/701297?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "knrc",
+    "homepage": "https://github.com/knrc",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
