@@ -110,9 +110,9 @@
   websiteUrl: https://nexb.com
   categories:
     - vendor
-- name: ShiftLeft
-  logo: shiftleft.svg
-  websiteUrl: https://shiftleft.io
+- name: Qwiet AI (Formerly ShiftLeft)
+  logo: qwiet-ai.svg
+  websiteUrl: https://qwiet.ai
   categories:
     - vendor
 - name: TrustSource
