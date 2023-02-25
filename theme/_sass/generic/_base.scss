@@ -119,6 +119,50 @@ h6, .h6 {
 	padding-bottom: 1.5rem;
 }
 
+/* ------ Calendar Icon ------ */
+time.calendar-icon {
+	font-size: 0.8em;
+	display: block;
+	position: relative;
+	width: 5em;
+	height: 5em;
+	background-color: $color-white;
+	border-radius: 0.6em;
+	box-shadow: 0 1px 0 #bdbdbd;
+	overflow: hidden;
+}
+time.calendar-icon * {
+	display: block;
+	width: 100%;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+time.calendar-icon strong {
+	line-height: 1.5em;
+	font-family: $font-family-primary;
+	position: absolute;
+	top: 0;
+	padding: 0;
+	color: $color-white;
+	background-color: #414D71;
+	box-shadow: 0 2px 0 $color-horizontal-rule;
+}
+time.calendar-icon em {
+	font-family: $font-family-primary;
+	font-style: normal;
+	line-height: 1.3em;
+	position: absolute;
+	bottom: 0;
+	color: #414D71;
+}
+time.calendar-icon span {
+	font-family: $font-family-primary;
+	font-size: 1.8em;
+	letter-spacing: -0.05em;
+	padding-top: 0.9em;
+	color: #2f2f2f;
+}
 /* ----- Inline elements ----- */
 small,
 .text-small {

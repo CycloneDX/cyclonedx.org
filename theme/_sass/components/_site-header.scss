@@ -267,7 +267,7 @@ li.dropdown {
 }
 
 /* =========================================================
-        CTA-Section STYLE
+        News-Home-Section STYLE
 ============================================================ */
 .news-section {
 	background-color: #f8f8f8;
@@ -276,6 +276,47 @@ li.dropdown {
 .news-section .news a {
 	color: #0057C4;
 }
+.news-home-section {
+	background-color: #f8f8f8;
+	padding: 45px 0 90px; }
+.news-home-section .news-home-wrapper:hover {
+	cursor: pointer;
+	background: #ffffff;
+}
+@media only screen and (max-width: 767px) {
+	.news-home-section {
+		padding: 35px 0 25px; } }
+.news-home-section .news-home-wrapper {
+	margin-bottom: 1em;
+	/*padding: 35px 10px;*/
+	padding: 20px 10px 0;
+	border: 1px solid #bfbfbf;
+	border-radius: 5px;
+}
+.news-home-section .news-home-wrapper:hover a {
+	color: #089af7; }
+@media only screen and (max-width: 991px) {
+	.news-home-section .news-home-wrapper {
+		margin-bottom: 30px; } }
+@media only screen and (max-width: 767px) {
+	.news-home-section .news-home-wrapper {
+		margin-bottom: 20px; } }
+.news-home-section .news-home-wrapper h1, .news-home-section .news-home-wrapper h3 {
+	font-weight: normal;
+	font-size: 22px;
+	margin: 20px 0 15px; }
+.news-home-section .news-home-wrapper h1 a, .news-home-section .news-home-wrapper h3 a {
+	color: $color-blue; }
+.news-home-section .news-home-wrapper p {
+	color: #555555; }
+.news-home-section .news-home-wrapper .link:hover {
+	color: #313131; }
+.news-home-section .news-home-wrapper .link i {
+	padding-left: 5px; }
+
+/* =========================================================
+        CTA-Section STYLE
+============================================================ */
 .cta-section {
 	background-color: #f8f8f8;
 	padding: 45px 0 90px; }

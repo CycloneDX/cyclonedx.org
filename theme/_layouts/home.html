@@ -76,7 +76,7 @@
     <div class="container text-center">
         <div class="row">
             <section class="news">
-                <a href="/news/owasp-cyclonedx-launches-sbom-exchange-api-standardizing-sbom-distribution/">12 May 2022 - OWASP CycloneDX Launches SBOM Exchange API, Standardizing SBOM Distribution</a>
+                <!-- <a href="/news/owasp-cyclonedx-launches-sbom-exchange-api-standardizing-sbom-distribution/">12 May 2022 - OWASP CycloneDX Launches SBOM Exchange API, Standardizing SBOM Distribution</a> -->
             </section>
         </div>
     </div>
@@ -116,18 +116,66 @@
     </div>
 </section>
 
+<div class="news-home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <h3>Introduction</h3>
+                OWASP CycloneDX is a full-stack Bill of Materials (BOM) standard that provides advanced supply chain capabilities for
+                cyber risk reduction. The specification supports:
 
+                <ul>
+                    <li>Software Bill of Materials (SBOM)</li>
+                    <li>Software-as-a-Service Bill of Materials (SaaSBOM)</li>
+                    <li>Hardware Bill of Materials (HBOM)</li>
+                    <li>Operations Bill of Materials (OBOM)</li>
+                    <li>Vulnerability Disclosure Reports (VDR)</li>
+                    <li>Vulnerability Exploitability eXchange (VEX)</li>
+                </ul>
+
+                Strategic direction of the specification is managed by the CycloneDX Core Working Group, is backed by the
+                <a href="https://owasp.org">OWASP Foundation</a>, and is supported by the global information security community.
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <h3>Latest News</h3>
+                <div class="articles">
+                    {% for article in site.posts limit:3 %}
+                    <a href="{{ site.url }}{{ article.url }}">
+                        <div class="news-home-wrapper">
+                            <div class="article-item" style="display: table-row;">
+                                <span style="display:table-cell; margin-right:1em;">
+                                    <time datetime="{{ article.date | date: "%Y-%m-%d" }}" class="calendar-icon">
+                                        <em>{{ article.date | date: "%Y" }}</em>
+                                        <strong>{{ article.date | date: "%b" }}</strong>
+                                        <span>{{ article.date | date: "%d" }}</span>
+                                    </time>
+                                </span>
+                                <span class="overview" style="display:table-cell; padding-left:1em; vertical-align:text-top; top:-2em; margin-top:0; position:relative;">{{ article.title }}</span>
+                            </div>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+                <div style="float:right"><a href="/news">more news...</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
 <div class="section">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="content home-content">
                     {{ content }}
-                </div><!-- /.content -->
-            </div><!-- /.col -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</div><!-- /.section -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
 {% if jekyll.environment == "production" and page.comments == true and site.doks.comments.disqus_forum_shortname %}
 <div class="section section--grey">
     <div class="container">
