@@ -3317,5 +3317,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "neilnaveen",
+    "lastName": "neilnaveen",
+    "headshot": "https://avatars.githubusercontent.com/u/42328488?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "neilnaveen",
+    "homepage": "https://github.com/neilnaveen",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "nielsbasjes",
+    "lastName": "nielsbasjes",
+    "headshot": "https://avatars.githubusercontent.com/u/240096?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "nielsbasjes",
+    "homepage": "https://github.com/nielsbasjes",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
