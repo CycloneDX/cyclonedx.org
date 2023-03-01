@@ -8,7 +8,7 @@ banner: false
 # News article settings
 title: OWASP Foundation Announces CycloneDX Project Momentum with Contribution from IBM to Advance Software Supply Chain Security
 window_title: OWASP Foundation Announces CycloneDX Project Momentum with Contribution from IBM to Advance Software Supply Chain Security
-description: OWASP CycloneDX Launches SBOM Exchange API, Standardizing SBOM Distribution
+description: OWASP CycloneDX Launches two new open source projects contributed by IBM
 location: Wakefield, MA
 subtitle: IBM contributes two open source projects, SBOM Utility and License Scanner, to CycloneDX
 excerpt: Today, OWASP and IBM announced IBM’s contribution of two open source projects, SBOM Utility and License Scanner, to CycloneDX, a flagship OWASP project and a leading Bill of Materials (BOM) standard. These projects promote the validation, content analysis and accuracy of software license information included within BOMs in support of increasing trust across open hardware and software supply chains.
