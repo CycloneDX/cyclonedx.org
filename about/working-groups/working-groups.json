@@ -3345,5 +3345,47 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "andrew-m-leonard",
+    "lastName": "andrew-m-leonard",
+    "headshot": "https://avatars.githubusercontent.com/u/31470007?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "andrew-m-leonard",
+    "homepage": "https://github.com/andrew-m-leonard",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "mcombuechen",
+    "lastName": "mcombuechen",
+    "headshot": "https://avatars.githubusercontent.com/u/1739114?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "mcombuechen",
+    "homepage": "https://github.com/mcombuechen",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "jhlmco",
+    "lastName": "jhlmco",
+    "headshot": "https://avatars.githubusercontent.com/u/126677738?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "jhlmco",
+    "homepage": "https://github.com/jhlmco",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
