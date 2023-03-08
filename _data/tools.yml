@@ -1339,12 +1339,84 @@
     - build-integration
 - name: SBOMDiff
   publisher: Anthony Harrison
-  description: A tool that compares two Software Bill of Materials (SBOM) files and reports the differences. It supports SBOMs created in both SPDX and CycloneDX formats.
+  description: A command line tool which compares two SBOMs and reports any differences. Differences in licence inforamtion, version information and the additon or removal of a package are identified. Both CycloneDX and SPDX SBOMs are supported.
   repoUrl: https://github.com/anthonyharrison/sbomdiff
-  websiteUrl: https://github.com/anthonyharrison/sbomdiff
+  websiteUrl: https://pypi.org/project/sbomdiff/
   categories:
     - opensource
     - analysis
+- name: SBOM4Python
+  publisher: Anthony Harrison
+  description: A command line tool which creates CycloneDX and SPDX SBOMs an installed Python module.
+  repoUrl: https://github.com/anthonyharrison/sbom4python
+  websiteUrl: https://pypi.org/project/sbom4python/
+  categories:
+  - opensource
+  - build-integration 
+- name: SBOM4Files
+  publisher: Anthony Harrison
+  description: A command line tool which creates CycloneDX and SPDX SBOMs for files within a directory.
+  repoUrl: https://github.com/anthonyharrison/sbom4files
+  websiteUrl: https://pypi.org/project/sbom4files/
+  categories:
+  - opensource
+  - build-integration  
+- name: SBOM4Rust
+  publisher: Anthony Harrison
+  description: A command line tool which creates CycloneDX and SPDX SBOMs for a Rust application.
+  repoUrl: https://github.com/anthonyharrison/sbom4rust
+  websiteUrl: https://pypi.org/project/sbom4rust/
+  categories:
+  - opensource
+  - build-integration
+- name: Distro2SBOM
+  publisher: Anthony Harrison
+  description: A command line tool which creates CycloneDX and SPDX SBOMs an installed application (Debian and RPM type distributions supported).
+  repoUrl: https://github.com/anthonyharrison/distro2sbom
+  websiteUrl: https://pypi.org/project/distro2sbom/
+  categories:
+  - opensource
+  - build-integration
+- name: SBOM-Manager
+  publisher: Anthony Harrison
+  description: A command line tool which provides a simple repository server used to manage and query CycloneDX and SPDX SBOMs.
+  repoUrl: https://github.com/anthonyharrison/sbom_manager
+  websiteUrl: https://pypi.org/project/sbom_manager/
+  categories:
+  - opensource
+  - distribute
+- name: SBOMAudit
+  publisher: Anthony Harrison
+  description: A command line tool which audits an SBOM (both CycloneDX and SPDX are supported) to evaluate the content of an SBOM against specific criteria. Criteria include evaluating licence information, whether the latest version of a module is being used (Python only) and conformance against the NTIA minimum SBOM contents.
+  repoUrl: https://github.com/anthonyharrison/sbomaudit
+  websiteUrl: https://pypi.org/project/sbomaudit/
+  categories:
+  - opensource
+  - analysis
+- name: SBOM2doc
+  publisher: Anthony Harrison
+  description: A command line tool which produces a human-readable representaion of either a CycloneDX or SPDX SBOM. Output formats include PDF and Markdown.
+  repoUrl: https://github.com/anthonyharrison/sbom2doc
+  websiteUrl: https://pypi.org/project/sbom2doc/
+  categories:
+  - opensource
+  - analysis
+- name: SBOM2dot
+  publisher: Anthony Harrison
+  description: A command line tool which produces a visual representaion of the relationships within either a CycloneDX or SPDX SBOM.
+  repoUrl: https://github.com/anthonyharrison/sbom2dot
+  websiteUrl: https://pypi.org/project/sbom2dot/
+  categories:
+  - opensource
+  - analysis
+- name: Lib4sbom
+  publisher: Anthony Harrison
+  description: A Python library to consume and generate SBOMs in either CycloneDX or SPDX formats.
+  repoUrl: https://github.com/anthonyharrison/lib4sbom
+  websiteUrl: https://pypi.org/project/lib4sbom/
+  categories:
+  - opensource
+  - library
 - name: bomber
   publisher: DevOps Kung Fu Mafia
   description: Scans SBOMs (CycloneDX, SPDX, or Syft-formatted) for security vulnerabilities, using OSV or Sonatype OSS Index for analysis.
@@ -1460,5 +1532,3 @@
   - proprietary
   - analysis
   - build-integration
-  
- 
