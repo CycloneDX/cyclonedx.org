@@ -1387,7 +1387,7 @@
   - distribute
 - name: SBOMAudit
   publisher: Anthony Harrison
-  description: A command line tool which audits an SBOM (both CycloneDX and SPDX are supported) to evaluate the content of an SBOM against specific criteria. Criteria include evaluating licence information, whether the latest version of a module is being used (Python only) and conformance against the NTIA minimum SBOM contents.
+  description: A command line tool which audits an SBOM to evaluate the content against specific criteria including evaluating licence information, whether the latest version of a module is being used and conformance against the NTIA minimum SBOM contents.
   repoUrl: https://github.com/anthonyharrison/sbomaudit
   websiteUrl: https://pypi.org/project/sbomaudit/
   categories:
