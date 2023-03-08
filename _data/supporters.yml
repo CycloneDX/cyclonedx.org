@@ -504,3 +504,8 @@
   websiteUrl: https://rapidfort.com
   categories:
     - vendor
+- name: GitHub
+  logo: github.svg
+  websiteUrl: https://github.com
+  categories:
+    - vendor

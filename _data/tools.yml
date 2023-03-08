@@ -1532,3 +1532,27 @@
   - proprietary
   - analysis
   - build-integration
+- name: SBOM Utility
+  publisher: CycloneDX
+  description: Utility that provides an API platform for validating, querying and managing BOM data
+  repoUrl: https://github.com/cyclonedx/sbom-utility
+  websiteUrl: https://github.com/cyclonedx/sbom-utility
+  categories:
+    - opensource
+    - build-integration
+- name: License Scanner
+  publisher: CycloneDX
+  description: Utility that provides an API and CLI to identify licenses and legal terms outputting CycloneDX with relevant information
+  repoUrl: https://github.com/CycloneDX/license-scanner
+  websiteUrl: https://github.com/CycloneDX/license-scanner
+  categories:
+    - opensource
+    - build-integration
+- name: gh-sbom
+  publisher: GitHub
+  description: Command Line Interface (CLI) extension to 'gh' that outputs CycloneDX JSON SBOMs from GitHub repositories using information from the Dependency graph
+  repoUrl: https://github.com/advanced-security/gh-sbom
+  websiteUrl: https://github.com/advanced-security/gh-sbom
+  categories:
+    - opensource
+    - build-integration
