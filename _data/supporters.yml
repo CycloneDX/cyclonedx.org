@@ -504,6 +504,11 @@
   websiteUrl: https://rapidfort.com
   categories:
     - vendor
+- name: Xygeni
+  logo: xygeni.svg
+  websiteUrl: https://xygeni.io
+  categories:
+    - vendor
 - name: GitHub
   logo: github.svg
   websiteUrl: https://github.com
