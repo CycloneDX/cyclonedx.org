@@ -1526,7 +1526,7 @@
     - analysis
 - name: Xygeni Software Supply-Chain Security
   publisher: Xygeni
-  description: Xygeni is a software supply chain security solution that provides visibility, security and integrity in DevOps environments, reducing the risk of breaches and detecting potential attacks, ensuring security in your software releases. Generates CycloneDX SBOMs from multiple software ecosystems.
+  description: Xygeni is a software supply chain security solution that provides visibility, security and integrity in DevOps environments, reducing the risk of breaches and detecting potential attacks, ensuring security in your software releases.
   websiteUrl: https://xygeni.io/
   categories:
   - proprietary
