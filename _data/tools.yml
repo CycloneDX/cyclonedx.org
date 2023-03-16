@@ -1556,3 +1556,11 @@
   categories:
     - opensource
     - build-integration
+- name: SecObserve
+  publisher: MaibornWolff
+  description: SecObserve gathers results about potential security flaws from various vulnerability scanning tools and makes them available for assessment and reporting.
+  repoUrl: https://github.com/MaibornWolff/SecObserve
+  websiteUrl: https://maibornwolff.github.io/SecObserve
+  categories:
+    - opensource
+    - analysis
