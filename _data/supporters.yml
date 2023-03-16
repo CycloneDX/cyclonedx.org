@@ -514,3 +514,8 @@
   websiteUrl: https://github.com
   categories:
     - vendor
+- name: SecObserve
+  logo: secobserve.svg
+  websiteUrl: https://maibornwolff.github.io/SecObserve
+  categories:
+    - project
