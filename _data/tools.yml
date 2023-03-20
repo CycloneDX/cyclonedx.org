@@ -1518,12 +1518,36 @@
      - analysis
 - name: SBOM Quality Score
   publisher: Interlynk.io
-  description: Sbomqs cmdline tool, helps producers & consumers of sboms to quickly evaluate the quality of their sboms based on various categories. Tool can be integrated in your automation pipeline, to evaluate a minimum level of SBOM quality that is expected.
+  description: sbomqs cmdline tool, helps producers & consumers of sboms to quickly evaluate the quality of their sboms based on various categories. Tool can be integrated in your automation pipeline, to evaluate a minimum level of SBOM quality that is expected.
   repoUrl: https://github.com/interlynk-io/sbomqs
   websiteUrl: https://www.interlynk.io/
   categories:
     - opensource
     - analysis
+- name: SBOM Grep
+  publisher: Interlynk.io
+  description: sbomgr is a grep like command line utility to help search the SBOM repository based on criteria like the name, checksum, CPE, and PURL.
+  repoUrl: https://github.com/interlynk-io/sbomqr
+  websiteUrl: https://www.interlynk.io/
+  categories:
+    - opensource
+    - analysis
+    - build-integration
+- name: SBOM Explorer
+  publisher: Interlynk.io
+  description: sbomex is a command line utility to help query and pull from Interlynk's public SBOM repository.
+  repoUrl: https://github.com/interlynk-io/sbomex
+  websiteUrl: https://www.interlynk.io/
+  categories:
+    - opensource
+    - analysis
+- name: SBOM Benchmark
+  publisher: Interlynk.io
+  description: Quickly evaluate SBOM for quality, compliance and errors
+  websiteUrl: https://sbombenchmark.dev/
+  categories:
+     - proprietary
+     - analysis
 - name: Xygeni Software Supply-Chain Security
   publisher: Xygeni
   description: Xygeni is a software supply chain security solution that provides visibility, security and integrity in DevOps environments, reducing the risk of breaches and detecting potential attacks, ensuring security in your software releases.
