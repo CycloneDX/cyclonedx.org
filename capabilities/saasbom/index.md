@@ -34,7 +34,7 @@ Modern software often relies on external services, or is made up entirely of ser
 - Actor model
 - System of Systems
 
-SaaSBOMs compliment Infrastructure-as-Code (IaC) by providing a logical representation of a complex system, complete with
+SaaSBOMs complement Infrastructure-as-Code (IaC) by providing a logical representation of a complex system, complete with
 inventory of all services, their reliance on other services, endpoint URLs, data classifications, and the directional
 flow of data between services. Optionally, SaaSBOMs may also include the software components that make up each service.
 
