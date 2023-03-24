@@ -1015,16 +1015,6 @@
   categories:
   - opensource
   - build-integration
-- name: SnykVulnCheck
-  publisher: Andrii Grytsenko
-  description: SnykVulnCheck analyzes the contents of CycloneDX SBOMs and evaluates
-    components for known vulnerabilities by using public APIs to Snyk Vulnerability
-    DB.
-  repoUrl: https://github.com/Andrii-Grytsenko-OWASP/SnykVulnCheck
-  websiteUrl: https://github.com/Andrii-Grytsenko-OWASP/SnykVulnCheck
-  categories:
-  - opensource
-  - analysis
 - name: apko
   publisher: Chainguard
   description: Build OCI images using APK directly without Dockerfile. Generates CycloneDX
