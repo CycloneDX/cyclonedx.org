@@ -1527,7 +1527,7 @@
 - name: SBOM Grep
   publisher: Interlynk.io
   description: sbomgr is a grep like command line utility to help search the SBOM repository based on criteria like the name, checksum, CPE, and PURL.
-  repoUrl: https://github.com/interlynk-io/sbomqr
+  repoUrl: https://github.com/interlynk-io/sbomgr
   websiteUrl: https://www.interlynk.io/
   categories:
     - opensource
