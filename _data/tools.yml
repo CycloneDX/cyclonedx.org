@@ -1596,3 +1596,11 @@
   - proprietary
   - analysis
   - build-integration
+- name: Vigiles
+  publisher: Timesys
+  description: Vulnerability monitoring and remediation tool that combines a curated CVE database, continuous security feeds, powerful filtering, and easy triage tools. Supports Yocto, Buildroot, PetaLinux, Wind River Linux, PTXdist, OpenWrt, and Timesys Factory.
+  websiteUrl: https://www.timesys.com/solutions/vigiles-vulnerability-management/
+  categories:
+    - proprietary
+    - analysis
+    - build-integration
