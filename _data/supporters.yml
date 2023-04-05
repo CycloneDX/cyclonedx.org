@@ -519,3 +519,8 @@
   websiteUrl: https://maibornwolff.github.io/SecObserve
   categories:
     - project
+- name: Timesys
+  logo: timesys.svg
+  websiteUrl: https://www.timesys.com/
+  categories:
+    - vendor
