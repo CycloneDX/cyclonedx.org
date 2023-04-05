@@ -1588,3 +1588,11 @@
   categories:
     - opensource
     - analysis
+- name: Abom
+  publisher: Vulert.com
+  description: Vulert's Abom scanner can monitor and alert you in real-time for open-source vulnerabilities in your software, without requiring access to your code or installation. It uses only an SBOM or manifest file, such as a package-lock.json file. No signup is required.
+  websiteUrl: https://vulert.com/abom
+  categories:
+  - proprietary
+  - analysis
+  - build-integration
