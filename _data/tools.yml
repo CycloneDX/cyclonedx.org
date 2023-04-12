@@ -1474,8 +1474,8 @@
   - signing-notary
   - proprietary
 - name: Debricked
-  publisher: Micro Focus
-  description: Debricked provides a SaaS-product that allows companies to develop software easily, efficiently and securely using open source. Debricked creates CycloneDX SBOMs and keeps track of license and security risks in all included open source components.
+  publisher: OpenText
+  description: Debricked allows you to manage your open source in an easy, smart and efficient manner. Automatically find, fix and prevent vulnerabilities, avoid non compliant licenses and choose better open source from the start - all in one tool.
   websiteUrl: https://debricked.com/
   categories:
     - analysis
