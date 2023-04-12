@@ -524,3 +524,8 @@
   websiteUrl: https://www.timesys.com/
   categories:
     - vendor
+- name: Arnica
+  logo: arnica.svg
+  websiteUrl: https://www.arnica.io/
+  categories:
+    - vendor
