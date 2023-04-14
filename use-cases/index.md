@@ -45,17 +45,16 @@ CycloneDX is capable of describing the following types of components:
 
 ## Known vulnerabilities
 
-Identifying known vulnerabilities in components can be achieved through the use of three fields: `cpe`, `swid`, and 
-`purl`. Not all fields apply to all types of components. 
+Identifying known vulnerabilities in components can be achieved through the use of three fields: `cpe`, `purl`, and 
+`swid`. Not all fields apply to all types of components. 
 The [CPE](https://nvd.nist.gov/products/cpe) specification was designed for operating 
-systems, applications, and hardware devices. CPE is maintained by the NVD and has been deprecated.
-Software ID (SWID) as defined in [ISO/IEC 19770-2:2015](https://www.iso.org/standard/65666.html) is used primarily to 
-identify installed software and is the preferred format of the NVD. 
+systems, applications, and hardware devices. CPE is maintained by the NVD.
 [Package URL](https://github.com/package-url/purl-spec) (PURL) standardizes how software 
 package metadata is represented so that packages can universally be located regardless of what vendor, project, or 
-ecosystem the packages belongs.
+ecosystem the packages belongs. Software ID (SWID) as defined in [ISO/IEC 19770-2:2015](https://www.iso.org/standard/65666.html) 
+is used primarily to identify installed software.
 
-Components that have a cpe, swid, or purl defined can be analyzed for known vulnerabilities.
+Components that have a cpe, purl, or swid defined can be analyzed for known vulnerabilities.
 
 <h4>Guidelines</h4>
 
