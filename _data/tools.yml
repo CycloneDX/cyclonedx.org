@@ -1371,7 +1371,7 @@
   - build-integration
 - name: Distro2SBOM
   publisher: Anthony Harrison
-  description: A command line tool which creates CycloneDX and SPDX SBOMs an installed application (Debian and RPM type distributions supported).
+  description: A command line tool which creates CycloneDX and SPDX SBOMs for an installed application or distribution (Debian and RPM type distributions supported).
   repoUrl: https://github.com/anthonyharrison/distro2sbom
   websiteUrl: https://pypi.org/project/distro2sbom/
   categories:
@@ -1380,8 +1380,8 @@
 - name: SBOM-Manager
   publisher: Anthony Harrison
   description: A command line tool which provides a simple repository server used to manage and query CycloneDX and SPDX SBOMs.
-  repoUrl: https://github.com/anthonyharrison/sbom_manager
-  websiteUrl: https://pypi.org/project/sbom_manager/
+  repoUrl: https://github.com/anthonyharrison/sbom-manager
+  websiteUrl: https://pypi.org/project/sbom-manager/
   categories:
   - opensource
   - distribute
@@ -1409,6 +1409,15 @@
   categories:
   - opensource
   - analysis
+- name: SBOMMerge
+  publisher: Anthony Harrison
+  description: A command line tool which merges two SBOMs together which can be in either CycloneDX or SPDX formats.
+  repoUrl: https://github.com/anthonyharrison/sbommerge
+  websiteUrl: https://pypi.org/project/sbommerge/
+  categories:
+  - opensource
+  - analysis
+  - transform
 - name: Lib4sbom
   publisher: Anthony Harrison
   description: A Python library to consume and generate SBOMs in either CycloneDX or SPDX formats.
