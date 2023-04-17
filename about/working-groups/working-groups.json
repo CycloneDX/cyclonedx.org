@@ -3471,5 +3471,18 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "Robert Smigielski",
+    "lastName": "Smigielski",
+    "headshot": "robert-smigielski.jpg",
+    "organization": "B. Braun Medical",
+    "description": null,
+    "linkedin": "robertsmigielski",
+    "github": "ptdropper",
+    "homepage": "https://www.bbraunusa.com/",
+    "categories": [
+      "maintainers"
+    ]
   }
 ]
