@@ -1613,3 +1613,11 @@
     - proprietary
     - analysis
     - build-integration
+- name: Arnica
+  publisher: Arnica
+  description: Arnica puts your software supply chain security on autopilot. Arnica provides SBOM as part of its free (forever) offering in alignment with the CycloneDX standard.
+  websiteUrl: https://www.arnica.io/
+  categories:
+    - proprietary
+    - analysis
+    - build-integration
