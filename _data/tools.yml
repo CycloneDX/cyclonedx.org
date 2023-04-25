@@ -1621,3 +1621,10 @@
     - proprietary
     - analysis
     - build-integration
+- name: FACT
+  publisher: aDolus Technology Inc.
+  description: The aDolus FACT platform is the first advanced aggregation, analytics, and correlation engine that provides continuous cybersecurity risk intelligence to secure the software supply chain. FACT generates NTIA-compliant SBOMs including CycloneDX.
+  websiteUrl: https://adolus.com
+  categories:
+  - proprietary
+  - analysis
