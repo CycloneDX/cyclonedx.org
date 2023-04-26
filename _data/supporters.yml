@@ -529,3 +529,8 @@
   websiteUrl: https://www.arnica.io/
   categories:
     - vendor
+- name: aDolus
+  logo: adolus.svg
+  websiteUrl: https://adolus.com
+  categories:
+    - vendor

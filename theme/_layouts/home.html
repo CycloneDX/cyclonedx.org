@@ -191,7 +191,7 @@
 <section class="cta-section" style="background: linear-gradient(180deg, rgba(248,248,248,1) 0%, rgba(255,255,255,1) 100%);">
     <div class="container">
         <h3 style="text-align:center; margin:0 0 1.2rem 0; color:#0057C4">CycloneDX Supporters, Vendors, and Projects</h3>
-        {%assign sorted_supporters = site.data.supporters|sort:'name' %}
+        {%assign sorted_supporters = site.data.supporters|sort_natural:'name' %}
         <div class="logo-cards" style="padding-top:3rem;">
             {% for supporter in sorted_supporters %}
             <div class="logo-card-container">

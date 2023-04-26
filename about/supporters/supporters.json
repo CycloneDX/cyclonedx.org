@@ -581,5 +581,13 @@
     "categories": [
       "organizations"
     ]
+  },
+  {
+    "organization": "aDolus",
+    "logo": "adolus.svg",
+    "homepage": "https://adolus.com",
+    "categories": [
+      "organizations"
+    ]
   }
 ]

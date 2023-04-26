@@ -16,7 +16,7 @@
 
                     <h2 id="cyclonedx-supporters">CycloneDX Supporters <abbr class="title-icon" data-title="Organizations that have made substantical contributions to the CycloneDX specification or code projects, participate in the Industry Working Group, or have contributed financially to the CycloneDX project in accordance with the OWASP donation policy."><i class="icon icon--info-circle"></i></abbr></h2>
 
-                    {%assign sorted_supporters = site.data.supporters|sort:'name' %}
+                    {%assign sorted_supporters = site.data.supporters|sort_natural:'name' %}
 
                     <div class="logo-cards" style="padding-top:3rem;">
                         {% for supporter in sorted_supporters %}

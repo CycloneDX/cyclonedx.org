@@ -5,9 +5,9 @@
 </head>
 <body data-spy="scroll" data-target=".js-scrollspy">
 
-{%assign sorted_supporters = site.data.supporters|sort:'name' %}
+{%assign sorted_supporters = site.data.supporters|sort_natural:'name' %}
 
-<div class="logo-cards" style="padding-top:3rem;">
+<div class="logo-cards" style="padding-top:3rem; aspect-ratio: 16/9">
     {% for supporter in sorted_supporters %}
     <div class="logo-card-full-screen-container">
         <div class="logo-card" style="overflow: visible;">
