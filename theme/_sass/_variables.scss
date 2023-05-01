@@ -109,9 +109,9 @@ $screen-md-min: 992px !default; // Medium screens, Desktop
 $screen-lg-min: 1200px !default; // Large screens, Wide desktops
 
 // Desktop first
-$screen-xs-max: ($screen-sm-min - 1) !default;
-$screen-sm-max: ($screen-md-min - 1) !default;
-$screen-md-max: ($screen-lg-min - 1) !default;
+$screen-xs-max: ($screen-sm-min - 0.01) !default;
+$screen-sm-max: ($screen-md-min - 0.01) !default;
+$screen-md-max: ($screen-lg-min - 0.01) !default;
 
 /* ----- Grid system ----- */
 // Columns
