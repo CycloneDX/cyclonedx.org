@@ -3498,5 +3498,31 @@
     "categories": [
       "maintainers"
     ]
+  },
+  {
+    "displayName": "Kayla Heard-Rising",
+    "lastName": "Rising",
+    "headshot": "kayla-heard-rising.jpg",
+    "organization": null,
+    "description": null,
+    "linkedin": "kayla-heard",
+    "github": "kaylaheard",
+    "homepage": null,
+    "categories": [
+      "ux"
+    ]
+  },
+  {
+    "displayName": "Meridith Greythorne",
+    "lastName": "Greythorne",
+    "headshot": "meridith-greythorne.jpg",
+    "organization": null,
+    "description": null,
+    "linkedin": "merigrey",
+    "github": "merigrey",
+    "homepage": null,
+    "categories": [
+      "ux"
+    ]
   }
 ]
