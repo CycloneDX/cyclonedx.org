@@ -19,6 +19,9 @@ author:
 github-action: 
   text: GitHub actions which produce CycloneDX SBOMS
   label: GitHub Action
+github-app: 
+  text: GitHub apps which handle CycloneDX SBOMS
+  label: GitHub App
 transform: 
   text: Tools that transform CycloneDX into other formats or that transform other formats into CycloneDX
   label: Transform
