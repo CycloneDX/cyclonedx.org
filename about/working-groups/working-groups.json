@@ -3580,5 +3580,19 @@
     "categories": [
       "ux"
     ]
+  },
+  {
+    "displayName": "oscerd",
+    "lastName": "oscerd",
+    "headshot": "https://avatars.githubusercontent.com/u/5106647?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "oscerd",
+    "homepage": "https://github.com/oscerd",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
