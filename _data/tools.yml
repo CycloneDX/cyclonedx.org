@@ -1635,3 +1635,12 @@
   categories:
   - proprietary
   - analysis
+  - name: Parlay
+  publisher: Snyk
+  description: A tool for enriching CycloneDX SBOMs with additional data such as vulnerability information, licences, external links, the maintainer, etc.
+  repoUrl: https://github.com/snyk/parlay
+  websiteUrl: https://github.com/snyk/parlay
+  categories:
+  - opensource
+  - transform
+  
