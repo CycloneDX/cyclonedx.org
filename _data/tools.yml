@@ -978,15 +978,17 @@
   - transform
 - name: Trivy
   publisher: Aqua Security
-  description: Trivy is a simple and comprehensive scanner for vulnerabilities in
-    container images, file systems, and Git repositories, as well as for configuration
-    issues. Trivy detects vulnerabilities of OS and language-specific packages, and
-    generates CycloneDX.
+  description: Trivy is an open source cloud native security scanner. It can scan a variety
+    of targets (containers, code repositories, VMs, clusters), and find there a variety of
+    security issues (vulnerabilities, SBOM, misconfigurations, licenses). Trivy has first
+    class support for CycloneDX as a standard SBOM format.
   repoUrl: https://github.com/aquasecurity/trivy
   websiteUrl: https://aquasecurity.github.io/trivy/
   categories:
   - opensource
   - build-integration
+  - analysis
+  - transform
 - name: Apiiro
   publisher: Apiiro
   description: Apiiro enables security & development teams to proactively remediate
