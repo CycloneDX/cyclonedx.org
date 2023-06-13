@@ -1643,4 +1643,42 @@
   categories:
   - opensource
   - transform
-  
+- name: Beniva Software Bill of Materials (SBOM)
+  publisher: Beniva
+  description: Beniva SBOM allows you to consume CycloneDX SBOM and Vulnerability Exploitability eXchange (VEX) within the ServiceNow platform which increases visibility of vulnerabilities and reduces time to remediate.
+  repoUrl:
+  websiteUrl: https://store.servicenow.com/sn_appstore_store.do#!/store/application/1f62663a1ba19dd06921a821604bcb98
+  categories:
+    - proprietary
+    - analysis
+- name: bombon
+  publisher: nikstur
+  description: Automagically build CycloneDX Software Bills of Materials (SBOMs) for Nix packages
+  repoUrl: https://github.com/nikstur/bombon
+  websiteUrl: https://github.com/nikstur/bombon
+  categories:
+    - opensource
+    - build-integration
+- name: Continuous Clearing
+  publisher: Siemens
+  description: The Continuous Clearing Tool scans and collects the 3rd party OSS components used in a NPM/NuGet/Debian/Maven project along with CycloneDX SBOMs and uploads it to SW360 and Fossology by accepting respective project ID for license clearing.
+  repoUrl: https://github.com/siemens/continuous-clearing
+  websiteUrl: https://github.com/siemens/continuous-clearing
+  categories:
+    - opensource
+    - analysis
+- name: cyclonedx-editor-validator
+  publisher: Festo SE & Co. KG
+  description: Tool for creating, modifying and validating CycloneDX SBOMs.
+  repoUrl: https://github.com/Festo-se/cyclonedx-editor-validator
+  websiteUrl: https://github.com/Festo-se/cyclonedx-editor-validator
+  categories:
+    - opensource
+- name: vsm-sbom-booster
+  publisher: LeanIX
+  description: A central CycloneDX SBOM generation tool that can accelerate your VSM onboarding
+  repoUrl: https://github.com/leanix/vsm-sbom-booster
+  websiteUrl: https://github.com/leanix/vsm-sbom-booster
+  categories:
+    - opensource
+    - build-integration
