@@ -1684,3 +1684,11 @@
   categories:
     - opensource
     - build-integration
+- name: asdf-cyclonedx
+  publisher: Xeed.IO, LLC
+  description: cyclonedx plugin for the asdf version manager.
+  repoUrl: https://github.com/xeedio/asdf-cyclonedx
+  websiteUrl: https://github.com/xeedio/asdf-cyclonedx
+  categories:
+    - opensource
+    - build-integration
