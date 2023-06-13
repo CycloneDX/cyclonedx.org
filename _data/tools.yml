@@ -1708,3 +1708,12 @@
   categories:
     - opensource
     - analysis
+- name: cyclonedx-npm-pipe
+  publisher: ccideas
+  description: A Bitbucket Pipe which generates a CycloneDX compliant sBOM for a node/npm project
+  repoUrl: https://bitbucket.org/ccideas1/cyclonedx-npm-pipe/
+  websiteUrl: https://github.com/ccideas/cyclonedx-npm-pipe
+  categories:
+    - opensource
+    - build-integration
+    - analysis
