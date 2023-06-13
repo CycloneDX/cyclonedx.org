@@ -1692,3 +1692,19 @@
   categories:
     - opensource
     - build-integration
+- name: cdx-central
+  publisher: nscuro
+  description: CLI utility to download public CycloneDX SBOMs from Maven Central
+  repoUrl: https://github.com/nscuro/cdx-central
+  websiteUrl: https://github.com/nscuro/cdx-central
+  categories:
+    - opensource
+    - distribution
+- name: cdx-vs-cdx
+  publisher: marcosanchotene
+  description: GUI tool to compare two SBOMs in CycloneDX JSON format.
+  repoUrl: https://github.com/marcosanchotene/cdx-vs-cdx
+  websiteUrl: https://github.com/marcosanchotene/cdx-vs-cdx
+  categories:
+    - opensource
+    - analysis
