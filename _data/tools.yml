@@ -322,7 +322,7 @@
   publisher: SCANOSS
   description: An open source inventory engine built for modern development teams
   repoUrl: https://github.com/scanoss/engine
-  websiteUrl: https://www.scanoss.co.uk/
+  websiteUrl: https://scanoss.com/
   categories:
   - opensource
   - analysis
