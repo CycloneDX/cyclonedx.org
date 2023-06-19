@@ -19,7 +19,6 @@
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	line-height: 1;
 }
 
 /* ----- List of icons ----- */
@@ -178,4 +177,10 @@
 }
 .icon--connectdevelop:before {
 	content: "\f20e";
+}
+.icon--file-pdf-o:before {
+	content: "\f1c1";
+}
+.icon--download:before {
+	content: "\f019";
 }

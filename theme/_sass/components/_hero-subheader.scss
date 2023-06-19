@@ -9,13 +9,29 @@
 	line-height: 2rem;
 	height:500px;
 	max-height:500px;
-
-	@media (min-width: $screen-sm-min) {
-		padding: 9.375rem 0 (10.3125rem - 1.25rem) 0;
-	}
+	width: auto;
 
 	.btn {
+		margin: 1.5rem .9375rem 0 0;
 		margin-right: .9375rem;
+		float: right;
+		padding: 1rem 1.5rem 1rem 1.5rem;
+		background-color: #0D6EFD;
+		border-radius: 6px;
+		border: none;
+		color: white;
+		font-family: 'Noto Sans';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 16px;
+		opacity: 0;
+		animation: fadeIn 0.8s ease-in-out forwards;
+		animation-delay: 0.8s;
+	}		
+
+	.guide-btn {
+		float: none;
+		padding: 0.5rem 1rem;
 	}
 
 	.btn--github,
@@ -24,15 +40,17 @@
 	}
 
 	.site-header + & {
-		padding: 15rem 0 (10.3125rem - 1.25rem) 0;
-		@media (min-width: $screen-sm-min) {
-			padding: 15rem 0 (10.3125rem - 1.25rem) 0;
+		padding: (5.625rem + 2.5rem) 0 (10.3125rem - 1.25rem) 0;
+		@media screen and (max-width: $screen-xs-max) {
+			padding: (5.625rem + 1.0rem) 0.9375rem 40px (2.5rem - 0.9375rem);
+			height: fit-content;
+			max-height: fit-content;
 		}
 	}
 }
 
 .hero-subheader--before-out {
-	@media (min-width: $screen-sm-min) {
+	@media (min-width: $screen-xs-max) {
 		padding: 9.375rem 0 (15.3125rem - 1.25rem) 0;
 	}
 }

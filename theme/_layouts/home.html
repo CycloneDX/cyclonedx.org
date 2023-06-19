@@ -10,36 +10,16 @@
     <div class="hero-subheader" id="subheader">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-lg-10">
                     <div class="align-container" data-mh>
                         <div class="align-inner" role="img">
-                            <section class="cd-intro">
-                                <div class="cd-headline rotate-1">
-                                    <span style="display:table-cell;">CycloneDX is&nbsp;</span>
-                                    <span class="cd-words-wrapper" style="display:table-cell; vertical-align:middle;">
-                                        <b class="is-visible">SBOM</b>
-                                        <b>SaaSBOM</b>
-                                        <b>VEX</b>
-                                        <b>OBOM</b>
-                                        <b>HBOM</b>
-                                        <b>VDR</b>
-                                        <b><i style="font-size:3rem" class="icon icon--owasp-logo"></i></b>
-		                            </span>
-                                </div>
-                            </section>
-                            <section class="cd-intro">
-                                <div style="margin-top:0.8rem" class="cd-headline cd-sub-headline rotate-1">
-                                    <span class="cd-words-wrapper">
-                                        <div class="is-visible">Software Bill of Materials</div>
-                                        <div>Software-as-a-Service Bill of Materials</div>
-                                        <div>Vulnerability Exploitability Exchange</div>
-                                        <div>Operations Bill of Materials</div>
-                                        <div>Hardware Bill of Materials</div>
-                                        <div>Vulnerability Disclosure Report</div>
-                                        <div></div>
-                                    </span>
-                                </div>
-                            </section>
+                            <div class="cd-headline">The only SBOM format with automatic vulnerability detection.<br>And it only takes a day to set up.&nbsp;</div>
+                            <div class="cd-sub-headline">
+                                <p class="cd-description" style="animation-delay: 2s;">Compatible with 180+ tools across 15+ programming languages, CycloneDX is trusted by Lockheed Martin, Contrast Security, Sonatype, and many others.</p>
+                                <a href="/tool-center/">
+                                    <button class="btn">EXPLORE TOOLS</button>
+                                </a>
+                            </div>
                         </div><!-- /.align-inner -->
                     </div><!-- /.align-container -->
                 </div><!-- /.col -->
@@ -162,20 +142,6 @@
     </div>
 </div>
 
-<!--
-<div class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content home-content">
-                    {{ content }}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
--->
-
 {% if jekyll.environment == "production" and page.comments == true and site.doks.comments.disqus_forum_shortname %}
 <div class="section section--grey">
     <div class="container">
@@ -233,47 +199,5 @@
     {% endif %}
     {% include site-footer.html %}
 </div><!-- /.js-footer-area -->
-<script>
-    const animationDelay = 3500;
-
-    animateHeadline($('.cd-headline'));
-
-    function animateHeadline($headlines) {
-        $headlines.each(function(){
-            let headline = $(this);
-            setTimeout(function(){ hideWord( headline.find('.is-visible') ) }, animationDelay);
-        });
-    }
-
-    function hideWord($word) {
-        let nextWord = takeNext($word);
-        switchWord($word, nextWord);
-        setTimeout(function(){ hideWord(nextWord) }, animationDelay);
-    }
-
-    function takeNext($word) {
-        return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
-    }
-
-    function switchWord($oldWord, $newWord) {
-        $oldWord.removeClass('is-visible').addClass('is-hidden');
-        $newWord.removeClass('is-hidden').addClass('is-visible');
-    }
-
-    singleLetters($('.cd-headline.letters').find('b'));
-
-    function singleLetters($words) {
-        $words.each(function(){
-            let word = $(this),
-                letters = word.text().split(''),
-                selected = word.hasClass('is-visible');
-            for (let i in letters) {
-                letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
-            }
-            let newLetters = letters.join('');
-            word.html(newLetters);
-        });
-    }
-</script>
 </body>
 </html>
