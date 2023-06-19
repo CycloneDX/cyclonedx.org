@@ -16,22 +16,29 @@
 		margin-right: .9375rem;
 		float: right;
 		padding: 1rem 1.5rem 1rem 1.5rem;
-		background-color: #0D6EFD;
 		border-radius: 6px;
 		border: none;
-		color: white;
 		font-family: 'Noto Sans';
 		font-style: normal;
 		font-weight: 600;
 		font-size: 16px;
-		opacity: 0;
 		animation: fadeIn 0.8s ease-in-out forwards;
 		animation-delay: 0.8s;
-	}		
+		animation-fill-mode: both;
+	}
+	
+	.guide-button {
+		opacity: 100;
+		border: 2px solid #CFE2FF;
+		background-color: transparent;
+		color: white;
+	}
 
-	.guide-btn {
-		float: none;
-		padding: 0.5rem 1rem;
+	.tools-button {
+		background-color: #CFE2FF;
+		opacity: 0;
+		border: 2px solid #CFE2FF;
+		color: black;
 	}
 
 	.btn--github,

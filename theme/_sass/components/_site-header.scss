@@ -319,9 +319,21 @@ li.dropdown {
 /* =========================================================
         CTA-Section STYLE
 ============================================================ */
+.cta-header {
+	text-align: left;
+	padding-left: 12px;
+	margin-top: 0;
+}
 .cta-section {
 	background-color: #f8f8f8;
-	padding: 45px 0 90px; }
+	padding: 45px 0 90px;
+	box-shadow: 0px 30px 40px -20px $color-grey-blue;
+	border-radius: 5px;
+}
+.cta-wrapper {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px 0px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+}
 .cta-section .cta-wrapper:hover {
 	cursor: pointer;
 	border-left: 1px solid $color-light-blue;
@@ -333,20 +345,29 @@ li.dropdown {
 		padding: 35px 0 25px; } }
 .cta-section .cta-wrapper {
 	background-color: #FFFFFF;
-	padding: 35px 10px;
+	padding: 10px 10px;
 	border: 1px solid transparent;
-	border-radius: 5px;
 	border-top: 3px solid $color-light-blue;
-	box-shadow: 0px 30px 40px -20px $color-grey-blue;
 }
 .cta-section .cta-wrapper:hover a {
 	color: #089af7; }
-@media only screen and (max-width: 991px) {
-	.cta-section .cta-wrapper {
-		margin-bottom: 30px; } }
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: $screen-xs-min) {
 	.cta-section .cta-wrapper {
 		margin-bottom: 20px; } }
+@media only screen and (max-width: $screen-sm-max) {
+	.cta-section .cta-wrapper {
+		margin-bottom: 30px; }
+	.cta-wrapper {
+		height: 240px; }}
+@media only screen and (min-width: $screen-md-min) {
+	.cta-wrapper {
+		height: 330px;
+	} }
+@media only screen and (min-width: $screen-lg-min) {
+	.cta-wrapper {
+		height: 300px;
+	}
+}
 .cta-section .cta-wrapper h1, .cta-section .cta-wrapper h3 {
 	font-weight: normal;
 	font-size: 22px;
