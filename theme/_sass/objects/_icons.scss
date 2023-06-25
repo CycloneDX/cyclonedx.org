@@ -19,7 +19,6 @@
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	line-height: 1;
 }
 
 /* ----- List of icons ----- */
@@ -146,6 +145,9 @@
 .icon--arrow-up:before {
 	content: "\e91c";
 }
+.icon--arrow-up-right-square:before {
+	content: "\f08e";
+}
 .icon--chevron-down:before {
 	content: "\e91d";
 }
@@ -178,4 +180,10 @@
 }
 .icon--connectdevelop:before {
 	content: "\f20e";
+}
+.icon--file-pdf-o:before {
+	content: "\f1c1";
+}
+.icon--download:before {
+	content: "\f019";
 }

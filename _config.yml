@@ -13,6 +13,8 @@ doks:
               item_url: '/use-cases'
             - item_name: Tool Center
               item_url: '/tool-center'
+            - item_name: Guides and Resources
+              item_url: '/guides'
             - item_name: Specification
               item_url: 'https://cyclonedx.org/docs/1.2'
     footer:

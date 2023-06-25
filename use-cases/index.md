@@ -13,6 +13,12 @@ description: CycloneDX examples of common use cases
 # Micro navigation
 micro_nav: false
 
+# Breadcrumbs
+breadcrumbs:
+    - title: CYCLONEDX
+    - title: GETTING STARTED
+    - title: USE CASES
+
 # Page navigation
     
 ---
