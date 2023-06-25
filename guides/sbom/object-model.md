@@ -64,7 +64,6 @@ the tools used to create the BOM, and license information for the BOM document i
 
 ![Metadata](../../../theme/assets/images/guides/SBOM/Metadata.svg)
 
-
 ### Components
 Components describe the complete inventory of first-party and third-party components. The specification can represent
 software, hardware devices, machine learning models, source code, and configurations, along with the manufacturer

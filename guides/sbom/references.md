@@ -37,10 +37,7 @@ The following resources may be useful to users and adopters of this standard:
 * [OpenChain](https://www.openchainproject.org/)
 * [OWASP CycloneDX](https://cyclonedx.org/)
 * OWASP CycloneDX [Tool Center](https://cyclonedx.org/tool-center/)
+* OWASP CycloneDX [BOM Repository Server](https://github.com/CycloneDX/cyclonedx-bom-repo-server)
 * [OWASP Dependency-Track](https://dependencytrack.org/)
 * [OWASP Software Component Verification Standard (SCVS)](https://scvs.owasp.org/)
 * OWASP Software Component Verification Standard (SCVS) [BOM Maturity Model](https://scvs.owasp.org/bom-maturity-model/)
-
-<div style="page-break-after: always; visibility: hidden">
-\newpage
-</div>

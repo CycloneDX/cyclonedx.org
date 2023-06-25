@@ -35,8 +35,6 @@ parsers, database persistence, and authentication providers.
 - **Component type** - The general classification of a software components architecture. Examples of component types 
 include libraries, frameworks, applications, containers, and operating systems.
 
-- **CycloneDX** - A software bill of materials specification designed to be lightweight and security-focused.
-
 - **Direct dependency** - A software component that is referenced by a program itself.
 
 - **Package manager** - A distribution mechanism that makes software artifacts discoverable by requesters.
@@ -54,9 +52,6 @@ are examples of various points of origin.
 
 - **Provenance** - The chain of custody and origin of a software component. Provenance incorporates the point of
 origin through distribution as well as derivatives in the case of software that has been modified.
-
-- **Software bill of materials (SBOM)** – A complete, formally structured, and machine-readable inventory of all 
-software components and associated metadata, used by or delivered with a given piece of software.
 
 - **Software Identification (SWID)** - An ISO standard that formalizes how software is tagged.
 

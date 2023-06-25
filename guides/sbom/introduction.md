@@ -18,7 +18,7 @@ guide_url: https://cyclonedx.org/guides/sbom/sbom.pdf
 page_nav:
   prev:
     content: Preface
-    url: '/guides/sbom'
+    url: '../preface'
   next:
     content: Object-Model
     url: '../object-model'
@@ -92,7 +92,6 @@ CycloneDX provides advanced supply chain capabilities for cyber risk reduction. 
 * Machine Learning Bill of Materials (ML-BOM)
 * Operations Bill of Materials (OBOM)
 * Manufacturing Bill of Materials (MBOM)
-* Bill of Attestations (BOA)
 * Bill of Vulnerabilities (BOV)
 * Vulnerability Disclosure Report (VDR)
 * Vulnerability Exploitability eXchange (VEX)
@@ -141,12 +140,6 @@ formulation and do so in existing BOMs or in dedicated MBOMs. By externalizing f
 can link to MBOMs for their components and services, and access control can be managed independently. This allows
 organizations to maintain tighter control over what parties gain access to inventory information in a BOM and what parties 
 have access to MBOM information which may have higher sensitivity and data classification.
-
-### Bill of Attestations (BOA)
-BOA's are machine-readable statements of claims, evidence, and testimony in compliance with regulations, standards, and
-frameworks. CycloneDX implements a general-purpose attestation strategy that allows it to be leveraged across many
-industries and for a wide variety of purposes. This may include compliance with ISO 27001, SOC 2, NIST SSDF, and OWASP
-ASVS.
 
 ### Bill of Vulnerabilities (BOV)
 CycloneDX BOMs may consist solely of vulnerabilities and thus can be used to share vulnerability data between systems 

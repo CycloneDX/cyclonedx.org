@@ -116,7 +116,3 @@ capability of CycloneDX. Identity evidence consists of:
 
 Together, the BOM Maturity Model and native features of CycloneDX can be leveraged to form a high-quality, high-confidence
 assessment of SBOM quality.
-
-<div style="page-break-after: always; visibility: hidden">
-\newpage
-</div>

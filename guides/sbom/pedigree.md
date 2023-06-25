@@ -62,8 +62,8 @@ The following example illustrates two important aspects of pedigree, namely iden
 ```
 
 The example above illustrates two important aspects of pedigree:
-1) log4j-core from the Apache LOG4J 2™ project was modified. The modified version has an identity that is unique from its upstream source. Both the modified and original components are represented in the pedigree relationship.
-2) According to the Package URL (purl), the original component was obtained from Maven Central (the default for Maven artifacts) while the modified component resides in a repository controlled by example.com. The provenance of the artifacts are maintained.
+1. log4j-core from the Apache LOG4J 2™ project was modified. The modified version has an identity that is unique from its upstream source. Both the modified and original components are represented in the pedigree relationship.
+2. According to the Package URL (purl), the original component was obtained from Maven Central (the default for Maven artifacts) while the modified component resides in a repository controlled by example.com. The provenance of the artifacts are maintained.
 
 The pedigree capabilities in CycloneDX go much further than establishing relationships; the specification can also 
 optionally provide transparency into the changes that were made and their purpose. For example, the precise commits 

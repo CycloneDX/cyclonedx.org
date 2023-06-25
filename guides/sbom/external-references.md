@@ -34,7 +34,7 @@ mailto, tel, and dns. External references may also include formally registered U
 reference CycloneDX BOMs or any object within a BOM. BOM-Link transforms applicable external references into relationships 
 that can be expressed in a BOM or across BOMs.
 
-External resources provide an extensible and data-rich method of forming relationships.
+External references provide an extensible and data-rich method of forming relationships.
 
 
 | **Reference Type**        | **Description**                                                                                                                                                                                                                                                                                                                                                      |
