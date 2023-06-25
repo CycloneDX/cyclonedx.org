@@ -8,10 +8,16 @@ banner: false
 # Hero section
 title: Guides and Resources
 window_title: CycloneDX Guides and Resources
-description: // MG TODO
+description: Explore guides created by OWASP for first-time adopters of CycloneDX. Guides are available for all types of SBOM supported by CycloneDX.
 
 # Micro navigation
 micro_nav: false
+
+# Breadcrumbs
+breadcrumbs:
+    - title: CYCLONEDX
+    - title: GETTING STARTED
+    - title: GUIDES AND RESOURCES
 
 # Page navigation
     

@@ -4,10 +4,27 @@
 
 /* ----- General ----- */
 .header-container {
+	// background-image: url("/theme/assets/images/hero-header.png");
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+}
+.guide-container {
 	background-image: url("/theme/assets/images/hero-header.png");
 	background-size: cover;
 	width: 100%;
 	background-position: center;
+}
+#container {
+	padding: 0 0 0 0;
+	// max-width: 910px;
+}
+@media (max-width: 991.99px) {
+	#container {
+		margin: 0 0 0 0;
+		width: 100%;
+		max-width: none;
+	}
 }
 .site-header {
 	position: absolute;
@@ -340,41 +357,68 @@ li.dropdown {
 	border-right: 1px solid $color-light-blue;
 	border-bottom: 1px solid $color-light-blue;
 }
-@media only screen and (max-width: 767px) {
-	.cta-section {
-		padding: 35px 0 25px; } }
+// @media only screen and (max-width: 767px) {
+// 	.cta-section {
+// 		padding: 35px 0 25px; } 
+// 	}
 .cta-section .cta-wrapper {
 	background-color: #FFFFFF;
-	padding: 10px 10px;
 	border: 1px solid transparent;
 	border-top: 3px solid $color-light-blue;
 }
+.cta-wrapper {
+	padding: 36px 36px 36px 36px;
+	margin-bottom: 30px;
+}
 .cta-section .cta-wrapper:hover a {
 	color: #089af7; }
-@media only screen and (min-width: $screen-xs-min) {
-	.cta-section .cta-wrapper {
-		margin-bottom: 20px; } }
-@media only screen and (max-width: $screen-sm-max) {
-	.cta-section .cta-wrapper {
-		margin-bottom: 30px; }
+@media only screen and (min-width: $screen-xs-min) {  // 480px+
+	// .cta-section .cta-wrapper {
+	// 	margin-bottom: 30px; }
 	.cta-wrapper {
-		height: 240px; }}
-@media only screen and (min-width: $screen-md-min) {
+		height: 230px; }}
+@media only screen and (min-width: 576px) {
 	.cta-wrapper {
-		height: 330px;
-	} }
-@media only screen and (min-width: $screen-lg-min) {
-	.cta-wrapper {
-		height: 300px;
+		height: 230px;
 	}
 }
+@media only screen and (min-width: 768px) {
+	.cta-wrapper {
+		height: 320px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.cta-header {
+		padding: 0 0 0 76px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.99px) {
+	.cta-header {
+		padding: 0 0 0 86px;
+	}
+}
+@media only screen and (min-width: 992px) {	// 992px +
+	.cta-wrapper {
+		height: 260px;
+	} }
+@media only screen and (min-width: 1200px) {	// 992px +
+	.cta-wrapper {
+		height: 320px;
+	}
+	.cta-header {
+		padding: 0 0 0 12px;
+	} }
 .cta-section .cta-wrapper h1, .cta-section .cta-wrapper h3 {
 	font-weight: normal;
-	font-size: 22px;
-	margin: 20px 0 15px; }
+	font-size: 24px;
+	margin: 0 0 24px 0; }
 .cta-section .cta-wrapper h1 a, .cta-section .cta-wrapper h3 a {
 	color: $color-blue; }
 .cta-section .cta-wrapper p {
+	margin: 0;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;	
 	color: #555555; }
 .cta-section .cta-wrapper .link:hover {
 	color: #313131; }

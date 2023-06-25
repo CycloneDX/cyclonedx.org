@@ -12,10 +12,11 @@
 	width: auto;
 
 	.btn {
-		margin: 1.5rem .9375rem 0 0;
-		margin-right: .9375rem;
+		// margin: 1.5rem 0 0 0;
+		// margin-right: .9375rem;
 		float: right;
-		padding: 1rem 1.5rem 1rem 1.5rem;
+		margin-bottom: 40px;
+		// padding: 1rem 1.5rem 1rem 1.5rem;
 		border-radius: 6px;
 		border: none;
 		font-family: 'Noto Sans';
@@ -25,12 +26,24 @@
 		animation: fadeIn 0.8s ease-in-out forwards;
 		animation-delay: 0.8s;
 		animation-fill-mode: both;
+		line-height: 18px;
 	}
 	
 	.guide-button {
 		opacity: 100;
 		border: 2px solid #CFE2FF;
 		background-color: transparent;
+		color: white;
+		outline: none;
+		width: 139px;
+		height: 50px;
+		margin-right: 24px;
+	}
+
+	.guide-btn {
+		float: none;
+		padding: .75rem 1rem;
+		background-color: #0D6EFD;
 		color: white;
 	}
 
@@ -39,6 +52,16 @@
 		opacity: 0;
 		border: 2px solid #CFE2FF;
 		color: black;
+		outline: none;
+		width: 167px;
+		height: 50px;
+	}
+
+	@media screen and (max-width: 479.99px) {
+		.tools-button, .guide-button {
+			margin-right: 0px;
+			margin-bottom: 12px;
+		}
 	}
 
 	.btn--github,
@@ -47,13 +70,17 @@
 	}
 
 	.site-header + & {
-		padding: (5.625rem + 2.5rem) 0 (10.3125rem - 1.25rem) 0;
+		height: fit-content;
+		max-height: fit-content;
+		padding: 90px 0 (10.3125rem - 1.25rem) 0;
 		@media screen and (max-width: $screen-xs-max) {
-			padding: (5.625rem + 1.0rem) 0.9375rem 40px (2.5rem - 0.9375rem);
-			height: fit-content;
-			max-height: fit-content;
+			padding: 84px 0 40px 0;
 		}
 	}
+}
+
+#subheader {
+	padding: 84px 0 0 0;
 }
 
 .hero-subheader--before-out {
@@ -64,7 +91,7 @@
 
 /* ----- Title ----- */
 .hero-subheader__title {
-	margin-top: 0;
+	margin-top: 100px;
 }
 
 /* ----- Title ----- */

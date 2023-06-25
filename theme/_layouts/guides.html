@@ -7,7 +7,9 @@
 {% include site-header.html class="theme-background" %}
 <div class="section">
     <div class="container">
-        <h5 style="font-weight:500; font-size: 14px;">CYCLONEDX / GETTING STARTED / <span style="font-weight: 900; ">GUIDES AND RESOURCES</span></h5>
+        {% if page.breadcrumbs.size > 0 %}
+            {% include breadcrumbs.html %}
+        {% endif %}
         <div class="row">
             <div class="col-md-10">
                 <div class="content">

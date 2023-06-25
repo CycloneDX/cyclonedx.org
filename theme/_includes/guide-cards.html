@@ -1,38 +1,27 @@
 <section class="guides-section">
     <div class="row">
+        {% for card in site.data.guides %}
+        {% if card.link_url %}
         <div class="col-md-6 col-sm-6">
-            <a href="https://www.youtube.com/@CycloneDX" style="color: inherit;" target="_blank">
+            <a href="{{ card.link_url }}" style="color: inherit;" target="_blank">
                 <div class="guides-card">
-                    <h1 class="guides-header">CycloneDX YouTube Channel</h1>
-                    <h6 class="guides-subheader">OWASP Foundation</h6>
-                    <p class="guides-text">Video tutorials explaining SBOM and its many use cases.</p>
-                    <p class="guides-link"><a>Go to channel </a><i class="icon icon--arrow-up-right-square"></i></p>
+                    <h1 class="guides-header">{{ card.title }}</h1>
+                    <h6 class="guides-subheader">{{ card.author }}</h6>
+                    <p class="guides-text">{{ card.text }}</p>
+                    <p class="guides-link"><u>{{ card.link_text }}</u> <i class="icon icon--arrow-up-right-square"></i>
+                    </p>
                 </div>
             </a>
         </div>
-        <div class="col-md-6 col-sm-6">
-            <a href="https://youtube.com" style="color: inherit;" target="_blank">
-                <div class="guides-card">
-                    <h1 class="guides-header">Authoritative Guide to SBOM</h1>
-                    <h6 class="guides-subheader">OWASP Foundation</h6>
-                    <p class="guides-text">A guide to adopting CycloneDX Software Bill of Materials (SBOM) in an existing or new project.</p>
-                    <p class="guides-link"><a>View Guide </a><i class="icon icon--arrow-up-right-square"></i></p>
-                </div>
-            </a>
-        </div>
+        {% else %}
         <div class="col-md-6 col-sm-6">
             <div class="coming-soon-card">
-                <h1 class="coming-soon-header">Coming Soon: Authoritative Guide to MBOM</h1>
-                <h6 class="guides-subheader">OWASP Foundation</h6>
-                <p class="guides-text">A CycloneDX Manufacturing Bill of Materials (MBOM) provides transparency into how components were made, how a model was trained, or how a service was created or deployed.</p>
+                <h1 class="coming-soon-header">Coming Soon: {{ card.title }}</h1>
+                <h6 class="guides-subheader">{{ card.author }}</h6>
+                <p class="guides-text">{{ card.text }}</p>
             </div>
         </div>
-        <div class="col-md-6 col-sm-6">
-            <div class="coming-soon-card">
-                <h1 class="coming-soon-header">Coming Soon: Authoritative Guide to SaaSBOM</h1>
-                <h6 class="guides-subheader">OWASP Foundation</h6>
-                <p class="guides-text">A CycloneDX Software as a Service Bill of Materials (SaaSBOM) provides an inventory of services, endpoints, and data flows and classifications that power cloud-native applications.</p>
-            </div>
-        </div>
+        {% endif %}
+        {% endfor %}
     </div>
 </section>

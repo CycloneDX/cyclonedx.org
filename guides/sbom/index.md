@@ -16,34 +16,27 @@ guide_url: https://cyclonedx.org/guides/sbom/sbom.pdf
 
 # Page navigation
 page_nav:
-  prev:
-    content: Lifecycle Phases
-    url: '#'
+  # prev:
+  #   content:
+  #   url: '#'
   next:
-    content: Use Cases
-    url: '#'
+    content: Introduction
+    url: './introduction'
 ---
 
-## Heading 1
+# Preface
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum et enim fringilla lobortis. Integer dapibus nunc et aliquet lacinia. Nunc in nisi a ante ultrices tristique. Integer vehicula est eget leo consequat, placerat vestibulum nulla varius. Suspendisse id tellus eget odio cursus tincidunt ut sit amet nisi. Proin mattis tincidunt eros, at tristique lacus pharetra eget. Nam volutpat lacus a risus fringilla, ut porta mauris ultricies. Phasellus ut lectus non erat maximus ultrices.
+Secure supply chains are the foundational building block of modern cyber security. Without being able to describe a system’s components in a machine-consumable way, organizations and software consumers are in the dark if they are at risk of exploitation of known defects or vulnerabilities.
 
-## Heading 2
+Innovation drives the evolution of Software Bill of Materials (SBOM). I was lucky enough to attend one of the meetings held between the CycloneDX and SPDX teams at a Linux Foundation conference moderated by the fine folks at CISA. The drivers for CycloneDX 1.5 include improvements in interoperability and transparency.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum et enim fringilla lobortis. Integer dapibus nunc et aliquet lacinia. Nunc in nisi a ante ultrices tristique. Integer vehicula est eget leo consequat, placerat vestibulum nulla varius. Suspendisse id tellus eget odio cursus tincidunt ut sit amet nisi. Proin mattis tincidunt eros, at tristique lacus pharetra eget. Nam volutpat lacus a risus fringilla, ut porta mauris ultricies. Phasellus ut lectus non erat maximus ultrices.
+Software authors, from hobbyists to software vendors, can quickly adopt CycloneDX in their tooling, producing artifacts that will help consumers understand and manage the risk of the multitude of software that most organizations rely on daily.
 
-## Heading 3
+A few years ago, I was involved in a project to review 1700 business-critical applications in 90 days for known software vulnerabilities. If the organization had access to CycloneDX SBOMs, this would have been a trivial task, time that could have been more usefully spent on remediation rather than discovery. Sadly, most of the time was spent working out what software had old faulty components rather than addressing the very real risk of known software vulnerabilities. We were plagued with false positives from the tooling we used simply because scanning software without SBOMs is a heuristic-driven discovery process that is inefficient and wastes a great deal of time we didn’t have. SBOMs resolve these issues, reduce costs, and reduce risk to all involved.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum et enim fringilla lobortis. Integer dapibus nunc et aliquet lacinia. Nunc in nisi a ante ultrices tristique. Integer vehicula est eget leo consequat, placerat vestibulum nulla varius. Suspendisse id tellus eget odio cursus tincidunt ut sit amet nisi. Proin mattis tincidunt eros, at tristique lacus pharetra eget. Nam volutpat lacus a risus fringilla, ut porta mauris ultricies. Phasellus ut lectus non erat maximus ultrices.
+I commend the CycloneDX team for a highly polished revision of their standard, one that evolves the state of the art.
 
-### Heading 3.1
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum et enim fringilla lobortis. Integer dapibus nunc et aliquet lacinia. Nunc in nisi a ante ultrices tristique. Integer vehicula est eget leo consequat, placerat vestibulum nulla varius. Suspendisse id tellus eget odio cursus tincidunt ut sit amet nisi. Proin mattis tincidunt eros, at tristique lacus pharetra eget. Nam volutpat lacus a risus fringilla, ut porta mauris ultricies. Phasellus ut lectus non erat maximus ultrices.
-
-### Heading 3.2
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum et enim fringilla lobortis. Integer dapibus nunc et aliquet lacinia. Nunc in nisi a ante ultrices tristique. Integer vehicula est eget leo consequat, placerat vestibulum nulla varius. Suspendisse id tellus eget odio cursus tincidunt ut sit amet nisi. Proin mattis tincidunt eros, at tristique lacus pharetra eget. Nam volutpat lacus a risus fringilla, ut porta mauris ultricies. Phasellus ut lectus non erat maximus ultrices.
-
-## Heading 4
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum et enim fringilla lobortis. Integer dapibus nunc et aliquet lacinia. Nunc in nisi a ante ultrices tristique. Integer vehicula est eget leo consequat, placerat vestibulum nulla varius. Suspendisse id tellus eget odio cursus tincidunt ut sit amet nisi. Proin mattis tincidunt eros, at tristique lacus pharetra eget. Nam volutpat lacus a risus fringilla, ut porta mauris ultricies. Phasellus ut lectus non erat maximus ultrices.
+Andrew van der Stock  
+Executive Director, OWASP Foundation

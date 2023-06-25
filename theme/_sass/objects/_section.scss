@@ -11,6 +11,16 @@
 	}
 }
 
+.section-breadcrumbs {
+	font-family: Montserrat;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-bottom: 12px;
+	margin-top: 32px;
+}
+
 /* ----- Variations ----- */
 .section--darker-theme-color-bg {
 	background-color: darken($color-theme-blue, 3%);

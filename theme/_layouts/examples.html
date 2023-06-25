@@ -7,6 +7,9 @@
 {% include site-header.html class="theme-background" %}
 <div class="section">
     <div class="container">
+        {% if page.breadcrumbs.size > 0 %}
+            {% include breadcrumbs.html %}
+        {% endif %}
         <div class="row">
             <div class="col-md-8">
                 <div class="content">

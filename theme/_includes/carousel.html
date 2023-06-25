@@ -1,0 +1,41 @@
+<div class="align-container" data-mh>
+    <div class="align-inner" role="img">
+        <div id="hero-carousel" class="carousel slide" style="width: 100%;" data-bs-interval="10000"
+            data-bs-touch="false" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                {% assign slideCount = site.data.carousel.slides.size %}
+                {% assign activeIndex = 0 %}
+
+                {% for slide in site.data.carousel %}
+                <div class="carousel-item {% if forloop.index0 == activeIndex %}active{% else %}image_overlay{% endif %}"
+                    style="background-image: url('{{ slide.image }}');">
+                    <div class="container" id="container">
+                        <div class="col-lg-9" id="carousel-col">
+                            <div class="cd-headline">{{ slide.title }}</div>
+                            <div class="cd-sub-headline">
+                                <p class="cd-description" style="animation-delay: 2s;">{{ slide.description }}</p>
+                            </div>
+                            <div class="cd-button-wrapper">
+                                <a href="/tool-center/">
+                                    <button class="btn tools-button">EXPLORE TOOLS</button>
+                                </a>
+                                <a href="/guides/">
+                                    <button class="btn guide-button">READ GUIDE</button>
+                                </a>
+                            </div>
+                        </div><!-- /.col-lg-9 -->
+                    </div><!-- /.container -->
+                </div><!-- /.carousel-item -->
+                {% endfor %}
+                <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div><!-- /.carousel-inner -->
+        </div><!-- /.hero-carousel -->
+    </div><!-- /.align-inner -->
+</div><!-- /.align-container -->

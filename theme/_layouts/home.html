@@ -2,30 +2,21 @@
 <html>
 <head>
     {% include site-head.html %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/theme/assets/css/style.css?v=1.4">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </head>
 <body class="{{ site.doks.color_theme }}" data-spy="scroll" data-target=".js-scrollspy">
 
+<link rel="preload" as="image" href="/theme/assets/images/hero-header.png">
 <header class="header-container">
     {% include site-header.html %}
     <div class="hero-subheader" id="subheader">
-        <div class="container">
+        {% include carousel.html %}
+        <div>
             <div class="row">
-                <div class="col-lg-10">
-                    <div class="align-container" data-mh>
-                        <div class="align-inner" role="img">
-                            <div class="cd-headline">The only SBOM format with automatic vulnerability detection.<br>And it only takes a day to set up.&nbsp;</div>
-                            <div class="cd-sub-headline">
-                                <p class="cd-description" style="animation-delay: 2s;">Compatible with 180+ tools across 15+ programming languages, CycloneDX is trusted by Lockheed Martin, Contrast Security, Sonatype, and many others.</p>
-                                <a href="/tool-center/">
-                                    <button class="btn tools-button">EXPLORE TOOLS</button>
-                                </a>
-                                <a href="/guides/">
-                                    <button class="btn guide-button">READ GUIDE</button>
-                                </a>
-                            </div>
-                        </div><!-- /.align-inner -->
-                    </div><!-- /.align-container -->
-                </div><!-- /.col -->
                 {% if page.author.title and page.author.description and page.author.title_url %}
                 <div class="col-md-3 col-md-offset-1 hidden-xs hidden-sm">
                     <div class="align-container" data-mh>
@@ -54,52 +45,41 @@
         </div><!-- /.container -->
     </div><!-- /.hero-subheader -->
 </header>
-
-<!-- <section class="news-section">
-    <div class="container text-center">
-        <div class="row">
-            <section class="news"> -->
-                <!-- <a href="/news/owasp-cyclonedx-launches-sbom-exchange-api-standardizing-sbom-distribution/">12 May 2022 - OWASP CycloneDX Launches SBOM Exchange API, Standardizing SBOM Distribution</a> -->
-            <!-- </section>
-        </div>
-    </div>
-</section> -->
-
 <section class="cta-section">
     <div class="container">
         <div>
             <h1 class="row cta-header">Getting Started</h1>
         </div>
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <a href="/capabilities/">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-5 col-lg-3">
+                <a href="/capabilities/" style="text-decoration: none;">
                     <div class="cta-wrapper">
-                        <h3 class="feature-header">Capabilities</h3>
-                        <p class="feature-text">CycloneDX is a modern standard for the software supply chain. Discover the many capabilities that await.</p>
+                        <h3>Capabilities</h3>
+                        <p>CycloneDX is a modern standard for the software supply chain. Discover the many capabilities that await.</p>
                     </div> <!-- cta-wrapper -->
                 </a>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="/use-cases/">
+            <div class="col-md-5 col-lg-3">
+                <a href="/use-cases/" style="text-decoration: none;">
                     <div class="cta-wrapper">
-                        <h3 class="feature-header">Use Cases + Examples</h3>
-                        <p class="feature-text">Explore a wide array of use cases along with corresponding examples in both XML and JSON formats.</p>
+                        <h3>Use Cases + Examples</h3>
+                        <p>Explore a wide array of use cases along with corresponding examples in both XML and JSON formats.</p>
                     </div> <!-- cta-wrapper -->
                 </a>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="/tool-center/">
+            <div class="col-md-5 col-lg-3">
+                <a href="/tool-center/" style="text-decoration: none;">
                     <div class="cta-wrapper">
-                        <h3 class="feature-header">Tool Center</h3>
-                        <p class="feature-text">Discover open source and proprietary tools and solutions that support the CycloneDX standard.</p>
+                        <h3>Tool Center</h3>
+                        <p>Discover open source and proprietary tools and solutions that support the CycloneDX standard.</p>
                     </div> <!-- cta-wrapper -->
                 </a>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="/guides/">
+            <div class="col-md-5 col-lg-3">
+                <a href="/guides/" style="text-decoration: none;">
                     <div class="cta-wrapper">
-                        <h3 class="feature-header">Guides and Resources</h3>
-                        <p class="feature-text">Explore OWASP guides for first-time use. Learn how others integrated CycloneDX into existing projects.</p>
+                        <h3>Guides and Resources</h3>
+                        <p>Explore OWASP guides for first-time use. Learn how others integrated CycloneDX into existing projects.</p>
                     </div> <!-- cta-wrapper -->
                 </a>
             </div>            
@@ -211,50 +191,5 @@
     {% endif %}
     {% include site-footer.html %}
 </div><!-- /.js-footer-area -->
-<<<<<<< HEAD
-=======
-<script>
-    // const animationDelay = 3500;
-
-    // animateHeadline($('.cd-headline'));
-
-    // function animateHeadline($headlines) {
-    //     $headlines.each(function(){
-    //         let headline = $(this);
-    //         setTimeout(function(){ hideWord( headline.find('.is-visible') ) }, animationDelay);
-    //     });
-    // }
-
-    // function hideWord($word) {
-    //     let nextWord = takeNext($word);
-    //     switchWord($word, nextWord);
-    //     setTimeout(function(){ hideWord(nextWord) }, animationDelay);
-    // }
-
-    // function takeNext($word) {
-    //     return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
-    // }
-
-    // function switchWord($oldWord, $newWord) {
-    //     $oldWord.removeClass('is-visible').addClass('is-hidden');
-    //     $newWord.removeClass('is-hidden').addClass('is-visible');
-    // }
-
-    // singleLetters($('.cd-headline.letters').find('b'));
-
-    // function singleLetters($words) {
-    //     $words.each(function(){
-    //         let word = $(this),
-    //             letters = word.text().split(''),
-    //             selected = word.hasClass('is-visible');
-    //         for (let i in letters) {
-    //             letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
-    //         }
-    //         let newLetters = letters.join('');
-    //         word.html(newLetters);
-    //     });
-    // }
-</script>
->>>>>>> guides-page
 </body>
 </html>

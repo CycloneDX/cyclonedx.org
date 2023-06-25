@@ -383,18 +383,6 @@ h4.profile-name {
 	text-align:center
 }
 
-.feature-header {
-	margin: 10px 0 15px;
-	font-size: 22px;
-	color: $color-blue;
-	display: inline-block;
-	padding: 0 20px;
-}
-
-.feature-text {
-	padding: 0 20px;
-}
-
 .guides-header {
 	padding: 0 20px 0 20px;
 	margin: 20px 0 8px;
@@ -433,6 +421,12 @@ h4.profile-name {
 	margin-bottom: 32px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991.99px) {
+	.coming-soon-card {
+		height: 340px;
+	}
+}
+
 .coming-soon-header {
 	padding: 0 20px 0 20px;
 	margin: 20px 0 8px;
@@ -457,7 +451,6 @@ h4.profile-name {
 	border-radius: 12px;
 	overflow: hidden;
 	text-align: left;
-	// width: 400px;
 	min-height: 250px;
 	position: relative;
 	margin-bottom: 32px;
@@ -484,6 +477,7 @@ h4.profile-name {
 	font-size: 16px;
 	line-height: 28px;
 	position: absolute;
+	color: #0057c4;
 }
 
 abbr {
