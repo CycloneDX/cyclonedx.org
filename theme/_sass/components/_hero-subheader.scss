@@ -12,32 +12,17 @@
 	width: auto;
 
 	.btn {
-		// margin: 1.5rem 0 0 0;
-		// margin-right: .9375rem;
 		float: right;
 		margin-bottom: 40px;
-		// padding: 1rem 1.5rem 1rem 1.5rem;
 		border-radius: 6px;
 		border: none;
 		font-family: 'Noto Sans';
-		font-style: normal;
 		font-weight: 600;
-		font-size: 16px;
+		font-size: 1em;
 		animation: fadeIn 0.8s ease-in-out forwards;
 		animation-delay: 0.8s;
 		animation-fill-mode: both;
 		line-height: 18px;
-	}
-	
-	.guide-button {
-		opacity: 100;
-		border: 2px solid #CFE2FF;
-		background-color: transparent;
-		color: white;
-		outline: none;
-		width: 139px;
-		height: 50px;
-		margin-right: 24px;
 	}
 
 	.guide-btn {
@@ -46,18 +31,27 @@
 		background-color: #0D6EFD;
 		color: white;
 	}
-
+	
+	.guide-button, .tools-button {
+		border: 2px solid #CFE2FF;
+		height: 50px;
+		outline: none;
+	}
+	.guide-button {
+		opacity: 100;
+		background-color: transparent;
+		color: white;
+		width: 139px;
+		margin-right: 24px;
+	}
 	.tools-button {
 		background-color: #CFE2FF;
 		opacity: 0;
-		border: 2px solid #CFE2FF;
 		color: black;
-		outline: none;
 		width: 167px;
-		height: 50px;
 	}
 
-	@media screen and (max-width: 479.99px) {
+	@media screen and (max-width: 480px) { // for extra small screens < 480px
 		.tools-button, .guide-button {
 			margin-right: 0px;
 			margin-bottom: 12px;

@@ -4,22 +4,14 @@
 
 /* ----- General ----- */
 .header-container {
-	// background-image: url("/theme/assets/images/hero-header.png");
-	background-size: cover;
-	width: 100%;
-	background-position: center;
-}
-.guide-container {
-	background-image: url("/theme/assets/images/hero-header.png");
 	background-size: cover;
 	width: 100%;
 	background-position: center;
 }
 #container {
 	padding: 0 0 0 0;
-	// max-width: 910px;
 }
-@media (max-width: 991.99px) {
+@media (max-width: $screen-sm-max) {
 	#container {
 		margin: 0 0 0 0;
 		width: 100%;
@@ -338,18 +330,20 @@ li.dropdown {
 ============================================================ */
 .cta-header {
 	text-align: left;
-	padding-left: 12px;
+	padding-left: 0.75rem;
 	margin-top: 0;
 }
 .cta-section {
 	background-color: #f8f8f8;
-	padding: 45px 0 90px;
+	padding: 2.813rem 0 5.625rem;
 	box-shadow: 0px 30px 40px -20px $color-grey-blue;
 	border-radius: 5px;
 }
 .cta-wrapper {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px 0px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 4px;
+	padding: 2.25rem;
+	margin-bottom: 1.875rem;
 }
 .cta-section .cta-wrapper:hover {
 	cursor: pointer;
@@ -357,61 +351,40 @@ li.dropdown {
 	border-right: 1px solid $color-light-blue;
 	border-bottom: 1px solid $color-light-blue;
 }
-// @media only screen and (max-width: 767px) {
-// 	.cta-section {
-// 		padding: 35px 0 25px; } 
-// 	}
 .cta-section .cta-wrapper {
 	background-color: #FFFFFF;
 	border: 1px solid transparent;
 	border-top: 3px solid $color-light-blue;
 }
-.cta-wrapper {
-	padding: 36px 36px 36px 36px;
-	margin-bottom: 30px;
-}
 .cta-section .cta-wrapper:hover a {
 	color: #089af7; }
-@media only screen and (min-width: $screen-xs-min) {  // 480px+
-	// .cta-section .cta-wrapper {
-	// 	margin-bottom: 30px; }
+@media only screen and (min-width: $screen-xs-min) {
 	.cta-wrapper {
-		height: 230px; }}
+		height: 230px; } }
 @media only screen and (min-width: 576px) {
 	.cta-wrapper {
-		height: 230px;
-	}
-}
-@media only screen and (min-width: 768px) {
+		height: 230px; } }
+@media only screen and (min-width: $screen-sm-min) {
 	.cta-wrapper {
-		height: 320px;
-	}
-}
-@media (min-width: 768px) and (max-width: 992px) {
+		height: 320px; } }
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
 	.cta-header {
-		padding: 0 0 0 76px;
-	}
-}
-@media (min-width: 992px) and (max-width: 1199.99px) {
+		padding: 0 0 0 4.75rem; } }
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
 	.cta-header {
-		padding: 0 0 0 86px;
-	}
-}
-@media only screen and (min-width: 992px) {	// 992px +
+		padding: 0 0 0 5.375rem; } }
+@media only screen and (min-width: $screen-md-min) {
 	.cta-wrapper {
-		height: 260px;
-	} }
-@media only screen and (min-width: 1200px) {	// 992px +
+		height: 260px; } }
+@media only screen and (min-width: $screen-lg-min) {
 	.cta-wrapper {
-		height: 320px;
-	}
+		height: 320px; }
 	.cta-header {
-		padding: 0 0 0 12px;
-	} }
+		padding: 0 0 0 0.75rem; } }
 .cta-section .cta-wrapper h1, .cta-section .cta-wrapper h3 {
 	font-weight: normal;
-	font-size: 24px;
-	margin: 0 0 24px 0; }
+	font-size: 1.5em;
+	margin: 0 0 1.5rem 0; }
 .cta-section .cta-wrapper h1 a, .cta-section .cta-wrapper h3 a {
 	color: $color-blue; }
 .cta-section .cta-wrapper p {

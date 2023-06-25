@@ -15,7 +15,7 @@
     {% include site-header.html %}
     <div class="hero-subheader" id="subheader">
         {% include carousel.html %}
-        <div>
+        <div class="container">
             <div class="row">
                 {% if page.author.title and page.author.description and page.author.title_url %}
                 <div class="col-md-3 col-md-offset-1 hidden-xs hidden-sm">
@@ -47,43 +47,43 @@
 </header>
 <section class="cta-section">
     <div class="container">
-        <div>
-            <h1 class="row cta-header">Getting Started</h1>
+        <div class="row">
+            <h1 class="cta-header">Getting Started</h1>
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md-5 col-lg-3">
-                <a href="/capabilities/" style="text-decoration: none;">
+                <a href="/capabilities/">
                     <div class="cta-wrapper">
                         <h3>Capabilities</h3>
                         <p>CycloneDX is a modern standard for the software supply chain. Discover the many capabilities that await.</p>
-                    </div> <!-- cta-wrapper -->
+                    </div><!-- /.cta-wrapper -->
                 </a>
             </div>
             <div class="col-md-5 col-lg-3">
-                <a href="/use-cases/" style="text-decoration: none;">
+                <a href="/use-cases/">
                     <div class="cta-wrapper">
                         <h3>Use Cases + Examples</h3>
                         <p>Explore a wide array of use cases along with corresponding examples in both XML and JSON formats.</p>
-                    </div> <!-- cta-wrapper -->
+                    </div><!-- /.cta-wrapper -->
                 </a>
             </div>
             <div class="col-md-5 col-lg-3">
-                <a href="/tool-center/" style="text-decoration: none;">
+                <a href="/tool-center/">
                     <div class="cta-wrapper">
                         <h3>Tool Center</h3>
                         <p>Discover open source and proprietary tools and solutions that support the CycloneDX standard.</p>
-                    </div> <!-- cta-wrapper -->
+                    </div><!-- /.cta-wrapper -->
                 </a>
             </div>
             <div class="col-md-5 col-lg-3">
-                <a href="/guides/" style="text-decoration: none;">
+                <a href="/guides/">
                     <div class="cta-wrapper">
                         <h3>Guides and Resources</h3>
                         <p>Explore OWASP guides for first-time use. Learn how others integrated CycloneDX into existing projects.</p>
-                    </div> <!-- cta-wrapper -->
+                    </div><!-- /.cta-wrapper -->
                 </a>
             </div>            
-        </div>
+        </div><!-- /.row -->
     </div>
 </section>
 
@@ -91,7 +91,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6">
-                <!-- TODO MERI make this more accessible by formatting these headers as if they're H1s, but using other tags! -->
                 <h1>Introduction</h1>
                 OWASP CycloneDX is a full-stack Bill of Materials (BOM) standard that provides advanced supply chain capabilities for
                 cyber risk reduction. The specification supports:
