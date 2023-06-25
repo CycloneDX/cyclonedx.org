@@ -76,6 +76,11 @@
 #subheader {
 	padding: 84px 0 0 0;
 }
+@media screen and (min-width: $screen-sm-min) {
+	#subheader {
+		padding: 90px 0 0 0;
+	}
+}
 
 .hero-subheader--before-out {
 	@media (min-width: $screen-xs-max) {
