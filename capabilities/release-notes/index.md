@@ -13,6 +13,12 @@ description: Common Release Notes Format
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: RELEASE NOTES
+
 # Page navigation
     
 ---

@@ -13,6 +13,12 @@ description: Vulnerability Exploitability eXchange (VEX)
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: VEX
+
 # Page navigation
     
 ---

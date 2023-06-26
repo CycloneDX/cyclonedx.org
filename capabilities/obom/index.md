@@ -13,6 +13,12 @@ description: Operations Bill of Materials (OBOM)
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: OBOM
+
 # Page navigation
     
 ---

@@ -13,6 +13,12 @@ description: CycloneDX Capabilities
 # Micro navigation
 micro_nav: false
 
+# Breadcrumbs
+breadcrumbs:
+    - title: CYCLONEDX
+    - title: GETTING STARTED
+    - title: CAPABILITIES
+
 # Page navigation
     
 ---

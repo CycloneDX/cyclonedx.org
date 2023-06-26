@@ -13,6 +13,12 @@ description: Software Bill of Materials (SBOM)
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: SBOM
+
 # Page navigation
     
 ---

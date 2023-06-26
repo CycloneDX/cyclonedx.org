@@ -13,6 +13,12 @@ description: Hardware Bill of Materials (HBOM)
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: HBOM
+
 # Page navigation
     
 ---

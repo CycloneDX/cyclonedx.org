@@ -1,0 +1,16 @@
+- title: Authoritative Guide to SBOM
+  author: OWASP Foundation
+  text: A guide to adopting CycloneDX Software Bill of Materials (SBOM) in an existing or new project.
+  link_text: View Guide
+  link_url: sbom
+- title: CycloneDX YouTube Channel
+  author: OWASP Foundation
+  text: Video tutorials explaining SBOM and its many use cases.
+  link_text: Go to channel
+  link_url: https://www.youtube.com/@CycloneDX
+- title: Authoritative Guide to MBOM
+  author: OWASP Foundation
+  text: A CycloneDX Manufacturing Bill of Materials (MBOM) provides transparency into how components were made, how a model was trained, or how a service was created or deployed.
+- title: Authoritative Guide to SaaSBOM
+  author: OWASP Foundation
+  text: A CycloneDX Software as a Service Bill of Materials (SaaSBOM) provides an inventory of services, endpoints, and data flows and classifications that power cloud-native applications.

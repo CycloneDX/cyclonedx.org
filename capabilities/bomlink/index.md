@@ -15,6 +15,12 @@ description: CycloneDX BOM-Link is a formally registered URN that provides the a
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: BOM-Link
+
 # Page navigation
     
 ---

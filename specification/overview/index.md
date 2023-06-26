@@ -33,45 +33,67 @@ The CycloneDX object model:
 
 
 ## BOM Metadata
-BOM metadata includes the supplier, manufacturer, and the target component for which the BOM describes. It also includes
+BOM metadata includes the supplier, manufacturer, and target component for which the BOM describes. It also includes
 the tools used to create the BOM, and license information for the BOM document itself.
 
-## Components
-Components describe the complete inventory of first-party and third-party components. Component identity can be represented as:
-* Coordinates (group, name, version)
-* [Package URL](https://github.com/package-url/purl-spec)
-* [Common Platform Enumeration (CPE)](https://nvd.nist.gov/products/cpe)
-* [SWID (ISO/IEC 19770-2:2015)](https://www.iso.org/standard/65666.html)
-* Cryptographic hash functions (SHA-1, SHA-2, SHA-3, BLAKE2b, BLAKE3)
+![Metadata](../../theme/assets/images/guides/SBOM/Metadata.svg)
 
-CycloneDX can represent applications, frameworks, libraries, containers, operating systems, devices, firmware, files, along
-with the manufacturer information, license and copyright details, and complete pedigree and provenance for every component.
+## Components
+Components describe the complete inventory of first-party and third-party components. The specification can represent
+software, hardware devices, machine learning models, source code, and configurations, along with the manufacturer
+information, license and copyright details, and complete pedigree and provenance for every component.
+
+![Components](../../theme/assets/images/guides/SBOM/Components.svg)
 
 ## Services
-Services describe external APIs that the software may call. Services describe endpoint URI’s, authentication requirements,
-and trust boundary traversals. The flow of data between software and services can also be described including the data
-classifications, and the flow direction of each type.
+Services represent external APIs that the software may call. They describe endpoint URIs, authentication
+requirements, and trust boundary traversals. The data flow between software and services can also be described,
+including the data classifications and the flow direction of each type.
+
+![Services](../../theme/assets/images/guides/SBOM/Services.svg)
 
 ## Dependencies
 CycloneDX provides the ability to describe components and their dependency on other components. The dependency graph is
 capable of representing both direct and transitive relationships. Components that depend on services can be represented
-in the dependency graph and services that depend on other services can be represented as well.
+in the dependency graph, and services that depend on other services can be represented as well.
+
+![Dependencies](../../theme/assets/images/guides/SBOM/Dependencies.svg)
 
 ## Compositions
 Compositions describe constituent parts (including components, services, and dependency relationships) and their
 completeness. The aggregate of each composition can be described as complete, incomplete, incomplete first-party only,
 incomplete third-party only, or unknown.
 
+![Compositions](../../theme/assets/images/guides/SBOM/Compositions.svg)
+
 ## Vulnerabilities
-Known vulnerabilities inherited from the use of third-party and open source software and the exploitability of the vulnerabilities
-can be communicated with CycloneDX. Previously unknown vulnerabilities affecting both components and services may also be disclosed
-using CycloneDX, making it ideal for both VEX and security advisory use cases.
+Known vulnerabilities inherited from the use of third-party and open-source software and the exploitability of the
+vulnerabilities can be communicated with CycloneDX. Previously unknown vulnerabilities affecting both components and
+services may also be disclosed using CycloneDX, making it ideal for both vulnerability disclosure and VEX use cases.
+
+![Vulnerabilities](../../theme/assets/images/guides/SBOM/Vulnerabilities.svg)
+
+## Formulation
+Formulation describes how something was manufactured or deployed. CycloneDX achieves this through the support of multiple
+formulas, workflows, tasks, and steps, which represent the declared formulation for reproduction along with the observed
+formula describing the actions which transpired in the manufacturing process.
+
+![Formulation](../../theme/assets/images/guides/SBOM/Formulation.svg)
+
+## Annotations
+Annotations contain comments, notes, explanations, or similar textual content which provide additional context to the
+object(s) being annotated. They are often automatically added to a BOM via a tool or as a result of manual review by
+individuals or organizations. Annotations can be independently signed and verified using digital signatures.
+
+![Annotations](../../theme/assets/images/guides/SBOM/Annotations.svg)
 
 ## Extensions
-Multiple extension points exist throughout the CycloneDX object model allowing fast prototyping of new capabilities
-and support for specialized and future use cases. The CycloneDX project maintains extensions that are beneficial to
-the larger community. The project encourages community participation and development of extensions that target
-specialized or industry-specific use cases.
+Multiple extension points exist throughout the CycloneDX object model, allowing fast prototyping of new capabilities and
+support for specialized and future use cases. The CycloneDX project maintains extensions that are beneficial to the
+larger community. The project encourages community participation and the development of extensions that target specialized
+or industry-specific use cases.
+
+![Extensions](../../theme/assets/images/guides/SBOM/Extensions.svg)
 
 ## High-Level Object Model
 

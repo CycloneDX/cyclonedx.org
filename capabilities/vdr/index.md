@@ -13,6 +13,12 @@ description: Vulnerability Disclosure Report (VDR)
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: VDR
+
 # Page navigation
     
 ---

@@ -1,0 +1,96 @@
+/**
+ * Guides (components/_guides.scss)
+ */
+ 
+/* ----- Container ----- */
+.guide-container {
+	background-image: url("/theme/assets/images/hero-header.png");
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+}
+
+/* ----- Cards ----- */
+.guides-card, .coming-soon-card {
+	display: block;
+	box-shadow: 0 20px 30px -10px $color-grey-blue;
+	border-radius: 5px;
+	overflow: hidden;
+	text-align: left;
+	margin-bottom: 32px;
+	position: relative;
+}
+
+.guides-card {
+	border: 1px solid transparent;
+	border-top: 3px solid $color-light-blue;
+	min-height: 250px;
+}
+
+.guides-card:hover {
+	cursor: pointer;
+	border-left: 1px solid $color-light-blue;
+	border-right: 1px solid $color-light-blue;
+	border-bottom: 1px solid $color-light-blue;
+}
+
+.coming-soon-card {
+	border-top: 3px solid #6C757D;
+	min-height: 280px;
+}
+
+/* ----- Section ----- */
+.guides-section {
+	margin: 10px;
+}
+
+/* ----- Headers ----- */
+.guides-header, .coming-soon-header {
+	padding: 0 20px 0 20px;
+	margin: 20px 0 8px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.coming-soon-header {
+	line-height: 29px;
+	color: #6C757D;
+}
+
+/* ----- Sub-headers ----- */
+.guides-subheader {
+	padding-left: 20px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #6C757D;
+}
+
+/* ----- Text ----- */
+.guides-text, .guides-link {
+    padding: 0 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+
+}
+
+.guides-text {
+	color: #6C757D;
+}
+
+.guides-link {
+	display: inline;
+	vertical-align: bottom;
+	bottom: 0;
+	position: absolute;
+	color: #0057c4;
+}
+
+/* ----- Media Queries ----- */
+@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.coming-soon-card {
+		height: 340px;
+	}
+}
