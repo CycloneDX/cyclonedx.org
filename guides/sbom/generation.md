@@ -12,7 +12,7 @@ description: Implement and Optimize use of Software Bill of Materials
 micro_nav: false
 
 # Guide
-guide_url: https://cyclonedx.org/guides/sbom/sbom.pdf
+guide_url: OWASP_CycloneDX-SBOM-Guide-en.pdf
 
 # Page navigation
 page_nav:
@@ -83,7 +83,7 @@ and is covered later in the "Relationships" chapter.
 As the SBOM process evolves, it may become an integrated part of building software. One vision of this type of process
 comes from DJ Schleen who proposed the following reference architecture:
 
-![Advanced SBOM Process](../../../theme/assets/images/guides/SBOM/advanced_sbom_process.pdf)
+![Advanced SBOM Process](../../../theme/assets/images/guides/SBOM/advanced_sbom_process.jpg)
 
 The content in this architecture is beyond the scope of this guide, but is provided to illustrate what is possible using
 freely available open source tools.

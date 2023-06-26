@@ -13,6 +13,12 @@ description: Bill of Vulnerabilities
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: BOV
+
 # Page navigation
     
 ---

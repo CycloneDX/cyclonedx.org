@@ -13,6 +13,12 @@ description: Software-as-a-Service BOM (SaaSBOM)
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: SaaSBOM
+
 # Page navigation
     
 ---

@@ -1,10 +1,10 @@
-- title: The only SBOM format with automatic vulnerability detection.<br>And it only takes a day to set up.
+- title: CycloneDX is designed to provide advanced, supply chain capabilities for cyber risk reduction.
   image: /theme/assets/images/hero-header.png
-  description: Compatible with 180+ tools across 15+ programming languages, CycloneDX is trusted by Lockheed Martin, Contrast Security, Sonatype, and many others.
-- title: The only SBOM format authorized for use by medical device manufacturers.
+  description: Compatible with over 200 tools across 20+ programming languages, CycloneDX is trusted by Lockheed Martin, Contrast Security, Sonatype, and many others.
+- title: CycloneDX is authorized for use by medical device manufacturers.
   image: theme/assets/images/medical_hero.jpg
-  description: Consumers can trust that their medical devices are manufactured securely, thanks to CycloneDX Hardware Bill of Materials (HBOM) and Operations Bill of Materials (OBOM).
-- title: The only SBOM format standardized on by multiple world governments and the defense industrial base.
+  description: Consumers can trust that their medical devices are manufactured securely, thanks to CycloneDX Hardware Bill of Materials (HBOM) and Software Bill of Materials (SBOM).
+- title: CycloneDX is standardized on by multiple world governments and the defense industrial base.
   image: theme/assets/images/defense_hero.jpg
   description: Trusted for satellite and space systems, missile guidance systems, and algorithmic warfare, CycloneDX plays a small part in safeguarding national defense.
 - title: The only SBOM format that surfaces risk within your CMDB entities.

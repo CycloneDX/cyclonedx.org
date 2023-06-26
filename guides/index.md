@@ -8,7 +8,7 @@ banner: false
 # Hero section
 title: Guides and Resources
 window_title: CycloneDX Guides and Resources
-description: Explore guides created by OWASP for first-time adopters of CycloneDX. Guides are available for all types of SBOM supported by CycloneDX.
+description: Explore guides created by OWASP for adopters of CycloneDX. Guides are available for many BOM types supported by CycloneDX.
 
 # Micro navigation
 micro_nav: false
@@ -25,9 +25,7 @@ breadcrumbs:
 
 # Guides and Resources
 
-<p>Explore guides created by OWASP for first-time adopters of CycloneDX. Guides are available for all types of SBOM supported by CycloneDX.</p>
-
-<p>Learn from others who have used CycloneDX with existing projects, various programming languages, transitive dependencies, and build steps.</p>
+<p>Explore guides created by OWASP for adopters of CycloneDX. Guides are available for many BOM types supported by CycloneDX.</p>
 
 ## OWASP Guides
 
