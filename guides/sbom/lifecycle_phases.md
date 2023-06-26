@@ -12,7 +12,7 @@ description: Implement and Optimize use of Software Bill of Materials
 micro_nav: false
 
 # Guide
-guide_url: OWASP_CycloneDX-SBOM-Guide-en.pdf
+guide_url: /guides/sbom/OWASP_CycloneDX-SBOM-Guide-en.pdf
 
 # Page navigation
 page_nav:
