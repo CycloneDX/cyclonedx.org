@@ -199,12 +199,14 @@ pre {
          <div class="container">
             <div class="navbar-header"><a href="https://cyclonedx.org" class="navbar-brand site-header__logo"><img src="https://cyclonedx.org/theme/assets/images/layout/logo-white.svg" width="150"></img></a><ul class="nav navbar-nav navbar-right">
                   <li class="dropdown"><a href="#" class="dropdown-toggle version-selector" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">v1.1 (XML)<span class="caret"></span></a><ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://cyclonedx.org/docs/1.5/json/">v1.5 (JSON)</a></li>
                         <li><a class="dropdown-item" href="https://cyclonedx.org/docs/1.4/json/">v1.4 (JSON)</a></li>
                         <li><a class="dropdown-item" href="https://cyclonedx.org/docs/1.3/json/">v1.3 (JSON)</a></li>
                         <li><a class="dropdown-item" href="https://cyclonedx.org/docs/1.2/json/">v1.2 (JSON)</a></li>
                         <li style="padding:0">
                            <hr class="dropdown-divider"></hr>
                         </li>
+                        <li><a class="dropdown-item" href="https://cyclonedx.org/docs/1.5/xml/">v1.5 (XML)</a></li>
                         <li><a class="dropdown-item" href="https://cyclonedx.org/docs/1.4/xml/">v1.4 (XML)</a></li>
                         <li><a class="dropdown-item" href="https://cyclonedx.org/docs/1.3/xml/">v1.3 (XML)</a></li>
                         <li><a class="dropdown-item" href="https://cyclonedx.org/docs/1.2/xml/">v1.2 (XML)</a></li>
@@ -242,6 +244,7 @@ pre {
                      <li class="nav-sub-item"><a href="#type_externalReferenceType">Simple Type: <strong>externalReferenceType</strong></a></li>
                      <li class="nav-sub-item"><a href="#type_hashAlg">Simple Type: <strong>hashAlg</strong></a></li>
                      <li class="nav-sub-item"><a href="#type_hashValue">Simple Type: <strong>hashValue</strong></a></li>
+                     <li class="nav-sub-item"><a href="#type_refType">Simple Type: <strong>refType</strong></a></li>
                      <li class="nav-sub-item"><a href="#type_scope">Simple Type: <strong>scope</strong></a></li>
                      <li class="nav-sub-item"><a href="#type_urnUuid">Simple Type: <strong>urnUuid</strong></a></li>
                      <li><a href="#Glossary">Glossary</a></li>
@@ -249,641 +252,656 @@ pre {
                </div>
             </div>
             <div class="col-md-9 content" role="main" id="xs3p-content">
-               <div class="modal fade publisher" id="d1e56-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade refType" id="d1e28-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e56-label">Element publisher</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e28-label">Simple Type refType</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e56-hidden">
-                              <div class="hidden" id="d1e56-hidden-doc-raw">The person(s) or organization(s) that published the component</div>
-                              <div class="xs3p-doc" id="d1e56-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e28-hidden">
+                              <div class="hidden" id="d1e28-hidden-doc-raw">Identifier-DataType for interlinked elements.</div>
+                              <div class="xs3p-doc" id="d1e28-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade group" id="d1e64-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade publisher" id="d1e66-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e64-label">Element group</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e66-label">Element publisher</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e64-hidden">
-                              <div class="hidden" id="d1e64-hidden-doc-raw">The grouping name or identifier. This will often be a shortened, single
+                           <div class="annotation documentation" id="wdoc-d1e66-hidden">
+                              <div class="hidden" id="d1e66-hidden-doc-raw">The person(s) or organization(s) that published the component</div>
+                              <div class="xs3p-doc" id="d1e66-hidden-doc"> </div>
+                           </div>
+                        </div>
+                        <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal fade group" id="d1e74-popup" tabindex="-1" role="dialog" aria-hidden="true">
+                  <div class="modal-dialog unpre">
+                     <div class="modal-content">
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e74-label">Element group</h4>
+                        </div>
+                        <div class="modal-body">
+                           <div class="annotation documentation" id="wdoc-d1e74-hidden">
+                              <div class="hidden" id="d1e74-hidden-doc-raw">The grouping name or identifier. This will often be a shortened, single
                                  name of the company or project that produced the component, or the source package
                                  or
                                  domain name. Whitespace and special characters should be avoided. Examples include:
                                  apache, org.apache.commons, and apache.org.</div>
-                              <div class="xs3p-doc" id="d1e64-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e74-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade name" id="d1e72-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade name" id="d1e82-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e72-label">Element name</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e82-label">Element name</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e72-hidden">
-                              <div class="hidden" id="d1e72-hidden-doc-raw">The name of the component. This will often be a shortened, single name
+                           <div class="annotation documentation" id="wdoc-d1e82-hidden">
+                              <div class="hidden" id="d1e82-hidden-doc-raw">The name of the component. This will often be a shortened, single name
                                  of the component. Examples: commons-lang3 and jquery</div>
-                              <div class="xs3p-doc" id="d1e72-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e82-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade version" id="d1e80-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade version" id="d1e90-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e80-label">Element version</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e90-label">Element version</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e80-hidden">
-                              <div class="hidden" id="d1e80-hidden-doc-raw">The component version. The version should ideally comply with semantic versioning
+                           <div class="annotation documentation" id="wdoc-d1e90-hidden">
+                              <div class="hidden" id="d1e90-hidden-doc-raw">The component version. The version should ideally comply with semantic versioning
                                  but is not enforced.</div>
-                              <div class="xs3p-doc" id="d1e80-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e90-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade description" id="d1e88-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade description" id="d1e98-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e88-label">Element description</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e98-label">Element description</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e88-hidden">
-                              <div class="hidden" id="d1e88-hidden-doc-raw">Specifies a description for the component</div>
-                              <div class="xs3p-doc" id="d1e88-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e98-hidden">
+                              <div class="hidden" id="d1e98-hidden-doc-raw">Specifies a description for the component</div>
+                              <div class="xs3p-doc" id="d1e98-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade scope" id="d1e97-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade scope" id="d1e107-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e97-label">Element scope</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e107-label">Element scope</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e97-hidden">
-                              <div class="hidden" id="d1e97-hidden-doc-raw">Specifies the scope of the component. If scope is not specified, 'runtime'
+                           <div class="annotation documentation" id="wdoc-d1e107-hidden">
+                              <div class="hidden" id="d1e107-hidden-doc-raw">Specifies the scope of the component. If scope is not specified, 'runtime'
                                  scope should be assumed by the consumer of the BOM</div>
-                              <div class="xs3p-doc" id="d1e97-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e107-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade expression" id="d1e124-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade expression" id="d1e134-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e124-label">Element expression</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e134-label">Element expression</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e124-hidden">
-                              <div class="hidden" id="d1e124-hidden-doc-raw">A valid SPDX license expression.
+                           <div class="annotation documentation" id="wdoc-d1e134-hidden">
+                              <div class="hidden" id="d1e134-hidden-doc-raw">A valid SPDX license expression.
                                  Refer to https://spdx.org/specifications for syntax requirements</div>
-                              <div class="xs3p-doc" id="d1e124-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e134-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade copyright" id="d1e135-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade copyright" id="d1e145-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e135-label">Element copyright</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e145-label">Element copyright</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e135-hidden">
-                              <div class="hidden" id="d1e135-hidden-doc-raw">An optional copyright notice informing users of the underlying claims to
+                           <div class="annotation documentation" id="wdoc-d1e145-hidden">
+                              <div class="hidden" id="d1e145-hidden-doc-raw">An optional copyright notice informing users of the underlying claims to
                                  copyright ownership in a published work.</div>
-                              <div class="xs3p-doc" id="d1e135-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e145-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade cpe" id="d1e143-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade cpe" id="d1e153-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e143-label">Element cpe</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e153-label">Element cpe</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e143-hidden">
-                              <div class="hidden" id="d1e143-hidden-doc-raw">
+                           <div class="annotation documentation" id="wdoc-d1e153-hidden">
+                              <div class="hidden" id="d1e153-hidden-doc-raw">
                                  DEPRECATED - DO NOT USE. This will be removed in a future version.
                                  Specifies a well-formed CPE name. See https://nvd.nist.gov/products/cpe
                                  </div>
-                              <div class="xs3p-doc" id="d1e143-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e153-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade purl" id="d1e151-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade purl" id="d1e161-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e151-label">Element purl</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e161-label">Element purl</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e151-hidden">
-                              <div class="hidden" id="d1e151-hidden-doc-raw">
+                           <div class="annotation documentation" id="wdoc-d1e161-hidden">
+                              <div class="hidden" id="d1e161-hidden-doc-raw">
                                  Specifies the package-url (PURL). The purl, if specified, must be valid and conform
                                  to the specification defined at: https://github.com/package-url/purl-spec
                                  </div>
-                              <div class="xs3p-doc" id="d1e151-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e161-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade modified" id="d1e160-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade modified" id="d1e170-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e160-label">Element modified</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e170-label">Element modified</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e160-hidden">
-                              <div class="hidden" id="d1e160-hidden-doc-raw">
+                           <div class="annotation documentation" id="wdoc-d1e170-hidden">
+                              <div class="hidden" id="d1e170-hidden-doc-raw">
                                  DEPRECATED - DO NOT USE. This will be removed in a future version. Use the pedigree
                                  element instead to supply information on exactly how the component was modified.
                                  A boolean value indicating is the component has been modified from the original.
                                  A value of true indicates the component is a derivative of the original.
                                  A value of false indicates the component has not been modified from the original.
                                  </div>
-                              <div class="xs3p-doc" id="d1e160-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e170-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade pedigree" id="d1e168-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade pedigree" id="d1e178-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e168-label">Element pedigree</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e178-label">Element pedigree</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e168-hidden">
-                              <div class="hidden" id="d1e168-hidden-doc-raw">
+                           <div class="annotation documentation" id="wdoc-d1e178-hidden">
+                              <div class="hidden" id="d1e178-hidden-doc-raw">
                                  Component pedigree is a way to document complex supply chain scenarios where components
                                  are
                                  created, distributed, modified, redistributed, combined with other components, etc.
                                  </div>
-                              <div class="xs3p-doc" id="d1e168-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e178-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade externalReferences" id="d1e176-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade externalReferences" id="d1e186-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e176-label">Element externalReferences</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e186-label">Element externalReferences</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e176-hidden">
-                              <div class="hidden" id="d1e176-hidden-doc-raw">Provides the ability to document external references related to the
+                           <div class="annotation documentation" id="wdoc-d1e186-hidden">
+                              <div class="hidden" id="d1e186-hidden-doc-raw">Provides the ability to document external references related to the
                                  component or to the project the component describes.</div>
-                              <div class="xs3p-doc" id="d1e176-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e186-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade components" id="d1e184-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade components" id="d1e194-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e184-label">Element components</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e194-label">Element components</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e184-hidden">
-                              <div class="hidden" id="d1e184-hidden-doc-raw">
+                           <div class="annotation documentation" id="wdoc-d1e194-hidden">
+                              <div class="hidden" id="d1e194-hidden-doc-raw">
                                  Specifies optional sub-components. This is not a dependency tree. It provides a way
                                  to specify a hierarchical representation of component assemblies, similar to
                                  system -&gt; subsystem -&gt; parts assembly in physical supply chains.
                                  </div>
-                              <div class="xs3p-doc" id="d1e184-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e194-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade type" id="d1e217-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade type" id="d1e227-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e217-label">Attribute type</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e227-label">Attribute type</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e217-hidden">
-                              <div class="hidden" id="d1e217-hidden-doc-raw">
+                           <div class="annotation documentation" id="wdoc-d1e227-hidden">
+                              <div class="hidden" id="d1e227-hidden-doc-raw">
                                  Specifies the type of component. For software components, classify as application
                                  if no more
                                  specific appropriate classification is available or cannot be determined for the component.
                                  Valid choices are: application, framework, library, operating-system, device, or file
                                  Refer to the bom:classification documentation for information describing each one
                                  </div>
-                              <div class="xs3p-doc" id="d1e217-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e227-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade bom-ref" id="d1e225-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade bom-ref" id="d1e235-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e225-label">Attribute bom-ref</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e235-label">Attribute bom-ref</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e225-hidden">
-                              <div class="hidden" id="d1e225-hidden-doc-raw">
+                           <div class="annotation documentation" id="wdoc-d1e235-hidden">
+                              <div class="hidden" id="d1e235-hidden-doc-raw">
                                  An optional identifier which can be used to reference the component elsewhere in the
                                  BOM.
                                  Uniqueness is enforced within all elements and children of the root-level bom element.
                                  </div>
-                              <div class="xs3p-doc" id="d1e225-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e235-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade id" id="d1e248-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade id" id="d1e259-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e248-label">Element id</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e259-label">Element id</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e248-hidden">
-                              <div class="hidden" id="d1e248-hidden-doc-raw">A valid SPDX license ID</div>
-                              <div class="xs3p-doc" id="d1e248-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e259-hidden">
+                              <div class="hidden" id="d1e259-hidden-doc-raw">A valid SPDX license ID</div>
+                              <div class="xs3p-doc" id="d1e259-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade name" id="d1e256-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade name" id="d1e267-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e256-label">Element name</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e267-label">Element name</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e256-hidden">
-                              <div class="hidden" id="d1e256-hidden-doc-raw">If SPDX does not define the license used, this field may be used to provide the license
+                           <div class="annotation documentation" id="wdoc-d1e267-hidden">
+                              <div class="hidden" id="d1e267-hidden-doc-raw">If SPDX does not define the license used, this field may be used to provide the license
                                  name</div>
-                              <div class="xs3p-doc" id="d1e256-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e267-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade text" id="d1e265-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade text" id="d1e276-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e265-label">Element text</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e276-label">Element text</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e265-hidden">
-                              <div class="hidden" id="d1e265-hidden-doc-raw">Specifies the optional full text of the license</div>
-                              <div class="xs3p-doc" id="d1e265-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e276-hidden">
+                              <div class="hidden" id="d1e276-hidden-doc-raw">Specifies the optional full text of the license</div>
+                              <div class="xs3p-doc" id="d1e276-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade url" id="d1e273-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade url" id="d1e284-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e273-label">Element url</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e284-label">Element url</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e273-hidden">
-                              <div class="hidden" id="d1e273-hidden-doc-raw">The URL to the license file. If specified, a 'license'
+                           <div class="annotation documentation" id="wdoc-d1e284-hidden">
+                              <div class="hidden" id="d1e284-hidden-doc-raw">The URL to the license file. If specified, a 'license'
                                  externalReference should also be specified for completeness.</div>
-                              <div class="xs3p-doc" id="d1e273-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e284-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade content-type" id="d1e303-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade content-type" id="d1e313-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e303-label">Attribute content-type</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e313-label">Attribute content-type</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e303-hidden">
-                              <div class="hidden" id="d1e303-hidden-doc-raw">Specifies the content type of the license text. Defaults to text/plain
+                           <div class="annotation documentation" id="wdoc-d1e313-hidden">
+                              <div class="hidden" id="d1e313-hidden-doc-raw">Specifies the content type of the license text. Defaults to text/plain
                                  if not specified.</div>
-                              <div class="xs3p-doc" id="d1e303-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e313-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade encoding" id="d1e311-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade encoding" id="d1e321-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e311-label">Attribute encoding</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e321-label">Attribute encoding</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e311-hidden">
-                              <div class="hidden" id="d1e311-hidden-doc-raw">
+                           <div class="annotation documentation" id="wdoc-d1e321-hidden">
+                              <div class="hidden" id="d1e321-hidden-doc-raw">
                                  Specifies the optional encoding the license text is represented in
                                  </div>
-                              <div class="xs3p-doc" id="d1e311-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e321-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade alg" id="d1e333-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade alg" id="d1e343-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e333-label">Attribute alg</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e343-label">Attribute alg</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e333-hidden">
-                              <div class="hidden" id="d1e333-hidden-doc-raw">Specifies the algorithm used to create the hash</div>
-                              <div class="xs3p-doc" id="d1e333-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e343-hidden">
+                              <div class="hidden" id="d1e343-hidden-doc-raw">Specifies the algorithm used to create the hash</div>
+                              <div class="xs3p-doc" id="d1e343-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade cpe" id="d1e467-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade cpe" id="d1e477-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e467-label">Simple Type cpe</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e477-label">Simple Type cpe</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e467-hidden">
-                              <div class="hidden" id="d1e467-hidden-doc-raw">
+                           <div class="annotation documentation" id="wdoc-d1e477-hidden">
+                              <div class="hidden" id="d1e477-hidden-doc-raw">
                                  Define the format for acceptable CPE URIs. Supports CPE 2.2 and CPE 2.3 formats.
                                  Refer to https://nvd.nist.gov/products/cpe for official specification.
                                  </div>
-                              <div class="xs3p-doc" id="d1e467-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e477-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade urnUuid" id="d1e481-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade urnUuid" id="d1e491-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e481-label">Simple Type urnUuid</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e491-label">Simple Type urnUuid</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e481-hidden">
-                              <div class="hidden" id="d1e481-hidden-doc-raw">
+                           <div class="annotation documentation" id="wdoc-d1e491-hidden">
+                              <div class="hidden" id="d1e491-hidden-doc-raw">
                                  Defines a string representation of a UUID conforming to RFC 4122.
                                  </div>
-                              <div class="xs3p-doc" id="d1e481-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e491-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade reference" id="d1e633-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade reference" id="d1e643-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e633-label">Element reference</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e643-label">Element reference</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e633-hidden">
-                              <div class="hidden" id="d1e633-hidden-doc-raw">Zero or more external references can be defined</div>
-                              <div class="xs3p-doc" id="d1e633-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e643-hidden">
+                              <div class="hidden" id="d1e643-hidden-doc-raw">Zero or more external references can be defined</div>
+                              <div class="xs3p-doc" id="d1e643-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade url" id="d1e648-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade url" id="d1e659-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e648-label">Element url</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e659-label">Element url</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e648-hidden">
-                              <div class="hidden" id="d1e648-hidden-doc-raw">The URL to the external reference</div>
-                              <div class="xs3p-doc" id="d1e648-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e659-hidden">
+                              <div class="hidden" id="d1e659-hidden-doc-raw">The URL to the external reference</div>
+                              <div class="xs3p-doc" id="d1e659-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade comment" id="d1e657-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade comment" id="d1e668-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e657-label">Element comment</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e668-label">Element comment</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e657-hidden">
-                              <div class="hidden" id="d1e657-hidden-doc-raw">An optional comment describing the external reference</div>
-                              <div class="xs3p-doc" id="d1e657-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e668-hidden">
+                              <div class="hidden" id="d1e668-hidden-doc-raw">An optional comment describing the external reference</div>
+                              <div class="xs3p-doc" id="d1e668-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade type" id="d1e667-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade type" id="d1e678-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e667-label">Attribute type</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e678-label">Attribute type</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e667-hidden">
-                              <div class="hidden" id="d1e667-hidden-doc-raw">Specifies the type of external reference. There are built-in types to describe common
+                           <div class="annotation documentation" id="wdoc-d1e678-hidden">
+                              <div class="hidden" id="d1e678-hidden-doc-raw">Specifies the type of external reference. There are built-in types to describe common
                                  references. If a type does not exist for the reference being referred to, use the
                                  "other" type.
                                  </div>
-                              <div class="xs3p-doc" id="d1e667-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e678-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade commit" id="d1e695-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade commit" id="d1e705-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e695-label">Element commit</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e705-label">Element commit</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e695-hidden">
-                              <div class="hidden" id="d1e695-hidden-doc-raw">Specifies an individual commit.</div>
-                              <div class="xs3p-doc" id="d1e695-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e705-hidden">
+                              <div class="hidden" id="d1e705-hidden-doc-raw">Specifies an individual commit.</div>
+                              <div class="xs3p-doc" id="d1e705-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade uid" id="d1e718-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade uid" id="d1e728-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e718-label">Element uid</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e728-label">Element uid</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e718-hidden">
-                              <div class="hidden" id="d1e718-hidden-doc-raw">A unique identifier of the commit. This may be version control
+                           <div class="annotation documentation" id="wdoc-d1e728-hidden">
+                              <div class="hidden" id="d1e728-hidden-doc-raw">A unique identifier of the commit. This may be version control
                                  specific. For example, Subversion uses revision numbers whereas git uses commit hashes.
                                  </div>
-                              <div class="xs3p-doc" id="d1e718-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e728-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade url" id="d1e727-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade url" id="d1e737-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e727-label">Element url</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e737-label">Element url</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e727-hidden">
-                              <div class="hidden" id="d1e727-hidden-doc-raw">The URL to the commit. This URL will typically point to a commit
+                           <div class="annotation documentation" id="wdoc-d1e737-hidden">
+                              <div class="hidden" id="d1e737-hidden-doc-raw">The URL to the commit. This URL will typically point to a commit
                                  in a version control system.
                                  </div>
-                              <div class="xs3p-doc" id="d1e727-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e737-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade author" id="d1e736-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade author" id="d1e746-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e736-label">Element author</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e746-label">Element author</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e736-hidden">
-                              <div class="hidden" id="d1e736-hidden-doc-raw">The author who created the changes in the commit</div>
-                              <div class="xs3p-doc" id="d1e736-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e746-hidden">
+                              <div class="hidden" id="d1e746-hidden-doc-raw">The author who created the changes in the commit</div>
+                              <div class="xs3p-doc" id="d1e746-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade committer" id="d1e745-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade committer" id="d1e755-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e745-label">Element committer</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e755-label">Element committer</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e745-hidden">
-                              <div class="hidden" id="d1e745-hidden-doc-raw">The person who committed or pushed the commit</div>
-                              <div class="xs3p-doc" id="d1e745-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e755-hidden">
+                              <div class="hidden" id="d1e755-hidden-doc-raw">The person who committed or pushed the commit</div>
+                              <div class="xs3p-doc" id="d1e755-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade message" id="d1e754-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade message" id="d1e764-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e754-label">Element message</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e764-label">Element message</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e754-hidden">
-                              <div class="hidden" id="d1e754-hidden-doc-raw">The text description of the contents of the commit</div>
-                              <div class="xs3p-doc" id="d1e754-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e764-hidden">
+                              <div class="hidden" id="d1e764-hidden-doc-raw">The text description of the contents of the commit</div>
+                              <div class="xs3p-doc" id="d1e764-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade timestamp" id="d1e778-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade timestamp" id="d1e788-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e778-label">Element timestamp</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e788-label">Element timestamp</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e778-hidden">
-                              <div class="hidden" id="d1e778-hidden-doc-raw">The timestamp in which the action occurred</div>
-                              <div class="xs3p-doc" id="d1e778-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e788-hidden">
+                              <div class="hidden" id="d1e788-hidden-doc-raw">The timestamp in which the action occurred</div>
+                              <div class="xs3p-doc" id="d1e788-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade name" id="d1e787-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade name" id="d1e797-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e787-label">Element name</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e797-label">Element name</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e787-hidden">
-                              <div class="hidden" id="d1e787-hidden-doc-raw">The name of the individual who performed the action</div>
-                              <div class="xs3p-doc" id="d1e787-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e797-hidden">
+                              <div class="hidden" id="d1e797-hidden-doc-raw">The name of the individual who performed the action</div>
+                              <div class="xs3p-doc" id="d1e797-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade email" id="d1e796-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade email" id="d1e806-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e796-label">Element email</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e806-label">Element email</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e796-hidden">
-                              <div class="hidden" id="d1e796-hidden-doc-raw">The email address of the individual who performed the action</div>
-                              <div class="xs3p-doc" id="d1e796-hidden-doc"> </div>
+                           <div class="annotation documentation" id="wdoc-d1e806-hidden">
+                              <div class="hidden" id="d1e806-hidden-doc-raw">The email address of the individual who performed the action</div>
+                              <div class="xs3p-doc" id="d1e806-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade ancestors" id="d1e825-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade ancestors" id="d1e835-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e825-label">Element ancestors</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e835-label">Element ancestors</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e825-hidden">
-                              <div class="hidden" id="d1e825-hidden-doc-raw">Describes zero or more components in which a component is derived
+                           <div class="annotation documentation" id="wdoc-d1e835-hidden">
+                              <div class="hidden" id="d1e835-hidden-doc-raw">Describes zero or more components in which a component is derived
                                  from. This is commonly used to describe forks from existing projects where the forked
                                  version
                                  contains a ancestor node containing the original component it was forked from. For
@@ -893,107 +911,107 @@ pre {
                                  in the BOM. However, Component B contains a pedigree node with a single ancestor documenting
                                  Component A - the original component from which Component B is derived from.
                                  </div>
-                              <div class="xs3p-doc" id="d1e825-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e835-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade descendants" id="d1e834-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade descendants" id="d1e844-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e834-label">Element descendants</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e844-label">Element descendants</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e834-hidden">
-                              <div class="hidden" id="d1e834-hidden-doc-raw">Descendants are the exact opposite of ancestors. This provides a
+                           <div class="annotation documentation" id="wdoc-d1e844-hidden">
+                              <div class="hidden" id="d1e844-hidden-doc-raw">Descendants are the exact opposite of ancestors. This provides a
                                  way to document all forks (and their forks) of an original or root component.
                                  </div>
-                              <div class="xs3p-doc" id="d1e834-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e844-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade variants" id="d1e843-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade variants" id="d1e853-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e843-label">Element variants</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e853-label">Element variants</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e843-hidden">
-                              <div class="hidden" id="d1e843-hidden-doc-raw">Variants describe relations where the relationship between the
+                           <div class="annotation documentation" id="wdoc-d1e853-hidden">
+                              <div class="hidden" id="d1e853-hidden-doc-raw">Variants describe relations where the relationship between the
                                  components are not known. For example, if Component A contains nearly identical code
                                  to
                                  Component B. They are both related, but it is unclear if one is derived from the other,
                                  or if they share a common ancestor.
                                  </div>
-                              <div class="xs3p-doc" id="d1e843-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e853-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade commits" id="d1e852-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade commits" id="d1e862-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e852-label">Element commits</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e862-label">Element commits</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e852-hidden">
-                              <div class="hidden" id="d1e852-hidden-doc-raw">A list of zero or more commits which provide a trail describing
+                           <div class="annotation documentation" id="wdoc-d1e862-hidden">
+                              <div class="hidden" id="d1e862-hidden-doc-raw">A list of zero or more commits which provide a trail describing
                                  how the component deviates from an ancestor, descendant, or variant.</div>
-                              <div class="xs3p-doc" id="d1e852-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e862-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade notes" id="d1e861-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade notes" id="d1e871-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e861-label">Element notes</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e871-label">Element notes</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e861-hidden">
-                              <div class="hidden" id="d1e861-hidden-doc-raw">Notes, observations, and other non-structured commentary
+                           <div class="annotation documentation" id="wdoc-d1e871-hidden">
+                              <div class="hidden" id="d1e871-hidden-doc-raw">Notes, observations, and other non-structured commentary
                                  describing the components pedigree.
                                  </div>
-                              <div class="xs3p-doc" id="d1e861-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e871-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade externalReferences" id="d1e889-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade externalReferences" id="d1e899-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e889-label">Element externalReferences</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e899-label">Element externalReferences</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e889-hidden">
-                              <div class="hidden" id="d1e889-hidden-doc-raw">Provides the ability to document external references related to the BOM or
+                           <div class="annotation documentation" id="wdoc-d1e899-hidden">
+                              <div class="hidden" id="d1e899-hidden-doc-raw">Provides the ability to document external references related to the BOM or
                                  to the project the BOM describes.</div>
-                              <div class="xs3p-doc" id="d1e889-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e899-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade version" id="d1e906-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade version" id="d1e916-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e906-label">Attribute version</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e916-label">Attribute version</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e906-hidden">
-                              <div class="hidden" id="d1e906-hidden-doc-raw">The version allows component publishers/authors to make changes to existing
+                           <div class="annotation documentation" id="wdoc-d1e916-hidden">
+                              <div class="hidden" id="d1e916-hidden-doc-raw">The version allows component publishers/authors to make changes to existing
                                  BOMs to update various aspects of the document such as description or licenses. When
                                  a system
                                  is presented with multiple BOMs for the same component, the system should use the
@@ -1003,25 +1021,25 @@ pre {
                                  BOM that is published. Each version of a component should have a unique BOM and if
                                  no changes are
                                  made to the BOMs, then each BOM will have a version of '1'.</div>
-                              <div class="xs3p-doc" id="d1e906-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e916-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                      </div>
                   </div>
                </div>
-               <div class="modal fade serialNumber" id="d1e914-popup" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal fade serialNumber" id="d1e924-popup" tabindex="-1" role="dialog" aria-hidden="true">
                   <div class="modal-dialog unpre">
                      <div class="modal-content">
-                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e914-label">Attribute serialNumber</h4>
+                        <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e924-label">Attribute serialNumber</h4>
                         </div>
                         <div class="modal-body">
-                           <div class="annotation documentation" id="wdoc-d1e914-hidden">
-                              <div class="hidden" id="d1e914-hidden-doc-raw">Every BOM generated should have a unique serial number, even if the contents
+                           <div class="annotation documentation" id="wdoc-d1e924-hidden">
+                              <div class="hidden" id="d1e924-hidden-doc-raw">Every BOM generated should have a unique serial number, even if the contents
                                  of the BOM being generated have not changed over time. The process or tool responsible
                                  for
                                  creating the BOM should create random UUID's for every BOM generated.</div>
-                              <div class="xs3p-doc" id="d1e914-hidden-doc"> </div>
+                              <div class="xs3p-doc" id="d1e924-hidden-doc"> </div>
                            </div>
                         </div>
                         <div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
@@ -1196,15 +1214,15 @@ pre {
                         <div id="element_bom-instance-table-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:bom</span>
- <span class="na">version=</span><span class="s">"<span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:integer</span>"</span> <span class="cs">[0..1]</span><div class="modal fade version" id="d1e906-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e906-label">Attribute version</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e906-hidden"><div class="hidden" id="d1e906-hidden-doc-raw">The version allows component publishers/authors to make changes to existing
+ <span class="na">version=</span><span class="s">"<span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:integer</span>"</span> <span class="cs">[0..1]</span><div class="modal fade version" id="d1e916-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e916-label">Attribute version</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e916-hidden"><div class="hidden" id="d1e916-hidden-doc-raw">The version allows component publishers/authors to make changes to existing
                         BOMs to update various aspects of the document such as description or licenses. When a system
                         is presented with multiple BOMs for the same component, the system should use the most recent
                         version of the BOM. The default version is '1' and should be incremented for each version of the
                         BOM that is published. Each version of a component should have a unique BOM and if no changes are
-                        made to the BOMs, then each BOM will have a version of '1'.</div><div class="xs3p-doc" id="d1e906-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for version" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e906-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
- <span class="na">serialNumber=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;urnUuid&#34; type definition." href="#type_urnUuid">urnUuid</a></span>"</span> <span class="cs">[0..1]</span><div class="modal fade serialNumber" id="d1e914-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e914-label">Attribute serialNumber</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e914-hidden"><div class="hidden" id="d1e914-hidden-doc-raw">Every BOM generated should have a unique serial number, even if the contents
+                        made to the BOMs, then each BOM will have a version of '1'.</div><div class="xs3p-doc" id="d1e916-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for version" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e916-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+ <span class="na">serialNumber=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;urnUuid&#34; type definition." href="#type_urnUuid">urnUuid</a></span>"</span> <span class="cs">[0..1]</span><div class="modal fade serialNumber" id="d1e924-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e924-label">Attribute serialNumber</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e924-hidden"><div class="hidden" id="d1e924-hidden-doc-raw">Every BOM generated should have a unique serial number, even if the contents
                         of the BOM being generated have not changed over time. The process or tool responsible for
-                        creating the BOM should create random UUID's for every BOM generated.</div><div class="xs3p-doc" id="d1e914-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for serialNumber" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e914-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+                        creating the BOM should create random UUID's for every BOM generated.</div><div class="xs3p-doc" id="d1e924-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for serialNumber" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e924-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
  <span class="cs">Allow any attributes from any namespace (lax validation).</span>
 <span class="nt">&gt;</span>
    <span class="c">&lt;!--
@@ -1213,7 +1231,7 @@ pre {
     Field(s) - <strong>@bom-ref</strong>
    --&gt;
 </span>   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:components&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;componentsType&#34; type definition." href="#type_componentsType">componentsType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:components&gt;</span> <span class="cs">[1]</span>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:externalReferences&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;externalReferences&#34; type definition." href="#type_externalReferences">externalReferences</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:externalReferences&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for externalReferences" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e889-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:externalReferences&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;externalReferences&#34; type definition." href="#type_externalReferences">externalReferences</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:externalReferences&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for externalReferences" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e899-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
    <span class="cs">Allow any elements from a namespace other than this schema's namespace (lax validation). <span class="cs">[0..*]</span></span>
 <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:bom&gt;</span>
 </pre>
@@ -1317,11 +1335,11 @@ pre {
                         <div id="type_commitType-instance-table-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;...</span><span class="nt">&gt;</span>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:uid&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:uid&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for uid" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e718-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyURI</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for url" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e727-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:author&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;identifiableActionType&#34; type definition." href="#type_identifiableActionType">identifiableActionType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:author&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for author" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e736-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:committer&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;identifiableActionType&#34; type definition." href="#type_identifiableActionType">identifiableActionType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:committer&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for committer" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e745-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:message&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:message&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for message" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e754-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:uid&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:uid&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for uid" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e728-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyURI</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for url" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e737-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:author&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;identifiableActionType&#34; type definition." href="#type_identifiableActionType">identifiableActionType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:author&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for author" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e746-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:committer&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;identifiableActionType&#34; type definition." href="#type_identifiableActionType">identifiableActionType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:committer&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for committer" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e755-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:message&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:message&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for message" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e764-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
    <span class="cs">Allow any elements from a namespace other than this schema's namespace (lax validation). <span class="cs">[0..*]</span></span>
 <span class="nt">&lt;/...&gt;</span>
 </pre>
@@ -1403,9 +1421,9 @@ pre {
                         </div>
                         <div id="type_commitsType-doc-panel-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
-                              <div class="annotation documentation" id="wdoc-d1e685">
-                                 <div class="hidden" id="d1e685-doc-raw">Zero or more commits can be specified.</div>
-                                 <div class="xs3p-doc" id="d1e685-doc"> </div>
+                              <div class="annotation documentation" id="wdoc-d1e695">
+                                 <div class="hidden" id="d1e695-doc-raw">Zero or more commits can be specified.</div>
+                                 <div class="xs3p-doc" id="d1e695-doc"> </div>
                               </div>
                            </div>
                         </div>
@@ -1420,7 +1438,7 @@ pre {
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;...</span><span class="nt">&gt;</span>
    <span class="group">Start <a title="Look up 'Sequence' in glossary" href="#term_Sequence">Sequence</a> <span class="cs">[0..*]</span></span>
-      <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:commit&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;commitType&#34; type definition." href="#type_commitType">commitType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:commit&gt;</span> <span class="cs">[1]</span> <button title="Show documentation for commit" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e695-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+      <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:commit&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;commitType&#34; type definition." href="#type_commitType">commitType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:commit&gt;</span> <span class="cs">[1]</span> <button title="Show documentation for commit" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e705-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
       <span class="cs">Allow any elements from a namespace other than this schema's namespace (lax validation). <span class="cs">[0..*]</span></span>
    <span class="group">End Sequence</span>
 <span class="nt">&lt;/...&gt;</span>
@@ -1512,24 +1530,24 @@ pre {
                         <div id="type_component-instance-table-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;...</span>
- <span class="na">type=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;classification&#34; type definition." href="#type_classification">classification</a></span>"</span> <span class="cs">[1]</span><div class="modal fade type" id="d1e217-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e217-label">Attribute type</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e217-hidden"><div class="hidden" id="d1e217-hidden-doc-raw">
+ <span class="na">type=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;classification&#34; type definition." href="#type_classification">classification</a></span>"</span> <span class="cs">[1]</span><div class="modal fade type" id="d1e227-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e227-label">Attribute type</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e227-hidden"><div class="hidden" id="d1e227-hidden-doc-raw">
                     Specifies the type of component. For software components, classify as application if no more
                     specific appropriate classification is available or cannot be determined for the component.
                     Valid choices are: application, framework, library, operating-system, device, or file
                     Refer to the bom:classification documentation for information describing each one
-                </div><div class="xs3p-doc" id="d1e217-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for type" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e217-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
- <span class="na">bom-ref=</span><span class="s">"<span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span>"</span> <span class="cs">[0..1]</span><div class="modal fade bom-ref" id="d1e225-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e225-label">Attribute bom-ref</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e225-hidden"><div class="hidden" id="d1e225-hidden-doc-raw">
+                </div><div class="xs3p-doc" id="d1e227-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for type" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e227-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+ <span class="na">bom-ref=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;refType&#34; type definition." href="#type_refType">refType</a></span>"</span> <span class="cs">[0..1]</span><div class="modal fade bom-ref" id="d1e235-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e235-label">Attribute bom-ref</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e235-hidden"><div class="hidden" id="d1e235-hidden-doc-raw">
                     An optional identifier which can be used to reference the component elsewhere in the BOM.
                     Uniqueness is enforced within all elements and children of the root-level bom element.
-                </div><div class="xs3p-doc" id="d1e225-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for bom-ref" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e225-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+                </div><div class="xs3p-doc" id="d1e235-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for bom-ref" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e235-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
  <span class="cs">Allow any attributes from any namespace (lax validation).</span>
 <span class="nt">&gt;</span>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:publisher&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:publisher&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for publisher" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e56-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:group&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:group&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for group" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e64-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="cs">[1]</span> <button title="Show documentation for name" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e72-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:version&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:version&gt;</span> <span class="cs">[1]</span> <button title="Show documentation for version" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e80-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:description&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:description&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for description" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e88-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:scope&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;scope&#34; type definition." href="#type_scope">scope</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:scope&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for scope" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e97-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:publisher&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:publisher&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for publisher" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e66-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:group&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:group&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for group" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e74-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="cs">[1]</span> <button title="Show documentation for name" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e82-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:version&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:version&gt;</span> <span class="cs">[1]</span> <button title="Show documentation for version" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e90-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:description&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:description&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for description" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e98-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:scope&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;scope&#34; type definition." href="#type_scope">scope</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:scope&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for scope" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e107-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
    <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:hashes</span>   <span class="nt">&gt;</span> <span class="cs">[0..1]</span> 
       <span class="group">Start <a title="Look up 'Sequence' in glossary" href="#term_Sequence">Sequence</a> <span class="cs">[0..*]</span></span>
          <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:hash&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;hashType&#34; type definition." href="#type_hashType">hashType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:hash&gt;</span> <span class="cs">[1]</span>
@@ -1538,16 +1556,16 @@ pre {
    <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:licenses</span>   <span class="nt">&gt;</span> <span class="cs">[0..1]</span> 
       <span class="group">Start <a title="Look up 'Choice' in glossary" href="#term_Choice">Choice</a> <span class="cs">[1]</span></span>
          <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:license&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;licenseType&#34; type definition." href="#type_licenseType">licenseType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:license&gt;</span> <span class="cs">[0..*]</span>
-         <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:expression&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:expression&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for expression" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e124-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+         <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:expression&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:expression&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for expression" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e134-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
       <span class="group">End Choice</span>
    <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:licenses&gt;</span>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:copyright&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:copyright&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for copyright" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e135-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:cpe&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;cpe&#34; type definition." href="#type_cpe">cpe</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:cpe&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for cpe" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e143-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:purl&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyURI</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:purl&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for purl" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e151-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:modified&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:boolean</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:modified&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for modified" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e160-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:pedigree&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;pedigreeType&#34; type definition." href="#type_pedigreeType">pedigreeType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:pedigree&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for pedigree" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e168-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:externalReferences&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;externalReferences&#34; type definition." href="#type_externalReferences">externalReferences</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:externalReferences&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for externalReferences" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e176-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:components</span>   <span class="nt">&gt;</span> <span class="cs">[0..1]</span>  <button title="Show documentation for components" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e184-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:copyright&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:copyright&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for copyright" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e145-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:cpe&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;cpe&#34; type definition." href="#type_cpe">cpe</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:cpe&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for cpe" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e153-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:purl&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyURI</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:purl&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for purl" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e161-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:modified&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:boolean</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:modified&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for modified" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e170-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:pedigree&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;pedigreeType&#34; type definition." href="#type_pedigreeType">pedigreeType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:pedigree&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for pedigree" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e178-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:externalReferences&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;externalReferences&#34; type definition." href="#type_externalReferences">externalReferences</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:externalReferences&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for externalReferences" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e186-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:components</span>   <span class="nt">&gt;</span> <span class="cs">[0..1]</span>  <button title="Show documentation for components" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e194-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
       <span class="group">Start <a title="Look up 'Sequence' in glossary" href="#term_Sequence">Sequence</a> <span class="cs">[0..*]</span></span>
          <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:component&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;component&#34; type definition." href="#type_component">component</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:component&gt;</span> <span class="cs">[1]</span>
          <span class="cs">Allow any elements from a namespace other than this schema's namespace (lax validation). <span class="cs">[0..*]</span></span>
@@ -1607,7 +1625,7 @@ pre {
       <span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:any</span> <span class="na">namespace=</span><span class="s">"##other"</span> <span class="na">processContents=</span><span class="s">"lax"</span> <span class="na">minOccurs=</span><span class="s">"0"</span> <span class="na">maxOccurs=</span><span class="s">"unbounded"</span><span class="nt">/&gt;</span>
    <span class="nt">&lt;/<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:sequence&gt;</span>
    <span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:attribute</span> <span class="na">name=</span><span class="s">"type"</span> <span class="na">type=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;classification&#34; type definition." href="#type_classification">classification</a></span>"</span> <span class="na">use=</span><span class="s">"required"</span><span class="nt">/&gt;</span>
-   <span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:attribute</span> <span class="na">name=</span><span class="s">"bom-ref"</span> <span class="na">type=</span><span class="s">"<span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span>"</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:attribute</span> <span class="na">name=</span><span class="s">"bom-ref"</span> <span class="na">type=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;refType&#34; type definition." href="#type_refType">refType</a></span>"</span><span class="nt">/&gt;</span>
    <span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyAttribute</span> <span class="na">namespace=</span><span class="s">"##any"</span> <span class="na">processContents=</span><span class="s">"lax"</span><span class="nt">/&gt;</span>
 <span class="nt">&lt;/<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:complexType&gt;</span>
 </pre>
@@ -1776,13 +1794,13 @@ pre {
                         <div id="type_externalReference-instance-table-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;...</span>
- <span class="na">type=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;externalReferenceType&#34; type definition." href="#type_externalReferenceType">externalReferenceType</a></span>"</span> <span class="cs">[1]</span><div class="modal fade type" id="d1e667-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e667-label">Attribute type</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e667-hidden"><div class="hidden" id="d1e667-hidden-doc-raw">Specifies the type of external reference. There are built-in types to describe common
+ <span class="na">type=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;externalReferenceType&#34; type definition." href="#type_externalReferenceType">externalReferenceType</a></span>"</span> <span class="cs">[1]</span><div class="modal fade type" id="d1e678-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e678-label">Attribute type</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e678-hidden"><div class="hidden" id="d1e678-hidden-doc-raw">Specifies the type of external reference. There are built-in types to describe common
                     references. If a type does not exist for the reference being referred to, use the "other" type.
-                </div><div class="xs3p-doc" id="d1e667-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for type" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e667-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+                </div><div class="xs3p-doc" id="d1e678-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for type" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e678-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
  <span class="cs">Allow any attributes from any namespace (lax validation).</span>
 <span class="nt">&gt;</span>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyURI</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="cs">[1]</span> <button title="Show documentation for url" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e648-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:comment&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:comment&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for comment" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e657-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyURI</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="cs">[1]</span> <button title="Show documentation for url" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e659-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:comment&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:comment&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for comment" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e668-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
 <span class="nt">&lt;/...&gt;</span>
 </pre>
                            </div>
@@ -1861,13 +1879,13 @@ pre {
                         </div>
                         <div id="type_externalReferences-doc-panel-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
-                              <div class="annotation documentation" id="wdoc-d1e623">
-                                 <div class="hidden" id="d1e623-doc-raw">
+                              <div class="annotation documentation" id="wdoc-d1e633">
+                                 <div class="hidden" id="d1e633-doc-raw">
                                     External references provide a way to document systems, sites, and information that
                                     may be relevant
                                     but which are not included with the BOM.
                                     </div>
-                                 <div class="xs3p-doc" id="d1e623-doc"> </div>
+                                 <div class="xs3p-doc" id="d1e633-doc"> </div>
                               </div>
                            </div>
                         </div>
@@ -1882,7 +1900,7 @@ pre {
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;...</span><span class="nt">&gt;</span>
    <span class="group">Start <a title="Look up 'Sequence' in glossary" href="#term_Sequence">Sequence</a> <span class="cs">[0..*]</span></span>
-      <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:reference&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;externalReference&#34; type definition." href="#type_externalReference">externalReference</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:reference&gt;</span> <span class="cs">[1]</span> <button title="Show documentation for reference" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e633-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+      <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:reference&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;externalReference&#34; type definition." href="#type_externalReference">externalReference</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:reference&gt;</span> <span class="cs">[1]</span> <button title="Show documentation for reference" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e643-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
    <span class="group">End Sequence</span>
 <span class="nt">&lt;/...&gt;</span>
 </pre>
@@ -1959,9 +1977,9 @@ pre {
                         </div>
                         <div id="type_hashType-doc-panel-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
-                              <div class="annotation documentation" id="wdoc-d1e322">
-                                 <div class="hidden" id="d1e322-doc-raw">Specifies the file hash of the component</div>
-                                 <div class="xs3p-doc" id="d1e322-doc"> </div>
+                              <div class="annotation documentation" id="wdoc-d1e332">
+                                 <div class="hidden" id="d1e332-doc-raw">Specifies the file hash of the component</div>
+                                 <div class="xs3p-doc" id="d1e332-doc"> </div>
                               </div>
                            </div>
                         </div>
@@ -1975,7 +1993,7 @@ pre {
                         <div id="type_hashType-instance-table-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;...</span>
- <span class="na">alg=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;hashAlg&#34; type definition." href="#type_hashAlg">hashAlg</a></span>"</span> <span class="cs">[1]</span><div class="modal fade alg" id="d1e333-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e333-label">Attribute alg</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e333-hidden"><div class="hidden" id="d1e333-hidden-doc-raw">Specifies the algorithm used to create the hash</div><div class="xs3p-doc" id="d1e333-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for alg" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e333-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+ <span class="na">alg=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;hashAlg&#34; type definition." href="#type_hashAlg">hashAlg</a></span>"</span> <span class="cs">[1]</span><div class="modal fade alg" id="d1e343-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e343-label">Attribute alg</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e343-hidden"><div class="hidden" id="d1e343-hidden-doc-raw">Specifies the algorithm used to create the hash</div><div class="xs3p-doc" id="d1e343-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for alg" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e343-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
 <span class="nt">&gt;</span>
     <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;hashValue&#34; type definition." href="#type_hashValue">hashValue</a></span>
 <span class="nt">&lt;/...&gt;</span>
@@ -2068,9 +2086,9 @@ pre {
                         <div id="type_identifiableActionType-instance-table-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;...</span><span class="nt">&gt;</span>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:timestamp&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:dateTime</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:timestamp&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for timestamp" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e778-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for name" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e787-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:email&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:email&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for email" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e796-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:timestamp&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:dateTime</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:timestamp&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for timestamp" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e788-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for name" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e797-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:email&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:email&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for email" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e806-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
    <span class="cs">Allow any elements from a namespace other than this schema's namespace (lax validation). <span class="cs">[0..*]</span></span>
 <span class="nt">&lt;/...&gt;</span>
 </pre>
@@ -2163,11 +2181,11 @@ pre {
                         <div id="type_licenseTextType-instance-table-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;...</span>
- <span class="na">content-type=</span><span class="s">"<span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span>"</span> <span class="cs">[0..1]</span><div class="modal fade content-type" id="d1e303-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e303-label">Attribute content-type</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e303-hidden"><div class="hidden" id="d1e303-hidden-doc-raw">Specifies the content type of the license text. Defaults to text/plain
-                            if not specified.</div><div class="xs3p-doc" id="d1e303-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for content-type" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e303-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
- <span class="na">encoding=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;encoding&#34; type definition." href="#type_encoding">encoding</a></span>"</span> <span class="cs">[0..1]</span><div class="modal fade encoding" id="d1e311-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e311-label">Attribute encoding</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e311-hidden"><div class="hidden" id="d1e311-hidden-doc-raw">
+ <span class="na">content-type=</span><span class="s">"<span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span>"</span> <span class="cs">[0..1]</span><div class="modal fade content-type" id="d1e313-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e313-label">Attribute content-type</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e313-hidden"><div class="hidden" id="d1e313-hidden-doc-raw">Specifies the content type of the license text. Defaults to text/plain
+                            if not specified.</div><div class="xs3p-doc" id="d1e313-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for content-type" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e313-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+ <span class="na">encoding=</span><span class="s">"<span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;encoding&#34; type definition." href="#type_encoding">encoding</a></span>"</span> <span class="cs">[0..1]</span><div class="modal fade encoding" id="d1e321-popup" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog unpre"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h4 class="modal-title" id="d1e321-label">Attribute encoding</h4></div><div class="modal-body"><div class="annotation documentation" id="wdoc-d1e321-hidden"><div class="hidden" id="d1e321-hidden-doc-raw">
                             Specifies the optional encoding the license text is represented in
-                        </div><div class="xs3p-doc" id="d1e311-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for encoding" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e311-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+                        </div><div class="xs3p-doc" id="d1e321-hidden-doc"> </div></div></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div> <button title="Show documentation for encoding" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e321-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
 <span class="nt">&gt;</span>
     <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span>
 <span class="nt">&lt;/...&gt;</span>
@@ -2262,11 +2280,11 @@ pre {
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;...</span><span class="nt">&gt;</span>
    <span class="group">Start <a title="Look up 'Choice' in glossary" href="#term_Choice">Choice</a> <span class="cs">[1]</span></span>
-      <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:id&gt;</span> <span class="type"><a href="#ns_spdx" title="Find out namespace of 'spdx' prefix">spdx</a>:<a title="&#34;licenseId&#34; type definition could not be found." href="javascript:void(0)" onclick="alert('&#34;licenseId&#34; type definition could not be found.');">licenseId</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:id&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for id" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e248-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-      <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for name" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e256-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+      <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:id&gt;</span> <span class="type"><a href="#ns_spdx" title="Find out namespace of 'spdx' prefix">spdx</a>:<a title="&#34;licenseId&#34; type definition could not be found." href="javascript:void(0)" onclick="alert('&#34;licenseId&#34; type definition could not be found.');">licenseId</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:id&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for id" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e259-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+      <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:normalizedString</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:name&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for name" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e267-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
    <span class="group">End Choice</span>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:text&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;licenseTextType&#34; type definition." href="#type_licenseTextType">licenseTextType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:text&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for text" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e265-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyURI</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for url" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e273-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:text&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;licenseTextType&#34; type definition." href="#type_licenseTextType">licenseTextType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:text&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for text" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e276-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:anyURI</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:url&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for url" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e284-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
    <span class="cs">Allow any elements from a namespace other than this schema's namespace (lax validation). <span class="cs">[0..*]</span></span>
 <span class="nt">&lt;/...&gt;</span>
 </pre>
@@ -2349,8 +2367,8 @@ pre {
                         </div>
                         <div id="type_pedigreeType-doc-panel-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
-                              <div class="annotation documentation" id="wdoc-d1e815">
-                                 <div class="hidden" id="d1e815-doc-raw">
+                              <div class="annotation documentation" id="wdoc-d1e825">
+                                 <div class="hidden" id="d1e825-doc-raw">
                                     Component pedigree is a way to document complex supply chain scenarios where components
                                     are created,
                                     distributed, modified, redistributed, combined with other components, etc. Pedigree
@@ -2359,7 +2377,7 @@ pre {
                                     provides a way to
                                     document variants where the exact relation may not be known.
                                     </div>
-                                 <div class="xs3p-doc" id="d1e815-doc"> </div>
+                                 <div class="xs3p-doc" id="d1e825-doc"> </div>
                               </div>
                            </div>
                         </div>
@@ -2373,11 +2391,11 @@ pre {
                         <div id="type_pedigreeType-instance-table-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
                               <pre class="codehilite"><span class="nt">&lt;...</span><span class="nt">&gt;</span>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:ancestors&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;componentsType&#34; type definition." href="#type_componentsType">componentsType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:ancestors&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for ancestors" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e825-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:descendants&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;componentsType&#34; type definition." href="#type_componentsType">componentsType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:descendants&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for descendants" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e834-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:variants&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;componentsType&#34; type definition." href="#type_componentsType">componentsType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:variants&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for variants" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e843-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:commits&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;commitsType&#34; type definition." href="#type_commitsType">commitsType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:commits&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for commits" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e852-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
-   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:notes&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:notes&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for notes" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e861-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:ancestors&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;componentsType&#34; type definition." href="#type_componentsType">componentsType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:ancestors&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for ancestors" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e835-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:descendants&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;componentsType&#34; type definition." href="#type_componentsType">componentsType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:descendants&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for descendants" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e844-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:variants&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;componentsType&#34; type definition." href="#type_componentsType">componentsType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:variants&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for variants" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e853-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:commits&gt;</span> <span class="type"><a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:<a title="Jump to &#34;commitsType&#34; type definition." href="#type_commitsType">commitsType</a></span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:commits&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for commits" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e862-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
+   <span class="nt">&lt;<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:notes&gt;</span> <span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span> <span class="nt">&lt;/<a href="#ns_bom" title="Find out namespace of 'bom' prefix">bom</a>:notes&gt;</span> <span class="cs">[0..1]</span> <button title="Show documentation for notes" class="btn btn-link btn-doc" data-toggle="modal" data-target="#d1e871-popup"><span class="glyphicon glyphicon-info-sign"> </span></button>
    <span class="cs">Allow any elements from a namespace other than this schema's namespace (lax validation). <span class="cs">[0..*]</span></span>
 <span class="nt">&lt;/...&gt;</span>
 </pre>
@@ -2558,12 +2576,12 @@ pre {
                         </div>
                         <div id="type_cpe-doc-panel-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
-                              <div class="annotation documentation" id="wdoc-d1e467">
-                                 <div class="hidden" id="d1e467-doc-raw">
+                              <div class="annotation documentation" id="wdoc-d1e477">
+                                 <div class="hidden" id="d1e477-doc-raw">
                                     Define the format for acceptable CPE URIs. Supports CPE 2.2 and CPE 2.3 formats.
                                     Refer to https://nvd.nist.gov/products/cpe for official specification.
                                     </div>
-                                 <div class="xs3p-doc" id="d1e467-doc"> </div>
+                                 <div class="xs3p-doc" id="d1e477-doc"> </div>
                               </div>
                            </div>
                         </div>
@@ -2958,6 +2976,85 @@ pre {
                   </div>
                   <div style="text-align: right; clear: both;"><a href="#top" title="Go to top of page"><span class="glyphicon glyphicon-chevron-up"> </span></a></div>
                   <hr></hr>
+                  <h3 class="xs3p-subsection-heading">Simple Type: <a id="type_refType" class="name" data-html="true" data-placement="bottom" data-toggle="tooltip" title="Schema component name.">refType</a></h3>
+                  <div class="panel-group" id="type_refType-type-hierarchy-panel-group">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title"><a class="xs3p-panel-title" data-toggle="collapse" data-parent="#type_refType-type-hierarchy-panel-group" href="#type_refType-type-hierarchy-collapse">Type hierarchy</a></h4>
+                        </div>
+                        <div id="type_refType-type-hierarchy-collapse" class="panel-collapse collapse in">
+                           <table class="table table-striped xs3p-in-panel-table">
+                              <tbody>
+                                 <tr>
+                                    <th>Super-types:</th>
+                                    <td><span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span> &lt; <strong>refType</strong> (by restriction)</td>
+                                 </tr>
+                                 <tr>
+                                    <th>Sub-types:</th>
+                                    <td>None</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="panel-group" id="type_refType-properties-table-panel-group">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title"><a class="xs3p-panel-title" data-toggle="collapse" data-parent="#type_refType-properties-table-panel-group" href="#type_refType-properties-table-collapse">Properties</a><span class="pull-right xs3p-panel-help"><button type="button" class="btn btn-doc" data-container="body" data-toggle="popover" data-placement="left" data-html="true" data-content="This table displays the properties of the schema component."><span class="glyphicon glyphicon-question-sign"> </span></button></span></h4>
+                        </div>
+                        <div id="type_refType-properties-table-collapse" class="panel-collapse collapse in">
+                           <table class="table table-striped xs3p-in-panel-table">
+                              <tbody>
+                                 <tr>
+                                    <th>Name</th>
+                                    <td>refType</td>
+                                 </tr>
+                                 <tr>
+                                    <th>Content</th>
+                                    <td>
+                                       <ul>
+                                          <li>Base XSD Type: string</li>
+                                       </ul>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="panel-group" id="type_refType-doc-panel-panel-group">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title"><a class="xs3p-panel-title" data-toggle="collapse" data-parent="#type_refType-doc-panel-panel-group" href="#type_refType-doc-panel-collapse">Documentation</a><span class="pull-right xs3p-panel-help"><button type="button" class="btn btn-doc" data-container="body" data-toggle="popover" data-placement="left" data-html="true" data-content="This panel contains the schema components documentation."><span class="glyphicon glyphicon-question-sign"> </span></button></span></h4>
+                        </div>
+                        <div id="type_refType-doc-panel-collapse" class="panel-collapse collapse in">
+                           <div class="panel-body">
+                              <div class="annotation documentation" id="wdoc-d1e28">
+                                 <div class="hidden" id="d1e28-doc-raw">Identifier-DataType for interlinked elements.</div>
+                                 <div class="xs3p-doc" id="d1e28-doc"> </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="panel-group" id="type_refType-schemaComponent-panel-group">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h4 class="panel-title"><a class="xs3p-panel-title collapsed" data-toggle="collapse" data-parent="#type_refType-schemaComponent-panel-group" href="#type_refType-schemaComponent-collapse">Schema Component Representation</a><span class="pull-right xs3p-panel-help"><button type="button" class="btn btn-doc" data-container="body" data-toggle="popover" data-placement="left" data-html="true" data-content="The Schema Component Representation table above displays the underlying XML representation of the schema component. (Annotations are not shown.)"><span class="glyphicon glyphicon-question-sign"> </span></button></span></h4>
+                        </div>
+                        <div id="type_refType-schemaComponent-collapse" class="panel-collapse collapse">
+                           <div class="panel-body">
+                              <pre class="codehilite"><span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:simpleType</span> <span class="na">name=</span><span class="s">"refType"</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:restriction</span> <span class="na">base=</span><span class="s">"<span class="type"><a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:string</span>"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/<a href="#ns_xs" title="Find out namespace of 'xs' prefix">xs</a>:simpleType&gt;</span>
+</pre>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div style="text-align: right; clear: both;"><a href="#top" title="Go to top of page"><span class="glyphicon glyphicon-chevron-up"> </span></a></div>
+                  <hr></hr>
                   <h3 class="xs3p-subsection-heading">Simple Type: <a id="type_scope" class="name" data-html="true" data-placement="bottom" data-toggle="tooltip" title="Schema component name.">scope</a></h3>
                   <div class="panel-group" id="type_scope-type-hierarchy-panel-group">
                      <div class="panel panel-default">
@@ -3098,11 +3195,11 @@ pre {
                         </div>
                         <div id="type_urnUuid-doc-panel-collapse" class="panel-collapse collapse in">
                            <div class="panel-body">
-                              <div class="annotation documentation" id="wdoc-d1e481">
-                                 <div class="hidden" id="d1e481-doc-raw">
+                              <div class="annotation documentation" id="wdoc-d1e491">
+                                 <div class="hidden" id="d1e491-doc-raw">
                                     Defines a string representation of a UUID conforming to RFC 4122.
                                     </div>
-                                 <div class="xs3p-doc" id="d1e481-doc"> </div>
+                                 <div class="xs3p-doc" id="d1e491-doc"> </div>
                               </div>
                            </div>
                         </div>
@@ -3177,7 +3274,7 @@ pre {
                </div>
             </div>
          </div>
-      </div><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript" charset="UTF-8"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" type="text/javascript" charset="UTF-8"></script><script>
+      </div><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" type="text/javascript" charset="UTF-8"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" type="text/javascript" charset="UTF-8"></script><script>
 
                $(function () { $("[data-toggle='tooltip']").tooltip(); });
                $(function () { $("[data-toggle='popover']").popover(); });
