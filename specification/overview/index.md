@@ -24,7 +24,7 @@ micro_nav: false
 <img src="/theme/assets/images/high-level-object-model-small.svg" width="331" height="202" alt="CycloneDX Object Model Overview" style="display:block; float:right; margin:10px">
 
 The CycloneDX object model:
-* is defined in [JSON Schema](https://github.com/CycloneDX/specification/blob/1.4/schema/bom-1.4.schema.json), [XML Schema](https://github.com/CycloneDX/specification/blob/1.4/schema/bom-1.4.xsd), and [Protocol Buffers](https://github.com/CycloneDX/specification/blob/1.4/schema/bom-1.4.proto)
+* is defined in [JSON Schema](https://github.com/CycloneDX/specification/blob/1.5/schema/bom-1.5.schema.json), [XML Schema](https://github.com/CycloneDX/specification/blob/1.5/schema/bom-1.5.xsd), and [Protocol Buffers](https://github.com/CycloneDX/specification/blob/1.5/schema/bom-1.5.proto)
 * consists of [metadata](#bom-metadata), [components](#components), [services](#services), [dependencies](#dependencies), [compositions](#compositions), and [vulnerabilities](#vulnerabilities).
 * is prescriptive and simple to use
 * is designed for <abbr data-title="Software Bill of Materials">SBOM</abbr>, <abbr data-title="Software-as-a-Service Bill of Materials">SaaSBOM</abbr>, <abbr data-title="Operations Bill of Materials">OBOM</abbr>, <abbr data-title="Manufacturing Bill of Materials">MBOM</abbr>, and <abbr data-title="Vulnerability Exploitability Exchange">VEX</abbr> use cases
