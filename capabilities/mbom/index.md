@@ -50,14 +50,6 @@ to the MBOM.
 ## High-Level Object Model
 ![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
 
-## References
-
-* [BSIMM SE3.6 - Enhance application inventory with operations bill of materials](https://www.bsimm.com/framework/deployment/software-environment.html)
-
-## Examples
-
-BOMs demonstrating OBOM capabilities can be found at
-[https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
 
 ## Additional Capabilities
 {% include capabilities-selection.html %}
