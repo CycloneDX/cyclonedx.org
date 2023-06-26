@@ -7,7 +7,7 @@
 - title: CycloneDX is standardized on by multiple world governments and the defense industrial base.
   image: theme/assets/images/defense_hero.jpg
   description: Trusted for satellite and space systems, missile guidance systems, and algorithmic warfare, CycloneDX plays a small part in safeguarding national defense.
-- title: CycloneDX is enterprise ready and surfaces risk within the CMDB for IT and OT assets
+- title: CycloneDX is enterprise ready and surfaces risk for IT and OT assets
   image: theme/assets/images/enterprise_hero.jpg
   description: CycloneDX is trusted by leading CMDB vendors to detect security issues in hardware, software, services, and operations.
 - title: CycloneDX offer the most advanced license support of any SBOM format.
