@@ -1726,3 +1726,11 @@
   categories:
     - opensource
     - analysis
+- name: kbom - Kubernetes Bill of Materials powered by KSOC
+  publisher: KSOC
+  description: KSOC's open source CLI tool generates a Kubernetes Bill of Materials; basically an SBOM, but for a K8s cluster. Details of the cluster include size, capacity, cloud info, control plane, nodes, OS and more. KBOM supports CycloneDX as a output format.
+  repoUrl: https://github.com/ksoclabs/kbom
+  websiteUrl: https://github.com/ksoclabs/kbom
+  categories:
+  - opensource
+  - analysis
