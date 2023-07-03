@@ -179,11 +179,11 @@
   - opensource
   - build-integration
 - name: cdxgen
-  publisher: AppThreat
-  description: Creates CycloneDX Software Bill of Materials (SBOM) for Node.js, Java,
-    Python and golang projects
-  repoUrl: https://github.com/AppThreat/cdxgen
-  websiteUrl: https://github.com/AppThreat/cdxgen
+  publisher: CycloneDX
+  description: Creates CycloneDX Software Bill of Materials (SBOM) for multiple languages,
+    container images, and OS. Use as a CLI tool or integrate as a library
+  repoUrl: https://github.com/CycloneDX/cdxgen
+  websiteUrl: https://github.com/CycloneDX/cdxgen
   categories:
   - opensource
   - build-integration
@@ -242,16 +242,6 @@
     action
   repoUrl: https://github.com/red-shirts/action-mix-sbom
   websiteUrl: https://github.com/marketplace/actions/generate-sbom-for-elixir-project
-  categories:
-  - opensource
-  - github-action
-- name: cdxgen
-  publisher: AppThreat
-  description: GitHub action for CycloneDX BOM generator (cdxgen). cdxgen produced
-    bom xml file can be uploaded to Dependency-Track, AppThreat, and other commercial
-    Software Composition Analysis (SCA) products
-  repoUrl: https://github.com/AppThreat/cdxgen-action
-  websiteUrl: https://github.com/marketplace/actions/cdxgen
   categories:
   - opensource
   - github-action
