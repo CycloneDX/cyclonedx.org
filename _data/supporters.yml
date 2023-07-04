@@ -534,3 +534,8 @@
   websiteUrl: https://adolus.com
   categories:
     - vendor
+- name: KSOC
+  logo: ksoc.svg
+  websiteUrl: https://ksoc.com
+  categories:
+    - project
