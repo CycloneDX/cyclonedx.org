@@ -1724,3 +1724,11 @@
   categories:
   - opensource
   - analysis
+- name: SBOM Scorecard
+  publisher: eBay
+  description: A tool that aims to quantify what a well-generated SBOM looks like, generating a score based on specification compliance of the SBOM, generation metadata, and direct dependencies. Support CycloneDX, SPDX, and Syft.
+  repoUrl: https://github.com/eBay/sbom-scorecard
+  websiteUrl: https://github.com/eBay/sbom-scorecard
+  categories:
+  - opensource
+  - analysis
