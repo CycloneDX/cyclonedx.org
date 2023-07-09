@@ -3636,5 +3636,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "cerrussell",
+    "lastName": "cerrussell",
+    "headshot": "https://avatars.githubusercontent.com/u/80227828?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "cerrussell",
+    "homepage": "https://github.com/cerrussell",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "malice00",
+    "lastName": "malice00",
+    "headshot": "https://avatars.githubusercontent.com/u/12972577?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "malice00",
+    "homepage": "https://github.com/malice00",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
