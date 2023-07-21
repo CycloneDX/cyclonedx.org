@@ -10,7 +10,7 @@
 - title: CycloneDX is enterprise ready and surfaces risk for IT and OT assets.
   image: theme/assets/images/enterprise_hero.jpg
   description: CycloneDX is trusted by leading CMDB vendors to detect security issues in hardware, software, services, and operations.
-- title: CycloneDX offer the most advanced license support of any SBOM format.
+- title: CycloneDX offers the most advanced license support of any SBOM format.
   image: theme/assets/images/license_hero.jpg
   description: CycloneDX can leverage SPDX license IDs and expressions, along with comprehensive commercial license support, supporting open source license compliance and Software Asset Management (SAM) use cases.
 - title: CycloneDX evolves with your project or organizational needs.
