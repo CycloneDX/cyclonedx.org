@@ -1732,3 +1732,13 @@
   categories:
   - opensource
   - analysis
+- name: SBOM Observer
+  publisher: Bytesafe
+  description: SBOM Observer provides a comprehensive SBOM workflow to help you manage your software supply chain. Leverage the powerful combination of the Policy Engine and Operational Model to guarantee the security and compliance of your software.
+  websiteUrl: https://sbom.observer/
+  categories:
+  - proprietary
+  - analysis
+  - build-integration
+  - author
+  - distribute
