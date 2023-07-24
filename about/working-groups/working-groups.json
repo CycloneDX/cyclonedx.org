@@ -3678,5 +3678,47 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "DDuarte",
+    "lastName": "dduarte",
+    "headshot": "https://avatars.githubusercontent.com/u/530940?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "DDuarte",
+    "homepage": "https://github.com/DDuarte",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "ajmalab",
+    "lastName": "ajmalab",
+    "headshot": "https://avatars.githubusercontent.com/u/90693406?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "ajmalab",
+    "homepage": "https://github.com/ajmalab",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "visagansanthanam-unisys",
+    "lastName": "visagansanthanam-unisys",
+    "headshot": "https://avatars.githubusercontent.com/u/100369838?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "visagansanthanam-unisys",
+    "homepage": "https://github.com/visagansanthanam-unisys",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
