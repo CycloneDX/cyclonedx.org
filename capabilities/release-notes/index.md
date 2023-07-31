@@ -50,5 +50,9 @@ capabilities of the spec.
 
 ![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
 
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#common-release-notes-format)
+
 ## Additional Capabilities
 {% include capabilities-selection.html %}

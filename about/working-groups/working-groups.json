@@ -3720,5 +3720,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "seanly",
+    "lastName": "seanly",
+    "headshot": "https://avatars.githubusercontent.com/u/232069?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "seanly",
+    "homepage": "https://github.com/seanly",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "arthurlutz",
+    "lastName": "arthurlutz",
+    "headshot": "https://avatars.githubusercontent.com/u/108437?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "arthurlutz",
+    "homepage": "https://github.com/arthurlutz",
+    "categories": [
+      "contributors"
+    ]
   }
 ]

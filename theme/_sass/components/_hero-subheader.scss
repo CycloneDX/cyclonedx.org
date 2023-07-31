@@ -25,17 +25,11 @@
 		line-height: 18px;
 	}
 
-	.guide-btn {
-		float: none;
-		padding: .75rem 1rem;
-		background-color: #0D6EFD;
-		color: white;
-	}
-	
 	.guide-button, .tools-button {
-		border: 2px solid #CFE2FF;
+		border: 1px solid #CFE2FF;
 		height: 50px;
 		outline: none;
+		font-weight: 600;
 	}
 	.guide-button {
 		opacity: 100;

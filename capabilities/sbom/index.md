@@ -56,5 +56,9 @@ SBOM use cases.
 BOMs demonstrating SBOM capabilities can be found at
 [https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
 
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#software-bill-of-materials-sbom)
+
 ## Additional Capabilities
 {% include capabilities-selection.html %}
