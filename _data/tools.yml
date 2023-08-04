@@ -1742,3 +1742,12 @@
   - build-integration
   - author
   - distribute
+- name: SBOM Assembler
+  publisher: Interlynk.io
+  description: sbomasm is a command line utility tool to assemble product SBOM from component SBOMs for easier management and distribution.
+  repoUrl: https://github.com/interlynk-io/sbomasm
+  websiteUrl: https://www.interlynk.io/
+  categories:
+    - opensource
+    - transform
+    - build-integration
