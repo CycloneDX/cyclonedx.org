@@ -26,7 +26,7 @@
   - library
 - name: CycloneDX JavaScript Library
   publisher: CycloneDX
-  description: Core functionality of CycloneDX for JavaScript (Node.js or WebBrowser) written in TypeScript. 
+  description: Core functionality of CycloneDX for JavaScript (Node.js or WebBrowser) written in TypeScript.
   repoUrl: https://github.com/CycloneDX/cyclonedx-javascript-library
   websiteUrl: https://www.npmjs.com/package/%40cyclonedx/cyclonedx-library
   categories:
@@ -1344,7 +1344,7 @@
   websiteUrl: https://pypi.org/project/sbom4python/
   categories:
   - opensource
-  - build-integration 
+  - build-integration
 - name: SBOM4Files
   publisher: Anthony Harrison
   description: A command line tool which creates CycloneDX and SPDX SBOMs for files within a directory.
@@ -1352,7 +1352,7 @@
   websiteUrl: https://pypi.org/project/sbom4files/
   categories:
   - opensource
-  - build-integration  
+  - build-integration
 - name: SBOM4Rust
   publisher: Anthony Harrison
   description: A command line tool which creates CycloneDX and SPDX SBOMs for a Rust application.
@@ -1742,3 +1742,12 @@
   - build-integration
   - author
   - distribute
+- name: SBOM Assembler
+  publisher: Interlynk.io
+  description: sbomasm is a command line utility tool to assemble product SBOM from component SBOMs for easier management and distribution.
+  repoUrl: https://github.com/interlynk-io/sbomasm
+  websiteUrl: https://www.interlynk.io/
+  categories:
+    - opensource
+    - transform
+    - build-integration
