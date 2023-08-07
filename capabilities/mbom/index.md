@@ -50,6 +50,9 @@ to the MBOM.
 ## High-Level Object Model
 ![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
 
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#manufacturing-bill-of-materials-mbom)
 
 ## Additional Capabilities
 {% include capabilities-selection.html %}

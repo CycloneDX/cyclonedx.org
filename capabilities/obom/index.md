@@ -59,5 +59,9 @@ the OBOM from the SBOM. This allows OBOM information to be updated without havin
 BOMs demonstrating OBOM capabilities can be found at
 [https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
 
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#operations-bill-of-materials-obom)
+
 ## Additional Capabilities
 {% include capabilities-selection.html %}

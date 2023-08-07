@@ -84,5 +84,9 @@ direct link to the precise component within a BOM.
 
 {% include examples/bom-link-vex.html %}
 
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/linking)
+
 ## Additional Capabilities
 {% include capabilities-selection.html %}

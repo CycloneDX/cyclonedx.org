@@ -54,5 +54,9 @@ Organizations, or entire industries, can also leverage multiple extension points
 BOMs demonstrating HBOM capabilities can be found at
 [https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
 
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#hardware-bill-of-materials-hbom)
+
 ## Additional Capabilities
 {% include capabilities-selection.html %}
