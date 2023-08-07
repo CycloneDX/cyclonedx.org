@@ -23,7 +23,7 @@ breadcrumbs:
     
 ---
 
-# &nbsp;
+# Capabilities
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
@@ -31,11 +31,5 @@ breadcrumbs:
 <p class="large-quote">CycloneDX provides advanced, supply chain capabilities for cyber risk reduction</p>
 {% include capabilities-stack.html %}
 </div>
-
-## See also
-
-* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#vulnerability-exploitability-exchange-vex)
-
-## Additional Capabilities
 
 {% include capabilities-selection.html %}
