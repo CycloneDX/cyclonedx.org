@@ -32,4 +32,10 @@ breadcrumbs:
 {% include capabilities-stack.html %}
 </div>
 
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#vulnerability-exploitability-exchange-vex)
+
+## Additional Capabilities
+
 {% include capabilities-selection.html %}

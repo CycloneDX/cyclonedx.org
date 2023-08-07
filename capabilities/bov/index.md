@@ -52,5 +52,9 @@ component itself provides the details necessary for full-featured advisory use c
 
 ![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
 
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#bill-of-vulnerabilities-bov)
+
 ## Additional Capabilities
 {% include capabilities-selection.html %}
