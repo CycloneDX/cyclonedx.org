@@ -1557,7 +1557,7 @@
   - proprietary
   - analysis
   - build-integration
-- name:  SBOM Utility (sbom-utility)
+- name: SBOM Utility (sbom-utility)
   publisher: CycloneDX
   description: Utility that provides an API platform for validating, querying and managing BOM data
   repoUrl: https://github.com/cyclonedx/sbom-utility
