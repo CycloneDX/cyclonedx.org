@@ -18,7 +18,7 @@ guide_url: /guides/sbom/OWASP_CycloneDX-SBOM-Guide-en.pdf
 page_nav:
   prev:
     content: Frontispiece
-    url: '/guides/sbom'
+    url: '../frontispiece'
   next:
     content: Introduction
     url: '../introduction'
