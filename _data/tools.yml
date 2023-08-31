@@ -1752,3 +1752,12 @@
     - opensource
     - transform
     - build-integration
+
+- name: Neo4Cyclone
+  publisher: Javier Dominguez
+  description: Neo4Cyclone is a tool that allows you to visualise your SBOMs using Neo4J.
+  repoUrl: https://github.com/javixeneize/neo4cyclone
+  websiteUrl: https://github.com/javixeneize/neo4cyclone
+  categories:
+    - opensource
+    - analysis
