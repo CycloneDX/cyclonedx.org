@@ -3748,5 +3748,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "chenrui333",
+    "lastName": "chenrui333",
+    "headshot": "https://avatars.githubusercontent.com/u/1580956?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "chenrui333",
+    "homepage": "https://github.com/chenrui333",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "sebastianvoss",
+    "lastName": "sebastianvoss",
+    "headshot": "https://avatars.githubusercontent.com/u/1159262?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "sebastianvoss",
+    "homepage": "https://github.com/sebastianvoss",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
