@@ -1765,15 +1765,12 @@
   description: SBOMcenter.io is a free service to get insights into the ingredients of your software for free and without any software.
   websiteUrl: https://sbomcenter.io
   categories:
-    - SaaS
-    - sharing platform
+    - distribute
     - analysis
 - name: SBOM.sh
   publisher: Codenotary Inc
   description: SBOM.sh is a free service to store, visualize and globally share CycloneDX SBOM files by simply using HTTP requests or curl.
   websiteUrl: https://sbom.sh
   categories:
-    - curl
-    - sharing platform
+    - distribute
     - build-integration
-    - SaaS
