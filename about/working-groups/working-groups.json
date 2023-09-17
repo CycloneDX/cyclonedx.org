@@ -3790,5 +3790,47 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "noqcks",
+    "lastName": "noqcks",
+    "headshot": "https://avatars.githubusercontent.com/u/4740147?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "noqcks",
+    "homepage": "https://github.com/noqcks",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "validide",
+    "lastName": "validide",
+    "headshot": "https://avatars.githubusercontent.com/u/5551616?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "validide",
+    "homepage": "https://github.com/validide",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "mtgag",
+    "lastName": "mtgag",
+    "headshot": "https://avatars.githubusercontent.com/u/36234449?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "mtgag",
+    "homepage": "https://github.com/mtgag",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
