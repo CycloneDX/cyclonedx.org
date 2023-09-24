@@ -3832,5 +3832,61 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "setchy",
+    "lastName": "setchy",
+    "headshot": "https://avatars.githubusercontent.com/u/386277?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "setchy",
+    "homepage": "https://github.com/setchy",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "ansonallard",
+    "lastName": "ansonallard",
+    "headshot": "https://avatars.githubusercontent.com/u/34141612?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "ansonallard",
+    "homepage": "https://github.com/ansonallard",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "marcelstoer",
+    "lastName": "marcelstoer",
+    "headshot": "https://avatars.githubusercontent.com/u/624195?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "marcelstoer",
+    "homepage": "https://github.com/marcelstoer",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "joonamo",
+    "lastName": "joonamo",
+    "headshot": "https://avatars.githubusercontent.com/u/2312529?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "joonamo",
+    "homepage": "https://github.com/joonamo",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
