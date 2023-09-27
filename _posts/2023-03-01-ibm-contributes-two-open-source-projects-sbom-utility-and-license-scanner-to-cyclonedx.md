@@ -6,6 +6,9 @@ comments: false
 banner: false
 
 # News article settings
+organization: CycloneDX
+type: Press Release
+
 title: OWASP Foundation Announces CycloneDX Project Momentum with Contribution from IBM to Advance Software Supply Chain Security
 window_title: OWASP Foundation Announces CycloneDX Project Momentum with Contribution from IBM to Advance Software Supply Chain Security
 description: OWASP CycloneDX Launches Two New Open Source Projects Contributed by IBM that Advance Software Supply Chain Security

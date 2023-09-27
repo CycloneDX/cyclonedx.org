@@ -6,6 +6,9 @@ comments: false
 banner: false
 
 # News article settings
+organization: CycloneDX
+type: Press Release
+
 title: CycloneDX Joins OWASP Foundation as a Flagship Project
 window_title: CycloneDX Joins OWASP Foundation as a Flagship Project
 description: CycloneDX Joins OWASP Foundation as a Flagship Project

@@ -6,6 +6,9 @@ comments: false
 banner: false
 
 # News article settings
+organization: CycloneDX
+type: Press Release
+
 title: CycloneDX v1.3 Released
 window_title: CycloneDX v1.3 Released
 description: CycloneDX v1.3 Released

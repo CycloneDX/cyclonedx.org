@@ -1,0 +1,39 @@
+<section id="external-news">
+    <div class="row">
+        {% for article in site.data.articles.external limit:100 %}
+        <div class="col-md-6 col-sm-6 ext-toggle" style="display: none;">
+            <div class="external-card">
+                <a href="{{ article.url }}" style="color: inherit;" target="_blank">
+                    <div style="height: 350px;">
+                        <img class="card-img-top news-img" src="{{ article.image }}">
+                    </div>
+                    <div class="card-content">
+                        <h1 class="news-card__title">{{ article.title }}</h1>
+                        <h6 class="news-card__subheader">{{ article.date | date: "%d %B %Y" }} | {{ article.source }}</h6>
+                        <p class="news-card__description" style="line-height: 28px;">{{ article.description }}</p>
+                        <p class="news-card__link">Read more <i class="icon icon--arrow-up-right-square"></i></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <button id="loadMoreExt" class="btn load-more-btn btn--rounded btn--w-icon btn--w-icon-right">Load More<i
+                class="icon icon--chevron-down"></i></button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" type="text/javascript"
+        charset="UTF-8"></script>
+    <script>
+        $(function () {
+            $(".ext-toggle").slice(0, 4).show();
+            $("#loadMoreExt").click(function (e) { 
+                e.preventDefault();
+                $(".ext-toggle:hidden").slice(0, 4).show();
+                if ($(".ext-toggle:hidden").length == 0) {
+                    $("#loadMoreExt").hide()
+                }
+            });
+        });
+    </script>
+</section>

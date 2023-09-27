@@ -1,0 +1,25 @@
+external:
+  - title: A software bill of materials helps secure your supply chain
+    image: /theme/assets/images/news/supply_chain.png
+    date: 28 June 2023
+    source: SecurityIntelligence
+    description: The software supply chain involves developing, maintaining and distributing software to end users. To enhance the functionality of the software being developed, developers frequently depend...
+    link: https://securityintelligence.com/posts/a-software-bill-of-materials-helps-secure-your-supply-chain/
+  - title: The five dimensions of SBOM quality
+    image: /theme/assets/images/news/cloud_sec.png
+    date: 26 July 2023
+    source: Contrast Security
+    description: In a memo issued on June 9, the Office of Management and Budget clarified details about how agencies will be required to collect cybersecurity attestations from software providers whose services they use.
+    link: https://www.contrastsecurity.com/security-influencers/sbom-quality-cyclonedx-and-the-5-dimensions-of-sbom-quality-contrast-security
+  - title: "CycloneDX 1.5: The next big step for SBOMs and software transparency"
+    image: /theme/assets/images/news/transparency.png
+    date: 12 July 2023
+    source: ReversingLabs
+    description: With CycloneDX 1.5, OWASP is introducing a number of new types of SBOMs. Here's a full run-down on changes — and what they mean for software transparency.
+    link: https://www.reversinglabs.com/blog/owasp-takes-cyclonedx-beyond-the-sbom
+  - title: Introducing Software Bill of Materials for Confluent Platform
+    image: /theme/assets/images/news/confluent.png
+    date: 28 July 2023
+    source: Confluent
+    description: The software supply chain in the technology industry is becoming increasingly complex. This complexity poses significant challenges in terms of compliance, security, and vulnerability management.
+    link: https://www.confluent.io/blog/software-bill-of-materials/

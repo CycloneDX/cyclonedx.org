@@ -6,6 +6,9 @@ comments: false
 banner: false
 
 # News article settings
+organization: CycloneDX
+type: Press Release
+
 title: OWASP CycloneDX Launches SBOM Exchange API, Standardizing SBOM Distribution
 window_title: OWASP CycloneDX Launches SBOM Exchange API
 description: OWASP CycloneDX Launches SBOM Exchange API, Standardizing SBOM Distribution

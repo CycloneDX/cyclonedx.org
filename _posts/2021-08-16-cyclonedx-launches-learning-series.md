@@ -6,6 +6,9 @@ comments: false
 banner: false
 
 # News article settings
+organization: CycloneDX
+type: Press Release
+
 title: OWASP CycloneDX SBOM Standard Launches Educational Learning Series
 window_title: OWASP CycloneDX SBOM Standard Launches Educational Learning Series
 description: OWASP CycloneDX SBOM Standard Launches Educational Learning Series
