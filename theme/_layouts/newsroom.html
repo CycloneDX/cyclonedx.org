@@ -44,13 +44,13 @@
         </div><!-- /.newsroom-subheader -->
     </header><!-- /.child-hero-header -->
     <div class="section" style="padding-bottom: 40px; padding-top: 0">
-        <div class="container" id="news-cards">
+        <div class="container" id="internal-news-cards">
             <div class="row">
                 <div class="col-md-12 col-sm">
                     <div class="content">
-                        <h1 class="news-header" style="color: #333;">Press Releases & Blog Posts</h1>
+                        <h1 class="newsroom-header" style="color: #333;">Press Releases & Blog Posts</h1>
                         <img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/theme/assets/images/cyclone_watermark_dark.svg"
-                            class="cyclone_logo">
+                            class="cyclone-watermark">
                         {% include internal-news-cards.html %}
                     </div><!-- /.content -->
                 </div><!-- /.col -->
@@ -62,9 +62,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="content">
-                        <p class="news-header">CycloneDX in the News</p>
+                        <h1 class="newsroom-header">CycloneDX in the News</h1>
                         <img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/theme/assets/images/cyclone_watermark_light.svg"
-                            class="cyclone_logo">
+                            class="cyclone-watermark">
                         {% include external-news-cards.html %}
                     </div><!-- /.content -->
                 </div><!-- /.col -->

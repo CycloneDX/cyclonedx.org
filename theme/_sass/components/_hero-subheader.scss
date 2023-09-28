@@ -73,14 +73,14 @@
 	width: 100%;
 	background-position: center;
 	padding: 0 0 0 0;
-}
-@media (max-width: $screen-sm-max) {
-	.child-hero-header {
+
+	@media (max-width: $screen-sm-max) {
 		margin: 0 0 0 0;
 		width: 100%;
 		max-width: none;
 	}
 }
+
 
 #subheader {
 	padding: 84px 0 0 0;
