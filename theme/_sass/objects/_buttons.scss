@@ -40,6 +40,21 @@
 	}
 }
 
+.btn--light {
+	padding: 16px 24px;
+	border-radius: 6px;
+	border: 1px solid $color-blue;
+	color: $color-blue;
+	box-shadow: -1px 0px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	font-weight: 600;
+	line-height: 18px;
+	text-transform: uppercase;
+
+	&:hover {
+		background-color: #f8f8f8
+	}
+}
+
 .btn--w-icon {
 	.icon {
 		float: right;
