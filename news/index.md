@@ -26,5 +26,3 @@ quote:
   text: <b>"CycloneDX is making software transparency a reality</b>. I’m very excited about all the new capabilities in CycloneDX v1.5, particularly the ability to capture detailed evidence proving the SBOM is correct, such as methods, techniques, and call stacks.<br><br>SBOMs aren’t just lists of ingredients anymore. CycloneDX supports services, machine learning, low code, vulnerability disclosure, formulation, and annotations to really <b>capture what’s important about the software you depend on.</b>"
 
 ---
-
-{% include news-cards.html %}

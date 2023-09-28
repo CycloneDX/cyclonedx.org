@@ -22,7 +22,11 @@ image: https://cyclonedx.org/theme/assets/images/hero-subheader.png
 micro_nav: false
 
 # Page navigation
-    
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: ABOUT
+  - title: NEWSROOM
+  
 ---
 
 # OWASP Foundation Announces CycloneDX Project Momentum with Contribution from IBM to Advance Software Supply Chain Security

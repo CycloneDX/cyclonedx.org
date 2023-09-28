@@ -26,6 +26,21 @@
     }
 }
 
+.newsroom-subheader {
+	color: $color-white;
+	padding: 3.75rem 0 (4.6875rem - 1.25rem) 0;
+	line-height: 2rem;
+	height:500px;
+	max-height:500px;
+	width: auto;
+}
+
+.newsroom-subheader--before-out {
+	@media (min-width: $screen-xs-max) {
+		padding: 9.375rem 0 (15.3125rem - 1.25rem) 0;
+	}
+}
+
 .news-card:hover {
 	cursor: pointer;
 	border-left: 1px solid $color-light-blue;
@@ -124,8 +139,8 @@
 
 #internal-news .load-more-btn {
     background-color: white;
-    border: 1px solid #0A58CA;
-    color: #0A58CA;
+    border: 1px solid $color-blue;
+    color: $color-blue;
 }
 
 #internal-news .load-more-btn:hover {

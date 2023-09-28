@@ -9,8 +9,8 @@
                     </div>
                     <div class="card-content">
                         <h1 class="news-card__title">{{ article.title }}</h1>
-                        <h6 class="news-card__subheader">{{ article.date | date: "%d %B %Y" }} | {{ article.source }}</h6>
-                        <p class="news-card__description" style="line-height: 28px;">{{ article.description }}</p>
+                        <h6 class="news-card__subheader">{{ article.date | date: "%d %B %Y" }} | {{ article.organization }}</h6>
+                        <p class="news-card__description" style="line-height: 28px;">{{ article.subtitle }}</p>
                         <p class="news-card__link">Read more <i class="icon icon--arrow-up-right-square"></i></p>
                     </div>
                 </a>
@@ -18,10 +18,12 @@
         </div>
         {% endfor %}
     </div>
+    {% if site.data.articles.external.size > 4 %}
     <div style="display: flex; align-items: center; justify-content: center;">
         <button id="loadMoreExt" class="btn load-more-btn btn--rounded btn--w-icon btn--w-icon-right">Load More<i
                 class="icon icon--chevron-down"></i></button>
     </div>
+    {% endif %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" type="text/javascript"
         charset="UTF-8"></script>
     <script>

@@ -1,9 +1,11 @@
 <section id="internal-news">
     <div class="row">
-        {% for article in site.posts limit:100 %}
+        {% assign all_posts = site.posts | concat: site.data.articles.internal %}
+        {% assign sorted_posts = all_posts | sort: 'date' | reverse %}
+        {% for article in sorted_posts limit:100 %}
         <div class="col-md-6 col-sm-6 int-toggle" style="display: none;">
             <a href="{% if article.externalLink %}{{ article.externalLink }}{% else %}{{ site.url }}{{ article.url }}{% endif %}"
-                style="color: inherit;" target="_blank">
+                style="color: inherit;" {% if article.externalLink %}target="_blank"{% endif %}>
                 <div class="news-card">
                     <h1 class="news-card__title">{{ article.title }}</h1>
                     <h6 class="news-card__subheader">{{ article.date | date: "%d %B %Y"}} | {{

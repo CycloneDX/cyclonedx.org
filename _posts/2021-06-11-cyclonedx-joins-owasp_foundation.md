@@ -21,7 +21,11 @@ image: https://cyclonedx.org/theme/assets/images/hero-subheader.png
 micro_nav: false
 
 # Page navigation
-    
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: ABOUT
+  - title: NEWSROOM
+  
 ---
 
 # CycloneDX Joins OWASP Foundation as a Flagship Project
