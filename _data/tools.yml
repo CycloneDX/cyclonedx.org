@@ -1774,3 +1774,14 @@
   categories:
     - distribute
     - build-integration
+- name: Vulnerabilities.io
+  publisher: Vulnerabilities Input Output Limited
+  description: Generates CycloneDX Software Bill of Materials (SBOM) and visualisations for an entire organizations codebase through integrations with source control systems. Enables organizations to manage overall supply chain risk.
+  websiteUrl: https://vulnerabilities.io
+  categories:
+  - distribute
+  - build-integration
+  - proprietary
+  - gitHub-app
+  - analysis
+  - author
