@@ -539,3 +539,8 @@
   websiteUrl: https://ksoc.com
   categories:
     - project
+- name: Sysdig
+  logo: sysdig.svg
+  websiteUrl: https://sysdig.com
+  categories:
+    - vendor
