@@ -1774,3 +1774,21 @@
   categories:
     - distribute
     - build-integration
+- name: Vulnerabilities.io
+  publisher: Vulnerabilities Input Output Limited
+  description: Generates CycloneDX Software Bill of Materials (SBOM) and visualisations for an entire organizations codebase through integrations with source control systems. Enables organizations to manage overall supply chain risk.
+  websiteUrl: https://vulnerabilities.io
+  categories:
+  - distribute
+  - build-integration
+  - proprietary
+  - gitHub-app
+  - analysis
+  - author
+- name: Athena 
+  publisher: Medical Aegis Inc
+  description: Athena is a SaaS solution for medical device makers that overlays the product development lifecycle to address risks before devices go to market.
+  websiteUrl: https://medicalaegis.com
+  categories:
+    - proprietary
+    - analysis

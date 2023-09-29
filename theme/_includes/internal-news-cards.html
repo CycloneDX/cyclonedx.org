@@ -1,0 +1,39 @@
+<section id="internal-news">
+    <div class="row">
+        {% assign all_posts = site.posts | concat: site.data.articles.internal %}
+        {% assign sorted_posts = all_posts | sort: 'date' | reverse %}
+        {% for article in sorted_posts limit:100 %}
+        <div class="col-md-6 col-sm-6 int-toggle" style="display: none;">
+            <a href="{% if article.externalLink %}{{ article.externalLink }}{% else %}{{ site.url }}{{ article.url }}{% endif %}"
+                style="color: inherit;" {% if article.externalLink %}target="_blank" {% endif %}>
+                <div class="news-card internal-news-card">
+                    <h1 class="news-card__title">{{ article.title }}</h1>
+                    <h6 class="news-card__subheader">{{ article.date | date: "%d %B %Y"}} | {{
+                        article.organization}} - {{article.type}}</h6>
+                    <p class="news-card__description">{{ article.subtitle }}</p>
+                    <p class="news-card__link">Read more {% if article.externalLink %}<i
+                            class="icon icon--arrow-up-right-square"></i>{% endif %}</p>
+                </div><!-- /.news-card -->
+            </a>
+        </div><!-- /.col -->
+        {% endfor %}
+    </div><!-- /.row -->
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <button id="loadMoreInt" class="btn load-more-btn btn--rounded btn--w-icon btn--w-icon-right">Load More<i
+                class="icon icon--chevron-down"></i></button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" type="text/javascript"
+        charset="UTF-8"></script>
+    <script>
+        $(function () {
+            $(".int-toggle").slice(0, 4).show(); // select the first ten
+            $("#loadMoreInt").click(function (e) { // click event for load more
+                e.preventDefault();
+                $(".int-toggle:hidden").slice(0, 4).show(); // select next 10 hidden divs and show them
+                if ($(".int-toggle:hidden").length == 0) { // check if any hidden divs still exist
+                    $("#loadMoreInt").hide()
+                }
+            });
+        });
+    </script>
+</section><!-- /.internal-news -->

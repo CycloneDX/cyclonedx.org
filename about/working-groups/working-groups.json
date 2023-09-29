@@ -84,6 +84,20 @@
     ]
   },
   {
+    "displayName": "Mike Zadik",
+    "lastName": "Zadik",
+    "headshot": "https://avatars.githubusercontent.com/u/80639729?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "CodeTigerCloud",
+    "homepage": "https://github.com/CodeTigerCloud",
+    "categories": [
+      "maintainers"
+    ]
+  },
+  {
     "displayName": "Paul Horton",
     "lastName": "Horton",
     "headshot": "https://avatars.githubusercontent.com/u/10280392?v=4",
@@ -3773,6 +3787,104 @@
     "linkedin": null,
     "github": "sebastianvoss",
     "homepage": "https://github.com/sebastianvoss",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "noqcks",
+    "lastName": "noqcks",
+    "headshot": "https://avatars.githubusercontent.com/u/4740147?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "noqcks",
+    "homepage": "https://github.com/noqcks",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "validide",
+    "lastName": "validide",
+    "headshot": "https://avatars.githubusercontent.com/u/5551616?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "validide",
+    "homepage": "https://github.com/validide",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "mtgag",
+    "lastName": "mtgag",
+    "headshot": "https://avatars.githubusercontent.com/u/36234449?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "mtgag",
+    "homepage": "https://github.com/mtgag",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "setchy",
+    "lastName": "setchy",
+    "headshot": "https://avatars.githubusercontent.com/u/386277?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "setchy",
+    "homepage": "https://github.com/setchy",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "ansonallard",
+    "lastName": "ansonallard",
+    "headshot": "https://avatars.githubusercontent.com/u/34141612?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "ansonallard",
+    "homepage": "https://github.com/ansonallard",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "marcelstoer",
+    "lastName": "marcelstoer",
+    "headshot": "https://avatars.githubusercontent.com/u/624195?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "marcelstoer",
+    "homepage": "https://github.com/marcelstoer",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "joonamo",
+    "lastName": "joonamo",
+    "headshot": "https://avatars.githubusercontent.com/u/2312529?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "joonamo",
+    "homepage": "https://github.com/joonamo",
     "categories": [
       "contributors"
     ]
