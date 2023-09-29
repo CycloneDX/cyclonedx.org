@@ -6,6 +6,9 @@ comments: false
 banner: false
 
 # News article settings
+organization: CycloneDX
+type: Press Release
+
 title: OWASP Expands SBOM Capabilities, Accelerating Innovation and Supply Chain Risk Reduction
 window_title: CycloneDX v1.4 Released
 description: CycloneDX v1.4 Released
@@ -18,7 +21,11 @@ image: https://cyclonedx.org/theme/assets/images/hero-subheader.png
 micro_nav: false
 
 # Page navigation
-    
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: ABOUT
+  - title: NEWSROOM
+  
 ---
 
 # OWASP Expands SBOM Capabilities, Accelerating Innovation and Supply Chain Risk Reduction

@@ -6,6 +6,9 @@ comments: false
 banner: false
 
 # News article settings
+organization: CycloneDX
+type: Press Release
+
 title: Introducing OWASP CycloneDX v1.5 - Advanced Bill of Materials Standard Empowering Transparency, Security, and Compliance
 window_title: CycloneDX v1.5 Released
 description: CycloneDX v1.5 Released
@@ -18,7 +21,11 @@ image: https://cyclonedx.org/theme/assets/images/hero-subheader.png
 micro_nav: false
 
 # Page navigation
-    
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: ABOUT
+  - title: NEWSROOM
+  
 ---
 
 # Introducing OWASP CycloneDX v1.5: Advanced Bill of Materials Standard Empowering Transparency, Security, and Compliance

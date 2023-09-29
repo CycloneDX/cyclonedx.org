@@ -1785,3 +1785,10 @@
   - gitHub-app
   - analysis
   - author
+- name: Athena 
+  publisher: Medical Aegis Inc
+  description: Athena is a SaaS solution for medical device makers that overlays the product development lifecycle to address risks before devices go to market.
+  websiteUrl: https://medicalaegis.com
+  categories:
+    - proprietary
+    - analysis

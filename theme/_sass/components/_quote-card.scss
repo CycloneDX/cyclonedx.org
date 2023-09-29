@@ -1,0 +1,63 @@
+/**
+ * Quote Card (components/_quote-card.scss)
+ */
+
+/* ----- General ----- */
+.quote-card {
+    margin: 0;
+    max-width: 584px;
+    padding: 24px;
+    border-radius: 12px;
+    background: #031633;
+    box-shadow: -2px 0px 4px 0px rgba(0, 0, 0, 0.25), 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    position: relative;
+    border: 1px solid transparent;
+    float: right;
+    margin-top: 190px;
+}
+
+.quote-text {
+    color: var(--White, #FFF);
+    font-family: Noto Sans;
+    font-style: normal;
+    line-height: normal;
+    border-left: 4px solid #4CA7F1;
+    padding-left: 16px;
+}
+
+.quote-source {
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: $screen-sm-max) {
+    .quote-card {
+        margin-top: 40px;
+        margin-right: 90px;
+        margin-bottom: 100px;
+        width: auto;
+        max-width: fit-content;
+    }
+}
+
+@media screen and (max-width: $screen-xs-max) {
+    .quote-card {
+        display: none;
+    }
+}
+
+@media screen and (max-width: $screen-md-max) {
+    .quote-card {
+        margin-bottom: 80px;
+    }
+}
+

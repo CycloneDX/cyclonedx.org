@@ -1,5 +1,5 @@
 /**
- * Hero subheader (components/_hero-subheader.scss)
+ * Guides (components/_guides.scss)
  */
 
 /* ----- General ----- */
@@ -179,26 +179,6 @@
 @media screen and (min-width: 991.99px) {
 	.guide-subheader__title {
 		margin: 135px 0 24px 0;
-	}
-}
-
-/**
- * Guides (components/_guides.scss)
- */
- 
-/* ----- Container ----- */
-.guide-container {
-	background-image: url("/theme/assets/images/hero-header.png");
-	background-size: cover;
-	width: 100%;
-	background-position: center;
-	padding: 0 0 0 0;
-}
-@media (max-width: $screen-sm-max) {
-	.guide-container {
-		margin: 0 0 0 0;
-		width: 100%;
-		max-width: none;
 	}
 }
 
