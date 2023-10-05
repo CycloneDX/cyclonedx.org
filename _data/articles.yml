@@ -1,4 +1,10 @@
 external:
+  - title: Leading SBOM Standard CycloneDX Now Incorporates Machine Learning
+    subtitle: OWASP, the Open Worldwide Application Security Project, recently announced an update to the Bill of Materials (BOM) industry standard specification, CycloneDX.
+    organization: Acceleration Economy
+    date: 2023-09-06
+    image: /theme/assets/images/news/machine-learning-transparency.jpg
+    url: https://accelerationeconomy.com/cybersecurity/leading-sbom-standard-cyclonedx-now-incorporates-machine-learning/
   - title: A software bill of materials helps secure your supply chain
     subtitle: The software supply chain involves developing, maintaining and distributing software to end users. To enhance the functionality of the software being developed, developers frequently depend...
     organization: SecurityIntelligence
