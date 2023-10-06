@@ -30,6 +30,12 @@ external:
     image: /theme/assets/images/news/confluent.png
     url: https://www.confluent.io/blog/software-bill-of-materials/
 internal:
+  - title: OWASP CycloneDX - The Missing Standard For Describing Cryptography in Software
+    subtitle: OWASP is advancing the CycloneDX standard to support cryptographic assets such as algorithms, certificates, and keys in support of OMB M-23-02 and NSM-10. This work aligns to efforts from NIST and NSA in promoting cryptographic transparency in the lifecycle of components that use or implement cryptography.
+    organization: OWASP Foundation
+    date: 2023-08-03
+    type: Blog
+    externalLink: https://owasp.org/blog/2023/10/03/CycloneDX-Cryptography-CBOM.html
   - title: How CycloneDX v1.5 Increases Trust and Transparency in More Industries
     subtitle: OWASP is often the first to reveal new, innovative ways to leverage SBOM. The release of CycloneDX version 1.5 is no different, opening up SBOM adoption to new industries and introducing numerous ways to customize CycloneDX SBOMs to indicate quality, show transparency, and expedite vulnerability remediation while increasing trust in the supply chain.
     organization: OWASP Foundation
