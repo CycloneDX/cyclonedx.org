@@ -33,7 +33,7 @@ internal:
   - title: OWASP CycloneDX - The Missing Standard For Describing Cryptography in Software
     subtitle: OWASP is advancing the CycloneDX standard to support cryptographic assets such as algorithms, certificates, and keys in support of OMB M-23-02 and NSM-10. This work aligns to efforts from NIST and NSA in promoting cryptographic transparency in the lifecycle of components that use or implement cryptography.
     organization: OWASP Foundation
-    date: 2023-08-03
+    date: 2023-10-03
     type: Blog
     externalLink: https://owasp.org/blog/2023/10/03/CycloneDX-Cryptography-CBOM.html
   - title: How CycloneDX v1.5 Increases Trust and Transparency in More Industries
