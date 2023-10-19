@@ -1792,3 +1792,12 @@
   categories:
     - proprietary
     - analysis
+- name: Semgrep
+  publisher: Semgrep Inc
+  description: Semgrep is an application security platform where developers can scan for vulnerabilities in code (SAST), in OSS dependencies (SCA), and secrets. Semgrep creates CycloneDX SBOMs that enrich vulnerabilities with reachability analysis.
+  websiteUrl: https://semgrep.dev
+  categories:
+    - opensource
+    - proprietary
+    - analysis
+    - build-integration
