@@ -549,3 +549,8 @@
   websiteUrl: https://www.zaproxy.org/
   categories:
     - project
+- name: Semgrep
+  logo: semgrep.svg
+  websiteUrl: https://semgrep.dev
+  categories:
+    - vendor
