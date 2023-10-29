@@ -3972,5 +3972,61 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "marob",
+    "lastName": "marob",
+    "headshot": "https://avatars.githubusercontent.com/u/3486231?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "marob",
+    "homepage": "https://github.com/marob",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "geoandri",
+    "lastName": "geoandri",
+    "headshot": "https://avatars.githubusercontent.com/u/7126008?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "geoandri",
+    "homepage": "https://github.com/geoandri",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "ppkarwasz",
+    "lastName": "ppkarwasz",
+    "headshot": "https://avatars.githubusercontent.com/u/12533274?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "ppkarwasz",
+    "homepage": "https://github.com/ppkarwasz",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "r4fterman",
+    "lastName": "r4fterman",
+    "headshot": "https://avatars.githubusercontent.com/u/3824734?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "r4fterman",
+    "homepage": "https://github.com/r4fterman",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
