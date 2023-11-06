@@ -1801,3 +1801,12 @@
     - proprietary
     - analysis
     - build-integration
+- name: sbom-swissarmy-bitbucket-pipe
+  publisher: ccideas
+  description: A Bitbucket Pipe containing a collection of open source tools to perform additionl analysis on a CycloneDX or SPDX sBOM.
+  repoUrl: https://bitbucket.org/ccideas1/cyclonedx-npm-pipe
+  websiteUrl: https://github.com/ccideas/sbom-utilities-pipe
+  categories:
+    - opensource
+    - build-integration
+    - analysis
