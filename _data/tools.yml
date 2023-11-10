@@ -1810,3 +1810,19 @@
     - opensource
     - build-integration
     - analysis
+- name: cyclonedx-merge
+  publisher: fnxpt
+  description: Tool to merge cyclonedx files (json/xml)
+  repoUrl: https://github.com/fnxpt/cyclonedx-merge
+  websiteUrl: https://github.com/fnxpt/cyclonedx-merge
+  categories:
+    - opensource
+    - transform
+- name: cyclonedx-enrich
+  publisher: fnxpt
+  description: Enrich cyclonedx files with a pattern
+  repoUrl: https://github.com/fnxpt/cyclonedx-enrich
+  websiteUrl: https://github.com/fnxpt/yclonedx-enrich
+  categories:
+    - opensource
+    - transform
