@@ -4028,5 +4028,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "mmorel-35",
+    "lastName": "mmorel-35",
+    "headshot": "https://avatars.githubusercontent.com/u/6032561?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "mmorel-35",
+    "homepage": "https://github.com/mmorel-35",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "ThomasVitale",
+    "lastName": "thomasvitale",
+    "headshot": "https://avatars.githubusercontent.com/u/8523418?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "ThomasVitale",
+    "homepage": "https://github.com/ThomasVitale",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
