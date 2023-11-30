@@ -18,7 +18,7 @@ micro_nav: false
 ---
 
 # Standardization Process
-**November 2023**
+**28 November 2023**
 
 ## Introduction
 OWASP CycloneDX is an open, consensus-based community project, which aims to be inclusive of all contributions and contributors. Anyone with an interest in the project can join the community, contribute to the project design and participate in the development of the standard and supporting ecosystem of libraries, tools, and documentation. CycloneDX consists of multiple working groups. They are:
@@ -61,4 +61,10 @@ TC54 may opt to send the candidate back to draft state in the event the candidat
 
 ![Working Model Diagram #2](/theme/assets/images/standardization-working-model-2.svg#center)
 
-Once a collection of candidates, forming a new specification version, has been approved by the CycloneDX Core Working Group and TC54, the CycloneDX Core Working Group will vote, by a lazy majority, to release a new version of the CycloneDX specification. This is immediately followed by a vote by TC54, by a lazy majority and the option of a rare fallback to a vote according to Ecma rules, to propose a new CycloneDX specification version to the Ecma General Assembly.
+Once a collection of candidates, forming a new specification version, has been approved by the CycloneDX Core Working Group and TC54, the CycloneDX Core Working Group will vote, by a lazy majority, to release a new version of the CycloneDX specification. This is immediately followed by a vote by TC54, by a lazy majority and the option of a rare fallback to a vote according to Ecma rules, to propose a new CycloneDX specification version to the Ecma Executive Committee (Execom).
+
+Once a new specification version has been approved by TC54 and recommended to the Ecma Execom, the Execom recommends to the Ecma General Assembly (GA) for an approval vote.
+
+The GA votes at their scheduled meetings. Before an approval vote is confirmed the GA may bring back to TC54 questions, clarifications and changes, if significant. These queries should be reviewed and developed by the CycloneDX community, and also reviewed by TC54, then submitted again for an approval vote to the GA. It should be noted that it is historically-uncommon to receive a vote of rejection.
+
+The new version becomes an official Ecma standard after a favorable vote. Ecma will work towards delivering ISO recognition of the Ecma standard.
