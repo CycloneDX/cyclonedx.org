@@ -17,16 +17,10 @@
   categories:
     - supporter
     - vendor
-- name: Xperi
-  logo: xperi.svg
-  websiteUrl: https://www.xperi.com/
-  categories:
-    - supporter
 - name: Vdoo
   logo: vdoo.svg
   websiteUrl: https://vdoo.com
   categories:
-    - supporter
     - vendor
 - name: Lockheed Martin
   logo: lockheed-martin.svg

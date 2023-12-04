@@ -154,34 +154,6 @@
     ]
   },
   {
-    "displayName": "Asaf Karas",
-    "lastName": "Karas",
-    "headshot": "asaf-karas.png",
-    "organization": "Vdoo",
-    "description": null,
-    "twitter": "asfkrs",
-    "linkedin": "asaf-karas-46b04114a",
-    "github": null,
-    "homepage": "https://www.vdoo.com/",
-    "categories": [
-      "industry"
-    ]
-  },
-  {
-    "displayName": "Richard Lee",
-    "lastName": "Lee",
-    "headshot": "richard-lee.jpg",
-    "organization": "TiVo",
-    "description": null,
-    "twitter": "llamahunter",
-    "linkedin": "richardlee3",
-    "github": "llamahunter",
-    "homepage": "https://www.tivo.com/",
-    "categories": [
-      "industry"
-    ]
-  },
-  {
     "displayName": "Christopher Gates",
     "lastName": "Gates",
     "headshot": "christopher-gates.jpg",
@@ -196,14 +168,14 @@
     ]
   },
   {
-    "displayName": "Sambhav Kothari",
-    "lastName": "Kothari",
-    "headshot": "sambhav-kothari.jpg",
+    "displayName": "Dennis Roellke",
+    "lastName": "Roellke",
+    "headshot": "dennis-roellke.jpg",
     "organization": "Bloomberg",
     "description": null,
-    "twitter": "_sambhavkothari",
-    "linkedin": "sambhav-kothari",
-    "github": "samj1912",
+    "twitter": "dns43",
+    "linkedin": "dennis-roellke",
+    "github": "dns43",
     "homepage": "https://www.bloomberg.com/",
     "categories": [
       "industry"
