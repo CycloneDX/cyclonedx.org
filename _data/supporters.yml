@@ -548,3 +548,8 @@
   websiteUrl: https://semgrep.dev
   categories:
     - vendor
+- name: Ecma International
+  logo: ecma.svg
+  websiteUrl: https://www.ecma-international.org/
+  categories:
+    - supporter
