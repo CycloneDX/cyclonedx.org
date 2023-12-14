@@ -1499,17 +1499,16 @@
     ]
   },
   {
-    "displayName": "VinodAnandan",
-    "lastName": "vinodanandan",
-    "headshot": "https://avatars.githubusercontent.com/u/29684753?v=4",
-    "organization": null,
+    "displayName": "Vinod Anandan",
+    "lastName": "Anandan",
+    "headshot": "vinod-anandan.jpg",
     "description": null,
-    "twitter": null,
-    "linkedin": null,
+    "twitter": "_VinodAnandan",
+    "linkedin": "vinodna",
     "github": "VinodAnandan",
     "homepage": "https://github.com/VinodAnandan",
     "categories": [
-      "contributors"
+      "ux"
     ]
   },
   {
