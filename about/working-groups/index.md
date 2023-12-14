@@ -36,7 +36,7 @@ micro_nav: false
 <div id="industry-wg">  
 </div>
 
-## Website UX & Development
+## Outreach, Content Development, and UX
 
 <div id="ux-wg">  
 </div>
