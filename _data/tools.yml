@@ -188,11 +188,12 @@
   - opensource
   - build-integration
 - name: CycloneDX-Buildroot
-  publisher: alvinchchen
-  description: The CycloneDX-buildroot module for Python creates a valid CycloneDX
-    bill of materials from buildroot manifest.xlsx files
-  repoUrl: https://github.com/alvinchchen/cyclonedx-buildroot
-  websiteUrl: https://github.com/alvinchchen/cyclonedx-buildroot
+  publisher: CycloneDX
+  description: The CycloneDX-buildroot module creates a valid CycloneDX
+    bill of materials from buildroot manifest.csv files. Note that any formatted manifest.csv can 
+    be parsed for an arbitrary project spread sheet of software packages as indicated in the documentation.
+  repoUrl: https://github.com/CycloneDX/cyclonedx-buildroot
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-buildroot
   categories:
   - opensource
   - build-integration
