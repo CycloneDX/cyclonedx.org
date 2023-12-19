@@ -84,15 +84,15 @@
     ]
   },
   {
-    "displayName": "Mike Zadik",
-    "lastName": "Zadik",
+    "displayName": "Michael Tsfoni",
+    "lastName": "Tsfoni",
     "headshot": "https://avatars.githubusercontent.com/u/80639729?v=4",
     "organization": null,
     "description": null,
     "twitter": null,
-    "linkedin": null,
-    "github": "CodeTigerCloud",
-    "homepage": "https://github.com/CodeTigerCloud",
+    "linkedin": "mtsfoni",
+    "github": "mtsfoni",
+    "homepage": null,
     "categories": [
       "maintainers"
     ]
