@@ -1836,3 +1836,12 @@
   - opensource
   - build-integration
   - github-action
+- name: Surfactant
+  publisher: LLNL
+  description: A modular framework for extracting file information and relationships for filesystems, with an SBOM as the primary output. Also supports limited SBOM merging, editing, and conversion between formats. Several of the supported file types include PE (both native and .NET), ELF, and MSI files.
+  repoUrl: https://github.com/LLNL/Surfactant
+  websiteUrl: https://github.com/LLNL/Surfactant
+  categories:
+  - opensource
+  - transform
+  - library
