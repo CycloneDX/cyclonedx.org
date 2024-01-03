@@ -1836,3 +1836,11 @@
   - opensource
   - build-integration
   - github-action
+- name: MLBOMdoc
+  publisher: Anthony Harrison
+  description: A command line tool which produces a human-readable representaion of a CycloneDX ML Bill of Materials (MLBOM). Output formats include PDF and Markdown.
+  repoUrl: https://github.com/anthonyharrison/mlbomdoc
+  websiteUrl: https://pypi.org/project/mlbomdoc/
+  categories:
+  - opensource
+  - analysis
