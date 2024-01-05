@@ -1792,17 +1792,17 @@
     ]
   },
   {
-    "displayName": "macblazer",
-    "lastName": "macblazer",
+    "displayName": "Kyle Hammond",
+    "lastName": "Hammond",
     "headshot": "https://avatars.githubusercontent.com/u/6825873?v=4",
-    "organization": null,
+    "organization": "Jamf",
     "description": null,
     "twitter": null,
-    "linkedin": null,
+    "linkedin": "kyle-hammond-macblazer",
     "github": "macblazer",
     "homepage": "https://github.com/macblazer",
     "categories": [
-      "contributors"
+      "maintainers"
     ]
   },
   {
