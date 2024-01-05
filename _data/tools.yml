@@ -1838,9 +1838,17 @@
   - github-action
 - name: MLBOMdoc
   publisher: Anthony Harrison
-  description: A command line tool which produces a human-readable representaion of a CycloneDX ML Bill of Materials (MLBOM). Output formats include PDF and Markdown.
+  description: A command line tool which produces a human-readable representation of a CycloneDX ML Bill of Materials (MLBOM). Output formats include PDF and Markdown.
   repoUrl: https://github.com/anthonyharrison/mlbomdoc
   websiteUrl: https://pypi.org/project/mlbomdoc/
+  categories:
+  - opensource
+  - analysis
+- name: SBOMTrend
+  publisher: Anthony Harrison
+  description: A command line tool which analyses a set of SBOMs to identify license and version changes in components.
+  repoUrl: https://github.com/anthonyharrison/sbomtrend
+  websiteUrl: https://pypi.org/project/sbomtrend/
   categories:
   - opensource
   - analysis
