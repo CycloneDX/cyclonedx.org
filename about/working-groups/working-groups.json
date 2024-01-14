@@ -153,7 +153,7 @@
       "industry"
     ]
   },
-    {
+  {
     "displayName": "Olle E Johansson",
     "lastName": "Johansson",
     "headshot": "https://avatars.githubusercontent.com/u/20310?v=4",
@@ -4234,6 +4234,20 @@
     "linkedin": null,
     "github": "shawner18",
     "homepage": "https://github.com/shawner18",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "saketjajoo",
+    "lastName": "saketjajoo",
+    "headshot": "https://avatars.githubusercontent.com/u/23132557?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "saketjajoo",
+    "homepage": "https://github.com/saketjajoo",
     "categories": [
       "contributors"
     ]
