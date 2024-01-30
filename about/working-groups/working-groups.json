@@ -153,7 +153,7 @@
       "industry"
     ]
   },
-    {
+  {
     "displayName": "Olle E Johansson",
     "lastName": "Johansson",
     "headshot": "https://avatars.githubusercontent.com/u/20310?v=4",
@@ -4192,6 +4192,62 @@
     "linkedin": null,
     "github": "andreycha",
     "homepage": "https://github.com/andreycha",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "kakumanivrn",
+    "lastName": "kakumanivrn",
+    "headshot": "https://avatars.githubusercontent.com/u/4201693?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "kakumanivrn",
+    "homepage": "https://github.com/kakumanivrn",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "logicaloud",
+    "lastName": "logicaloud",
+    "headshot": "https://avatars.githubusercontent.com/u/47704763?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "logicaloud",
+    "homepage": "https://github.com/logicaloud",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "shawner18",
+    "lastName": "shawner18",
+    "headshot": "https://avatars.githubusercontent.com/u/32966556?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "shawner18",
+    "homepage": "https://github.com/shawner18",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "saketjajoo",
+    "lastName": "saketjajoo",
+    "headshot": "https://avatars.githubusercontent.com/u/23132557?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "saketjajoo",
+    "homepage": "https://github.com/saketjajoo",
     "categories": [
       "contributors"
     ]
