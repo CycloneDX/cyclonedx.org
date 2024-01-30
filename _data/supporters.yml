@@ -553,3 +553,8 @@
   websiteUrl: https://www.ecma-international.org/
   categories:
     - supporter
+- name: Oligo
+  logo: oligo.svg
+  websiteUrl: https://www.oligo.security/
+  categories:
+    - vendor
