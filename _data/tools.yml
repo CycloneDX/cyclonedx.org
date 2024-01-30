@@ -1852,3 +1852,10 @@
   categories:
   - opensource
   - analysis
+- name: Oligo Runtime SBOM
+  publisher: Oligo
+  description: Oligo Security delivers instant insights into actively executed libraries, assessing open source risks and confirming exploitability. It enables CycloneDX SBOM creation and auto-generates VEX.
+  websiteUrl: https://www.oligo.security/
+  categories:
+  - proprietary
+  - analysis
