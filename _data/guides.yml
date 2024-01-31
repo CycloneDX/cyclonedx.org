@@ -1,3 +1,8 @@
+- title: CycloneDX One Pager
+  author: OWASP Foundation
+  text: A one-page summary outlining the advantages and benefits of using CycloneDX.
+  link_text: View document
+  link_url: ./CycloneDX%20One%20Pager.pdf
 - title: Authoritative Guide to SBOM
   author: OWASP Foundation
   text: A guide to adopting CycloneDX Software Bill of Materials (SBOM) in an existing or new project.
