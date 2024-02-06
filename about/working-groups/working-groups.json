@@ -4250,5 +4250,19 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "Ryan Searle",
+    "lastName": "Searle",
+    "headshot": "ryan-searle.jpg",
+    "organization": "Snyk",
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": null,
+    "homepage": "https://snyk.io",
+    "categories": [
+      "industry"
+    ]
   }
 ]
