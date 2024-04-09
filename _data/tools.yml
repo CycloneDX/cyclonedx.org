@@ -1859,3 +1859,12 @@
   categories:
   - proprietary
   - analysis
+- name: bogrod
+  publisher: productaize
+  description: A command line tool to manage SBOM and VEX like source code and to distribute SBOMs to notaries.
+  repoUrl: https://github.com/productaize/bogrod
+  websiteUrl: https://pypi.org/project/bogrod/
+  categories:
+  - opensource
+  - analysis
+  - distribution
