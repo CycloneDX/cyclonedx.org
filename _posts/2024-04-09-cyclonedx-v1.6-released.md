@@ -10,8 +10,8 @@ organization: CycloneDX
 type: Press Release
 
 title: CycloneDX v1.6 Released, Advances Software Supply Chain Security with Cryptographic Bill of Materials and Attestations
-window_title: CycloneDX v1.6 Released
-description: CycloneDX v1.6 Released
+window_title: CycloneDX v1.6 Released, Advances Software Supply Chain Security with Cryptographic Bill of Materials and Attestations
+description: CycloneDX v1.6 Released, Advances Software Supply Chain Security with Cryptographic Bill of Materials and Attestations
 location: WILMINGTON, DE
 subtitle: CycloneDX builds upon a legacy of innovation, empowering organizations to reduce risk and enhance software and system transparency.
 excerpt: OWASP Foundation today announced the availability of CycloneDX v1.6. This significant release strengthens software supply chain security with the introduction of two innovative capabilities&colon; Cryptographic Bill of Materials (CBOM) and CycloneDX Attestations (CDXA).
