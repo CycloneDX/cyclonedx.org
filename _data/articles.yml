@@ -30,6 +30,12 @@ external:
     image: /theme/assets/images/news/confluent.png
     url: https://www.confluent.io/blog/software-bill-of-materials/
 internal:
+  - title: CycloneDX v1.6 Introduces Support for Attestations of Compliance with Any Standard
+    subtitle: CycloneDX Attestations dramatically increases organizations’ ability to automate compliance via "compliance as code".
+    organization: OWASP Foundation
+    date: 2023-12-06
+    type: Blog
+    externalLink: https://owasp.org/blog/2023/12/06/CycloneDX-attestations.html
   - title: OWASP CycloneDX - The Missing Standard For Describing Cryptography in Software
     subtitle: OWASP is advancing the CycloneDX standard to support cryptographic assets such as algorithms, certificates, and keys in support of OMB M-23-02 and NSM-10. This work aligns to efforts from NIST and NSA in promoting cryptographic transparency in the lifecycle of components that use or implement cryptography.
     organization: OWASP Foundation

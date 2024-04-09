@@ -4,10 +4,23 @@
   link_text: View document
   link_url: ./CycloneDX%20One%20Pager.pdf
 - title: Authoritative Guide to SBOM
+  edition: Second Edition
   author: OWASP Foundation
   text: A guide to adopting CycloneDX Software Bill of Materials (SBOM) in an existing or new project.
   link_text: View Guide
   link_url: sbom
+- title: Authoritative Guide to CBOM
+  edition: First Edition
+  author: OWASP Foundation
+  text: The definitive reference for using Cryptographic Bill of Materials (CBOM) for Post-Quantum Cryptography (PQC) readiness.
+  link_text: View Guide
+  link_url: cbom
+- title: Authoritative Guide to Attestations
+  edition: First Edition
+  author: OWASP Foundation
+  text: A guide providing a path for organizations to digitally transform audit and attestation workflows utilizing any standard or requirement.
+  link_text: View Guide
+  link_url: attestations
 - title: CycloneDX YouTube Channel
   author: OWASP Foundation
   text: Video tutorials explaining SBOM and its many use cases.

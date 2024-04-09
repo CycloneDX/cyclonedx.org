@@ -24,18 +24,20 @@
 /docs/1.5/ /docs/1.5/json/ 302
 /docs/1.6/ /docs/1.6/json/ 302
 
-/docs/latest /docs/1.5/json/ 302
-/docs/latest/ /docs/1.5/json/ 302
-/docs/latest/json /docs/1.5/json/ 302
-/docs/latest/json/ /docs/1.5/json/ 302
-/docs/latest/xml /docs/1.5/xml/ 302
-/docs/latest/xml/ /docs/1.5/xml/ 302
+/docs/latest /docs/1.6/json/ 302
+/docs/latest/ /docs/1.6/json/ 302
+/docs/latest/json /docs/1.6/json/ 302
+/docs/latest/json/ /docs/1.6/json/ 302
+/docs/latest/xml /docs/1.6/xml/ 302
+/docs/latest/xml/ /docs/1.6/xml/ 302
 
 /schema/bom-1.2a.schema.json /schema/bom-1.2-strict.schema.json 302
 /schema/bom-1.2b.schema.json /schema/bom-1.2-strict.schema.json 302
 /schema/bom-1.3a.schema.json /schema/bom-1.3-strict.schema.json 302
 
 /guides/sbom/* /guides/OWASP_CycloneDX-Authoritative-Guide-to-SBOM-en.pdf 302
+/guides/cbom/* /guides/OWASP_CycloneDX-Authoritative-Guide-to-CBOM-en.pdf 302
+/guides/attestations/* /guides/OWASP_CycloneDX-Authoritative-Guide-to-Attestations-en.pdf 302
 
 /shortcut/example/key https://github.com/CycloneDX/bom-examples/tree/master/CBOM/Key 302
 /shortcut/example/protocol https://github.com/CycloneDX/bom-examples/tree/master/CBOM/Protocol 302
