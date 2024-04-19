@@ -1,10 +1,10 @@
 external:
   - title: OWASP looks to future-proof SBOMs with CycloneDX 1.6
     subtitle: The foundation is upgrading the standard for the quantum era, adding ML-readable attestation and more. Here's how it boosts software supply chain security.
-    organization: ReversingLabs
+    organization: Security Boulevard
     date: 2024-04-18
     image: /theme/assets/images/news/evolve.jpg
-    url: https://www.reversinglabs.com/blog/cyclonedx-1.6-upgraded-for-the-evolving-software-supply-chain-security-era
+    url: https://securityboulevard.com/2024/04/owasp-looks-to-future-proof-sboms-with-cyclonedx-1-6/
   - title: Leading SBOM Standard CycloneDX Now Incorporates Machine Learning
     subtitle: OWASP, the Open Worldwide Application Security Project, recently announced an update to the Bill of Materials (BOM) industry standard specification, CycloneDX.
     organization: Acceleration Economy
