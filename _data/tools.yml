@@ -1868,3 +1868,11 @@
   - opensource
   - analysis
   - distribution
+- name: SBOM Vendor Management
+  publisher: SettleTop, Inc.
+  description: Manage, assess, store and monitor all your vendor’s SBOMs in one secure, centralized dashboard to improve supply chain security.
+  websiteUrl: https://www.settletop.com/sbom
+  categories:
+  - proprietary
+  - analysis
+  - transform
