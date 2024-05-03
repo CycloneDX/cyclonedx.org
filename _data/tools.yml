@@ -1836,6 +1836,70 @@
   - opensource
   - build-integration
   - github-action
+- name: MLBOMdoc
+  publisher: Anthony Harrison
+  description: A command line tool which produces a human-readable representation of a CycloneDX ML Bill of Materials (MLBOM). Output formats include PDF and Markdown.
+  repoUrl: https://github.com/anthonyharrison/mlbomdoc
+  websiteUrl: https://pypi.org/project/mlbomdoc/
+  categories:
+  - opensource
+  - analysis
+- name: SBOMTrend
+  publisher: Anthony Harrison
+  description: A command line tool which analyses a set of SBOMs to identify license and version changes in components.
+  repoUrl: https://github.com/anthonyharrison/sbomtrend
+  websiteUrl: https://pypi.org/project/sbomtrend/
+  categories:
+  - opensource
+  - analysis
+- name: Oligo Runtime SBOM
+  publisher: Oligo
+  description: Oligo Security delivers instant insights into actively executed libraries, assessing open source risks and confirming exploitability. It enables CycloneDX SBOM creation and auto-generates VEX.
+  websiteUrl: https://www.oligo.security/
+  categories:
+  - proprietary
+  - analysis
+- name: bogrod
+  publisher: productaize
+  description: A command line tool to manage SBOM and VEX like source code and to distribute SBOMs to notaries.
+  repoUrl: https://github.com/productaize/bogrod
+  websiteUrl: https://pypi.org/project/bogrod/
+  categories:
+  - opensource
+  - analysis
+  - distribution
+- name: SUM Platform
+  publisher: Security Pattern
+  description: SBOM management and vulnerability monitoring platform for IoT and embedded systems. Show compliance to regulations and standards and manage risk across the entire product lifecycle.
+  websiteUrl: https://www.securitypattern.com/sumplatform
+  categories:
+  - proprietary
+  - analysis
+  - build-integration
+- name: SBOM Vendor Management
+  publisher: SettleTop, Inc.
+  description: Manage, assess, store and monitor all your vendor’s SBOMs in one secure, centralized dashboard to improve supply chain security.
+  websiteUrl: https://www.settletop.com/sbom
+  categories:
+  - proprietary
+  - analysis
+- name: Rollup Plugin SBOM
+  publisher: Jan Biasi
+  description: Creates CycloneDX SBOMs for frontend Javascript applications that have  been bundled with rollup or vite.
+  repoUrl: https://github.com/janbiasi/rollup-plugin-sbom
+  websiteUrl: https://github.com/janbiasi/rollup-plugin-sbom
+  categories:
+  - opensource
+  - build-integration
+- name: Product Security Hub (PSH)
+  publisher: Product Security Hub, LLC
+  description: Product Security Hub (PSH) is a cloud-based tool that provides capabilities to import, export, view, create, edit, and transform CycloneDX SBOMs and human-readable SBOMs, as well as view, add, and edit vulnerabilities as VEX data within CycloneDX SBOMs.
+  websiteUrl: https://www.ProductSecurityHub.com/
+  categories:
+  - proprietary
+  - analysis
+  - transform
+  - author
 - name: Surfactant
   publisher: LLNL
   description: A modular framework for extracting file information and relationships for filesystems, with an SBOM as the primary output. Also supports limited SBOM merging, editing, and conversion between formats. Several of the supported file types include PE (both native and .NET), ELF, and MSI files.

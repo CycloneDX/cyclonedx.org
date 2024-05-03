@@ -21,13 +21,10 @@ micro_nav: false
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
-<img src="/theme/assets/images/high-level-object-model-small.svg" width="331" height="202" alt="CycloneDX Object Model Overview" style="display:block; float:right; margin:10px">
-
 The CycloneDX object model:
-* is defined in [JSON Schema](https://github.com/CycloneDX/specification/blob/1.5/schema/bom-1.5.schema.json), [XML Schema](https://github.com/CycloneDX/specification/blob/1.5/schema/bom-1.5.xsd), and [Protocol Buffers](https://github.com/CycloneDX/specification/blob/1.5/schema/bom-1.5.proto)
-* consists of [metadata](#bom-metadata), [components](#components), [services](#services), [dependencies](#dependencies), [compositions](#compositions), and [vulnerabilities](#vulnerabilities).
+* is defined in [JSON Schema](https://github.com/CycloneDX/specification/blob/1.6/schema/bom-1.6.schema.json), [XML Schema](https://github.com/CycloneDX/specification/blob/1.6/schema/bom-1.6.xsd), and [Protocol Buffers](https://github.com/CycloneDX/specification/blob/1.6/schema/bom-1.6.proto)
 * is prescriptive and simple to use
-* is designed for <abbr data-title="Software Bill of Materials">SBOM</abbr>, <abbr data-title="Software-as-a-Service Bill of Materials">SaaSBOM</abbr>, <abbr data-title="Operations Bill of Materials">OBOM</abbr>, <abbr data-title="Manufacturing Bill of Materials">MBOM</abbr>, and <abbr data-title="Vulnerability Exploitability Exchange">VEX</abbr> use cases
+* is designed for xBOM use cases, including <abbr data-title="Software Bill of Materials">SBOM</abbr>, <abbr data-title="Software-as-a-Service Bill of Materials">SaaSBOM</abbr>, <abbr data-title="AI/ML Bill of Materials">AI/ML-BOM</abbr>, <abbr data-title="Cryptography Bill of Materials">CBOM</abbr>, and <abbr data-title="Vulnerability Exploitability Exchange">VEX</abbr>
 * can easily describe complex relationships
 * is [extensible](#extensions) to support specialized and future use cases
 
@@ -36,56 +33,71 @@ The CycloneDX object model:
 BOM metadata includes the supplier, manufacturer, and target component for which the BOM describes. It also includes
 the tools used to create the BOM, and license information for the BOM document itself.
 
-![Metadata](../../theme/assets/images/guides/SBOM/Metadata.svg)
+![Metadata](../../theme/assets/images/object-model/Metadata.svg)
 
 ## Components
 Components describe the complete inventory of first-party and third-party components. The specification can represent
 software, hardware devices, machine learning models, source code, and configurations, along with the manufacturer
 information, license and copyright details, and complete pedigree and provenance for every component.
 
-![Components](../../theme/assets/images/guides/SBOM/Components.svg)
+![Components](../../theme/assets/images/object-model/Components.svg)
 
 ## Services
 Services represent external APIs that the software may call. They describe endpoint URIs, authentication
 requirements, and trust boundary traversals. The data flow between software and services can also be described,
 including the data classifications and the flow direction of each type.
 
-![Services](../../theme/assets/images/guides/SBOM/Services.svg)
+![Services](../../theme/assets/images/object-model/Services.svg)
 
 ## Dependencies
 CycloneDX provides the ability to describe components and their dependency on other components. The dependency graph is
 capable of representing both direct and transitive relationships. Components that depend on services can be represented
 in the dependency graph, and services that depend on other services can be represented as well.
 
-![Dependencies](../../theme/assets/images/guides/SBOM/Dependencies.svg)
+![Dependencies](../../theme/assets/images/object-model/Dependencies.svg)
 
 ## Compositions
 Compositions describe constituent parts (including components, services, and dependency relationships) and their
 completeness. The aggregate of each composition can be described as complete, incomplete, incomplete first-party only,
 incomplete third-party only, or unknown.
 
-![Compositions](../../theme/assets/images/guides/SBOM/Compositions.svg)
+![Compositions](../../theme/assets/images/object-model/Compositions.svg)
 
 ## Vulnerabilities
 Known vulnerabilities inherited from the use of third-party and open-source software and the exploitability of the
 vulnerabilities can be communicated with CycloneDX. Previously unknown vulnerabilities affecting both components and
 services may also be disclosed using CycloneDX, making it ideal for both vulnerability disclosure and VEX use cases.
 
-![Vulnerabilities](../../theme/assets/images/guides/SBOM/Vulnerabilities.svg)
+![Vulnerabilities](../../theme/assets/images/object-model/Vulnerabilities.svg)
 
 ## Formulation
 Formulation describes how something was manufactured or deployed. CycloneDX achieves this through the support of multiple
 formulas, workflows, tasks, and steps, which represent the declared formulation for reproduction along with the observed
 formula describing the actions which transpired in the manufacturing process.
 
-![Formulation](../../theme/assets/images/guides/SBOM/Formulation.svg)
+![Formulation](../../theme/assets/images/object-model/Formulation.svg)
 
 ## Annotations
 Annotations contain comments, notes, explanations, or similar textual content which provide additional context to the
 object(s) being annotated. They are often automatically added to a BOM via a tool or as a result of manual review by
 individuals or organizations. Annotations can be independently signed and verified using digital signatures.
 
-![Annotations](../../theme/assets/images/guides/SBOM/Annotations.svg)
+![Annotations](../../theme/assets/images/object-model/Annotations.svg)
+
+## Definitions
+Standards, requirements, levels, and all supporting documentation are defined here. CycloneDX provides a general-purpose,
+machine-readable way to define virtually any type of standard. Security standards such as OWASP ASVS, MASVS, SCVS, and
+SAMM are available in CycloneDX format. Standards from other bodies are available as well. Additionally, organizations
+can create internal standards and represent them in CycloneDX.
+
+![Definitions](../../theme/assets/images/object-model/Definitions.svg)
+
+## Declarations
+Declarations describe the conformance to standards. Each declaration may include attestations, claims, counter-claims,
+evidence, counter-evidence, along with conformance and confidence. Signatories can also be declared and supports both
+digital and analog signatures. Declarations provide the basis for "compliance-as-code".
+
+![Declarations](../../theme/assets/images/object-model/Declarations.svg)
 
 ## Extensions
 Multiple extension points exist throughout the CycloneDX object model, allowing fast prototyping of new capabilities and
@@ -93,7 +105,7 @@ support for specialized and future use cases. The CycloneDX project maintains ex
 larger community. The project encourages community participation and the development of extensions that target specialized
 or industry-specific use cases.
 
-![Extensions](../../theme/assets/images/guides/SBOM/Extensions.svg)
+![Extensions](../../theme/assets/images/object-model/Extensions.svg)
 
 ## High-Level Object Model
 
@@ -108,7 +120,7 @@ The following media types are officially registered with IANA:
 | application/vnd.cyclonedx+xml | XML | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+xml) |
 | application/vnd.cyclonedx+json | JSON | [IANA](https://www.iana.org/assignments/media-types/application/vnd.cyclonedx+json) |
 
-Specific versions of CycloneDX can be specified by using the version parameter. i.e. `application/vnd.cyclonedx+xml; version=1.5`.
+Specific versions of CycloneDX can be specified by using the version parameter. i.e. `application/vnd.cyclonedx+xml; version=1.6`.
 
 The officially supported media type for Protocol Buffer format is `application/x.vnd.cyclonedx+protobuf`.
 

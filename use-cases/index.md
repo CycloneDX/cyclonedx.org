@@ -35,25 +35,29 @@ BOMs should ideally contain all direct and transitive components and the depende
 
 CycloneDX is capable of describing the following types of components:
 
-| Component Type | Class |
-| ------- | --------- |
-| Application | Component |
-| Container | Component |
-| Device | Component |
-| Library | Component |
-| File | Component |
-| Firmware | Component |
-| Framework | Component |
-| Operating System | Component |
-| Service | Service | 
+| Component Type                                   | Class     |
+|--------------------------------------------------|-----------|
+| Application                                      | Component |
+| Container                                        | Component |
+| Cryptographic Asset                              | Component |
+| Data (configuration, code snippet, dataset, etc) | Component |
+| Device                                           | Component |
+| Device Driver                                    | Component |
+| Library                                          | Component |
+| File                                             | Component |
+| Firmware                                         | Component |
+| Framework                                        | Component |
+| Machine Learning Model                           | Component |
+| Operating System                                 | Component |
+| Platform                                         | Component |
+| Service                                          | Service   | 
 
 {% include examples/inventory.html %}
 
 ## Known vulnerabilities
 
-Identifying known vulnerabilities in components can be achieved through the use of three fields: `cpe`, `purl`, and 
-`swid`. Not all fields apply to all types of components. 
-The [CPE](https://nvd.nist.gov/products/cpe) specification was designed for operating 
+Identifying known vulnerabilities in components can be achieved through the use of five fields: `cpe`, `purl`, `swid`, `omniborId`, and `swhid`. 
+Not all fields apply to all types of components.  The [CPE](https://nvd.nist.gov/products/cpe) specification was designed for operating 
 systems, applications, and hardware devices. CPE is maintained by the NVD.
 [Package URL](https://github.com/package-url/purl-spec) (PURL) standardizes how software 
 package metadata is represented so that packages can universally be located regardless of what vendor, project, or 
@@ -75,7 +79,7 @@ Components that have a cpe, purl, or swid defined can be analyzed for known vuln
 | Operating System Package | PURL or SWID |
 
 <div class="callout callout--warning">
-Not all sources of vulnerability intelligence support all three fields. Use of multiple sources may be required to
+Not all sources of vulnerability intelligence support all identifiers. Use of multiple sources may be required to
 obtain accurate and actionable results.
 </div>
 
@@ -233,11 +237,14 @@ between components. Additionally, services that depend on other services can als
 {% include examples/services.html %}
 
 ## Properties / name-value store
+
 The CycloneDX standard is fully extensible allowing for complex data to be represented in the BOM that is not provided
-by the core specification. In many cases however, name-value pairs are a simpler option. CycloneDX supports Properties
-which is a name-value store that can be used to describe additional data about the components, services, or the BOM
-that isn't native to the core specification. Unlike key-value stores, properties support duplicate names, each 
-potentially having different values.
+by the core specification. In many cases however, name-value pairs are a simpler option.  
+CycloneDX supports Properties which is a name-value store that can be used to describe additional data about the
+components, services, or the BOM that isn't native to the core specification.
+Unlike key-value stores, properties support duplicate names, each potentially having different values.  
+Property names of interest to the general public are encouraged to be registered in the [CycloneDX Property Taxonomy](https://cyclonedx.github.io/cyclonedx-property-taxonomy).
+Formal registration is OPTIONAL.
 
 {% include examples/properties.html %}
 
