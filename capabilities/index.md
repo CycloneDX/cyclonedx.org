@@ -13,11 +13,17 @@ description: CycloneDX Capabilities
 # Micro navigation
 micro_nav: false
 
+# Breadcrumbs
+breadcrumbs:
+    - title: CYCLONEDX
+    - title: GETTING STARTED
+    - title: CAPABILITIES
+
 # Page navigation
     
 ---
 
-# &nbsp;
+# Capabilities
 
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 

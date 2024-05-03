@@ -36,11 +36,13 @@ and consuming CycloneDX SBOMs.
 
 ## Release History
 
-| Version | Release Date |
-| ------- | --------- |
-| CycloneDX 1.4 | 12 January 2022 |
-| CycloneDX 1.3 | 04 May 2021 |
-| CycloneDX 1.2 | 26 May 2020 |
-| CycloneDX 1.1 | 03 March 2019 |
-| CycloneDX 1.0 | 26 March 2018 |
-| Initial Prototype | 01 May 2017 |
+| Version           | Release Date    |
+|-------------------|-----------------|
+| CycloneDX 1.6     | 09 April 2024   |
+| CycloneDX 1.5     | 26 June 2023    |
+| CycloneDX 1.4     | 12 January 2022 |
+| CycloneDX 1.3     | 04 May 2021     |
+| CycloneDX 1.2     | 26 May 2020     |
+| CycloneDX 1.1     | 03 March 2019   |
+| CycloneDX 1.0     | 26 March 2018   |
+| Initial Prototype | 01 May 2017     |

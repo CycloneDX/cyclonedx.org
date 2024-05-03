@@ -1,0 +1,29 @@
+<section class="guides-section">
+    <div class="row">
+        {% for card in site.data.guides %}
+        {% if card.link_url %}
+        <div class="col-md-6 col-sm-6">
+            <a href="{{ card.link_url }}" style="color: inherit;" {% if card.link_url contains "://" or card.link_url
+                contains site.baseurl %} target="_blank" {% endif %}>
+                <div class="guides-card">
+                    <h1 class="guides-header">{{ card.title }}</h1>
+                    <h6 class="guides-subheader">{% if card.edition %}{{ card.edition }}, {% endif %}{{ card.author }}</h6>
+                    <p class="guides-text">{{ card.text }}</p>
+                    <p class="guides-link"><u>{{ card.link_text }}</u>{% if card.link_url contains "://" or card.link_url
+                        contains site.baseurl %} <i class="icon icon--arrow-up-right-square"></i>{% endif %}
+                    </p>
+                </div>
+            </a>
+        </div>
+        {% else %}
+        <div class="col-md-6 col-sm-6">
+            <div class="coming-soon-card">
+                <h1 class="coming-soon-header">Coming Soon: {{ card.title }}</h1>
+                <h6 class="guides-subheader">{{ card.author }}</h6>
+                <p class="guides-text">{{ card.text }}</p>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div><!-- /.row -->
+</section><!-- /.guides-section -->

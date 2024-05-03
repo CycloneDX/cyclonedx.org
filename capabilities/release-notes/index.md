@@ -13,6 +13,12 @@ description: Common Release Notes Format
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: RELEASE NOTES
+
 # Page navigation
     
 ---
@@ -43,6 +49,10 @@ capabilities of the spec.
 ## High-Level Object Model
 
 ![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
+
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#common-release-notes-format)
 
 ## Additional Capabilities
 {% include capabilities-selection.html %}

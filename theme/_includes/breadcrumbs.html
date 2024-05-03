@@ -1,0 +1,18 @@
+<div class="section-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="content">
+                <div id="breadcrumbs">
+                    {% for breadcrumb in page.breadcrumbs %}
+                    {% if forloop.last %}
+                    <strong>{{ breadcrumb.title }}</strong>
+                    {% else %}
+                    <span style="font-weight: 500;">{{ breadcrumb.title }}</span>
+                    {% endif %}
+                    {% unless forloop.last %}/ {% endunless %}
+                    {% endfor %}
+                </div><!-- /.breadcrumbs -->
+            </div><!-- /.content -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div><!-- /.section-breadcrumbs -->

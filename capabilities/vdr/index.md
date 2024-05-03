@@ -13,6 +13,12 @@ description: Vulnerability Disclosure Report (VDR)
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: VDR
+
 # Page navigation
     
 ---
@@ -79,6 +85,10 @@ inventory and VDR data. There are several uses for embedding VDR data including:
 
 BOMs demonstrating VDR capabilities can be found at
 [https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
+
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#vulnerability-disclosure-report-vdr)
 
 ## Additional Capabilities
 {% include capabilities-selection.html %}

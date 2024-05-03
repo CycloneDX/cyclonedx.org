@@ -1,0 +1,21 @@
+- title: CycloneDX is designed to provide advanced supply chain capabilities for cyber risk reduction.
+  image: /theme/assets/images/hero-header.png
+  description: Compatible with over 200 tools across 20+ programming languages, CycloneDX is trusted by Lockheed Martin, ServiceNow, IBM, Contrast Security, Sonatype, and many others.
+- title: CycloneDX is authorized for use by medical device manufacturers.
+  image: theme/assets/images/medical_hero.jpg
+  description: Consumers can trust that their medical devices are manufactured securely, thanks to CycloneDX Hardware Bill of Materials (HBOM) and Software Bill of Materials (SBOM).
+- title: CycloneDX is the standard for multiple world governments and the defense industrial base.
+  image: theme/assets/images/defense_hero.jpg
+  description: Trusted for satellite and space systems, missile guidance systems, and algorithmic warfare, CycloneDX plays a small part in safeguarding national defense.
+- title: CycloneDX is enterprise ready and surfaces risk for IT and OT assets.
+  image: theme/assets/images/enterprise_hero.jpg
+  description: CycloneDX is trusted by leading CMDB vendors to detect security issues in hardware, software, services, and operations.
+- title: CycloneDX offers the most advanced license support of any SBOM format.
+  image: theme/assets/images/license_hero.jpg
+  description: CycloneDX can leverage SPDX license IDs and expressions, along with comprehensive commercial license support, supporting open source license compliance and Software Asset Management (SAM) use cases.
+- title: CycloneDX evolves with your project or organizational needs.
+  image: theme/assets/images/beyond_sbom_hero.jpg
+  description: Trusted by beginners and experts, CycloneDX offers an easy on-ramp to adoption and the world's most extensive collection of tools to get started.
+- title: CycloneDX is supported by technology leaders across the world.
+  image: theme/assets/images/ecma_hero.jpg
+  description: The OWASP Foundation maintains CycloneDX with help from the Ecma International Technical Committee for Software & System Transparency (TC54), which includes representatives from Bloomberg, IBM, Lockheed Martin, and ServiceNow.

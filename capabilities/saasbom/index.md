@@ -13,6 +13,12 @@ description: Software-as-a-Service BOM (SaaSBOM)
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: SaaSBOM
+
 # Page navigation
     
 ---
@@ -80,6 +86,10 @@ CycloneDX also supports embedding services information inside a BOM. There are s
 
 BOMs demonstrating SaaSBOM capabilities can be found at
 [https://github.com/CycloneDX/bom-examples](https://github.com/CycloneDX/bom-examples)
+
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#software-as-a-service-bom-saasbom)
 
 ## Additional Capabilities
 {% include capabilities-selection.html %}

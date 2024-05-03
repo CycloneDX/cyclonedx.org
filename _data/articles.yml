@@ -1,0 +1,56 @@
+external:
+  - title: OWASP looks to future-proof SBOMs with CycloneDX 1.6
+    subtitle: The foundation is upgrading the standard for the quantum era, adding ML-readable attestation and more. Here's how it boosts software supply chain security.
+    organization: ReversingLabs
+    date: 2024-04-18
+    image: /theme/assets/images/news/evolve.jpg
+    url: https://www.reversinglabs.com/blog/cyclonedx-1.6-upgraded-for-the-evolving-software-supply-chain-security-era
+  - title: Leading SBOM Standard CycloneDX Now Incorporates Machine Learning
+    subtitle: OWASP, the Open Worldwide Application Security Project, recently announced an update to the Bill of Materials (BOM) industry standard specification, CycloneDX.
+    organization: Acceleration Economy
+    date: 2023-09-06
+    image: /theme/assets/images/news/machine-learning-transparency.jpg
+    url: https://accelerationeconomy.com/cybersecurity/leading-sbom-standard-cyclonedx-now-incorporates-machine-learning/
+  - title: A software bill of materials helps secure your supply chain
+    subtitle: The software supply chain involves developing, maintaining and distributing software to end users. To enhance the functionality of the software being developed, developers frequently depend...
+    organization: SecurityIntelligence
+    date: 2023-06-28
+    image: /theme/assets/images/news/supply_chain.png
+    url: https://securityintelligence.com/posts/a-software-bill-of-materials-helps-secure-your-supply-chain/
+  - title: The five dimensions of SBOM quality
+    subtitle: In a memo issued on June 9, the Office of Management and Budget clarified details about how agencies will be required to collect cybersecurity attestations from software providers whose services they use.
+    organization: Contrast Security
+    date: 2023-07-26
+    image: /theme/assets/images/news/cloud_sec.png
+    url: https://www.contrastsecurity.com/security-influencers/sbom-quality-cyclonedx-and-the-5-dimensions-of-sbom-quality-contrast-security
+  - title: "CycloneDX 1.5: The next big step for SBOMs and software transparency"
+    subtitle: With CycloneDX 1.5, OWASP is introducing a number of new types of SBOMs. Here's a full run-down on changes — and what they mean for software transparency.
+    organization: ReversingLabs
+    date: 2023-07-12
+    image: /theme/assets/images/news/transparency.png
+    url: https://www.reversinglabs.com/blog/owasp-takes-cyclonedx-beyond-the-sbom
+  - title: Introducing Software Bill of Materials for Confluent Platform
+    subtitle: The software supply chain in the technology industry is becoming increasingly complex. This complexity poses significant challenges in terms of compliance, security, and vulnerability management.
+    organization: Confluent
+    date: 2023-07-28
+    image: /theme/assets/images/news/confluent.png
+    url: https://www.confluent.io/blog/software-bill-of-materials/
+internal:
+  - title: CycloneDX v1.6 Introduces Support for Attestations of Compliance with Any Standard
+    subtitle: CycloneDX Attestations dramatically increases organizations’ ability to automate compliance via "compliance as code".
+    organization: OWASP Foundation
+    date: 2023-12-06
+    type: Blog
+    externalLink: https://owasp.org/blog/2023/12/06/CycloneDX-attestations.html
+  - title: OWASP CycloneDX - The Missing Standard For Describing Cryptography in Software
+    subtitle: OWASP is advancing the CycloneDX standard to support cryptographic assets such as algorithms, certificates, and keys in support of OMB M-23-02 and NSM-10. This work aligns to efforts from NIST and NSA in promoting cryptographic transparency in the lifecycle of components that use or implement cryptography.
+    organization: OWASP Foundation
+    date: 2023-10-03
+    type: Blog
+    externalLink: https://owasp.org/blog/2023/10/03/CycloneDX-Cryptography-CBOM.html
+  - title: How CycloneDX v1.5 Increases Trust and Transparency in More Industries
+    subtitle: OWASP is often the first to reveal new, innovative ways to leverage SBOM. The release of CycloneDX version 1.5 is no different, opening up SBOM adoption to new industries and introducing numerous ways to customize CycloneDX SBOMs to indicate quality, show transparency, and expedite vulnerability remediation while increasing trust in the supply chain.
+    organization: OWASP Foundation
+    date: 2023-06-23
+    type: Blog
+    externalLink: https://owasp.org/blog/2023/06/23/CycloneDX-v1.5

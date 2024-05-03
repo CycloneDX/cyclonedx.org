@@ -1,0 +1,268 @@
+/**
+ * Guides (components/_guides.scss)
+ */
+
+/* ----- General ----- */
+.guide-subheader {
+	color: $color-white;
+	padding: 3.75rem 0 (4.6875rem - 1.25rem) 0;
+	line-height: 2rem;
+	height:500px;
+	max-height:500px;
+	width: auto;
+
+	.btn {
+		float: right;
+		margin-bottom: 40px;
+		border-radius: 6px;
+		border: none;
+		font-family: 'Noto Sans';
+		font-weight: 600;
+		font-size: 1em;
+		animation: fadeIn 0.8s ease-in-out forwards;
+		animation-delay: 0.8s;
+		animation-fill-mode: both;
+		line-height: 18px;
+	}
+
+	.guide-btn, .nav-btn {
+		border-radius: 6px;
+		border: 1px solid #CFE2FF;
+		float: none;
+		background-color: transparent;
+		color: #CFE2FF;
+		margin-right: 24px;
+		margin-bottom: 15px;
+		font-family: Noto Sans;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 18px;
+		letter-spacing: 0em;
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+	.guide-btn {
+		margin: 0 0 40px 0;
+	}
+
+	@media (max-width: 991.99px) {   // 767.99px
+		.nav-btn {
+			display: none;
+		}
+	}
+
+	.download-btn {
+		border-radius: 6px;
+		border: 1px solid #CFE2FF;
+		float: none;
+		background-color: #CFE2FF;
+		color: #333333;
+		padding: 16px 24px 16px 12px;
+		margin: 0 0 15px 24px;
+	}
+
+	@media screen and (max-width: 350px) {
+		.download-btn {
+			margin: 0 0 15px -20px;
+		}
+	}
+
+	.site-header + & {
+		height: fit-content;
+		max-height: fit-content;
+		padding: 90px 0 (10.3125rem - 1.25rem) 0;
+		@media screen and (max-width: $screen-xs-max) {
+			padding: 84px 0 40px 0;
+		}
+	}
+}
+
+.guide-subheader--before-out {
+	@media (min-width: $screen-xs-max) {
+		padding: 9.375rem 0 (15.3125rem - 1.25rem) 0;
+	}
+}
+
+.guide-subheader__desc {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 32px;
+}
+
+.guide-subheader__title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+@media screen and (max-width: 359.99px) {
+	.guide-subheader__title {
+		font-size: 24px;
+		margin: 40px 0 24px 0;
+	}
+	.guide-subheader__desc {
+		font-size: 16px;
+	}
+	#guides-body {
+		h1 {
+			font-size: 24px;
+		}
+		h2, h3 {
+			font-size: 16px;
+		}
+	}
+	#header-container, #guides-body {
+		padding: 0 56px 0 56px;
+	}
+}
+
+@media screen and (min-width: 360px) {
+	.guide-subheader__title {
+		font-size: 28px;
+		margin: 40px 0 24px 0;
+	}
+	.guide-subheader__desc {
+		font-size: 20px;
+	}
+	#header-container, #guides-body {
+		padding: 0 56px 0 56px;
+	}
+	#guides-body {
+		h1 {
+			font-size: 28px;
+		}
+		h2, h3 {
+			font-size: 20px;
+		}
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.guide-subheader__title {
+		font-size: 32px;
+		margin: 76px 0 24px 0;
+	}
+	.guide-subheader__desc {
+		font-size: 24px;
+		margin: 0 0 57px 0;
+	}
+	#header-container, #guides-body {
+		padding: 0 80px 0 80px;
+	}
+	#guides-body {
+		h1 {
+			font-size: 32px;
+		}
+		h2, h3 {
+			font-size: 24px;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.guide-subheader__title {
+		font-size: 40px;
+		margin: 91px 0 24px 0;
+	}
+	.guide-subheader__desc {
+		font-size: 24px;
+	}
+	#header-container, #guides-body {
+		padding: 0 0 0 15px;
+	}
+}
+
+@media screen and (min-width: 991.99px) {
+	.guide-subheader__title {
+		margin: 135px 0 24px 0;
+	}
+}
+
+/* ----- Cards ----- */
+.guides-card, .coming-soon-card {
+	display: block;
+	box-shadow: 0 20px 30px -10px $color-grey-blue;
+	border-radius: 5px;
+	overflow: hidden;
+	text-align: left;
+	margin-bottom: 32px;
+	position: relative;
+}
+
+.guides-card {
+	border: 1px solid transparent;
+	border-top: 3px solid $color-light-blue;
+	min-height: 250px;
+}
+
+.guides-card:hover {
+	cursor: pointer;
+	border-left: 1px solid $color-light-blue;
+	border-right: 1px solid $color-light-blue;
+	border-bottom: 1px solid $color-light-blue;
+}
+
+.coming-soon-card {
+	border-top: 3px solid #6C757D;
+	min-height: 280px;
+}
+
+/* ----- Section ----- */
+.guides-section {
+	margin: 10px;
+}
+
+/* ----- Headers ----- */
+.guides-header, .coming-soon-header {
+	padding: 0 20px 0 20px;
+	margin: 20px 0 8px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.coming-soon-header {
+	line-height: 29px;
+	color: #6C757D;
+}
+
+/* ----- Sub-headers ----- */
+.guides-subheader {
+	padding-left: 20px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #6C757D;
+}
+
+/* ----- Text ----- */
+.guides-text, .guides-link {
+    padding: 0 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+
+}
+
+.guides-text {
+	color: #6C757D;
+}
+
+.guides-link {
+	display: inline;
+	vertical-align: bottom;
+	bottom: 0;
+	position: absolute;
+	color: #0057c4;
+}
+
+/* ----- Media Queries ----- */
+@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.coming-soon-card {
+		height: 340px;
+	}
+}

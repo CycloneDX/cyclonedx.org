@@ -2,47 +2,26 @@
 <html>
 <head>
     {% include site-head.html %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/theme/assets/css/style.css?v=1.4">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </head>
 <body class="{{ site.doks.color_theme }}" data-spy="scroll" data-target=".js-scrollspy">
 
+<link rel="preload" as="image" href="/theme/assets/images/hero-header.png">
+<link rel="preload" as="image" href="/theme/assets/images/medical_hero.jpg">
+<link rel="preload" as="image" href="/theme/assets/images/defense_hero.jpg">
+<link rel="preload" as="image" href="/theme/assets/images/enterprise_hero.jpg">
+<link rel="preload" as="image" href="/theme/assets/images/license_hero.jpg">
+<link rel="preload" as="image" href="theme/assets/images/beyond_sbom_hero.jpg">
 <header class="header-container">
     {% include site-header.html %}
     <div class="hero-subheader" id="subheader">
+        {% include carousel.html %}
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <div class="align-container" data-mh>
-                        <div class="align-inner" role="img">
-                            <section class="cd-intro">
-                                <div class="cd-headline rotate-1">
-                                    <span style="display:table-cell;">CycloneDX is&nbsp;</span>
-                                    <span class="cd-words-wrapper" style="display:table-cell; vertical-align:middle;">
-                                        <b class="is-visible">SBOM</b>
-                                        <b>SaaSBOM</b>
-                                        <b>VEX</b>
-                                        <b>OBOM</b>
-                                        <b>HBOM</b>
-                                        <b>VDR</b>
-                                        <b><i style="font-size:3rem" class="icon icon--owasp-logo"></i></b>
-		                            </span>
-                                </div>
-                            </section>
-                            <section class="cd-intro">
-                                <div style="margin-top:0.8rem" class="cd-headline cd-sub-headline rotate-1">
-                                    <span class="cd-words-wrapper">
-                                        <div class="is-visible">Software Bill of Materials</div>
-                                        <div>Software-as-a-Service Bill of Materials</div>
-                                        <div>Vulnerability Exploitability Exchange</div>
-                                        <div>Operations Bill of Materials</div>
-                                        <div>Hardware Bill of Materials</div>
-                                        <div>Vulnerability Disclosure Report</div>
-                                        <div></div>
-                                    </span>
-                                </div>
-                            </section>
-                        </div><!-- /.align-inner -->
-                    </div><!-- /.align-container -->
-                </div><!-- /.col -->
                 {% if page.author.title and page.author.description and page.author.title_url %}
                 <div class="col-md-3 col-md-offset-1 hidden-xs hidden-sm">
                     <div class="align-container" data-mh>
@@ -71,48 +50,45 @@
         </div><!-- /.container -->
     </div><!-- /.hero-subheader -->
 </header>
-
-<section class="news-section">
-    <div class="container text-center">
-        <div class="row">
-            <section class="news">
-                <!-- <a href="/news/owasp-cyclonedx-launches-sbom-exchange-api-standardizing-sbom-distribution/">12 May 2022 - OWASP CycloneDX Launches SBOM Exchange API, Standardizing SBOM Distribution</a> -->
-            </section>
-        </div>
-    </div>
-</section>
-
 <section class="cta-section">
-    <div class="container text-center">
+    <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-6">
+            <h1 class="cta-header">Getting Started</h1>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-5 col-lg-3">
                 <a href="/capabilities/">
                     <div class="cta-wrapper">
-                        <i class="icon icon--cube" style="color:#0C3A76; font-size:70px"></i>
-                        <h1 class="feature-header">Capabilities</h1>
-                        <p class="feature-text">CycloneDX is a modern standard for the software supply chain. Discover the many capabilities that await.</p>
-                    </div> <!-- cta-wrapper -->
+                        <h3>Capabilities</h3>
+                        <p>CycloneDX is a modern standard for the software supply chain. Discover the many capabilities that await.</p>
+                    </div><!-- /.cta-wrapper -->
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-5 col-lg-3">
                 <a href="/use-cases/">
                     <div class="cta-wrapper">
-                        <i class="icon icon--code" style="color:#0C3A76; font-size:70px"></i>
-                        <h3 class="feature-header">Use Cases + Examples</h3>
-                        <p class="feature-text">Explore a wide array of use cases along with corresponding examples in both XML and JSON formats.</p>
-                    </div> <!-- cta-wrapper -->
+                        <h3>Use Cases</h3>
+                        <p>Explore a wide array of use cases along with corresponding examples in both XML and JSON formats.</p>
+                    </div><!-- /.cta-wrapper -->
                 </a>
             </div>
-            <div class="col-md-4 col-md-offset-0  col-sm-6 col-sm-offset-3">
+            <div class="col-md-5 col-lg-3">
                 <a href="/tool-center/">
                     <div class="cta-wrapper">
-                        <i class="icon icon--wrench" style="color:#0C3A76; font-size:70px"></i>
-                        <h3 class="feature-header">Tool Center</h3>
-                        <p class="feature-text">Discover open source and proprietary tools and solutions that support the CycloneDX standard.</p>
-                    </div> <!-- cta-wrapper -->
+                        <h3>Tool Center</h3>
+                        <p>Discover open source and proprietary tools and solutions that support the CycloneDX standard.</p>
+                    </div><!-- /.cta-wrapper -->
                 </a>
             </div>
-        </div>
+            <div class="col-md-5 col-lg-3">
+                <a href="/guides/">
+                    <div class="cta-wrapper">
+                        <h3>Guides</h3>
+                        <p>Explore OWASP guides for first-time use. Learn how others integrated CycloneDX into existing projects.</p>
+                    </div><!-- /.cta-wrapper -->
+                </a>
+            </div>            
+        </div><!-- /.row -->
     </div>
 </section>
 
@@ -120,7 +96,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6">
-                <h3>Introduction</h3>
+                <h1>Introduction</h1>
                 OWASP CycloneDX is a full-stack Bill of Materials (BOM) standard that provides advanced supply chain capabilities for
                 cyber risk reduction. The specification supports:
 
@@ -128,16 +104,21 @@
                     <li>Software Bill of Materials (SBOM)</li>
                     <li>Software-as-a-Service Bill of Materials (SaaSBOM)</li>
                     <li>Hardware Bill of Materials (HBOM)</li>
+                    <li>Machine Learning Bill of Materials (ML-BOM)</li>
+                    <li>Cryptography Bill of Materials (CBOM)</li>
+                    <li>Manufacturing Bill of Materials (MBOM)</li>
                     <li>Operations Bill of Materials (OBOM)</li>
                     <li>Vulnerability Disclosure Reports (VDR)</li>
                     <li>Vulnerability Exploitability eXchange (VEX)</li>
+                    <li>CycloneDX Attestations (CDXA)</li>
                 </ul>
 
-                Strategic direction of the specification is managed by the CycloneDX Core Working Group, is backed by the
-                <a href="https://owasp.org">OWASP Foundation</a>, and is supported by the global information security community.
+                Strategic direction of the specification is managed by the CycloneDX Core Working Group. CycloneDX is backed by the <a href="https://owasp.org">OWASP Foundation</a>, the global information security community, and Ecma International <a href="https://tc54.org/">Technical Committee 54</a> (Software & System Transparency).
+                <br><br>OWASP Foundation is a not-for-profit member of Ecma International and is currently pursuing international Ecma standardization of the CycloneDX specification.
+            
             </div>
             <div class="col-md-6 col-sm-6">
-                <h3>Latest News</h3>
+                <h1>Latest News</h1>
                 <div class="articles">
                     {% for article in site.posts limit:3 %}
                     <a href="{{ site.url }}{{ article.url }}">
@@ -156,25 +137,11 @@
                     </a>
                     {% endfor %}
                 </div>
-                <div style="float:right"><a href="/news">more news...</a></div>
+                <a href="/news" style="float: right;" class="btn--light">View More</a>
             </div>
         </div>
     </div>
 </div>
-
-<!--
-<div class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content home-content">
-                    {{ content }}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
--->
 
 {% if jekyll.environment == "production" and page.comments == true and site.doks.comments.disqus_forum_shortname %}
 <div class="section section--grey">
@@ -191,7 +158,7 @@
 <section class="cta-section" style="background: linear-gradient(180deg, rgba(248,248,248,1) 0%, rgba(255,255,255,1) 100%);">
     <div class="container">
         <h3 style="text-align:center; margin:0 0 1.2rem 0; color:#0057C4">CycloneDX Supporters, Vendors, and Projects</h3>
-        {%assign sorted_supporters = site.data.supporters|sort:'name' %}
+        {%assign sorted_supporters = site.data.supporters|sort_natural:'name' %}
         <div class="logo-cards" style="padding-top:3rem;">
             {% for supporter in sorted_supporters %}
             <div class="logo-card-container">
@@ -233,47 +200,5 @@
     {% endif %}
     {% include site-footer.html %}
 </div><!-- /.js-footer-area -->
-<script>
-    const animationDelay = 3500;
-
-    animateHeadline($('.cd-headline'));
-
-    function animateHeadline($headlines) {
-        $headlines.each(function(){
-            let headline = $(this);
-            setTimeout(function(){ hideWord( headline.find('.is-visible') ) }, animationDelay);
-        });
-    }
-
-    function hideWord($word) {
-        let nextWord = takeNext($word);
-        switchWord($word, nextWord);
-        setTimeout(function(){ hideWord(nextWord) }, animationDelay);
-    }
-
-    function takeNext($word) {
-        return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
-    }
-
-    function switchWord($oldWord, $newWord) {
-        $oldWord.removeClass('is-visible').addClass('is-hidden');
-        $newWord.removeClass('is-hidden').addClass('is-visible');
-    }
-
-    singleLetters($('.cd-headline.letters').find('b'));
-
-    function singleLetters($words) {
-        $words.each(function(){
-            let word = $(this),
-                letters = word.text().split(''),
-                selected = word.hasClass('is-visible');
-            for (let i in letters) {
-                letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
-            }
-            let newLetters = letters.join('');
-            word.html(newLetters);
-        });
-    }
-</script>
 </body>
 </html>

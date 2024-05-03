@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="robots" content="noindex,follow" />
+    {% include site-head.html %}
+</head>
+
+<body class="{{ site.doks.color_theme }}" data-spy="scroll" data-target=".js-scrollspy">
+    <link rel="preload" as="image" href="/theme/assets/images/hero-header.png">
+
+    <header class="child-hero-header">
+        {% include site-header.html %}
+        <div class="hero-subheader newsroom-subheader" id="news-subheader">
+            <div class="container">
+                {% if page.breadcrumbs.size > 0 %}
+                {% include breadcrumbs.html %}
+                {% endif %}
+                <div class="row">
+                    <div class="col-md-6 col-sm-10 col-xs" id="news-header-container">
+                        <div class="align-container">
+                            <div class="align-inner">
+                                <h1 class="news-headline">{{ page.title }}</h1>
+                                <div class="news-sub-headline">
+                                    <p class="news-description">{{ page.description
+                                        }}<br><br>Subscribe with <a style="color: #9EC5FE;"
+                                            href="{{ site.baseurl }}/feed.xml">RSS</a> to keep up with the latest from
+                                        the OWASP SBOM community.</p>
+                                </div>
+                            </div><!-- /.align-inner -->
+                        </div><!-- /.align-container -->
+                    </div><!-- /.news-header-container -->
+                    <div class="col-md-6 col-sm">
+                        <div class="quote-card">
+                            <blockquote>
+                                <p class="quote-text">{{ page.quote.text }}</p>
+                                <footer class="quote-source" style="font-size: 14px;">- {{ page.quote.author }}</footer>
+                                <footer class="quote-source" style="font-size: 12px;">{{ page.quote.org }}</footer>
+                            </blockquote>
+                        </div><!-- /.quote-card -->
+                    </div><!-- /.col-->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.newsroom-subheader -->
+    </header><!-- /.child-hero-header -->
+    <div class="section" style="padding-bottom: 40px; padding-top: 0">
+        <div class="container" id="internal-news-cards">
+            <div class="row">
+                <div class="col-md-12 col-sm">
+                    <div class="content">
+                        <h1 class="newsroom-header" style="color: #333;">Press Releases & Blog Posts</h1>
+                        <img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/theme/assets/images/cyclone_watermark_dark.svg"
+                            class="cyclone-watermark">
+                        {% include internal-news-cards.html %}
+                    </div><!-- /.content -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.section -->
+    <div class="external-news__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content">
+                        <h1 class="newsroom-header">CycloneDX in the News</h1>
+                        <img src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/theme/assets/images/cyclone_watermark_light.svg"
+                            class="cyclone-watermark">
+                        {% include external-news-cards.html %}
+                    </div><!-- /.content -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.external-news-->
+    {% if jekyll.environment == "production" and page.comments == true and site.doks.comments.disqus_forum_shortname %}
+    <div class="section section--grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    {% include comments.html %}
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.section -->
+    {% endif %}
+    {% include site-supporters-footer.html %}
+    <div class="js-footer-area">
+        {% if page.page_nav.prev.content or page.page_nav.next.content %}
+        <nav class="page-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        {% if page.page_nav.prev.content and page.page_nav.prev.url %}
+                        <a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.prev.url }}"
+                            class="page-nav__item page-nav__item--prev">
+                            <i class="icon icon--arrow-left"></i>
+                            {{ page.page_nav.prev.content }}
+                        </a><!-- /.page-nav__item -->
+                        {% endif %}
+                        {% if page.page_nav.next.content and page.page_nav.next.url %}
+                        <a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.page_nav.next.url }}"
+                            class="page-nav__item page-nav__item--next">
+                            {{ page.page_nav.next.content }}
+                            <i class="icon icon--arrow-right"></i>
+                        </a><!-- /.page-nav__item -->
+                        {% endif %}
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </nav><!-- /.page-nav -->
+        {% endif %}
+        {% if page.micro_nav == true %}
+        {% include micro-nav.html %}
+        {% endif %}
+        {% include site-footer.html %}
+    </div><!-- /.js-footer-area -->
+</body>
+
+</html>

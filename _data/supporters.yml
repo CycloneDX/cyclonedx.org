@@ -17,16 +17,10 @@
   categories:
     - supporter
     - vendor
-- name: Xperi
-  logo: xperi.svg
-  websiteUrl: https://www.xperi.com/
-  categories:
-    - supporter
 - name: Vdoo
   logo: vdoo.svg
   websiteUrl: https://vdoo.com
   categories:
-    - supporter
     - vendor
 - name: Lockheed Martin
   logo: lockheed-martin.svg
@@ -519,3 +513,48 @@
   websiteUrl: https://maibornwolff.github.io/SecObserve
   categories:
     - project
+- name: Timesys
+  logo: timesys.svg
+  websiteUrl: https://www.timesys.com/
+  categories:
+    - vendor
+- name: Arnica
+  logo: arnica.svg
+  websiteUrl: https://www.arnica.io/
+  categories:
+    - vendor
+- name: aDolus
+  logo: adolus.svg
+  websiteUrl: https://adolus.com
+  categories:
+    - vendor
+- name: KSOC
+  logo: ksoc.svg
+  websiteUrl: https://ksoc.com
+  categories:
+    - project
+- name: Sysdig
+  logo: sysdig.svg
+  websiteUrl: https://sysdig.com
+  categories:
+    - vendor
+- name: Zed Attack Proxy (ZAP)
+  logo: zap.svg
+  websiteUrl: https://www.zaproxy.org/
+  categories:
+    - project
+- name: Semgrep
+  logo: semgrep.svg
+  websiteUrl: https://semgrep.dev
+  categories:
+    - vendor
+- name: Ecma International
+  logo: ecma.svg
+  websiteUrl: https://www.ecma-international.org/
+  categories:
+    - supporter
+- name: Oligo
+  logo: oligo.svg
+  websiteUrl: https://www.oligo.security/
+  categories:
+    - vendor

@@ -7,12 +7,15 @@
 {% include site-header.html class="theme-background" %}
 <div class="section">
     <div class="container">
+        {% if page.breadcrumbs.size > 0 %}
+            {% include breadcrumbs.html %}
+        {% endif %}
         <div class="row">
             <div class="col-md-12">
                 <div class="content">
                     {{ content }}
                     <div class="cards" id="tools">
-                    {%assign sorted_tools = site.data.tools|sort:'name' %}
+                    {%assign sorted_tools = site.data.tools|sort_natural:'name' %}
                     {% for tool in sorted_tools %}
                     {% include tool-card.html tool=tool %}
                     {% endfor %}

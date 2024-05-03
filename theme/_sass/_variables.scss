@@ -10,6 +10,8 @@ $color-dark: #333 !default;
 $color-dark-blue: #01152F !default;
 $color-blue: #0057C4;
 $color-light-blue: #4CA7F1;
+$color-very-light-blue: #CFE2FF !default;
+$color-dark-grey-blue: #031633 !default;
 $color-aqua: #bff2fb !default;
 $color-yellow: #f6d000 !default;
 $color-orange: #FF8C00 !default;
@@ -109,9 +111,9 @@ $screen-md-min: 992px !default; // Medium screens, Desktop
 $screen-lg-min: 1200px !default; // Large screens, Wide desktops
 
 // Desktop first
-$screen-xs-max: ($screen-sm-min - 1) !default;
-$screen-sm-max: ($screen-md-min - 1) !default;
-$screen-md-max: ($screen-lg-min - 1) !default;
+$screen-xs-max: ($screen-sm-min - 0.01) !default; // 767.99px
+$screen-sm-max: ($screen-md-min - 0.01) !default; // 991.99px
+$screen-md-max: ($screen-lg-min - 0.01) !default; // 1199.99px
 
 /* ----- Grid system ----- */
 // Columns

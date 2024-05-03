@@ -9,13 +9,47 @@
 	line-height: 2rem;
 	height:500px;
 	max-height:500px;
-
-	@media (min-width: $screen-sm-min) {
-		padding: 9.375rem 0 (10.3125rem - 1.25rem) 0;
-	}
+	width: auto;
 
 	.btn {
-		margin-right: .9375rem;
+		float: right;
+		margin-bottom: 40px;
+		border-radius: 6px;
+		border: none;
+		font-family: 'Noto Sans';
+		font-weight: 600;
+		font-size: 1em;
+		animation: fadeIn 0.8s ease-in-out forwards;
+		animation-delay: 0.8s;
+		animation-fill-mode: both;
+		line-height: 18px;
+	}
+
+	.guide-button, .tools-button {
+		border: 1px solid #CFE2FF;
+		height: 50px;
+		outline: none;
+		font-weight: 600;
+	}
+	.guide-button {
+		opacity: 100;
+		background-color: transparent;
+		color: white;
+		width: 139px;
+		margin-right: 24px;
+	}
+	.tools-button {
+		background-color: #CFE2FF;
+		opacity: 0;
+		color: black;
+		width: 167px;
+	}
+
+	@media screen and (max-width: 480px) { // for extra small screens < 480px
+		.tools-button, .guide-button {
+			margin-right: 0px;
+			margin-bottom: 12px;
+		}
 	}
 
 	.btn--github,
@@ -24,22 +58,47 @@
 	}
 
 	.site-header + & {
-		padding: 15rem 0 (10.3125rem - 1.25rem) 0;
-		@media (min-width: $screen-sm-min) {
-			padding: 15rem 0 (10.3125rem - 1.25rem) 0;
+		height: fit-content;
+		max-height: fit-content;
+		padding: 90px 0 (10.3125rem - 1.25rem) 0;
+		@media screen and (max-width: $screen-xs-max) {
+			padding: 84px 0 40px 0;
 		}
 	}
 }
 
+.child-hero-header {
+	background-image: url("/theme/assets/images/hero-header.png");
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+	padding: 0 0 0 0;
+
+	@media (max-width: $screen-sm-max) {
+		margin: 0 0 0 0;
+		width: 100%;
+		max-width: none;
+	}
+}
+
+#subheader {
+	padding: 84px 0 0 0;
+}
+@media screen and (min-width: $screen-sm-min) {
+	#subheader {
+		padding: 90px 0 0 0;
+	}
+}
+
 .hero-subheader--before-out {
-	@media (min-width: $screen-sm-min) {
+	@media (min-width: $screen-xs-max) {
 		padding: 9.375rem 0 (15.3125rem - 1.25rem) 0;
 	}
 }
 
 /* ----- Title ----- */
 .hero-subheader__title {
-	margin-top: 0;
+	margin-top: 100px;
 }
 
 /* ----- Title ----- */

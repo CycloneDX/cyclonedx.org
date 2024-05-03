@@ -41,12 +41,13 @@
 @import 'objects/badges';
 
 /* ----- Components ----- */
-@import 'components/animated-headline';
+@import 'components/hero-headline';
 @import 'components/callout';
 @import 'components/card';
 @import 'components/collapsibles';
 @import 'components/example';
 @import 'components/hero-subheader';
+@import 'components/guides';
 @import 'components/info-card';
 @import 'components/micro-nav';
 @import 'components/nav-grid';
@@ -59,3 +60,5 @@
 @import 'components/implementations';
 @import 'components/tabbed-code-examples';
 @import 'components/logo-card';
+@import 'components/quote-card';
+@import 'components/newsroom';

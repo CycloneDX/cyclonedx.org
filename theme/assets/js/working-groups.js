@@ -2,14 +2,17 @@ function populateCards() {
   let coreWG = document.getElementById("core-wg");
   let maintainers = document.getElementById("maintainers-wg");
   let industryWG = document.getElementById("industry-wg");
+  let uxTeam = document.getElementById("ux-wg");
   let contributors = document.getElementById("contributors-wg");
   let coreWGhtml = "";
   let maintainershtml = "";
   let industryWGhtml = "";
+  let uxhtml = "";
   let contributorshtml= "";
   let coreWGcount = 0;
   let maintainerscount = 0;
   let industryWGcount = 0;
+  let uxcount = 0;
   let contributorsCount = 0;
   let xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
@@ -50,6 +53,15 @@ function populateCards() {
               industryWGhtml += template;
             }
             industryWGcount++;
+          } else if (member.categories[aa] === "ux") {
+            if (uxcount === 0) {
+              uxhtml += rowBegin + template;
+            } else if (uxcount % 3 === 0) {
+              uxhtml += rowEnd + rowBegin + template;
+            } else {
+              uxhtml += template;
+            }
+            uxcount++;
           } else if (member.categories[aa] === "contributors") {
             if (contributorsCount === 0) {
               contributorshtml += rowBegin + template;
@@ -68,6 +80,7 @@ function populateCards() {
       coreWG.insertAdjacentHTML('beforeend', coreWGhtml);
       maintainers.insertAdjacentHTML('beforeend', maintainershtml);
       industryWG.insertAdjacentHTML('beforeend', industryWGhtml);
+      uxTeam.insertAdjacentHTML('beforeend', uxhtml);
       contributors.insertAdjacentHTML('beforeend', contributorshtml);
 
     }

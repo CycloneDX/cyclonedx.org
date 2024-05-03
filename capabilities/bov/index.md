@@ -13,6 +13,12 @@ description: Bill of Vulnerabilities
 # Micro navigation
 micro_nav: false
 
+breadcrumbs:
+  - title: CYCLONEDX
+  - title: GETTING STARTED
+  - title: CAPABILITIES
+  - title: BOV
+
 # Page navigation
     
 ---
@@ -45,6 +51,10 @@ component itself provides the details necessary for full-featured advisory use c
 ## High-Level Object Model
 
 ![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
+
+## See also
+
+* [Authoritative Guide to SBOM](../../guides/sbom/introduction/#bill-of-vulnerabilities-bov)
 
 ## Additional Capabilities
 {% include capabilities-selection.html %}
