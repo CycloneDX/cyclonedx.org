@@ -558,3 +558,8 @@
   websiteUrl: https://www.oligo.security/
   categories:
     - vendor
+- name: Bloomberg
+  logo: bloomberg.svg
+  websiteUrl: https://bloomberg.com
+  categories:
+    - supporter
