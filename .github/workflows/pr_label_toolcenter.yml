@@ -1,0 +1,26 @@
+# see https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
+name: PR Label ToolCenter
+on:
+  pull_request:
+    # see https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request
+    types:
+      - opened
+    branches: 
+      - 'master'
+    paths:
+      - '_data/tools.yml'
+permissions:
+  # see https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#permissions
+  pull-requests: write
+jobs:
+  label_issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: label the PR
+        # see https://docs.github.com/en/actions/managing-issues-and-pull-requests/adding-labels-to-issues#creating-the-workflow
+        run: gh issue edit "$NUMBER" --add-label "$LABELS"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.pull_request.number }}
+          LABELS: 'tool-center'

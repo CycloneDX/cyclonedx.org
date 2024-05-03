@@ -1868,6 +1868,14 @@
   - opensource
   - analysis
   - distribution
+- name: SUM Platform
+  publisher: Security Pattern
+  description: SBOM management and vulnerability monitoring platform for IoT and embedded systems. Show compliance to regulations and standards and manage risk across the entire product lifecycle.
+  websiteUrl: https://www.securitypattern.com/sumplatform
+  categories:
+  - proprietary
+  - analysis
+  - build-integration
 - name: SBOM Vendor Management
   publisher: SettleTop, Inc.
   description: Manage, assess, store and monitor all your vendor’s SBOMs in one secure, centralized dashboard to improve supply chain security.
@@ -1875,4 +1883,3 @@
   categories:
   - proprietary
   - analysis
-  - transform
