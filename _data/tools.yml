@@ -1868,3 +1868,12 @@
   - opensource
   - analysis
   - distribution
+- name: Rollup Plugin SBOM
+  publisher: Jan Biasi
+  description: Creates CycloneDX SBOMs for frontend Javascript applications that have
+    been bundled with rollup or vite.
+  repoUrl: https://github.com/janbiasi/rollup-plugin-sbom
+  websiteUrl: https://github.com/janbiasi/rollup-plugin-sbom
+  categories:
+  - opensource
+  - build-integration
