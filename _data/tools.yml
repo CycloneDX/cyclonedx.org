@@ -1,4 +1,10 @@
 ---
+- name: TESTING as followup of 291
+  publisher: CycloneDX
+  description: TESTING to see if PR iass auto-labeled
+  websiteUrl: https://github.com/CycloneDX/cyclonedx.org/issues/291
+  categories:
+  - opensource
 - name: CycloneDX Core for Java
   publisher: CycloneDX
   description: Library which facilitates the creation of SBOMs from Java objects,
