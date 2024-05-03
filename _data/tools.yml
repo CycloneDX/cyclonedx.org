@@ -1868,3 +1868,12 @@
   - opensource
   - analysis
   - distribution
+- name: Product Security Hub (PSH)
+  publisher: Product Security Hub, LLC
+  description: Product Security Hub (PSH) is a cloud-based tool that provides capabilities to import, export, view, create, edit, and transform CycloneDX SBOMs and human-readable SBOMs, as well as view, add, and edit vulnerabilities as VEX data within CycloneDX SBOMs.
+  websiteUrl: https://www.ProductSecurityHub.com/
+  categories:
+  - proprietary
+  - analysis
+  - transform
+  - author
