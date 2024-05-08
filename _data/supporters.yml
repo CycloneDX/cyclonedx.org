@@ -563,3 +563,8 @@
   websiteUrl: https://bloomberg.com
   categories:
     - supporter
+- name: Chainloop
+  logo: chainloop.png
+  websiteUrl: https://github.com/chainloop-dev/chainloop
+  categories:
+    - project
