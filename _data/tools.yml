@@ -1909,3 +1909,14 @@
   - opensource
   - transform
   - library
+
+- name: Chainloop
+  publisher: Chainloop
+  description: Chainloop is an Open Source evidence store for your Software Supply Chain metadata, SBOMs, VEX, QA reports, and more.
+    Leverage third party integrations such as Dependency-Track for SBOM analysis or a blob storage/OCI registry.
+  repoUrl: https://github.com/chainloop-dev/chainloop
+  websiteUrl: https://github.com/chainloop-dev/chainloop
+  categories:
+  - opensource
+  - signing-notary
+  - build-integration
