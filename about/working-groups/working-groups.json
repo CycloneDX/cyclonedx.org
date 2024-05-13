@@ -4432,5 +4432,33 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "janbiasi",
+    "lastName": "janbiasi",
+    "headshot": "https://avatars.githubusercontent.com/u/4563751?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "janbiasi",
+    "homepage": "https://github.com/janbiasi",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "rart",
+    "lastName": "rart",
+    "headshot": "https://avatars.githubusercontent.com/u/3928341?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "rart",
+    "homepage": "https://github.com/rart",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
