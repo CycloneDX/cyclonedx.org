@@ -4460,5 +4460,47 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "aryan-rajoria",
+    "lastName": "aryan-rajoria",
+    "headshot": "https://avatars.githubusercontent.com/u/57455619?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "aryan-rajoria",
+    "homepage": "https://github.com/aryan-rajoria",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "dmeibusch",
+    "lastName": "dmeibusch",
+    "headshot": "https://avatars.githubusercontent.com/u/28517621?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "dmeibusch",
+    "homepage": "https://github.com/dmeibusch",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "YanWittmann",
+    "lastName": "yanwittmann",
+    "headshot": "https://avatars.githubusercontent.com/u/37689635?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "YanWittmann",
+    "homepage": "https://github.com/YanWittmann",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
