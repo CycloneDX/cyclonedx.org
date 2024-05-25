@@ -1920,3 +1920,16 @@
   - opensource
   - signing-notary
   - build-integration
+- name: Threatrix
+  publisher: Threatrix
+  description: Threatrix CodeCertify platform provides a solution for producing a comprehensive and accurate, singular, CycloneDX bill of materials from multiple sources. Projects may be created with a combination of CycloneDX, SPDX, compressed source, COTS distributions and connections to your source control system. Policies can be created from these artifacts and enforced in your developers IDE or during PR builds.
+  websiteUrl: https://threatrix.io
+  categories:
+  - proprietary
+  - analysis
+  - transform
+  - author
+  - build-integration
+  - distribute
+  - gitHub-app
+  - github-action
