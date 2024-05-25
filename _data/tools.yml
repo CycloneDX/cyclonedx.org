@@ -1930,5 +1930,6 @@
   - transform
   - author
   - build-integration
-  - distribution
+  - distribute
   - gitHub-app
+  - github-action
