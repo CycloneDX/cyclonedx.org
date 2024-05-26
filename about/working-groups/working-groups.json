@@ -4502,5 +4502,61 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "nodeax",
+    "lastName": "nodeax",
+    "headshot": "https://avatars.githubusercontent.com/u/1905817?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "nodeax",
+    "homepage": "https://github.com/nodeax",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "apupier",
+    "lastName": "apupier",
+    "headshot": "https://avatars.githubusercontent.com/u/1105127?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "apupier",
+    "homepage": "https://github.com/apupier",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "dzsibi",
+    "lastName": "dzsibi",
+    "headshot": "https://avatars.githubusercontent.com/u/4534880?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "dzsibi",
+    "homepage": "https://github.com/dzsibi",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "jimklimov",
+    "lastName": "jimklimov",
+    "headshot": "https://avatars.githubusercontent.com/u/1636756?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "jimklimov",
+    "homepage": "https://github.com/jimklimov",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
