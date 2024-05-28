@@ -34,7 +34,7 @@
   - library
 - name: CycloneDX for Node.js
   publisher: CycloneDX
-  description: Creates CycloneDX SBOMs for Node.js (NPM and Yarn1) projects.
+  description: Creates CycloneDX SBOMs for Node.js projects.
   repoUrl: https://github.com/CycloneDX/cyclonedx-node-module
   websiteUrl: https://www.npmjs.com/package/%40cyclonedx/bom
   categories:
@@ -45,6 +45,14 @@
   description: Creates CycloneDX SBOMs for Node.js NPM projects.
   repoUrl: https://github.com/CycloneDX/cyclonedx-node-npm
   websiteUrl: https://www.npmjs.com/package/%40cyclonedx/cyclonedx-npm
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for Yarn
+  publisher: CycloneDX
+  description: Create CycloneDX Software Bill of Materials (SBOM) from Node.js Yarn projects.
+  repoUrl: https://github.com/CycloneDX/cyclonedx-node-yarn
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-node-yarn?tab=readme-ov-file#readme
   categories:
   - opensource
   - build-integration
