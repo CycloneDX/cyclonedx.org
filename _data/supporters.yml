@@ -568,3 +568,8 @@
   websiteUrl: https://github.com/chainloop-dev/chainloop
   categories:
     - project
+- name: Interlynk
+  logo: interlynk.svg
+  websiteUrl: https://interlynk.io
+  categories:
+    - vendor
