@@ -52,7 +52,7 @@
   publisher: CycloneDX
   description: Create CycloneDX Software Bill of Materials (SBOM) from Node.js Yarn projects.
   repoUrl: https://github.com/CycloneDX/cyclonedx-node-yarn
-  websiteUrl: https://www.npmjs.com/package/%40cyclonedx/yarn-plugin-cyclonedx
+  websiteUrl: https://yarnpkg.com/package?name=%40cyclonedx%2Fyarn-plugin-cyclonedx
   categories:
   - opensource
   - build-integration
