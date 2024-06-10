@@ -767,11 +767,11 @@
   - proprietary
   - analysis
 - name: CycloneDX for Conan
-  publisher: CycloneDX
+  publisher: Conan-IO
   description: Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects
-    using Conan
-  repoUrl: https://github.com/CycloneDX/cyclonedx-conan
-  websiteUrl: https://github.com/CycloneDX/cyclonedx-conan
+    using Conan extensions
+  repoUrl: https://github.com/conan-io/conan-extensions
+  websiteUrl: https://github.com/conan-io/conan-extensions
   categories:
   - opensource
   - build-integration
