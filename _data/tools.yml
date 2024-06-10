@@ -766,15 +766,24 @@
   categories:
   - proprietary
   - analysis
-- name: CycloneDX for Conan
+- name: CycloneDX for Conan1
+  publisher: CycloneDX
+  description: Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects
+    using Conan (archived project)
+  repoUrl: https://github.com/CycloneDX/cyclonedx-conan
+  websiteUrl: https://github.com/CycloneDX/cyclonedx-conan
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for Conan2
   publisher: Conan-IO
   description: Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects
-    using Conan extensions
+    using Conan-extension
   repoUrl: https://github.com/conan-io/conan-extensions
   websiteUrl: https://github.com/conan-io/conan-extensions
   categories:
   - opensource
-  - build-integration
+  - build-integration  
 - name: Checkov
   publisher: Checkov
   description: Prevent cloud misconfigurations during build-time for Terraform, Cloudformation,
