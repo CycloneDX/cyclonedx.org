@@ -4558,5 +4558,75 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "Petzys",
+    "lastName": "petzys",
+    "headshot": "https://avatars.githubusercontent.com/u/87223648?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "Petzys",
+    "homepage": "https://github.com/Petzys",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "timmyteo",
+    "lastName": "timmyteo",
+    "headshot": "https://avatars.githubusercontent.com/u/141575989?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "timmyteo",
+    "homepage": "https://github.com/timmyteo",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "dhivarson",
+    "lastName": "dhivarson",
+    "headshot": "https://avatars.githubusercontent.com/u/74266131?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "dhivarson",
+    "homepage": "https://github.com/dhivarson",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "snyk-tim",
+    "lastName": "snyk-tim",
+    "headshot": "https://avatars.githubusercontent.com/u/93527968?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "snyk-tim",
+    "homepage": "https://github.com/snyk-tim",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "olamy",
+    "lastName": "olamy",
+    "headshot": "https://avatars.githubusercontent.com/u/19728?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "olamy",
+    "homepage": "https://github.com/olamy",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
