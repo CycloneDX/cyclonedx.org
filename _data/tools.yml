@@ -1953,6 +1953,7 @@
   publisher: Jan Kowalleck
   description: Extensible Stylesheet Language Transformations (XSLT) to translate CycloneDX dependency graph to mermaid chart.
   websiteUrl: https://gist.github.com/jkowalleck/a0f874ee0a8af9a56a0e887631fc53d1
+  repoUrl: https://gist.github.com/jkowalleck/a0f874ee0a8af9a56a0e887631fc53d1
   categories:
   - transform
   - opensource
