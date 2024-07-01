@@ -9,9 +9,9 @@ banner: false
 organization: CycloneDX
 type: Press Release
 
-title: CycloneDX v1.6&colon; Now an Ecma International Standard
-window_title: CycloneDX v1.6&colon; Now an Ecma International Standard
-description: CycloneDX v1.6&colon; Now an Ecma International Standard
+title: "CycloneDX v1.6: Now an Ecma International Standard"
+window_title: "CycloneDX v1.6: Now an Ecma International Standard"
+description: "CycloneDX v1.6: Now an Ecma International Standard"
 location: WILMINGTON, DE
 subtitle: CycloneDX v1.6 has been officially ratified as an Ecma International standard, following a decisive vote at the Ecma General Assembly on 26 June.
 excerpt: This milestone sets the stage for CycloneDX Bill of materials being available as a global xBOM (Bill of Materials) standard for use across multiple domains. CycloneDX is proud to be an OWASP Flagship standards project, and in a community development model with Ecma International’s TC54, underscoring its importance and impact in the industry.
