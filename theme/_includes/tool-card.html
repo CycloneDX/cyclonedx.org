@@ -11,13 +11,39 @@
       <div class="card-body">{{tool.description | truncate:250}}</div>
       <div style="line-height: 3.0rem">&nbsp;</div>
       <div class="card-footer">
-        {% assign url_prefix = tool.repoUrl | slice:0,19 %}
-        {% if url_prefix == 'https://github.com/' %}
-        {%comment%}repo holds the "org/repo" name, for eg anchore/syft{%endcomment%}
-        {% assign repo = tool.repoUrl | replace:'https://github.com/','' | replace: '.git','' %}
-        <img src="https://img.shields.io/github/forks/{{repo}}.svg?style=social&label=Forks">&nbsp;
-        <img src="https://img.shields.io/github/stars/{{repo}}.svg?style=social&label=Stars">
-        {% endif%}
+        {% if tool.repoUrl contains '://github.com/' %}
+          {%comment%}
+              repo holds the "org/repo" name, for eg:
+                  https://github.com/anchore/syft
+                  https://github.com/anchore/syft/
+                  https://github.com/anchore/syft.git
+          {%endcomment%}
+          {% assign repo = tool.repoUrl | regex_replace:'^https?://github.com/','' | regex_replace:'(.git|/)$','' %}
+          <img src="https://img.shields.io/github/forks/{{repo}}?style=social&label=Forks&logo=github" alt="#forks"/>&nbsp;
+          <img src="https://img.shields.io/github/stars/{{repo}}?style=social&label=Stars&logo=github" alt="#stars"/>
+        {% elsif tool.repoUrl contains '://gist.github.com/' %}
+          {%comment%}
+              repo holds the "gistID" as last path-part segment, for eg:
+                  https://gist.github.com/jkowalleck/a0f874ee0a8af9a56a0e887631fc53d1
+                  https://gist.github.com/a0f874ee0a8af9a56a0e887631fc53d1
+                  https://gist.github.com/a0f874ee0a8af9a56a0e887631fc53d1/
+                  https://gist.github.com/a0f874ee0a8af9a56a0e887631fc53d1.git
+          {%endcomment%}
+          {% assign gistID = tool.repoUrl | regex_replace:'^https?://gist.github.com/','' | regex_replace:'(.git|/)$','' | split:'/' | last %}
+          <img src="https://img.shields.io/github/gist/stars/{{gistID}}?style=social&label=Stars&logo=github" alt="#stars"/>
+        {% elsif tool.repoUrl contains '://gitlab.com/' %}
+          {%comment%}
+              repo holds the "org/repo" name, for eg:
+                  https://gitlab.com/expliot_framework/expliot
+                  https://gitlab.com/expliot_framework/expliot/
+                  https://gitlab.com/expliot_framework/expliot.git
+          {%endcomment%}
+          {% assign repo = tool.repoUrl | regex_replace:'^https?://gitlab.com/','' | regex_replace:'(.git|/)$','' | url_encode %}
+          <img src="https://img.shields.io/gitlab/forks/{{repo}}?style=social&label=Forks&logo=gitlab" alt="#forks"/>&nbsp;
+          <img src="https://img.shields.io/gitlab/stars/{{repo}}?style=social&label=Stars&logo=gitlab" alt="#stars"/>&nbsp;
+        {% elsif tool.repoUrl contains '://bitbucket.org/' %}
+          {%comment%}noting we can do for this repo hoster.{%endcomment%}
+        {% endif %}
       </div>
     </a>
 </div> 

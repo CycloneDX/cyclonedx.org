@@ -34,7 +34,7 @@
   - library
 - name: CycloneDX for Node.js
   publisher: CycloneDX
-  description: Creates CycloneDX SBOMs for Node.js (NPM and Yarn1) projects.
+  description: Creates CycloneDX SBOMs for Node.js projects.
   repoUrl: https://github.com/CycloneDX/cyclonedx-node-module
   websiteUrl: https://www.npmjs.com/package/%40cyclonedx/bom
   categories:
@@ -45,6 +45,14 @@
   description: Creates CycloneDX SBOMs for Node.js NPM projects.
   repoUrl: https://github.com/CycloneDX/cyclonedx-node-npm
   websiteUrl: https://www.npmjs.com/package/%40cyclonedx/cyclonedx-npm
+  categories:
+  - opensource
+  - build-integration
+- name: CycloneDX for Yarn
+  publisher: CycloneDX
+  description: Create CycloneDX Software Bill of Materials (SBOM) from Node.js Yarn projects.
+  repoUrl: https://github.com/CycloneDX/cyclonedx-node-yarn
+  websiteUrl: https://yarnpkg.com/package?name=%40cyclonedx%2Fyarn-plugin-cyclonedx
   categories:
   - opensource
   - build-integration
@@ -758,15 +766,24 @@
   categories:
   - proprietary
   - analysis
-- name: CycloneDX for Conan
+- name: CycloneDX for Conan1
   publisher: CycloneDX
   description: Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects
-    using Conan
+    using Conan (archived project)
   repoUrl: https://github.com/CycloneDX/cyclonedx-conan
   websiteUrl: https://github.com/CycloneDX/cyclonedx-conan
   categories:
   - opensource
   - build-integration
+- name: CycloneDX for Conan2
+  publisher: Conan-IO
+  description: Creates CycloneDX Software Bill of Materials (SBOM) for C/C++ projects
+    using Conan-extension
+  repoUrl: https://github.com/conan-io/conan-extensions
+  websiteUrl: https://github.com/conan-io/conan-extensions
+  categories:
+  - opensource
+  - build-integration  
 - name: Checkov
   publisher: Checkov
   description: Prevent cloud misconfigurations during build-time for Terraform, Cloudformation,
@@ -1909,7 +1926,6 @@
   - opensource
   - transform
   - library
-
 - name: Chainloop
   publisher: Chainloop
   description: Chainloop is an Open Source evidence store for your Software Supply Chain attestations, SBOMs, VEX, QA reports, and more.
@@ -1920,3 +1936,32 @@
   - opensource
   - signing-notary
   - build-integration
+- name: Threatrix
+  publisher: Threatrix
+  description: Threatrix CodeCertify platform provides a solution for producing a comprehensive and accurate, singular, CycloneDX bill of materials from multiple sources. Projects may be created with a combination of CycloneDX, SPDX, compressed source, COTS distributions and connections to your source control system. Policies can be created from these artifacts and enforced in your developers IDE or during PR builds.
+  websiteUrl: https://threatrix.io
+  categories:
+  - proprietary
+  - analysis
+  - transform
+  - author
+  - build-integration
+  - distribute
+  - gitHub-app
+  - github-action
+- name: cyclonedx_deps_to_mermaid.xsl
+  publisher: Jan Kowalleck
+  description: Extensible Stylesheet Language Transformations (XSLT) to translate CycloneDX dependency graph to mermaid chart.
+  websiteUrl: https://gist.github.com/jkowalleck/a0f874ee0a8af9a56a0e887631fc53d1
+  repoUrl: https://gist.github.com/jkowalleck/a0f874ee0a8af9a56a0e887631fc53d1
+  categories:
+  - transform
+  - opensource
+- name: cdx-enrich
+  publisher: Michael Tsfoni
+  description: Enriches a CycloneDX Software Bills of Material (SBOM) with predefined data.
+  websiteUrl: https://github.com/mtsfoni/cdx-enrich
+  repoUrl: https://github.com/mtsfoni/cdx-enrich
+  categories:
+  - build-integration
+  - opensource
