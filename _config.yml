@@ -62,6 +62,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-regex-replace
 defaults:
   -
     scope:
