@@ -1965,3 +1965,12 @@
   categories:
   - build-integration
   - opensource
+- name: nim_lk
+  publisher: Emery Hemingway
+  description: Create and update SBOMs for the Nim programing language. Includes a translation module for the Nimble package manager as well as a Nix expression for building packages from SBOMs.
+  websiteUrl: https://git.sr.ht/~ehmry/nim_lk
+  repoUrl: https://git.sr.ht/~ehmry/nim_lk
+  categories:
+  - author
+  - build-integration
+  - opensource
