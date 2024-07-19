@@ -219,6 +219,42 @@ blockquote {
 	margin: 0 0 1.25rem 0;
 }
 
+blockquote.press-release {
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote.press-release p::before {
+	color: #ccc;
+	content: "\201C";
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+blockquote.press-release p::after {
+	content: "\201D";
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-left: 0.25em;
+	vertical-align: -0.4em;
+	color: #ccc;
+}
+blockquote.press-release p {
+	display: inline;
+}
+blockquote.press-release cite {
+	display: block;
+	font-style: italic;
+	margin-top: 1em;
+	color: #555;
+}
+blockquote.press-release cite::before {
+	content: "\2013  ";
+}
+
 q {
 	color: $color-dark-blue;
 }

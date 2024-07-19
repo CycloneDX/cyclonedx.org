@@ -1957,3 +1957,11 @@
   categories:
   - transform
   - opensource
+- name: cdx-enrich
+  publisher: Michael Tsfoni
+  description: Enriches a CycloneDX Software Bills of Material (SBOM) with predefined data.
+  websiteUrl: https://github.com/mtsfoni/cdx-enrich
+  repoUrl: https://github.com/mtsfoni/cdx-enrich
+  categories:
+  - build-integration
+  - opensource
