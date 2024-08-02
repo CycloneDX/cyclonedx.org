@@ -1965,3 +1965,11 @@
   categories:
   - build-integration
   - opensource
+- name: Meta Package Manager
+  publisher: Kevin Deldycke
+  description: Export a SBOM of all packages installed on a Linux, macOS or Windows system.
+  websiteUrl: https://github.com/kdeldycke/meta-package-manager
+  repoUrl: https://github.com/kdeldycke/meta-package-manager
+  categories:
+  - build-integration
+  - opensource
