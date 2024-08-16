@@ -1973,3 +1973,11 @@
   categories:
   - build-integration
   - opensource
+- name: BOMSkope
+  publisher: Netskope
+  description: BOMSkope is a web-based Software Bill of Materials manager designed to streamline the tracking of vendor components. It enables the identification and monitoring of potential vulnerabilities in vendor software, enhancing visibility into your overall security posture.
+  websiteUrl: https://github.com/netskopeoss/BOMSkope
+  repoUrl: https://github.com/netskopeoss/BOMSkope
+  categories:
+  - analysis
+  - opensource
