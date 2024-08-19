@@ -6,7 +6,7 @@ list(include('tool'))
 tool:
   name: str()
   publisher: str()
-  description: str() # all after 250 chars is cut of
+  description: str() # all after 250 chars is truncated
   repoUrl: str(required=False)
   websiteUrl: str(matches='^https?://.+')
   categories: list(include('category'))
