@@ -783,7 +783,7 @@
   websiteUrl: https://github.com/conan-io/conan-extensions
   categories:
   - opensource
-  - build-integration  
+  - build-integration
 - name: Checkov
   publisher: Checkov
   description: Prevent cloud misconfigurations during build-time for Terraform, Cloudformation,
@@ -1803,7 +1803,7 @@
   - gitHub-app
   - analysis
   - author
-- name: Athena 
+- name: Athena
   publisher: Medical Aegis Inc
   description: Athena is a SaaS solution for medical device makers that overlays the product development lifecycle to address risks before devices go to market.
   websiteUrl: https://medicalaegis.com

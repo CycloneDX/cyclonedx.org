@@ -1,0 +1,23 @@
+name: validate tools yaml
+
+on:
+  pull_request:
+    paths: ["_data/tools.yml"]
+  push:
+    paths: ["_data/tools.yml"]
+  workflow_dispatch:
+
+permissions: read-all
+
+jobs:
+  lint-yaml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        name: checkout
+      - uses: bieggerm/yamale-action@v2
+        name: lint tools yaml
+        with:
+          base_dir: "_data"
+          filename: "tools.yml"
+          schema: "_data/.schema/tools.schema.yaml"
