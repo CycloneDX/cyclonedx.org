@@ -12,5 +12,18 @@ tool:
   categories: list(include('category'))
 
 # see _data/tool-categories.yml
-category: str(matches='^(?:opensource|proprietary|build-integration|analysis|author|github-action|github-app|transform|library|signing-notary|distribute)$')
+category: >
+  enum(
+  'opensource',
+  'proprietary',
+  'build-integration',
+  'analysis',
+  'author',
+  'github-action',
+  'github-app',
+  'transform',
+  'library',
+  'signing-notary',
+  'distribute'
+  )
 
