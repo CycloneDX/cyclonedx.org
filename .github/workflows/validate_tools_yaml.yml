@@ -18,4 +18,4 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - name: lint tools yaml
-        run: python -m yamale -s _data/.schema/tools.schema.yaml  _data/tools.yml
+        run: yamale -s _data/.schema/tools.schema.yaml  _data/tools.yml
