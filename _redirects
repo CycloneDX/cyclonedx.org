@@ -31,6 +31,16 @@
 /docs/latest/xml /docs/1.6/xml/ 302
 /docs/latest/xml/ /docs/1.6/xml/ 302
 
+/schema/spdx /schema/spdx.xsd 302
+/schema/bom /schema/bom-1.6.xsd 302
+/schema/bom/1.0 /schema/bom-1.0.xsd 302
+/schema/bom/1.1 /schema/bom-1.1.xsd 302
+/schema/bom/1.2 /schema/bom-1.2.xsd 302
+/schema/bom/1.3 /schema/bom-1.3.xsd 302
+/schema/bom/1.4 /schema/bom-1.4.xsd 302
+/schema/bom/1.5 /schema/bom-1.5.xsd 302
+/schema/bom/1.6 /schema/bom-1.6.xsd 302
+
 /schema/bom-1.2a.schema.json /schema/bom-1.2-strict.schema.json 302
 /schema/bom-1.2b.schema.json /schema/bom-1.2-strict.schema.json 302
 /schema/bom-1.3a.schema.json /schema/bom-1.3-strict.schema.json 302

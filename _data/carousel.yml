@@ -1,3 +1,6 @@
+- title: "CycloneDX: The International Standard for Bill of Materials (ECMA-424)"
+  image: /theme/assets/images/hero-header.png
+  description: The OWASP Foundation and Ecma International Technical Committee for Software & System Transparency (TC54), which includes representatives from Bloomberg, IBM, Lockheed Martin, and ServiceNow, drive the continued advancement of the specification.
 - title: CycloneDX is designed to provide advanced supply chain capabilities for cyber risk reduction.
   image: /theme/assets/images/hero-header.png
   description: Compatible with over 200 tools across 20+ programming languages, CycloneDX is trusted by Lockheed Martin, ServiceNow, IBM, Contrast Security, Sonatype, and many others.
@@ -16,6 +19,3 @@
 - title: CycloneDX evolves with your project or organizational needs.
   image: theme/assets/images/beyond_sbom_hero.jpg
   description: Trusted by beginners and experts, CycloneDX offers an easy on-ramp to adoption and the world's most extensive collection of tools to get started.
-- title: CycloneDX is supported by technology leaders across the world.
-  image: theme/assets/images/ecma_hero.jpg
-  description: The OWASP Foundation maintains CycloneDX with help from the Ecma International Technical Committee for Software & System Transparency (TC54), which includes representatives from Bloomberg, IBM, Lockheed Martin, and ServiceNow.
