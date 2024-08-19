@@ -1708,7 +1708,7 @@
   websiteUrl: https://github.com/nscuro/cdx-central
   categories:
     - opensource
-    - distribution
+    - distribute
 - name: cdx-vs-cdx
   publisher: marcosanchotene
   description: GUI tool to compare two SBOMs in CycloneDX JSON format.
@@ -1800,7 +1800,7 @@
   - distribute
   - build-integration
   - proprietary
-  - gitHub-app
+  - github-app
   - analysis
   - author
 - name: Athena
@@ -1884,7 +1884,7 @@
   categories:
   - opensource
   - analysis
-  - distribution
+  - distribute
 - name: SUM Platform
   publisher: Security Pattern
   description: SBOM management and vulnerability monitoring platform for IoT and embedded systems. Show compliance to regulations and standards and manage risk across the entire product lifecycle.
@@ -1947,7 +1947,7 @@
   - author
   - build-integration
   - distribute
-  - gitHub-app
+  - github-app
   - github-action
 - name: cyclonedx_deps_to_mermaid.xsl
   publisher: Jan Kowalleck
