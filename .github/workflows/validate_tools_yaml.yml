@@ -13,11 +13,9 @@ jobs:
   lint-yaml:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        name: checkout
-      - uses: bieggerm/yamale-action@v2
-        name: lint tools yaml
-        with:
-          base_dir: "_data"
-          filename: "tools.yml"
-          schema: "_data/.schema/tools.schema.yaml"
+      - name: install yamale
+        run: pip install 'yamale>=5.2.1,<6'
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: lint tools yaml
+        run: python -m yamale -s _data/.schema/tools.schema.yaml  _data/tools.yml
