@@ -1,4 +1,6 @@
 ---
+# `description` will be truncated at 250 characters
+# `categories` values may be the keys from `tool-categories.yml` file
 - name: CycloneDX Core for Java
   publisher: CycloneDX
   description: Library which facilitates the creation of SBOMs from Java objects,
