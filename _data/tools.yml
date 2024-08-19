@@ -1,4 +1,8 @@
 ---
+
+# `description` will be truncated at 250 characters
+# `categories` values may be the keys from `tool-categories.yml` file
+
 - name: CycloneDX Core for Java
   publisher: CycloneDX
   description: Library which facilitates the creation of SBOMs from Java objects,
@@ -783,7 +787,7 @@
   websiteUrl: https://github.com/conan-io/conan-extensions
   categories:
   - opensource
-  - build-integration  
+  - build-integration
 - name: Checkov
   publisher: Checkov
   description: Prevent cloud misconfigurations during build-time for Terraform, Cloudformation,
@@ -1708,7 +1712,7 @@
   websiteUrl: https://github.com/nscuro/cdx-central
   categories:
     - opensource
-    - distribution
+    - distribute
 - name: cdx-vs-cdx
   publisher: marcosanchotene
   description: GUI tool to compare two SBOMs in CycloneDX JSON format.
@@ -1800,10 +1804,10 @@
   - distribute
   - build-integration
   - proprietary
-  - gitHub-app
+  - github-app
   - analysis
   - author
-- name: Athena 
+- name: Athena
   publisher: Medical Aegis Inc
   description: Athena is a SaaS solution for medical device makers that overlays the product development lifecycle to address risks before devices go to market.
   websiteUrl: https://medicalaegis.com
@@ -1884,7 +1888,7 @@
   categories:
   - opensource
   - analysis
-  - distribution
+  - distribute
 - name: SUM Platform
   publisher: Security Pattern
   description: SBOM management and vulnerability monitoring platform for IoT and embedded systems. Show compliance to regulations and standards and manage risk across the entire product lifecycle.
@@ -1947,7 +1951,7 @@
   - author
   - build-integration
   - distribute
-  - gitHub-app
+  - github-app
   - github-action
 - name: cyclonedx_deps_to_mermaid.xsl
   publisher: Jan Kowalleck
@@ -1965,6 +1969,22 @@
   categories:
   - build-integration
   - opensource
+- name: Meta Package Manager
+  publisher: Kevin Deldycke
+  description: Export a SBOM of all packages installed on a Linux, macOS or Windows system.
+  websiteUrl: https://github.com/kdeldycke/meta-package-manager
+  repoUrl: https://github.com/kdeldycke/meta-package-manager
+  categories:
+  - build-integration
+  - opensource
+- name: BOMSkope
+  publisher: Netskope
+  description: BOMSkope is a web-based Software Bill of Materials manager designed to streamline the tracking of vendor components. It enables the identification and monitoring of potential vulnerabilities in vendor software, enhancing visibility into your overall security posture.
+  websiteUrl: https://github.com/netskopeoss/BOMSkope
+  repoUrl: https://github.com/netskopeoss/BOMSkope
+  categories:
+  - analysis
+  - opensource
 - name: nim_lk
   publisher: Emery Hemingway
   description: Create and update SBOMs for the Nim programing language. Includes a translation module for the Nimble package manager as well as a Nix expression for building packages from SBOMs.
@@ -1974,3 +1994,6 @@
   - author
   - build-integration
   - opensource
+
+# `description` will be truncated at 250 characters
+# `categories` values may be the keys from `tool-categories.yml` file

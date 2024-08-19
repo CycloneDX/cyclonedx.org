@@ -4642,5 +4642,19 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "Sergey Khokhlov",
+    "lastName": "Khokhlov",
+    "headshot": "sergey-khokhlov.jpg",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": "skhokhlov",
+    "github": "skhokhlov",
+    "homepage": "https://github.com/skhokhlov",
+    "categories": [
+      "maintainers"
+    ]
   }
 ]
