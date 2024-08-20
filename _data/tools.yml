@@ -1985,10 +1985,25 @@
   categories:
   - analysis
   - opensource
+- name: CVE Scan
+  publisher: The Embedded Kit
+  description: CVE Scan helps detect and mitigate security vulnerabilities in embedded systems. With accurate SBOM generation, cross-referencing with public databases, CI integration, filtering, annotations, and a web interface, it streamlines security maintenance.
+  websiteUrl: https://theembeddedkit.io/cve-scan-linux-vulnerability-scanner/
+  categories:
+  - proprietary
+  - analysis
+- name: nim_lk
+  publisher: Emery Hemingway
+  description: Create and update SBOMs for the Nim programing language. Includes a translation module for the Nimble package manager as well as a Nix expression for building packages from SBOMs.
+  websiteUrl: https://git.sr.ht/~ehmry/nim_lk
+  repoUrl: https://git.sr.ht/~ehmry/nim_lk
+  categories:
+  - author
+  - build-integration
+  - opensource
 - name: Bitbucket Pipe for SBOM Generation
   publisher: ccideas
-  description: Integrate this Bitbucket Pipe into your CI/CD pipeline to automatically generate a
-    Software Bill of Materials (SBOM) for any project type using Syft.
+  description: Integrate this Bitbucket Pipe into your CI/CD pipeline to automatically generate a Software Bill of Materials (SBOM) for any project type using Syft.
   repoUrl: https://bitbucket.org/ccideas1/syft-pipe/src/main/
   websiteUrl: https://github.com/ccideas/syft-bitbucket-pipe
   categories:
