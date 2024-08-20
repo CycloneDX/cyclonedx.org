@@ -1992,6 +1992,15 @@
   categories:
   - proprietary
   - analysis
+- name: nim_lk
+  publisher: Emery Hemingway
+  description: Create and update SBOMs for the Nim programing language. Includes a translation module for the Nimble package manager as well as a Nix expression for building packages from SBOMs.
+  websiteUrl: https://git.sr.ht/~ehmry/nim_lk
+  repoUrl: https://git.sr.ht/~ehmry/nim_lk
+  categories:
+  - author
+  - build-integration
+  - opensource
 
 # `description` will be truncated at 250 characters
 # `categories` values may be the keys from `tool-categories.yml` file
