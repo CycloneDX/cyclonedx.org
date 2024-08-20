@@ -2001,6 +2001,14 @@
   - author
   - build-integration
   - opensource
+- name: Bitbucket Pipe for SBOM Generation
+  publisher: ccideas
+  description: Integrate this Bitbucket Pipe into your CI/CD pipeline to automatically generate a Software Bill of Materials (SBOM) for any project type using Syft.
+  repoUrl: https://bitbucket.org/ccideas1/syft-pipe/src/main/
+  websiteUrl: https://bitbucket.org/ccideas1/syft-pipe/src/main/README.md
+  categories:
+    - opensource
+    - build-integration
 
 # `description` will be truncated at 250 characters
 # `categories` values may be the keys from `tool-categories.yml` file
