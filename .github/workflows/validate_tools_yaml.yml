@@ -2,9 +2,9 @@ name: validate tools yaml
 
 on:
   pull_request:
-    paths: ["_data/tools.yml"]
+    paths: [ "_data/tools.yml", "_data/.schema/tools.schema.yaml", ".github/workflows/validate_tools_yaml.yml" ]
   push:
-    paths: ["_data/tools.yml"]
+    paths: [ "_data/tools.yml", "_data/.schema/tools.schema.yaml", ".github/workflows/validate_tools_yaml.yml" ]
   workflow_dispatch:
 
 permissions: read-all
@@ -18,4 +18,4 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - name: lint tools yaml
-        run: yamale -s _data/.schema/tools.schema.yaml  _data/tools.yml
+        run: yamale -s _data/.schema/tools.schema.yaml _data/tools.yml
