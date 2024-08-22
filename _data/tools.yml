@@ -2009,6 +2009,21 @@
   categories:
     - opensource
     - build-integration
+- name: Sonar Cryptography Plugin
+  publisher: IBM
+  description: A SonarQube Plugin that detects cryptographic assets in source code and generates CBOM.
+  websiteUrl: https://github.com/IBM/sonar-cryptography
+  repoUrl: https://github.com/IBM/sonar-cryptography
+  categories:
+  - analysis
+  - opensource
+- name: CBOM Viewer
+  publisher: IBM
+  description: A Web Service to visualize and explore the use of cryptography in software with Cryptography Bills of Materials (CBOM).
+  websiteUrl: https://www.zurich.ibm.com/cbom/
+  categories:
+  - analysis
+  - proprietary
 
 # `description` will be truncated at 250 characters
 # `categories` values may be the keys from `tool-categories.yml` file
