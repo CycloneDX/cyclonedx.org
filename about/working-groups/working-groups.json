@@ -4656,5 +4656,47 @@
     "categories": [
       "maintainers"
     ]
+  },
+  {
+    "displayName": "Bizordec",
+    "lastName": "bizordec",
+    "headshot": "https://avatars.githubusercontent.com/u/25798995?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "Bizordec",
+    "homepage": "https://github.com/Bizordec",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "leec94",
+    "lastName": "leec94",
+    "headshot": "https://avatars.githubusercontent.com/u/4466297?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "leec94",
+    "homepage": "https://github.com/leec94",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "ja-he",
+    "lastName": "ja-he",
+    "headshot": "https://avatars.githubusercontent.com/u/63857598?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "ja-he",
+    "homepage": "https://github.com/ja-he",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
