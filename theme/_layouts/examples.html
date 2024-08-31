@@ -63,5 +63,25 @@
     {% endif %}
     {% include site-footer.html %}
 </div><!-- /.js-footer-area -->
+<!-- Custom ScrollSpy Logic -->
+<script>
+    $(document).ready(function() {
+        $('[data-spy="scroll"]').on('activate.bs.scrollspy', function (event) {
+            const highlightedElement = $(event.target);
+
+            if (highlightedElement.length) {
+                const elementRect = highlightedElement[0].getBoundingClientRect();
+                const container = highlightedElement.parent().parent()[0];
+                const containerRect = container.getBoundingClientRect();
+
+                const isOutOfView = elementRect.top < containerRect.top || elementRect.bottom > containerRect.bottom;
+
+                if (isOutOfView) {
+                    highlightedElement[0].scrollIntoView();
+                }
+            }
+        });
+    });
+</script>
 </body>
 </html>
