@@ -1539,6 +1539,16 @@
   categories:
      - proprietary
      - analysis
+- name: SBOM Automation Platform
+  publisher: Interlynk.io
+  description: Interlynk SBOM Platform supports a free tier for unlimited importing, editing, translating SBOM, vulnerability scanning, VEX generation, and policy enforcement.
+  websiteUrl: https://app.interlynk.io/
+  categories:
+    - analysis
+    - transform
+    - transform
+    - proprietary
+    - build-integration
 - name: SBOM Quality Score
   publisher: Interlynk.io
   description: sbomqs cmdline tool, helps producers & consumers of sboms to quickly evaluate the quality of their sboms based on various categories. Tool can be integrated in your automation pipeline, to evaluate a minimum level of SBOM quality that is expected.
