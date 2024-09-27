@@ -1289,6 +1289,16 @@
     - build-integration
     - analysis
     - github-action
+- name: CAST SBOM Manager
+  publisher: CAST
+  description: CAST SBOM Manager is a free software that enables users to automatically create, customize, and maintain Software Bill of Materials (SBOMs) with the ultimate level of control and flexibility.
+  websiteUrl: https://www.castsoftware.com/sbommanager
+  categories:
+    - proprietary
+    - analysis
+    - author
+    - distribute
+    - transform
 - name: Kondukto
   publisher: Kondukto
   description: Kondukto is an Application Security Orchestration and Correlation tool to manage vulnerability scanning tools and remediation workflows to increase AppSec Team efficiency. It can consume and analyzes CycloneDX SBOMs via CI/CD integration or manual.
