@@ -2040,7 +2040,6 @@
   websiteUrl: https://github.com/IBM/cbomkit
   repoUrl: https://github.com/IBM/cbomkit
   categories:
-  - analysis
   - opensource
 - name: CBOMkit-theia
   publisher: IBM
@@ -2048,7 +2047,6 @@
   websiteUrl: https://github.com/IBM/cbomkit-theia
   repoUrl: https://github.com/IBM/cbomkit-theia
   categories:
-  - analysis
   - opensource
 
 # `description` will be truncated at 250 characters
