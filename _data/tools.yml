@@ -2034,6 +2034,22 @@
   categories:
   - analysis
   - proprietary
+- name: CBOMkit
+  publisher: IBM
+  description: CBOMkit is a toolset for generating, viewing, checking and storing Cryptography Bills of Materials (CBOM).
+  websiteUrl: https://github.com/IBM/cbomkit
+  repoUrl: https://github.com/IBM/cbomkit
+  categories:
+  - analysis
+  - opensource
+- name: CBOMkit-theia
+  publisher: IBM
+  description: A tool that detects cryptographic assets in container images as well as directories and generates Cryptography Bills of Materials (CBOM).
+  websiteUrl: https://github.com/IBM/cbomkit-theia
+  repoUrl: https://github.com/IBM/cbomkit-theia
+  categories:
+  - analysis
+  - opensource
 
 # `description` will be truncated at 250 characters
 # `categories` values may be the keys from `tool-categories.yml` file
