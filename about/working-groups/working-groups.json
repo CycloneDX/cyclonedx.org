@@ -4740,5 +4740,61 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "maur1",
+    "lastName": "maur1",
+    "headshot": "https://avatars.githubusercontent.com/u/5443905?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "maur1",
+    "homepage": "https://github.com/maur1",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "drew-sw",
+    "lastName": "drew-sw",
+    "headshot": "https://avatars.githubusercontent.com/u/185442318?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "drew-sw",
+    "homepage": "https://github.com/drew-sw",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "Bananeweizen",
+    "lastName": "bananeweizen",
+    "headshot": "https://avatars.githubusercontent.com/u/406876?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "Bananeweizen",
+    "homepage": "https://github.com/Bananeweizen",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "fupgang",
+    "lastName": "fupgang",
+    "headshot": "https://avatars.githubusercontent.com/u/75629871?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "fupgang",
+    "homepage": "https://github.com/fupgang",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
