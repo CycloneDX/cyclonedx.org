@@ -1692,6 +1692,15 @@
   categories:
     - opensource
     - analysis
+- name: CaPyCli - Clearing Automation for SW360
+  publisher: Siemens
+  description: Python CLI tool for generating, comparing, and merging SBOMs for several programming language ecosystems, as well as mapping, importing, and exporting them against a SW360 component database.
+  repoUrl: https://github.com/sw360/capycli
+  websiteUrl: https://github.com/sw360/capycli
+  categories:
+    - opensource
+    - analysis
+    - build-integration
 - name: cyclonedx-editor-validator
   publisher: Festo SE & Co. KG
   description: Tool for creating, modifying and validating CycloneDX SBOMs.
