@@ -22,7 +22,10 @@ micro_nav: false
 &nbsp;<!-- without this hack, the dropdown menu has issues due to h1 and h2 happening right after each other -->
 
 The CycloneDX object model:
-* is defined in [JSON Schema](https://github.com/CycloneDX/specification/blob/1.6/schema/bom-1.6.schema.json), [XML Schema](https://github.com/CycloneDX/specification/blob/1.6/schema/bom-1.6.xsd), and [Protocol Buffers](https://github.com/CycloneDX/specification/blob/1.6/schema/bom-1.6.proto)
+* is defined in
+  [JSON Schema](https://github.com/CycloneDX/specification/blob/1.6.1/schema/bom-1.6.schema.json),
+  [XML Schema](https://github.com/CycloneDX/specification/blob/1.6.1/schema/bom-1.6.xsd), and 
+  [Protocol Buffers](https://github.com/CycloneDX/specification/blob/1.6.1/schema/bom-1.6.proto)
 * is prescriptive and simple to use
 * is designed for xBOM use cases, including <abbr data-title="Software Bill of Materials">SBOM</abbr>, <abbr data-title="Software-as-a-Service Bill of Materials">SaaSBOM</abbr>, <abbr data-title="AI/ML Bill of Materials">AI/ML-BOM</abbr>, <abbr data-title="Cryptography Bill of Materials">CBOM</abbr>, and <abbr data-title="Vulnerability Exploitability Exchange">VEX</abbr>
 * can easily describe complex relationships
