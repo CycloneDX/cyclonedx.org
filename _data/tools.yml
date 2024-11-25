@@ -408,7 +408,7 @@
   - build-integration
 - name: MedScan
   publisher: MedSec
-  description: Consumes SBOM’s for helping hospitals manage medical device assets
+  description: Consumes SBOM's for helping hospitals manage medical device assets
   websiteUrl: https://www.medsec.com/medscan/
   categories:
   - proprietary
@@ -553,7 +553,7 @@
   - distribute
 - name: Software Assurance Guardian Point Man
   publisher: Reliable Energy Analytics LLC
-  description: SAG-PM processes CycloneDX SBOM’s as part of a seven step software
+  description: SAG-PM processes CycloneDX SBOM's as part of a seven step software
     supply chain risk assessment
   websiteUrl: https://reliableenergyanalytics.com/products
   categories:
@@ -1276,7 +1276,7 @@
     - proprietary
 - name: Prisma Cloud
   publisher: Palo Alto Networks
-  description: Prisma® Cloud secures infrastructure, applications, data and entitlements across the world’s largest clouds, all from a single unified solution.
+  description: Prisma® Cloud secures infrastructure, applications, data and entitlements across the world's largest clouds, all from a single unified solution.
   websiteUrl: https://paloaltonetworks.com
   categories:
     - proprietary
@@ -1918,7 +1918,7 @@
   - build-integration
 - name: SBOM Vendor Management
   publisher: SettleTop, Inc.
-  description: Manage, assess, store and monitor all your vendor’s SBOMs in one secure, centralized dashboard to improve supply chain security.
+  description: Manage, assess, store and monitor all your vendor's SBOMs in one secure, centralized dashboard to improve supply chain security.
   websiteUrl: https://www.settletop.com/sbom
   categories:
   - proprietary
