@@ -2071,7 +2071,10 @@
   categories:
   - analysis
   - proprietary
+  - github-action
   - build-integration
+  - distribute
+  - transform
 
 # `description` will be truncated at 250 characters
 # `categories` values may be the keys from `tool-categories.yml` file
