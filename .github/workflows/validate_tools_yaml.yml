@@ -1,0 +1,21 @@
+name: validate tools yaml
+
+on:
+  pull_request:
+    paths: [ "_data/tools.yml", "_data/.schema/tools.schema.yaml", ".github/workflows/validate_tools_yaml.yml" ]
+  push:
+    paths: [ "_data/tools.yml", "_data/.schema/tools.schema.yaml", ".github/workflows/validate_tools_yaml.yml" ]
+  workflow_dispatch:
+
+permissions: read-all
+
+jobs:
+  lint-yaml:
+    runs-on: ubuntu-latest
+    steps:
+      - name: install yamale
+        run: pip install 'yamale>=5.2.1,<6'
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: lint tools yaml
+        run: yamale -s _data/.schema/tools.schema.yaml _data/tools.yml

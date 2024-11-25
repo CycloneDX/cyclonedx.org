@@ -17,6 +17,8 @@
 .sections-list.affix {
 	position: fixed;
 	top: 90px;
+	bottom: 20px;
+	overflow: scroll;
 }
 
 .sections-list.affix-bottom {

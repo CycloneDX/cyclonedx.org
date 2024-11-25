@@ -1,4 +1,8 @@
 ---
+
+# `description` will be truncated at 250 characters
+# `categories` values may be the keys from `tool-categories.yml` file
+
 - name: CycloneDX Core for Java
   publisher: CycloneDX
   description: Library which facilitates the creation of SBOMs from Java objects,
@@ -783,7 +787,7 @@
   websiteUrl: https://github.com/conan-io/conan-extensions
   categories:
   - opensource
-  - build-integration  
+  - build-integration
 - name: Checkov
   publisher: Checkov
   description: Prevent cloud misconfigurations during build-time for Terraform, Cloudformation,
@@ -1285,6 +1289,16 @@
     - build-integration
     - analysis
     - github-action
+- name: CAST SBOM Manager
+  publisher: CAST
+  description: CAST SBOM Manager is a free software that enables users to automatically create, customize, and maintain Software Bill of Materials (SBOMs) with the ultimate level of control and flexibility.
+  websiteUrl: https://www.castsoftware.com/sbommanager
+  categories:
+    - proprietary
+    - analysis
+    - author
+    - distribute
+    - transform
 - name: Kondukto
   publisher: Kondukto
   description: Kondukto is an Application Security Orchestration and Correlation tool to manage vulnerability scanning tools and remediation workflows to increase AppSec Team efficiency. It can consume and analyzes CycloneDX SBOMs via CI/CD integration or manual.
@@ -1678,6 +1692,15 @@
   categories:
     - opensource
     - analysis
+- name: CaPyCli - Clearing Automation for SW360
+  publisher: Siemens
+  description: Python CLI tool for generating, comparing, and merging SBOMs for several programming language ecosystems, as well as mapping, importing, and exporting them against a SW360 component database.
+  repoUrl: https://github.com/sw360/capycli
+  websiteUrl: https://github.com/sw360/capycli
+  categories:
+    - opensource
+    - analysis
+    - build-integration
 - name: cyclonedx-editor-validator
   publisher: Festo SE & Co. KG
   description: Tool for creating, modifying and validating CycloneDX SBOMs.
@@ -1708,7 +1731,7 @@
   websiteUrl: https://github.com/nscuro/cdx-central
   categories:
     - opensource
-    - distribution
+    - distribute
 - name: cdx-vs-cdx
   publisher: marcosanchotene
   description: GUI tool to compare two SBOMs in CycloneDX JSON format.
@@ -1800,10 +1823,10 @@
   - distribute
   - build-integration
   - proprietary
-  - gitHub-app
+  - github-app
   - analysis
   - author
-- name: Athena 
+- name: Athena
   publisher: Medical Aegis Inc
   description: Athena is a SaaS solution for medical device makers that overlays the product development lifecycle to address risks before devices go to market.
   websiteUrl: https://medicalaegis.com
@@ -1884,7 +1907,7 @@
   categories:
   - opensource
   - analysis
-  - distribution
+  - distribute
 - name: SUM Platform
   publisher: Security Pattern
   description: SBOM management and vulnerability monitoring platform for IoT and embedded systems. Show compliance to regulations and standards and manage risk across the entire product lifecycle.
@@ -1947,7 +1970,7 @@
   - author
   - build-integration
   - distribute
-  - gitHub-app
+  - github-app
   - github-action
 - name: cyclonedx_deps_to_mermaid.xsl
   publisher: Jan Kowalleck
@@ -1965,3 +1988,82 @@
   categories:
   - build-integration
   - opensource
+- name: Meta Package Manager
+  publisher: Kevin Deldycke
+  description: Export a SBOM of all packages installed on a Linux, macOS or Windows system.
+  websiteUrl: https://github.com/kdeldycke/meta-package-manager
+  repoUrl: https://github.com/kdeldycke/meta-package-manager
+  categories:
+  - build-integration
+  - opensource
+- name: BOMSkope
+  publisher: Netskope
+  description: BOMSkope is a web-based Software Bill of Materials manager designed to streamline the tracking of vendor components. It enables the identification and monitoring of potential vulnerabilities in vendor software, enhancing visibility into your overall security posture.
+  websiteUrl: https://github.com/netskopeoss/BOMSkope
+  repoUrl: https://github.com/netskopeoss/BOMSkope
+  categories:
+  - analysis
+  - opensource
+- name: CVE Scan
+  publisher: The Embedded Kit
+  description: CVE Scan helps detect and mitigate security vulnerabilities in embedded systems. With accurate SBOM generation, cross-referencing with public databases, CI integration, filtering, annotations, and a web interface, it streamlines security maintenance.
+  websiteUrl: https://theembeddedkit.io/cve-scan-linux-vulnerability-scanner/
+  categories:
+  - proprietary
+  - analysis
+- name: nim_lk
+  publisher: Emery Hemingway
+  description: Create and update SBOMs for the Nim programing language. Includes a translation module for the Nimble package manager as well as a Nix expression for building packages from SBOMs.
+  websiteUrl: https://git.sr.ht/~ehmry/nim_lk
+  repoUrl: https://git.sr.ht/~ehmry/nim_lk
+  categories:
+  - author
+  - build-integration
+  - opensource
+- name: Bitbucket Pipe for SBOM Generation
+  publisher: ccideas
+  description: Integrate this Bitbucket Pipe into your CI/CD pipeline to automatically generate a Software Bill of Materials (SBOM) for any project type using Syft.
+  repoUrl: https://bitbucket.org/ccideas1/syft-pipe/src/main/
+  websiteUrl: https://bitbucket.org/ccideas1/syft-pipe/src/main/README.md
+  categories:
+    - opensource
+    - build-integration
+- name: Sonar Cryptography Plugin
+  publisher: IBM
+  description: A SonarQube Plugin that detects cryptographic assets in source code and generates CBOM.
+  websiteUrl: https://github.com/IBM/sonar-cryptography
+  repoUrl: https://github.com/IBM/sonar-cryptography
+  categories:
+  - analysis
+  - opensource
+- name: CBOM Viewer
+  publisher: IBM
+  description: A Web Service to visualize and explore the use of cryptography in software with Cryptography Bills of Materials (CBOM).
+  websiteUrl: https://www.zurich.ibm.com/cbom/
+  categories:
+  - analysis
+  - proprietary
+- name: CBOMkit
+  publisher: IBM
+  description: CBOMkit is a toolset for generating, viewing, checking and storing Cryptography Bills of Materials (CBOM).
+  websiteUrl: https://github.com/IBM/cbomkit
+  repoUrl: https://github.com/IBM/cbomkit
+  categories:
+  - opensource
+- name: CBOMkit-theia
+  publisher: IBM
+  description: A tool that detects cryptographic assets in container images as well as directories and generates Cryptography Bills of Materials (CBOM).
+  websiteUrl: https://github.com/IBM/cbomkit-theia
+  repoUrl: https://github.com/IBM/cbomkit-theia
+  categories:
+  - opensource
+- name: Cyberwatch
+  publisher: Cyberwatch
+  description: Cyberwatch Vulnerability Manager is a comprehensive vulnerability management solution. It allows you to discover your assets, scan and prioritize vulnerabilities, make the right decisions and fix vulnerabilities.
+  websiteUrl: https://cyberwatch.fr/en/
+  categories:
+  - proprietary
+  - analysis
+
+# `description` will be truncated at 250 characters
+# `categories` values may be the keys from `tool-categories.yml` file

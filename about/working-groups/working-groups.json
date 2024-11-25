@@ -4642,5 +4642,159 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "Sergey Khokhlov",
+    "lastName": "Khokhlov",
+    "headshot": "sergey-khokhlov.jpg",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": "skhokhlov",
+    "github": "skhokhlov",
+    "homepage": "https://github.com/skhokhlov",
+    "categories": [
+      "maintainers"
+    ]
+  },
+  {
+    "displayName": "Bizordec",
+    "lastName": "bizordec",
+    "headshot": "https://avatars.githubusercontent.com/u/25798995?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "Bizordec",
+    "homepage": "https://github.com/Bizordec",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "leec94",
+    "lastName": "leec94",
+    "headshot": "https://avatars.githubusercontent.com/u/4466297?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "leec94",
+    "homepage": "https://github.com/leec94",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "ja-he",
+    "lastName": "ja-he",
+    "headshot": "https://avatars.githubusercontent.com/u/63857598?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "ja-he",
+    "homepage": "https://github.com/ja-he",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "almaz045",
+    "lastName": "almaz045",
+    "headshot": "https://avatars.githubusercontent.com/u/63047433?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "almaz045",
+    "homepage": "https://github.com/almaz045",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "blmaier",
+    "lastName": "blmaier",
+    "headshot": "https://avatars.githubusercontent.com/u/7141086?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "blmaier",
+    "homepage": "https://github.com/blmaier",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "thompson-tomo",
+    "lastName": "thompson-tomo",
+    "headshot": "https://avatars.githubusercontent.com/u/19771933?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "thompson-tomo",
+    "homepage": "https://github.com/thompson-tomo",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "maur1",
+    "lastName": "maur1",
+    "headshot": "https://avatars.githubusercontent.com/u/5443905?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "maur1",
+    "homepage": "https://github.com/maur1",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "drew-sw",
+    "lastName": "drew-sw",
+    "headshot": "https://avatars.githubusercontent.com/u/185442318?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "drew-sw",
+    "homepage": "https://github.com/drew-sw",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "Bananeweizen",
+    "lastName": "bananeweizen",
+    "headshot": "https://avatars.githubusercontent.com/u/406876?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "Bananeweizen",
+    "homepage": "https://github.com/Bananeweizen",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "fupgang",
+    "lastName": "fupgang",
+    "headshot": "https://avatars.githubusercontent.com/u/75629871?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "fupgang",
+    "homepage": "https://github.com/fupgang",
+    "categories": [
+      "contributors"
+    ]
   }
 ]

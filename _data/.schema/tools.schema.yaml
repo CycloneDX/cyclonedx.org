@@ -1,0 +1,29 @@
+# yamale schema syntax: https://github.com/23andMe/Yamale#schema
+list(include('tool'))
+
+---
+
+tool:
+  name: str()
+  publisher: str()
+  description: str() # all after 250 chars is truncated
+  repoUrl: str(required=False)
+  websiteUrl: str(matches='^https?://.+')
+  categories: list(include('category'))
+
+# see _data/tool-categories.yml
+category: >
+  enum(
+  'opensource',
+  'proprietary',
+  'build-integration',
+  'analysis',
+  'author',
+  'github-action',
+  'github-app',
+  'transform',
+  'library',
+  'signing-notary',
+  'distribute'
+  )
+
