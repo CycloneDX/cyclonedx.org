@@ -573,3 +573,8 @@
   websiteUrl: https://interlynk.io
   categories:
     - vendor
+- name: sbomify
+  logo: sbomify.svg
+  websiteUrl: https://sbomify.com
+  categories:
+    - vendor
