@@ -202,7 +202,7 @@
 - name: CycloneDX-Buildroot
   publisher: CycloneDX
   description: The CycloneDX-buildroot module creates a valid CycloneDX
-    bill of materials from buildroot manifest.csv files. Note that any formatted manifest.csv can 
+    bill of materials from buildroot manifest.csv files. Note that any formatted manifest.csv can
     be parsed for an arbitrary project spread sheet of software packages as indicated in the documentation.
   repoUrl: https://github.com/CycloneDX/cyclonedx-buildroot
   websiteUrl: https://github.com/CycloneDX/cyclonedx-buildroot
@@ -2064,6 +2064,17 @@
   categories:
   - proprietary
   - analysis
+- name: sbomify
+  publisher: sbomify
+  description: sbomify is a comprehensive SBOM management platform that enables secure sharing and analysis of Software Bill of Materials. Seamlessly integrates with CI/CD pipelines and analysis tools for enhanced software supply chain visibility.
+  websiteUrl: https://sbomify.com
+  categories:
+  - analysis
+  - proprietary
+  - github-action
+  - build-integration
+  - distribute
+  - transform
 
 # `description` will be truncated at 250 characters
 # `categories` values may be the keys from `tool-categories.yml` file
