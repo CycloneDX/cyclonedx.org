@@ -4894,5 +4894,47 @@
     "categories": [
       "contributors"
     ]
+  },
+  {
+    "displayName": "cdx-automation",
+    "lastName": "cdx-automation",
+    "headshot": "https://avatars.githubusercontent.com/u/91295044?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "cdx-automation",
+    "homepage": "https://github.com/cdx-automation",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "DmitriyLewen",
+    "lastName": "dmitriylewen",
+    "headshot": "https://avatars.githubusercontent.com/u/91113035?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "DmitriyLewen",
+    "homepage": "https://github.com/DmitriyLewen",
+    "categories": [
+      "contributors"
+    ]
+  },
+  {
+    "displayName": "barblin",
+    "lastName": "barblin",
+    "headshot": "https://avatars.githubusercontent.com/u/6562434?v=4",
+    "organization": null,
+    "description": null,
+    "twitter": null,
+    "linkedin": null,
+    "github": "barblin",
+    "homepage": "https://github.com/barblin",
+    "categories": [
+      "contributors"
+    ]
   }
 ]
